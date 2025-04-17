@@ -227,11 +227,6 @@ export const query = graphql`
         title
         page_title
         metadesc
-        canonical
-        keywords
-        social_share_summary
-        social_share_desc
-        social_share_image
         noindex
         contextual_links {
           type

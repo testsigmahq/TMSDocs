@@ -8,7 +8,7 @@ const pageQuery = `
   query {
     docs: allMarkdownRemark(
       filter: {
-        fileAbsolutePath: { regex: "/docs/" }
+        fileAbsolutePath: { regex: "/docs/test-management/" }
       }
     ) {
       edges {
