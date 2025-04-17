@@ -97,7 +97,7 @@ async function indexData() {
     );
 
     const response = await request(
-      'http://127.0.0.1:8000/___graphql',
+      'http://127.0.0.1:8005/___graphql',
       pageQuery
     );
     console.log('response', response);
