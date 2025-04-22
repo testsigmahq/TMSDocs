@@ -79,25 +79,9 @@ body {
       overflow-x: auto;
       white-space: nowrap;
       padding: 1rem 0;
-      justify-content: center;
-    }
-    @media (min-width: 1280px) {
-      padding-left: 3.5rem;
     }
     > a {
       font-weight: 600;
-      @media (max-width: 1279px) {
-        margin-left: 0.9rem;
-      }
-      &:nth-child(3),
-      &:nth-child(4),
-      &:nth-child(5),
-      &:nth-child(6),
-      &:nth-child(7) {
-        @media (max-width: 1023px) {
-          display: none;
-        }
-      }
     }
   }
   > .search-block {
@@ -109,7 +93,7 @@ body {
       order: 2;
     }
     @media (min-width: 768px) {
-      width: 60%;
+      width: 38%;
     }
     @media (min-width: 1024px) {
       width: 55%;
