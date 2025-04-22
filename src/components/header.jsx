@@ -37,7 +37,7 @@ const Header = () => {
               BOOK A DEMO
             </a>
           </div>
-          <nav className='flex w-11/12 gap-5'>
+          <nav className='flex w-11/12 gap-7'>
             <a
               className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
               href='/docs/getting-started/introduction-cloud/'
