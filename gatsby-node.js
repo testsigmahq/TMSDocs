@@ -181,7 +181,35 @@ exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
   createTypes(`
     type MarkdownRemark implements Node {
+      frontmatter: Frontmatter!
+      fields: Fields!
+      html: String!
+      id: String!
       pluginCreator___NODE: String
+    }
+
+    type Frontmatter {
+      title: String!
+      page_title: String
+      metadesc: String
+      canonical: String
+      keywords: [String]
+      social_share_summary: String
+      social_share_desc: String
+      social_share_image: String
+      noindex: Boolean
+      order: Int
+      contextual_links: [ContextualLink]
+    }
+
+    type ContextualLink {
+      type: String
+      name: String
+      url: String
+    }
+
+    type Fields {
+      slug: String!
     }
   `);
 };

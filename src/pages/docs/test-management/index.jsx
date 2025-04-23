@@ -1,15 +1,15 @@
 /* eslint-disable react/no-danger */
 import React, { useEffect } from 'react';
 import { graphql, Link } from 'gatsby';
-import Layout from '../../components/layout';
-import SEO from '../../components/seo';
-import MobileView from '../../components/MobileView';
-import LeftNav from '../../components/LeftNav';
+import Layout from '../../../components/layout';
+import SEO from '../../../components/seo';
+import MobileView from '../../../components/MobileView';
+import LeftNav from '../../../components/LeftNav';
 
 import 'prismjs/themes/prism-tomorrow.css';
-import '../../templates/page.scss';
-import CardList from '../../components/navcards';
-import Header from '../../components/header';
+import '../../../templates/page.scss';
+import CardList from '../../../components/navcards';
+import Header from '../../../components/header';
 
 const IndexContent = () => {
   return (
