@@ -55,5 +55,17 @@
   },
   "test-runs": {
     "/docs/test-management/test-runs/": "TEST RUNS"
+  },
+  "test-plans": {
+    "/docs/test-management/test-plans/": "TEST PLANS"
+  },
+  "integrations": {
+    "/docs/test-management/integrations": "INTEGRATIONS"
+  },
+  "jira": {
+    "/docs/test-management/integrations/jira": "Jira Integration 🔗"
+  },
+  "figma": {
+    "/docs/test-management/integrations/figma": "Figma Integration 🔗"
   }
 }
