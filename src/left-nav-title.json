@@ -1,26 +1,56 @@
 {
-  "manage-test-machines": {
-    "/docs/test-management/test-plans/manage-test-machines": "Add, Edit, Delete Test Machines"
+  "introduction": {
+    "/docs/test-management/introduction/": "INTRODUCTION"
   },
-  "manage-test-suites": {
-    "/docs/test-management/test-plans/manage-test-suites": "Add, Edit, Delete Test Suites"
+  "projects": {
+    "/docs/test-management/projects/": "PROJECTS"
   },
-  "schedule-plans": {
-    "/docs/test-management/test-plans/schedule-plans": "Schedule Test Plans"
+  "manage-projects": {
+    "/docs/test-management/projects/manage-projects/": "Manage Projects 🗂️"
   },
-  "run-tests-in-parallel": {
-    "/docs/test-management/test-plans/run-tests-in-parallel": "Run Test Suites In Parallel"
+  "project-settings": {
+    "/docs/test-management/projects/project-settings/": "Project Settings ⚙️"
   },
-  "cross-browser-testing": {
-    "/docs/test-management/test-plans/cross-browser-testing": "Cross Browser Testing "
+  "folders": {
+    "/docs/test-management/test-cases/folders/": "Organize Test Cases in Folder 📂"
   },
-  "headless-testing": {
-    "/docs/test-management/test-plans/headless-testing": "Headless Testing "
+  "test-cases": {
+    "/docs/test-management/test-cases/": "TEST CASES"
   },
-  "after-test": {
-    "/docs/test-management/test-plans/after-test/": "AfterTest Case"
+  "manage-test-cases": {
+    "/docs/test-management/test-cases/manage-test-cases": "Manage Test Cases 📝"
   },
-  "partial-test-plan-run-via-api": {
-    "/docs/test-management/test-plans/partial-test-plan-run-via-api/": "Execute Partial Test Plans via API"
+  "imports-and-exports": {
+    "/docs/test-management/imports-and-exports/": "IMPORTS AND EXPORTS"
+  },
+  "overview": {
+    "/docs/test-management/introduction/overview/": "Overview 🔍"
+  },
+  "getting-started": {
+    "/docs/test-management/introduction/getting-started/": "Getting Started 🚀"
+  },
+  "test-case-templates": {
+    "/docs/test-management/test-cases/test-case-templates/": "Test Case Templates 🧾"
+  },
+  "csv-file": {
+    "/docs/test-management/imports-and-exports/csv-file/": "Import Test Data from CSV Files ⬇️"
+  },
+  "zephyr": {
+    "/docs/test-management/imports-and-exports/zephyr/": "Import Test Data from Zephyr ⬇️"
+  },
+  "testrail": {
+    "/docs/test-management/imports-and-exports/testrail/": "Import Test Data from Testrail ⬇️"
+  },
+  "browserstack": {
+    "/docs/test-management/imports-and-exports/browserstack/": "Import Test Data from Browserstack ⬇️"
+  },
+  "export-tests": {
+    "/docs/test-management/imports-and-exports/export-tests/": "Export Test Data ⬆️"
+  },
+  "step-groups": {
+    "/docs/test-management/step-groups/create-step-groups/": "Creating Step Groups 🧩"
+  },
+  "step-groups": {
+    "/docs/test-management/step-groups/": "STEP GROUPS"
   }
 }
