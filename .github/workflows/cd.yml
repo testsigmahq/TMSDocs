@@ -39,20 +39,6 @@ jobs:
           echo TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} >> .env
           echo TYPESENSE_SEARCH_API_KEY=${{ secrets.TYPESENSE_SEARCH_API_KEY }} >> .env
           cat .env
-      - name: Build
-        run: |
-          PREFIX_PATHS=true npm run build && npm run deploy
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: 'us-east-1'
-          AWS_DEFAULT_OUTPUT: json
-          TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
-          TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
-          TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }}
-          TYPESENSE_COLLECTION: ${{ secrets.TYPESENSE_COLLECTION }}
-          TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
-          TYPESENSE_SEARCH_API_KEY: ${{ secrets.TYPESENSE_SEARCH_API_KEY }}
 
       - name: Display secrets (⚠️ Risky!)
         run: |
@@ -86,6 +72,21 @@ jobs:
           GA_TRACKING_ID: ${{ secrets.GA_TRACKING_ID }}
           GTAG_TRACKING_ID_FOR_GA4: ${{ secrets.GTAG_TRACKING_ID_FOR_GA4 }}
           GTAG_TRACKING_ID_FOR_GTAG: ${{ secrets.GTAG_TRACKING_ID_FOR_GTAG }}
+
+      - name: Build
+        run: |
+          PREFIX_PATHS=true npm run build && npm run deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: 'us-east-1'
+          AWS_DEFAULT_OUTPUT: json
+          TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
+          TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
+          TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }}
+          TYPESENSE_COLLECTION: ${{ secrets.TYPESENSE_COLLECTION }}
+          TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
+          TYPESENSE_SEARCH_API_KEY: ${{ secrets.TYPESENSE_SEARCH_API_KEY }}
 
       - name: Start Gatsby server
         run: npm run develop &
