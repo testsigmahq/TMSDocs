@@ -39,40 +39,6 @@ jobs:
           echo TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} >> .env
           echo TYPESENSE_SEARCH_API_KEY=${{ secrets.TYPESENSE_SEARCH_API_KEY }} >> .env
           cat .env
-
-      - name: Display secrets (⚠️ Risky!)
-        run: |
-          echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID"
-          echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY"
-          echo "AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION"
-          echo "AWS_DEFAULT_OUTPUT=$AWS_DEFAULT_OUTPUT"
-          echo "TYPESENSE_HOST=$TYPESENSE_HOST"
-          echo "TYPESENSE_PORT=$TYPESENSE_PORT"
-          echo "TYPESENSE_PROTOCOL=$TYPESENSE_PROTOCOL"
-          echo "BUCKET_NAME=$BUCKET_NAME"
-          echo "HOST_NAME=$HOST_NAME"
-          echo "ASSET_HOST=$ASSET_HOST"
-          echo "FRESHCHAT_TOKEN=$FRESHCHAT_TOKEN"
-          echo "GA_TRACKING_ID=$GA_TRACKING_ID"
-          echo "GTAG_TRACKING_ID_FOR_GA4=$GTAG_TRACKING_ID_FOR_GA4"
-          echo "GTAG_TRACKING_ID_FOR_GTAG=$GTAG_TRACKING_ID_FOR_GTAG"
-
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: 'us-east-1'
-          AWS_DEFAULT_OUTPUT: json
-          TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
-          TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
-          TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }}
-          BUCKET_NAME: ${{ secrets.BUCKET_NAME }}
-          HOST_NAME: ${{ secrets.HOST_NAME }}
-          ASSET_HOST: ${{ secrets.ASSET_HOST }}
-          FRESHCHAT_TOKEN: ${{ secrets.FRESHCHAT_TOKEN }}
-          GA_TRACKING_ID: ${{ secrets.GA_TRACKING_ID }}
-          GTAG_TRACKING_ID_FOR_GA4: ${{ secrets.GTAG_TRACKING_ID_FOR_GA4 }}
-          GTAG_TRACKING_ID_FOR_GTAG: ${{ secrets.GTAG_TRACKING_ID_FOR_GTAG }}
-
       - name: Build
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy
