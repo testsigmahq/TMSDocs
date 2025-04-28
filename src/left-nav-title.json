@@ -52,5 +52,8 @@
   },
   "step-groups": {
     "/docs/test-management/step-groups/": "STEP GROUPS"
+  },
+  "test-runs": {
+    "/docs/test-management/test-runs/": "TEST RUNS"
   }
 }
