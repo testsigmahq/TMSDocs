@@ -38,21 +38,13 @@ jobs:
           echo TYPESENSE_COLLECTION=${{ secrets.TYPESENSE_COLLECTION }} >> .env
           echo TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} >> .env
           echo TYPESENSE_SEARCH_API_KEY=${{ secrets.TYPESENSE_SEARCH_API_KEY }} >> .env
-          echo "AWS_ROLE_ARN=${{secrets.STAGE_AWS_GITHUB_OIDC_ROLE_ARN}}" >> .env
-          echo "AWS_DEFAULT_REGION=${{secrets.AWS_DEFAULT_REGION}}" >> .env
           cat .env
-
-      - name: Configure AWS Credentials
-        # if: ${{ github.event.inputs.cloud_provider == 'AWS' }}
-        uses: aws-actions/configure-aws-credentials@v2
-        with:
-          role-to-assume: ${{ env.AWS_ROLE_ARN }}
-          role-session-name: GitHub_to_AWS_via_FederatedOIDC
-          aws-region: ${{ env.AWS_DEFAULT_REGION }}
       - name: Build
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy
         env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: 'us-east-1'
           AWS_DEFAULT_OUTPUT: json
           TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
