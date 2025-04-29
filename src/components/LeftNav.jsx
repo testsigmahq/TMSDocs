@@ -79,6 +79,8 @@ class ListItem extends React.Component {
 
     if (!title) return;
 
+    this.toggleExpansion(title);
+
     const { active, expandedPanels } = this.state;
     const titleIndex = active.indexOf(title);
 
