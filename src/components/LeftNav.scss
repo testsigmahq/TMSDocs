@@ -36,9 +36,9 @@
   > ul > .parent {
     padding: 10px 0;
   }
-  .folder-icon {
-    display: none;
-  }
+  // .folder-icon {
+  //   display: none;
+  // }
   > ul {
     /*border-bottom: 1px solid #C4C4C4 !important;*/
     > li {
@@ -52,8 +52,9 @@
   }
   .root > .parent {
     a,
-    button {
-    font-weight: 600;
+    button, span {
+      font-weight: 500;
+      font-size: 14px;
       &:hover {
         color: #00b2bd;
       }
@@ -213,5 +214,11 @@
   font-weight: 600;
   &:hover{
     color: $Mountain_Meadow;
+  }
+}
+.parent-title-container{
+  span{
+    font-weight: 500;
+    font-size: 14px;
   }
 }

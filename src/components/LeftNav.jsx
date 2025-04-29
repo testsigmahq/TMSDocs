@@ -10,172 +10,208 @@ const { v4: uuidv4 } = require('uuid');
 
 let slugs;
 
+const normalizePath = (path) => {
+  if (!path) return '/';
+  return path.endsWith('/') ? path : `${path}/`;
+};
+
 class ListItem extends React.Component {
   constructor(props) {
     super(props);
-    const { data, isRoot, identifier } = this.props;
+    const { data, isRoot, identifier, currentUrl, parentPath } = this.props;
     this.state = {
       data,
       isRoot,
       identifier,
-      active: [],
-      currentUrl: '',
+      parentPath: parentPath || '/docs/',
+      currentUrl: currentUrl || '',
       expandedPanels: [],
     };
-    this.toggleActive = this.toggleActive.bind(this);
     this.toggleExpansion = this.toggleExpansion.bind(this);
+    this.handleParentClick = this.handleParentClick.bind(this);
+    this.doesPathContainCurrentUrl = this.doesPathContainCurrentUrl.bind(this);
   }
 
   componentDidMount() {
-    this.setState({ currentUrl: window.location.pathname });
+    const urlToUse =
+      this.state.currentUrl ||
+      (typeof window !== 'undefined' ? window.location.pathname : '');
+    const normalizedUrl = normalizePath(urlToUse);
+
+    this.setState({ currentUrl: normalizedUrl }, () => {
+      this.checkInitialExpansion();
+    });
+  }
+
+  doesPathContainCurrentUrl(itemData, itemBasePath) {
+    const { currentUrl } = this.state;
+    if (!itemData || !currentUrl) return false;
+
+    const normalizedItemBasePath = normalizePath(itemBasePath);
 
     if (
-      this.props.identifier &&
-      window.location.pathname.startsWith(`/docs/${this.props.identifier}/`)
+      itemData.overview?.url &&
+      normalizePath(itemData.overview.url) === currentUrl
     ) {
+      return true;
     }
-  }
 
-  setActive = (name) => {
-    const { active, expandedPanels } = this.state;
+    const keys = Object.keys(itemData).filter(
+      (key) => key !== 'leftNavTitle' && key !== 'old' && key !== 'overview'
+    );
 
-    const panelIdentifier = name;
+    for (const key of keys) {
+      const childItem = itemData[key];
+      if (!childItem) continue;
 
-    if (active.indexOf(panelIdentifier) === -1) {
-      this.setState((prev) => ({ active: [...prev.active, panelIdentifier] }));
-
-      if (!expandedPanels.includes(panelIdentifier)) {
-        this.setState((prev) => ({
-          expandedPanels: [...prev.expandedPanels, panelIdentifier],
-        }));
+      if (childItem.url) {
+        if (normalizePath(childItem.url) === currentUrl) {
+          return true;
+        }
+      } else if (
+        typeof childItem === 'object' &&
+        Object.keys(childItem).length > 0
+      ) {
+        const childBasePath = `${normalizedItemBasePath}${key}/`;
+        if (this.doesPathContainCurrentUrl(childItem, childBasePath)) {
+          return true;
+        }
       }
     }
-  };
 
-  toggleExpansion(identifier) {
-    const { expandedPanels } = this.state;
-    if (expandedPanels.includes(identifier)) {
-      const updatedExpandedPanels = expandedPanels.filter(
-        (panel) => panel !== identifier
+    return false;
+  }
+
+  checkInitialExpansion() {
+    const { data, parentPath, currentUrl } = this.state;
+    if (!currentUrl) return;
+
+    let parsedData;
+    try {
+      parsedData = JSON.parse(data);
+    } catch (e) {
+      console.error(
+        'Failed to parse navigation data in checkInitialExpansion:',
+        e
       );
-      this.setState({ expandedPanels: updatedExpandedPanels });
-    } else {
-      this.setState((prev) => ({
-        expandedPanels: [...prev.expandedPanels, identifier],
-      }));
+      return;
+    }
+
+    const keys = Object.keys(parsedData).filter(
+      (key) => key !== 'leftNavTitle' && key !== 'old' && key !== 'overview'
+    );
+    const panelsToExpand = [];
+
+    keys.forEach((name) => {
+      const childData = parsedData[name];
+      if (
+        childData &&
+        typeof childData === 'object' &&
+        !childData.url &&
+        Object.keys(childData).length > 0
+      ) {
+        const basePath = normalizePath(`${parentPath}${name}/`);
+
+        if (this.doesPathContainCurrentUrl(childData, basePath)) {
+          panelsToExpand.push(name);
+        }
+      }
+    });
+
+    if (panelsToExpand.length > 0) {
+      this.setState((prevState) => {
+        const panelsToAdd = panelsToExpand.filter(
+          (p) => !prevState.expandedPanels.includes(p)
+        );
+        if (panelsToAdd.length > 0) {
+          return {
+            expandedPanels: [...prevState.expandedPanels, ...panelsToAdd],
+          };
+        }
+        return null;
+      });
     }
   }
 
-  toggleActive = (e) => {
-    let title;
-
-    if (e.currentTarget.attributes.identifier) {
-      title = e.currentTarget.attributes.identifier.value;
-    } else if (e.target.attributes.identifier) {
-      title = e.target.attributes.identifier.value;
-    } else if (e.target.nextSibling?.attributes.identifier) {
-      title = e.target.nextSibling.attributes.identifier.value;
+  handleParentClick(e) {
+    let identifier;
+    let currentTarget = e.target;
+    while (currentTarget && !identifier) {
+      identifier = currentTarget.getAttribute('identifier');
+      if (identifier) break;
+      currentTarget = currentTarget.parentElement;
     }
-
-    if (!title) return;
-
-    this.toggleExpansion(title);
-
-    const { active, expandedPanels } = this.state;
-    const titleIndex = active.indexOf(title);
-
-    if (titleIndex !== -1) {
-      active.splice(titleIndex, 1);
-      this.setState({ active });
-    } else {
-      this.setActive(title);
+    if (identifier) {
+      this.toggleExpansion(identifier);
     }
+  }
+
+  toggleExpansion(identifier) {
+    this.setState((prevState) => {
+      const { expandedPanels } = prevState;
+      if (expandedPanels.includes(identifier)) {
+        return {
+          expandedPanels: expandedPanels.filter(
+            (panel) => panel !== identifier
+          ),
+        };
+      } else {
+        return {
+          expandedPanels: [...expandedPanels, identifier],
+        };
+      }
+    });
+  }
+
+  inUrl = (url, urlToCheck) => {
+    if (!urlToCheck || !url) return false;
+    return normalizePath(url) === normalizePath(urlToCheck);
   };
 
-  isActive = (name) => {
-    const { active } = this.state;
-    return active.includes(name);
-  };
-
-  inUrl = (url) => {
-    const { currentUrl } = this.state;
-
-    if (!currentUrl || !url) return false;
-
-    const currentPath = currentUrl.endsWith('/')
-      ? currentUrl
-      : `${currentUrl}/`;
-    const targetPath = url.endsWith('/') ? url : `${url}/`;
-    return currentPath === targetPath || currentPath.startsWith(targetPath);
+  isPathRelevant = (pathPrefix, urlToCheck) => {
+    if (!urlToCheck || !pathPrefix) return false;
+    const normalizedPrefix = normalizePath(pathPrefix);
+    const normalizedUrl = normalizePath(urlToCheck);
+    return normalizedUrl.startsWith(normalizedPrefix);
   };
 
   child = (data, url) => {
-    const nameEntry = slugs.find((val) => url === val.fields.slug);
+    const nameEntry = slugs.find(
+      (val) => normalizePath(url) === normalizePath(val.fields.slug)
+    );
     const title = nameEntry ? nameEntry.frontmatter.title : 'Unnamed Page';
+    const { currentUrl } = this.state;
 
     if (!url) return null;
 
     return (
-      url.indexOf('/overview/') === -1 && (
-        <li
-          data-parent={this.state.identifier}
-          data-url={url}
-          key={`${data.leftNavTitle || title}-${uuidv4()}`}
-          className={`child${this.inUrl(url) ? ' currentUrl text_green' : ''}`}
-        >
-          <div className='activeIndicator' />
-          <img src={book} alt='book' />
-          <Link to={url}>{data.leftNavTitle || title}</Link>
-        </li>
-      )
+      <li
+        data-parent={this.state.identifier}
+        data-url={url}
+        key={`${data.leftNavTitle || title}-${uuidv4()}`}
+        className={`child${
+          this.inUrl(url, currentUrl) ? ' currentUrl text_green' : ''
+        }`}
+      >
+        <div className='activeIndicator' />
+        <img src={book} alt='book' />
+        <Link to={normalizePath(url)}>{data.leftNavTitle || title}</Link>{' '}
+      </li>
     );
   };
 
   parent = (data, name) => {
-    const { isRoot, identifier: parentIdentifier } = this.state;
+    const { isRoot, parentPath, currentUrl } = this.state;
 
-    const basePath = parentIdentifier
-      ? `/docs/${parentIdentifier}/${name}/`
-      : `/docs/${name}/`;
-
-    if (this.inUrl(basePath) && !this.state.active.includes(name)) {
-      requestAnimationFrame(() => this.setActive(name));
-    }
+    const basePath = normalizePath(`${parentPath}${name}/`);
 
     let overviewLink = null;
-
-    if (data.overview && data.overview.url) {
-      overviewLink = data.overview.url;
-    } else {
-      Object.keys(data)
-        .reverse()
-        .forEach((key) => {
-          if (key !== 'leftNavTitle' && key !== 'old') {
-            if (
-              data[key] &&
-              data[key].overview &&
-              data[key].overview.url &&
-              data[key].overview.url.includes(`/${name}/overview/`)
-            ) {
-              overviewLink = data[key].overview.url;
-            } else if (
-              !overviewLink &&
-              data[key] &&
-              data[key].url &&
-              key === 'overview'
-            ) {
-              overviewLink = data[key].url;
-            }
-          }
-        });
-
-      // if (!overviewLink) {
-      //     const firstChildKey = Object.keys(data).find(k => k !== 'leftNavTitle' && k !== 'old' && data[k].url);
-      //     if (firstChildKey) overviewLink = data[firstChildKey].url;
-      // }
+    if (data.overview?.url) {
+      overviewLink = normalizePath(data.overview.url);
     }
 
     const isExpanded = this.state.expandedPanels.includes(name);
+    const isRelevant = this.isPathRelevant(basePath, currentUrl);
 
     return (
       <ul
@@ -185,19 +221,16 @@ class ListItem extends React.Component {
         } `}
       >
         <li
-          data-parent={parentIdentifier}
-          className={`parent${
-            this.inUrl(basePath) ? ' currentUrl text_green' : ''
-          }`}
+          data-parent={this.state.identifier}
+          className={`parent${isRelevant ? ' currentUrl text_green' : ''}`}
           identifier={name}
         >
           <div
             className='parent-title-container'
-            onClick={this.toggleActive}
+            onClick={this.handleParentClick}
             identifier={name}
           >
             <svg
-              identifier={name}
               className={`inline float_left relative folder-icon parent_caret${
                 isExpanded ? ' active_parent_caret' : ''
               }`}
@@ -219,14 +252,14 @@ class ListItem extends React.Component {
               <Link
                 to={overviewLink}
                 onClick={(e) => e.stopPropagation()}
-                identifier={name}
+                className={
+                  this.inUrl(overviewLink, currentUrl) ? 'font-semibold' : ''
+                }
               >
                 {data.leftNavTitle || name.replace(/-/g, ' ')}
               </Link>
             ) : (
-              <span identifier={name}>
-                {data.leftNavTitle || name.replace(/-/g, ' ')}
-              </span>
+              <span>{data.leftNavTitle || name.replace(/-/g, ' ')}</span>
             )}
           </div>
         </li>
@@ -235,7 +268,9 @@ class ListItem extends React.Component {
           <ListItem
             data={JSON.stringify(data)}
             identifier={name}
+            parentPath={basePath}
             isRoot={false}
+            currentUrl={currentUrl}
           />
         )}
       </ul>
@@ -248,7 +283,7 @@ class ListItem extends React.Component {
     try {
       parsedData = JSON.parse(data);
     } catch (e) {
-      console.error('Failed to parse navigation data:', e);
+      console.error('Failed to parse navigation data in render:', e);
       return <div>Error loading navigation.</div>;
     }
 
@@ -259,15 +294,16 @@ class ListItem extends React.Component {
     return (
       <>
         {keys.map((val) => {
-          if (!parsedData[val]) return null;
+          const itemData = parsedData[val];
+          if (!itemData) return null;
 
-          if (parsedData[val].url) {
-            return this.child(parsedData[val], parsedData[val].url);
+          if (itemData.url) {
+            return this.child(itemData, itemData.url);
           } else if (
-            typeof parsedData[val] === 'object' &&
-            Object.keys(parsedData[val]).length > 0
+            typeof itemData === 'object' &&
+            Object.keys(itemData).length > 0
           ) {
-            return this.parent(parsedData[val], val);
+            return this.parent(itemData, val);
           }
           return null;
         })}
@@ -299,20 +335,47 @@ const LeftNav = () => {
 
   let navDataToShow = null;
   let rootIdentifier = 'docs';
-  const targetSection = 'test-management';
+  let rootParentPath = '/docs/';
+
+  let currentPath = '';
+  if (typeof window !== 'undefined') {
+    currentPath = normalizePath(window.location.pathname);
+  }
 
   try {
     const allNavData = JSON.parse(data.leftNavLinks.value);
+    const pathSegments = currentPath.split('/').filter(Boolean);
 
-    if (allNavData && allNavData[targetSection]) {
-      navDataToShow = allNavData[targetSection];
-      rootIdentifier = targetSection;
+    let sectionKey = null;
+
+    if (pathSegments.length >= 2 && allNavData[pathSegments[1]]) {
+      sectionKey = pathSegments[1]; // e.g., 'test-management'
+    } else if (pathSegments.length >= 1 && allNavData[pathSegments[0]]) {
+      sectionKey = pathSegments[0];
+    }
+    // else {
+    //    sectionKey = 'test-management';
+    // }
+
+    if (sectionKey && allNavData[sectionKey]) {
+      navDataToShow = allNavData[sectionKey];
+      rootIdentifier = sectionKey;
+      rootParentPath = normalizePath(`/docs/${sectionKey}/`);
+      if (sectionKey === 'docs') {
+        rootParentPath = '/docs/';
+      }
     } else {
-      console.warn(
-        `LeftNav: Section "${targetSection}" not found in navigation data. Falling back to root or rendering empty.`
-      );
-
-      navDataToShow = null;
+      const defaultSection = 'test-management';
+      if (allNavData[defaultSection]) {
+        navDataToShow = allNavData[defaultSection];
+        rootIdentifier = defaultSection;
+        rootParentPath = normalizePath(`/docs/${defaultSection}/`);
+      } else {
+        console.warn(
+          `LeftNav: Could not determine section from URL "${currentPath}" and default "${defaultSection}" not found.`
+        );
+        navDataToShow = null;
+      }
     }
   } catch (e) {
     console.error('LeftNav: Failed to parse leftNavLinks.value', e);
@@ -327,6 +390,8 @@ const LeftNav = () => {
             data={JSON.stringify(navDataToShow)}
             isRoot
             identifier={rootIdentifier}
+            parentPath={rootParentPath}
+            currentUrl={currentPath}
           />
         ) : (
           <p>Navigation section not available.</p>
