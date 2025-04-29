@@ -38,12 +38,11 @@ jobs:
           echo TYPESENSE_COLLECTION=${{ secrets.TYPESENSE_COLLECTION }} >> .env
           echo TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} >> .env
           echo TYPESENSE_SEARCH_API_KEY=${{ secrets.TYPESENSE_SEARCH_API_KEY }} >> .env
-          echo "AWS_ROLE_ARN=${{secrets.STAGE_AWS_GITHUB_OIDC_ROLE_ARN}}" >> .env
-          echo "AWS_DEFAULT_REGION=${{secrets.AWS_DEFAULT_REGION}}" >> .env
+          echo AWS_ROLE_ARN=${{secrets.STAGE_AWS_GITHUB_OIDC_ROLE_ARN}} >> .env
+          echo AWS_DEFAULT_REGION=${{secrets.AWS_DEFAULT_REGION}} >> .env
           cat .env
 
       - name: Configure AWS Credentials
-        # if: ${{ github.event.inputs.cloud_provider == 'AWS' }}
         uses: aws-actions/configure-aws-credentials@v2
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
