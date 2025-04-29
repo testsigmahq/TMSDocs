@@ -39,6 +39,7 @@ jobs:
           echo TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} >> .env
           echo TYPESENSE_SEARCH_API_KEY=${{ secrets.TYPESENSE_SEARCH_API_KEY }} >> .env
           cat .env
+
       - name: Build
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy
