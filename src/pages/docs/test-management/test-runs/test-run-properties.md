@@ -1,5 +1,5 @@
 ---
-title: "Test Run Properties 🔧"
+title: "Test Run Properties"
 page_title: "Test Run Properties in Testsigma Test Management"
 metadesc: "Learn about test run properties in Testsigma  Test Management. Structure, manage, and track test runs effectively to improve efficiency and ensure accurate reporting."
 noindex: false

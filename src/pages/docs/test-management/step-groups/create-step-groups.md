@@ -1,5 +1,5 @@
 ---
-title: "Creating Step Groups 🧩 "
+title: "Creating Step Groups"
 page_title: "Creating Step Groups in Testsigma Test Management"
 metadesc: "Step Groups in Testsigma Test Management enhances test case management by grouping repetitive test steps | Learn how to create step groups in Testsigma Test Management"
 noindex: false

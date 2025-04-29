@@ -1,7 +1,7 @@
 ---
-title: "Figma Integration with Testsigma Test Management 🔗"
+title: "Figma Integration with Testsigma Test Management"
 page_title: "Figma Integration with Testsigma"
-metadesc: "Generate test cases directly from Figma designs in Testsigma | Ensure design-to-test alignment and accelerate test creation by converting UI elements into test steps."
+metadesc: "Generate test cases directly from Figma designs in Testsigma | Ensure design-to-test alignment and accelerate test creation by converting UI elements into test steps"
 noindex: false
 order: 8.2
 page_id: "figma-integration-with-testsigma-test-management"
@@ -13,8 +13,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Prerequisites Details for Figma Integration"
-  url: "#Prerequisites Details for Figma Integration"
+  name: "Prerequisite Details for Figma Integration"
+  url: "#prerequisite-details-for-figma-integration"
 - type: link
   name: "Integrate Figma"
   url: "#integrate-figma"
@@ -32,7 +32,7 @@ Testsigma lets you generate test cases directly from your Figma designs. This he
 
 ---
 
-## **Prerequisites Details for Figma Integration** 
+## **Prerequisite Details for Figma Integration** 
 
 ### **Getting Team ID in Figma**
 

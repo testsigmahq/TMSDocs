@@ -1,5 +1,5 @@
 ---
-title: "Jira Integration with Testsigma Test Management 🔗"
+title: "Jira Integration with Testsigma Test Management"
 page_title: "Jira Integration with Testsigma"
 metadesc: "Integrate Testsigma Test Management with Jira to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration"
 noindex: false

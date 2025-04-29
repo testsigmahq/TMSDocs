@@ -6,49 +6,49 @@
     "/docs/test-management/projects/": "PROJECTS"
   },
   "manage-projects": {
-    "/docs/test-management/projects/manage-projects/": "Manage Projects 🗂️"
+    "/docs/test-management/projects/manage-projects/": "Manage Projects"
   },
   "project-settings": {
-    "/docs/test-management/projects/project-settings/": "Project Settings ⚙️"
+    "/docs/test-management/projects/project-settings/": "Project Settings"
   },
   "folders": {
-    "/docs/test-management/test-cases/folders/": "Organize Test Cases in Folder 📂"
+    "/docs/test-management/test-cases/folders/": "Organize Test Cases in Folder"
   },
   "test-cases": {
     "/docs/test-management/test-cases/": "TEST CASES"
   },
   "manage-test-cases": {
-    "/docs/test-management/test-cases/manage-test-cases": "Manage Test Cases 📝"
+    "/docs/test-management/test-cases/manage-test-cases": "Manage Test Cases"
   },
   "imports-and-exports": {
     "/docs/test-management/imports-and-exports/": "IMPORTS AND EXPORTS"
   },
   "overview": {
-    "/docs/test-management/introduction/overview/": "Overview 🔍"
+    "/docs/test-management/introduction/overview/": "Overview"
   },
   "getting-started": {
-    "/docs/test-management/introduction/getting-started/": "Getting Started 🚀"
+    "/docs/test-management/introduction/getting-started/": "Getting Started"
   },
   "test-case-templates": {
-    "/docs/test-management/test-cases/test-case-templates/": "Test Case Templates 🧾"
+    "/docs/test-management/test-cases/test-case-templates/": "Test Case Templates"
   },
   "csv-file": {
-    "/docs/test-management/imports-and-exports/csv-file/": "Import Test Data from CSV Files ⬇️"
+    "/docs/test-management/imports-and-exports/csv-file/": "Import Test Data from CSV Files"
   },
   "zephyr": {
-    "/docs/test-management/imports-and-exports/zephyr/": "Import Test Data from Zephyr ⬇️"
+    "/docs/test-management/imports-and-exports/zephyr/": "Import Test Data from Zephyr"
   },
   "testrail": {
-    "/docs/test-management/imports-and-exports/testrail/": "Import Test Data from Testrail ⬇️"
+    "/docs/test-management/imports-and-exports/testrail/": "Import Test Data from Testrail"
   },
   "browserstack": {
-    "/docs/test-management/imports-and-exports/browserstack/": "Import Test Data from Browserstack ⬇️"
+    "/docs/test-management/imports-and-exports/browserstack/": "Import Test Data from Browserstack"
   },
   "export-tests": {
-    "/docs/test-management/imports-and-exports/export-tests/": "Export Test Data ⬆️"
+    "/docs/test-management/imports-and-exports/export-tests/": "Export Test Data"
   },
   "step-groups": {
-    "/docs/test-management/step-groups/create-step-groups/": "Creating Step Groups 🧩"
+    "/docs/test-management/step-groups/create-step-groups/": "Creating Step Groups"
   },
   "step-groups": {
     "/docs/test-management/step-groups/": "STEP GROUPS"
@@ -63,9 +63,18 @@
     "/docs/test-management/integrations": "INTEGRATIONS"
   },
   "jira": {
-    "/docs/test-management/integrations/jira": "Jira Integration 🔗"
+    "/docs/test-management/integrations/jira": "Jira Integration"
   },
   "figma": {
-    "/docs/test-management/integrations/figma": "Figma Integration 🔗"
+    "/docs/test-management/integrations/figma": "Figma Integration"
+  },
+  "settings": {
+    "/docs/test-management/settings/": "SETTINGS"
+  },
+  "global-settings": {
+    "/docs/test-management/settings/global-settings/": "Test Management Settings"
+  },
+  "manage-users": {
+    "/docs/test-management/manage-users/": "MANAGE USERS"
   }
 }

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started: Testsigma Test Management 🚀"
+title: "Getting Started: Testsigma Test Management"
 page_title: "Getting Started with Testsigma Test Management"
 metadesc: "This article discusses overview of test management tool in Testsigma | Keep your test cases, test plans, test runs, and reports organized in one place"
 noindex: false

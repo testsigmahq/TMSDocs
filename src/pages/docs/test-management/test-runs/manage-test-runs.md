@@ -1,5 +1,5 @@
 ---
-title: "Managing Test Runs 🎛️ "
+title: "Managing Test Runs"
 page_title: "Managing Test Runs in Testsigma Test Management"
 metadesc: "Manage test runs in Testsigma Test Management by editing, cloning, closing, or deleting them to maintain organized and efficient test execution."
 noindex: false
