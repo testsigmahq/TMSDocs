@@ -19,7 +19,6 @@ const pageQuery = `
           objectID: id
           frontmatter {
             title
-            search_keyword
             contextual_links {
               type
               name
@@ -43,7 +42,7 @@ function pageToTypesenseRecord({ node }) {
   return {
     objectID: id,
     title: frontmatter.title || '',
-    search_keyword: String(frontmatter.search_keyword || ''),
+    // search_keyword: String(frontmatter.search_keyword || ''),
     slug: fields.slug || '',
     excerpt: frontmatter.excerpt || '',
     headings: formattedHeadings,
@@ -86,7 +85,6 @@ async function indexData() {
       fields: [
         { name: 'objectID', type: 'string' },
         { name: 'title', type: 'string' },
-        { name: 'search_keyword', type: 'string' },
         { name: 'slug', type: 'string' },
         { name: 'excerpt', type: 'string' },
         { name: 'headings', type: 'string[]', facet: false },

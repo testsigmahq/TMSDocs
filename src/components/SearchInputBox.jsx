@@ -31,7 +31,7 @@ const typesenseInstantsearchAdapter = new TypesenseInstantsearchAdapter({
   },
   collectionSpecificSearchParameters: {
     'tms-docs': {
-      query_by: 'title,search_keyword,excerpt',
+      query_by: 'title,excerpt',
     },
   },
 });
