@@ -76,5 +76,11 @@
   },
   "manage-users": {
     "/docs/test-management/manage-users/": "MANAGE USERS"
+  },
+  "atom-in-action": {
+    "/docs/test-management/atom-in-action/": "ATOM IN ACTION"
+  },
+  "generator-agent": {
+    "/docs/test-management/atom-in-action/generator-agent/": "Generator Agent"
   }
 }
