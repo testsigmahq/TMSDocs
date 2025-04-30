@@ -1,10 +1,10 @@
 ---
 title: "Manage Custom Fields"
-page_title: "Test Management Settings"
-metadesc: ""
+page_title: "Manage Custom Fields in Test Management"
+metadesc: "Create and manage custom fields in Testsigma test management to add specific details/additional details and filter tests efficiently in your test management workflow"
 noindex: false
 order: 9.2
-page_id: "settings-for-testsigma-test-management"
+page_id: "custom-fields-in-testsigma-test-management"
 warning: false
 contextual_links:
 - type: section
@@ -13,11 +13,14 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Prerequisites Details for Figma Integration"
-  url: "#Prerequisites Details for Figma Integration"
+  name: "Create a Custom Field"
+  url: "#create-a-custom-field"
 - type: link
-  name: "Integrate Figma"
-  url: "#integrate-figma"
+  name: "Add Custom Fields to a Test Case"
+  url: "#add-custom-fields-to-a-test-case"
+- type: link
+  name: "Filtering Test Cases Using Custom Fields"
+  url: "#filtering-test-cases-using-custom-fields"
 ---
 
 <br>
@@ -51,7 +54,7 @@ In Testsigma Test Management, you can create custom fields to add additional, pr
 
 ---
 
-## **Add Custom Field to Test Case**
+## **Add Custom Fields to a Test Case**
 
 1. From the **Dashboard**, go to **Test Cases** and select an existing test case or create a new one.
 
@@ -61,7 +64,7 @@ In Testsigma Test Management, you can create custom fields to add additional, pr
 
 ---
 
-## **Filtering Test Cases Using Custom Field**
+## **Filtering Test Cases Using Custom Fields**
 
 1. From the **Dashboard**, go to **Test Cases**. 
 
