@@ -27,16 +27,23 @@ Test Management isn’t just about managing tests, it’s about making testing w
 ## **Benefits of Using Testsigma Test Management**
 
 ### ⚡ **Faster Testing, Fewer Errors**
+
 Automate repetitive tasks and reduce manual errors to speed up test execution.
 
 ### 🤝 **Seamless Collaboration**
+
 Centralize test management so teams and stakeholders always stay aligned.
 
 ### 📋 **Better Test Coverage**
+
 Document every test case for thorough and consistent testing.
 
 ### 🐞 **Effortless Defect Tracking**
+
 Log and track defects instantly with Jira integration.
 
+### 🤖 **AI-Powered Productivity with ATTO (Agentic AI)**
+
+Leverage ATTO's capabilities to autonomously create tests, execute them, and report bugs.
 
 ---

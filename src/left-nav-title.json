@@ -77,10 +77,13 @@
   "manage-users": {
     "/docs/test-management/manage-users/": "MANAGE USERS"
   },
-  "atom-in-action": {
-    "/docs/test-management/atom-in-action/": "ATOM IN ACTION"
+  "atto-in-action": {
+    "/docs/test-management/atto-in-action/": "ATTO IN ACTION"
   },
   "generator-agent": {
-    "/docs/test-management/atom-in-action/generator-agent/": "Generator Agent"
+    "/docs/test-management/atto-in-action/generator-agent/": "Generator Agent"
+  },
+  "executor-agent": {
+    "/docs/test-management/atto-in-action/executor-agent/": "Executor Agent"
   }
 }
