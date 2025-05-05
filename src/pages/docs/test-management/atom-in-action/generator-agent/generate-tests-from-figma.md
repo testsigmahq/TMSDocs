@@ -1,0 +1,60 @@
+---
+title: "Generate Test Cases from Figma"
+page_title: "Generate Test Cases from Figma"
+metadesc: "Generate test cases in Testsigma from Figma designs | AI converts Figma UI into test steps, ensuring design-to-test alignment and speeding up test creation"
+noindex: false
+order: 11.15
+page_id: "generate-test-cases-from-figma"
+warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Generate Test Cases"
+  url: "#generate-test-cases"
+---
+
+---
+
+Testsigma lets you generate test cases directly from your Figma designs. This helps ensure design-to-test alignment and accelerates test case creation by converting UI elements into actionable test steps.
+
+---
+
+> ## **Prerequisites**
+> 
+> Before you begin, ensure you have a project created in Testsigma Test Management and have integrated your Figma account.
+
+---
+
+## **Generate Test Cases**
+
+1. From the **Dashboard**, select **AI Powered Test Case Generation** under **Quick Actions**.
+
+   Alternatively, go to **Test Cases** and select **Ask AI** in the top-right corner.
+
+2. On the **Ask AI** page, select **Figma Designs** from the available options.
+
+3. In the Add Figma Designs overlay:
+      
+      - Select the relevant **Project**.
+      
+      - Select a **Figma Design File**.
+      
+      - Select the desired **Page** & **Section** within the file.
+      
+      - Click **Import** to attach the selected Figma design to your AI input.
+
+4. Click the folder icon, and choose the folder where you want to add the test cases.
+
+5. Select the test case type: **Documentation** or **Test Step** template.
+
+6. Enter the prompt, and click **Generate**.
+
+7. Select the test cases you want to include, and click **Accept**.
+
+8. The system adds the selected test cases to the specified folder.
+
+---
