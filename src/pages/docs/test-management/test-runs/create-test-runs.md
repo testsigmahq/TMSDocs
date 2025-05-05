@@ -1,0 +1,100 @@
+---
+title: "Creating Test Runs"
+page_title: "Creating Test Runs in Testsigma Test Management"
+metadesc: "Create test runs in Testsigma Test Management by manually adding test cases, applying filters, or selecting all and ensure thorough testing of your applications"
+noindex: false
+order: 6.1
+page_id: "create-test-runs"
+warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Create a Test Run"
+  url: "#create-a-test-run"
+- type: link
+  name: "Select Individual Test Cases for a Test Run"
+  url: "#select-individual-test-cases-for-a-test-run"
+- type: link
+  name: "Select Test Cases Using Filters for a Test Run"
+  url: "#select-test-cases-using-filters-for-a-test-run"
+- type: link
+  name: "Select All Test Cases for a Test Run"
+  url: "#select-all-test-cases-for-a-test-run"
+---
+
+---
+
+Test runs ensure thorough testing of your applications. You can create test runs by adding test cases manually, using filters to dynamically include relevant test cases, or selecting all available test cases. Additionally, you can schedule, organize, and add status to the test runs. Effective test run management provides insights, drives continuous improvement, and enhances testing efficiency. This article discusses creating test runs in Testsigma Test Management.
+
+---
+
+> ## **Prerequisites**
+> 
+> Before you begin, ensure that a project is created and test cases are available for adding to Test Runs. For more information, see Projects and Test Cases.
+
+---
+
+## **Create a Test Run**
+
+1. From the **Dashboard**, go to **Test Runs** and click **Create Test Run**.
+
+2. On the **Test Run Details** page, enter a **Title** and an optional **Description**.
+
+3. Click **Add Test Cases**.
+
+4. In the **Attach Test Cases** dialog, choose one of the following options:
+   - **Select Test Cases Individually**: Manually select specific test cases without automatic additions.
+   - **Adding Cases Using Filters**: Automatically add test cases that match defined filter criteria based on test case properties.
+   - **Add All Test Cases**: Include all available test cases without manual selection.
+
+5. On the **Add Test Cases to Test Run** page, validate the selected test cases and click **Attach Test Cases**.
+
+6. Click **Create Test Run**.
+
+---
+
+## **Select Individual Test Cases for a Test Run**
+
+1. On the **Attach Test Cases** dialog, select **Select Test Cases Individually** and click **Select Test Cases**.
+
+2. On the **Add Test Cases to Test Run** page, bulk select the test cases.
+
+3. Click **Attach Test Cases**. This redirects to the **Test Run Details** page.
+
+4. Click **Create Test Run**.
+
+5. The test run is created with the selected test cases. 
+
+---
+
+## **Select Test Cases Using Filters for a Test Run** 
+
+1. On the **Attach Test Cases** dialog, select **Adding Cases Using Filters** and click **Select Test Cases**.
+
+2. On the **Add Test Cases to Test Run** page, select the filters for test case selection.
+
+3. Choose the options for the corresponding filters and click **Apply Filters** to auto-select test cases.
+
+4. Click **Create Test Run**.
+
+5. The test run is created with the selected test cases.
+
+[[info | **NOTE**:]]
+| To modify filters after creation, click **Update Filters** on the **Test Run Details** page. This dynamically selects test cases based on the updated filters.
+
+---
+
+## **Select All Test Cases for a Test Run** 
+
+1. On the **Attach Test Cases** dialog, select **Add All Test Cases** and click **Select Test Cases**.
+
+2. All available test cases will be added to the test run.
+
+3. Click **Create Test Run** to finalize the test run with the selected test cases.
+
+
+---
