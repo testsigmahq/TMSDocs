@@ -1,6 +1,6 @@
 ---
-title: "Generate Test Cases from Images"
-page_title: "Generate Test Cases from Images"
+title: "Generate Test Cases from Recording"
+page_title: "Generate Test Cases from Recording"
 metadesc: "Generate test cases in Testsigma from video recordings of user actions | AI analyzes the video, extracts steps, and creates detailed, accurate test cases automatically"
 noindex: false
 order: 11.14
