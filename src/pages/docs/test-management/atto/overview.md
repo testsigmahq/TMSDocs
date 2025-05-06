@@ -45,15 +45,15 @@ Atto works with you, not for you. It strengthens your expertise with smart sugge
 ## **Getting Started**
 
 ### **Generator Agent**
-   - [Generate Test Cases with Prompts](https://testsigma.com/docs/test-management/atom-in-action/generator-agent/generate-tests-with-prompts/)
-   - [Generate Test Cases from Jira](https://website.testsigma.com/docs/test-management/atom-in-action/generator-agent/generate-tests-from-jira/)
-   - [Generate Test Cases from Images](https://website.testsigma.com/docs/test-management/atom-in-action/generator-agent/generate-tests-from-images/)
-   - [Generate Test Cases from Recording](https://website.testsigma.com/docs/test-management/atom-in-action/generator-agent/generate-tests-from-recording/)
-   - [Generate Test Cases from Figma](https://website.testsigma.com/docs/test-management/atom-in-action/generator-agent/generate-tests-from-figma/)
+   - [Generate Test Cases with Prompts](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-with-prompts/)
+   - [Generate Test Cases from Jira](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-jira/)
+   - [Generate Test Cases from Images](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-images/)
+   - [Generate Test Cases from Recording](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-recording/)
+   - [Generate Test Cases from Figma](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-figma/)
   
 ### **Executor Agent**
-   - [Download Atto](soon.com)
-   - [Execute Test Cases Using Atto](soon.com)
+   - [Download Atto](https://testsigma.com/docs/test-management/executor-agent/download/)
+   - [Execute Test Cases Using Atto](https://testsigma.com/docs/test-management/executor-agent/execute-test-runs/)
 
 ---
 

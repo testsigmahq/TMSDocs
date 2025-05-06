@@ -1,9 +1,9 @@
 {
   "introduction": {
-    "/docs/test-management/introduction/": "INTRODUCTION"
+    "/docs/test-management/introduction/": "Introduction"
   },
   "projects": {
-    "/docs/test-management/projects/": "PROJECTS"
+    "/docs/test-management/projects/": "Projects"
   },
   "manage-projects": {
     "/docs/test-management/projects/manage-projects/": "Manage Projects"
@@ -15,13 +15,13 @@
     "/docs/test-management/test-cases/folders/": "Organize Test Cases in Folder"
   },
   "test-cases": {
-    "/docs/test-management/test-cases/": "TEST CASES"
+    "/docs/test-management/test-cases/": "Test Cases"
   },
   "manage-test-cases": {
     "/docs/test-management/test-cases/manage-test-cases": "Manage Test Cases"
   },
   "imports-and-exports": {
-    "/docs/test-management/imports-and-exports/": "IMPORTS AND EXPORTS"
+    "/docs/test-management/imports-and-exports/": "Imports and Exports"
   },
   "overview": {
     "/docs/test-management/introduction/overview/": "Overview"
@@ -51,16 +51,16 @@
     "/docs/test-management/step-groups/create-step-groups/": "Creating Step Groups"
   },
   "step-groups": {
-    "/docs/test-management/step-groups/": "STEP GROUPS"
+    "/docs/test-management/step-groups/": "Step Groups"
   },
   "test-runs": {
-    "/docs/test-management/test-runs/": "TEST RUNS"
+    "/docs/test-management/test-runs/": "Test Runs"
   },
   "test-plans": {
-    "/docs/test-management/test-plans/": "TEST PLANS"
+    "/docs/test-management/test-plans/": "Test Plans"
   },
   "integrations": {
-    "/docs/test-management/integrations": "INTEGRATIONS"
+    "/docs/test-management/integrations": "Integrations"
   },
   "jira": {
     "/docs/test-management/integrations/jira": "Jira Integration"
@@ -69,21 +69,21 @@
     "/docs/test-management/integrations/figma": "Figma Integration"
   },
   "settings": {
-    "/docs/test-management/settings/": "ACCOUNT SETTINGS"
+    "/docs/test-management/settings/": "Account Settings"
   },
   "global-settings": {
     "/docs/test-management/settings/global-settings/": "Test Management Settings"
   },
   "manage-users": {
-    "/docs/test-management/manage-users/": "MANAGE USERS"
+    "/docs/test-management/manage-users/": "Manage Users"
   },
-  "atto-in-action": {
-    "/docs/test-management/atto-in-action/": "ATTO IN ACTION"
+  "atto": {
+    "/docs/test-management/atto/": "Atto (Agentic AI ✨)"
   },
   "generator-agent": {
-    "/docs/test-management/atto-in-action/generator-agent/": "Generator Agent"
+    "/docs/test-management/atto/generator-agent/": "Generator Agent"
   },
   "executor-agent": {
-    "/docs/test-management/atto-in-action/executor-agent/": "Executor Agent"
+    "/docs/test-management/atto/executor-agent/": "Executor Agent"
   }
 }
