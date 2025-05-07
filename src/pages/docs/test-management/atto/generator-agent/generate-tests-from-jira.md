@@ -14,6 +14,9 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
+  name: "Interactive Demo"
+  url: "#interactive-demo"
+- type: link
   name: "Generate Test Cases"
   url: "#generate-test-cases"
 ---
