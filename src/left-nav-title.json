@@ -85,5 +85,20 @@
   },
   "executor-agent": {
     "/docs/test-management/atto/executor-agent/": "Executor Agent"
+  },
+  "manage-properties": {
+    "/docs/test-management/settings/manage-properties/": "Test Properties"
+  },
+  "custom-fields": {
+    "/docs/test-management/settings/custom-fields/": "Custom Fields"
+  },
+  "labels": {
+    "/docs/test-management/settings/labels/": "Labels"
+  },
+  "api-keys": {
+    "/docs/test-management/settings/api-keys/": "API Keys"
+  },
+  "manage-access": {
+    "/docs/test-management/settings/manage-access/": "Manage Access"
   }
 }
