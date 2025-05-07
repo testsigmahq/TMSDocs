@@ -4,18 +4,34 @@ page_title: "Test Management Settings"
 metadesc: ""
 noindex: false
 order: 9.4
-page_id: "settings-for-testsigma-test-management"
+page_id: "api-keys-in-testsigma-test-management"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Prerequisites Details for Figma Integration"
-  url: "#Prerequisites Details for Figma Integration"
-- type: link
-  name: "Integrate Figma"
-  url: "#integrate-figma"
+  name: "Steps to Generate API Keys"
+  url: "#steps-to-generate-api-keys"
+---
+
+<br>
+
+**Securely connect and automate with API Keys in Testsigma Test Management.**
+
+---
+
+You can generate API Keys in Testsigma Test Management to automate tasks such as creating projects, test cases, test runs, and test plans, as well as executing them. This article discusses how to generate API keys in Testsigma Test Management.
+
+---
+
+## **Steps to Generate API Keys**
+
+1. From the **Dashboard**, go to **Settings > API Keys**.
+
+2. Click **Generate New Key**.
+
+3. On the **Generate Key** dialog, enter **Key Name** and click **Generate**.
+
+4. Copy this key for authorization. 
+
 ---
