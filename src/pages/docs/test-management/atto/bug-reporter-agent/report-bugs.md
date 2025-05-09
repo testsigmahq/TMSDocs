@@ -1,0 +1,68 @@
+---
+title: "Report Bugs Directly from Atto"
+page_title: "Report Bugs Directly from Atto"
+metadesc: "Use Atto to execute test cases & report bugs directly to Jira | This simplifies the testing process by keeping execution and bug reporting in one place"
+noindex: false
+order: 11.31
+page_id: "report-bugs-directly-from-atto"
+warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Steps to Report Bugs to Jira Using Atto"
+  url: "#steps-to-report-bugs-to-jira-using-atto"
+---
+
+
+<br>
+
+**Directly execute and track test cases with Atto in Testsigma Test Management.**
+
+---
+
+You can use Atto to execute test cases and report bugs directly to Jira with just a few clicks. This simplifies the testing process by keeping execution and bug reporting in one place. It helps save time, reduces context switching, and maintains a clear link between test results and reported issues. This article discusses reporting bugs to Jira from Atto.
+
+---
+
+
+> ## **Prerequisites**
+> 
+> Before you begin, ensure you're signed in to Atto and know how to execute test cases in it.
+
+---
+
+
+## **Steps to Report Bugs to Jira Using Atto**
+
+1. From the **Dashboard**, go to **Test Runs**, and open an existing test run or create a new one.
+
+2. Select **Execute with Atto** from the **Action Bar**.
+
+3. Atto reads the test run and fetches all the test cases in the test run.
+
+3. When the test cases appear in Atto, select **Start** next to the test case you want to execute.
+
+3. Atto analyzes the test case and displays the execution plan along with any necessary data.
+
+4. Add any missing data, and then click **Start Testing**.
+
+5. Atto executes the test steps by setting clear context.
+
+6. If a bug is found, Atto shows the **Test Case Execution Summary** along with the **Bug Report** option.
+
+7. Click Bug Report.
+
+8. On the **Bug Report** overlay:
+      - Review the **Description**, **Affected Area**, and **Steps to Reproduce**.
+      - Select **Report Defect**.
+
+9. This opens the **Add a Defect** section in Testsigma Test Management.
+
+   Follow the steps in the [Link Defects to Jira](https://testsigma.com/docs/test-management/integrations/jira/#link-defects-to-jira) to log the defect. 
+
+
+---
