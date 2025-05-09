@@ -100,5 +100,8 @@
   },
   "manage-access": {
     "/docs/test-management/settings/manage-access/": "Manage Access"
+  },
+  "bug-reporter-agent": {
+    "/docs/test-management/atto/bug-reporter-agent/": "Bug Reporter Agent"
   }
 }
