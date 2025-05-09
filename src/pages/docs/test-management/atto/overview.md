@@ -26,7 +26,7 @@ contextual_links:
 
 ---
 
-**Atto**, a blend of AI-powered agents in Testsigma, enhances test management by intelligently generating test cases, executing them, reporting bugs, and streamlining the testing process.
+**Atto** is an AI coworker for QA teams that mobilizes a team of AI agents to autonomously plan, design, develop, execute, maintain, and optimize tests.
 
 Atto works with you, not for you. It strengthens your expertise with smart suggestions while ensuring you stay in control of key decisions that shape quality outcomes, creating a transformative approach to testing.
 
