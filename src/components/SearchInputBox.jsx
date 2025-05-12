@@ -100,8 +100,8 @@ class SearchInputBox extends React.Component {
         <div
           className={
             !hasInput
-              ? 'form-inline flex w-1/5 items-center pl-4'
-              : 'form-inline flex w-1/5 items-center pl-4 float-searchBox'
+              ? 'form-inline flex items-center pl-4'
+              : 'form-inline flex items-center pl-4 float-searchBox'
           }
         >
           <label htmlFor='search-lc' />
