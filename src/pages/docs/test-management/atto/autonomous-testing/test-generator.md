@@ -14,7 +14,7 @@ contextual_links:
   url: "#prerequisites"
 - type: link
   name: "Interactive Demo"
-  url: "#Interactive Demo"
+  url: "#interactive-demo"
 - type: link
   name: "Attach a Jira Project"
   url: "#attach-a-jira-project"
@@ -29,7 +29,7 @@ contextual_links:
 
 <br>
 
-**Activate a sprint, select user stories & generate multiple test cases with just a few clicks.**
+**Quickly turn Jira sprint stories into ready-to-run test cases with minimal effort.**
 
 ---
 
@@ -56,24 +56,28 @@ You can generate test cases automatically by integrating Jira with Testsigma Tes
 
 ## **Attach a Jira Project**
 
-1. From the **Dashboard**, click the **Candy Box** icon, and then select **+ New Project**.
+1. On the **Dashboard**, click the **Candy Box** icon, and then select **+ New Project**.
 
 2. In the **Create a New Project** dialog, enter the **Project Name**, **Description**, and **Project Key**.
 
 3. From the **Jira Project** dropdown, select the project you want to attach.
 
-   Alternatively, you can also attach the Jira project from **Project Settings** overlay. 
+   Alternatively, you can also attach the Jira project from **Project Settings** overlay.
+   
+   ![Edit Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/tms-doc-images/TMS_Edit_Project.png)
 
 ---
 
 ## **View & Activate Jira Sprints in Atto**
 
-1. From the **Dashboard**, click **Atto’s Home**.
+1. On the **Dashboard**, click **Atto’s Home**.
 
 2. Go to the **Other Sprints** tab to view all available sprints from your Jira project.
 
 3. In the **Other Sprints** tab of **Atto’s Home**, you can see the following tabs:
    
+   ![Other Sprints](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/tms-doc-images/Sprints_Atto.png)
+
    - **Inactive**: Displays sprints that are  imported from Jira but are not yet active in Testsigma. You can activate these sprints for test case generation.
    
    - **Completed**: Displays sprints that were previously activated and done with the test case generation.
@@ -84,7 +88,19 @@ You can generate test cases automatically by integrating Jira with Testsigma Tes
 
 4. Review the list of sprints. Each sprint card shows the **Sprint ID**, **Name**, **Number of stories** waiting for test generation, and the **Last Updated Date**.
 
-5. Click **Activate** next to the sprint for which you want to generate test cases.
+5. Select a sprint to view the list of stories associated with that sprint. The sprint view shows the following details:
+
+    **a.** Sprint **Name** and **Duration** 
+    
+    **b.** Tabs to filter stories by status: **All Stories, To Do, In Progress,** and **Done**
+    
+    **c.** Search by title box to find a specific story
+    
+    **d.** Story list with **ID**, **Title**, and **Current Status** (e.g., **To Do**)
+   
+   ![Sprint details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/tms-doc-images/Sprint_Details_Atto_Home.png)
+
+1. Click **Activate** next to the sprint for which you want to generate test cases.
 
 ---
 
@@ -94,9 +110,17 @@ You can generate test cases automatically by integrating Jira with Testsigma Tes
 
 2. You can view high-level metrics, including:
    
-   - Number of stories in **To Do**, **In Progress**, **Done**, and **Modified** states.
+   **a.** Sprint **Name**
    
-   - A tabbed view that lets you filter stories by status.
+   **b.** A completion percentage bar
+   
+   **c.** Number of stories in **To Do**, **In Progress**, **Done**, and **Modified** states.
+   
+   **d.** Search by title box to find a specific story
+
+   **e.** Story list with **ID**, **Title**, and **Current Status** (e.g., **To Do**)
+
+   ![Active Sprint](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/tms-doc-images/Active_Sprint_Atto.png)
 
 3. Click on any user story to start AI-powered test case generation
 
@@ -112,6 +136,6 @@ You can generate test cases automatically by integrating Jira with Testsigma Tes
 
 9. Atto automatically sets the story status to **In Progress** once test case generation completes.
 
-10. Repeat these steps for each story in the sprint.
+10.  Repeat these steps for each story in the sprint.
 
 ---

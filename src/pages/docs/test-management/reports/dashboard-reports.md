@@ -10,25 +10,45 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Interactive Demo"
+  url: "#interactive-demo"
+- type: link
   name: "Filters"
   url: "#filters"
 - type: link
-  name: "Steps to View Reports"
-  url: "#steps-to-view-reports"
+  name: "Active Runs"
+  url: "#active-runs"
 - type: link
-  name: "Sections in Reports"
-  url: "#sections-in-reports"
+  name: "Closed Test Runs"
+  url: "#closed-test-runs"
+- type: link
+  name: "Results from Closed Test Runs"
+  url: "#results-from-closed-test-runs"
+- type: link
+  name: "Defects Logged"
+  url: "#defects-logged"
 ---
 
 <br>
 
-**Track progress, monitor test health, and identify defects, all from a single screen!**
+**Get a complete view of your test status, defects, and coverage in one place.**
 
 ---
 
 The Dashboard in Testsigma Test Management displays real-time test metrics. It allows you to track progress, monitor test health, and identify defects, all from a single screen, without navigating to detailed reports.
 
 These charts dynamically update based on selected filters, such as date range and assignee. This enables you to view data filtered by specific date ranges and individual users.  This article discusses the reports section in the Dashboard. 
+
+---
+
+## **Interactive Demo**
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/2ir99fyzygsz?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
 
 ---
 
@@ -103,7 +123,7 @@ You can use this chart to track the testing pace and evaluate the progress of co
 
 ## **Results from Closed Test Runs**
 
-This section displays a **Horizontal Stacked Bar Chart** summarizing the results of test cases from closed runs. Each bar represents the aggregated result set for a given period, categorized by status such as:
+This section displays a **Stacked Bar Chart** summarizing the results of test cases from closed runs. Each bar represents the aggregated result set for a given period, categorized by status such as:
    
    - **Passed**
    
@@ -121,7 +141,7 @@ You can use this chart to monitor the quality and success rate of test execution
 
 ---
 
-**Defects Logged**
+## **Defects Logged**
 
 This section displays a **Bar Chart** showing the number of defects logged over time. The chart distinguishes defect inflow across days or weeks, allowing you to evaluate trends in defect reporting.
 
