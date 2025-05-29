@@ -1,7 +1,7 @@
 ---
-title: "Export Test Data from Testsigma"
+title: "Export Test Data"
 page_title: "Export Test Data"
-metadesc: "Testsigma Test Management allows you to quickly export test cases/step groups from its system in CSV format. This feature streamlines quick migration of test cases and step groups"
+metadesc: "Testsigma Test Management allows you to quickly export test cases/step groups in excel format. This feature streamlines quick migration of test cases/step groups"
 noindex: false
 order: 4.5
 page_id: "export-test-data-from-testsigma"
@@ -19,23 +19,31 @@ contextual_links:
 
 ---
 
-Testsigma allows you to export test cases in CSV format, capturing all associated information. This feature helps you back up, migrate, or review your test cases outside the platform. This article discusses exporting test cases from Testsigma. 
+Testsigma allows you to export test cases and step groups in excel file format, with all the associated information. This feature helps you backup, migrate, or review your test data outside the platform. This document discusses exporting test cases and step groups from Testsigma Test Management.
 
 ---
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure you have test cases available to export. 
+> Before you begin, ensure you have test cases and step groups available to export.
 
 ---
 
 
 ## **Export Test Cases**
 
-1. On the **Dashboard**, click **Import Cases**. This will open the **Import** section on **Project Settings**.  
+1. From the Dashboard, click **Import Cases** to navigate to the **Import & Export** sections under **Project Settings**.
 
-   Alternatively, navigate to **Project Settings** and click **Export** on the top right corner.
+   Alternatively, go to **Project Settings** directly.
 
-2. Click **Export**.
+2. In the **Export Test Cases & Step Groups** widget, click **Export**.
+
+3. In the **Confirm Export** dialog, click **Start Export** to begin the export process.
+
+4. Once the export process is completed, a downloadable file will be listed.
+
+5. Click the **Download** icon corresponding to the most recent export.
+
+6. The excel file will be downloaded to your local system for offline access.
 
 ---
