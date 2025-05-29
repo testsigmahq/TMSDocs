@@ -103,5 +103,11 @@
   },
   "bug-reporter-agent": {
     "/docs/test-management/atto/bug-reporter-agent/": "Bug Reporter Agent"
+  },
+  "reports": {
+    "/docs/test-management/reports/": "Reports & Analytics"
+  },
+  "autonomous-testing": {
+    "/docs/test-management/atto/autonomous-testing/": "Autonomous Testing"
   }
 }
