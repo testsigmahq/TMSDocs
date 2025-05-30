@@ -61,6 +61,6 @@ You can export test cases from Zephyr and import them into Testsigma Test Manage
 3. Click **Upload File** and select file to import. 
 
 [[info | **NOTE**:]]
-| Follow the steps in the Import Test Cases document to prepare the file and map values or properties to align with the test case structure in Testsigma Test Management.
+| Follow the steps in the [Import Test Cases](https://testsigma.com/docs/test-management/imports-and-exports/csv-file/) document to prepare the file and map values or properties to align with the test case structure in Testsigma Test Management.
 
 ---
