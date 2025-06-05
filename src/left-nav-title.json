@@ -109,5 +109,8 @@
   },
   "autonomous-testing": {
     "/docs/test-management/atto/autonomous-testing/": "Autonomous Testing"
+  },
+  "jira-webhook-configuration": {
+    "/docs/test-management/atto/autonomous-testing/jira-webhook-configuration/": "Jira WebHook Configuration"
   }
 }
