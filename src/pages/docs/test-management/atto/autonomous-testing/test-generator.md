@@ -138,4 +138,12 @@ You can generate test cases automatically by integrating Jira with Testsigma Tes
 
 10.  Repeat these steps for each story in the sprint.
 
+[[info | **NOTE**:]]
+|
+| You can integrate a Jira project with a Testsigma Test Management project using a WebHook. This integration synchronizes test activities and issue status updates between both systems.
+|
+| <br>
+|
+| For more information, see [Jira WebHooks](https://developer.atlassian.com/server/jira/platform/webhooks/).
+
 ---
