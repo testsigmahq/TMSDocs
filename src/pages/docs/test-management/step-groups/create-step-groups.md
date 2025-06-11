@@ -1,41 +1,40 @@
 ---
-title: "Creating Step Groups"
-page_title: "Creating Step Groups in Testsigma Test Management"
-metadesc: "Step Groups in Testsigma Test Management enhances test case management by grouping repetitive test steps | Learn how to create step groups in Testsigma Test Management"
+title: 'Creating Step Groups'
+page_title: 'Creating Step Groups in Test Management by Testsigma'
+metadesc: 'Step Groups in Test Management by Testsigma enhances test case management by grouping repetitive test steps | Learn how to create step groups in Test Management by Testsigma'
 noindex: false
 order: 5.1
-page_id: "create-step-groups"
+page_id: 'create-step-groups'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Create a Step Group"
-  url: "#create-a-step-group"
-- type: link
-  name: "Create a Step Group from Test Cases"
-  url: "#create-a-step-group-from-test-cases"
-- type: link
-  name: "Add Step Group to a Test Case"
-  url: "#add-step-group-to-a-test-case"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Create a Step Group'
+    url: '#create-a-step-group'
+  - type: link
+    name: 'Create a Step Group from Test Cases'
+    url: '#create-a-step-group-from-test-cases'
+  - type: link
+    name: 'Add Step Group to a Test Case'
+    url: '#add-step-group-to-a-test-case'
 ---
 
 ---
 
-Step Groups feature in Testsigma Test Management enhances test case management by grouping repetitive test steps. Instead of manually adding steps across multiple test cases, you can link a Step Group to various test cases with common steps. This article discusses managing Step Groups in Testsigma Test Management.
+Step Groups feature in Test Management by Testsigma enhances test case management by grouping repetitive test steps. Instead of manually adding steps across multiple test cases, you can link a Step Group to various test cases with common steps. This article discusses managing Step Groups in Test Management by Testsigma.
 
 ---
-
 
 > ## **Prerequisites**
-> 
-> Before you begin, ensure that a Project is created in Testsigma. For more information, see Projects. 
+>
+> Before you begin, ensure that a Project is created in Testsigma. For more information, see Projects.
 
 ---
 
@@ -85,6 +84,5 @@ Step Groups feature in Testsigma Test Management enhances test case management b
 3. Select the step group and click the **+ icon**.
 
 4. The step group will be added to the test case.
-
 
 ---

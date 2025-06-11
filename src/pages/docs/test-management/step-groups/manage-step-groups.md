@@ -1,23 +1,23 @@
 ---
-title: "Managing Step Groups"
-page_title: "Managing Step Groups in Testsigma Test Management"
-metadesc: "Step Groups in Testsigma Test Management enhances test case management by grouping repetitive test steps | Learn how to create step groups in Testsigma Test Management"
+title: 'Managing Step Groups'
+page_title: 'Managing Step Groups in Test Management by Testsigma'
+metadesc: 'Step Groups in Test Management by Testsigma enhances test case management by grouping repetitive test steps | Learn how to create step groups in Test Management by Testsigma'
 noindex: false
 order: 5.1
-page_id: "create-step-groups"
+page_id: 'create-step-groups'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Edit a Step Group"
-  url: "#edit-a-step-group"
-- type: link
-  name: "Delete a Step Group"
-  url: "#delete-a-step-group"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Edit a Step Group'
+    url: '#edit-a-step-group'
+  - type: link
+    name: 'Delete a Step Group'
+    url: '#delete-a-step-group'
 ---
 
 ---
@@ -27,7 +27,7 @@ You can edit step groups to update test steps, descriptions, or other attributes
 ---
 
 > ## **Prerequisites**
-> 
+>
 > Before you begin, ensure that a project is created and step groups are available for editing in Testsigma. For more information, see Projects and Step Groups.
 
 ---
@@ -38,7 +38,7 @@ You can edit step groups to update test steps, descriptions, or other attributes
 
 2. Select **Edit** from the dropdown menu.
 
-3. Edit the name, description, attachments, or test steps as needed. 
+3. Edit the name, description, attachments, or test steps as needed.
 
 4. Click **Update Step Group** to save.
 

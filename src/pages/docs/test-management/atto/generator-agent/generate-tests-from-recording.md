@@ -1,23 +1,23 @@
 ---
-title: "Generate Test Cases from Recording"
-page_title: "Generate Test Cases from Recording"
-metadesc: "Generate test cases in Testsigma from video recordings of user actions | AI analyzes the video, extracts steps, and creates detailed, accurate test cases automatically"
+title: 'Generate Test Cases from Recording'
+page_title: 'Generate Test Cases from Recording'
+metadesc: 'Generate test cases in Testsigma from video recordings of user actions | AI analyzes the video, extracts steps, and creates detailed, accurate test cases automatically'
 noindex: false
 order: 11.14
-page_id: "generate-test-cases-from-recording"
+page_id: 'generate-test-cases-from-recording'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Generate Test Cases from Video Recording"
-  url: "#generate-test-cases-from-video-recording"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Generate Test Cases from Video Recording'
+    url: '#generate-test-cases-from-video-recording'
 ---
 
 ---
@@ -27,8 +27,8 @@ Testsigma allows you to generate test cases using video recordings that demonstr
 ---
 
 > ## **Prerequisites**
-> 
-> Before you begin, ensure you have a project in Testsigma Test Management and have relevant video recordings that provide context for test case creation.
+>
+> Before you begin, ensure you have a project in Test Management by Testsigma and have relevant video recordings that provide context for test case creation.
 
 ---
 
@@ -63,7 +63,6 @@ Testsigma allows you to generate test cases using video recordings that demonstr
 
 8. Select the test cases you want to include, and click **Accept**.
 
-9. The system adds the selected test cases to the specified folder. 
-
+9. The system adds the selected test cases to the specified folder.
 
 ---

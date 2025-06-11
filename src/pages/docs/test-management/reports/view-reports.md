@@ -1,26 +1,26 @@
 ---
-title: "Viewing Reports"
-page_title: "Viewing Reports in Testsigma Test Management"
-metadesc: "Learn how to view reports in Testsigma Test Management | Interpret different sections of a report and analyze test execution, track progress, and identify defects"
+title: 'Viewing Reports'
+page_title: 'Viewing Reports in Test Management by Testsigma'
+metadesc: 'Learn how to view reports in Test Management by Testsigma | Interpret different sections of a report and analyze test execution, track progress, and identify defects'
 noindex: false
 order: 12.2
-page_id: "view-reports-in-testsigma-test-management"
+page_id: 'view-reports-in-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Steps to View Reports"
-  url: "#steps-to-view-reports"
-- type: link
-  name: "Sections in Reports"
-  url: "#sections-in-reports"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Steps to View Reports'
+    url: '#steps-to-view-reports'
+  - type: link
+    name: 'Sections in Reports'
+    url: '#sections-in-reports'
 ---
 
 <br>
@@ -29,12 +29,12 @@ contextual_links:
 
 ---
 
-Reports in Testsigma Test Management provide dynamic, visual insights into test execution status, progress, and defect tracking. This article discusses how to view and interpret different sections of a report.
+Reports in Test Management by Testsigma provide dynamic, visual insights into test execution status, progress, and defect tracking. This article discusses how to view and interpret different sections of a report.
 
 ---
 
 > ## **Prerequisites**
-> 
+>
 > Before you begin, ensure that you have one or more created reports. For steps to create a report, see [Creating a Report]().
 
 ---
@@ -52,7 +52,7 @@ Reports in Testsigma Test Management provide dynamic, visual insights into test 
 
 ## **View Reports**
 
-1. On the **Dashboard**, go to **Reports**. 
+1. On the **Dashboard**, go to **Reports**.
 
 2. Select the appropriate report tab (**Test Cases**, **Test Runs** or **Test Plans**) and click a report from the list to open.
 

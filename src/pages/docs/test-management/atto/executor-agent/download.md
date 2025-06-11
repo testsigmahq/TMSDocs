@@ -1,20 +1,20 @@
 ---
-title: "Download Atto"
-page_title: "Download Executor Agent"
-metadesc: "Atto streamlins your testing by generating test cases, executing them, reporting bugs, and managing the overall process | Learn"
+title: 'Download Atto'
+page_title: 'Download Executor Agent'
+metadesc: 'Atto streamlins your testing by generating test cases, executing them, reporting bugs, and managing the overall process | Learn'
 noindex: false
 order: 11.21
-page_id: "download-executor-agent"
+page_id: 'download-executor-agent'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Steps to Download Atto"
-  url: "#steps-to-download-atto"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Steps to Download Atto'
+    url: '#steps-to-download-atto'
 ---
 
 <br>
@@ -23,12 +23,12 @@ contextual_links:
 
 ---
 
-Atto is an AI-powered agent in Testsigma Test Management that helps streamline testing by generating test cases, executing them, reporting bugs, and managing the overall process. You can use Atto to run test cases as part of test runs. This article describes how to download Atto from Testsigma Test Management.
+Atto is an AI-powered agent in Test Management by Testsigma that helps streamline testing by generating test cases, executing them, reporting bugs, and managing the overall process. You can use Atto to run test cases as part of test runs. This article describes how to download Atto from Test Management by Testsigma.
 
 ---
 
 > ## **Prerequisite**
-> 
+>
 > Before you begin, ensure you have test cases and test run with test cases.
 
 ---

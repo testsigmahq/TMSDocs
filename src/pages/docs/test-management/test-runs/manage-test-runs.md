@@ -1,39 +1,39 @@
 ---
-title: "Managing Test Runs"
-page_title: "Managing Test Runs in Testsigma Test Management"
-metadesc: "Manage test runs in Testsigma Test Management by editing, cloning, closing, or deleting them to maintain organized and efficient test execution."
+title: 'Managing Test Runs'
+page_title: 'Managing Test Runs in Test Management by Testsigma'
+metadesc: 'Manage test runs in Test Management by Testsigma by editing, cloning, closing, or deleting them to maintain organized and efficient test execution.'
 noindex: false
 order: 6.2
-page_id: "create-test-runs"
+page_id: 'create-test-runs'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Edit a Test Run"
-  url: "#edit-a-test-run"
-- type: link
-  name: "Clone a Test Run"
-  url: "#clone-a-test-run"
-- type: link
-  name: "Delete a Test Run"
-  url: "#delete-a-test-run"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Edit a Test Run'
+    url: '#edit-a-test-run'
+  - type: link
+    name: 'Clone a Test Run'
+    url: '#clone-a-test-run'
+  - type: link
+    name: 'Delete a Test Run'
+    url: '#delete-a-test-run'
 ---
 
 ---
 
-After creating a test run, you can manage it by editing its details, cloning it for reuse, closing it to prevent further modifications, or deleting it permanently. Editing lets you modify test run details, clone duplicates for future use, close locks it from further changes, and delete option removes the test run permanently. This article discusses managing test runs in Testsigma Test Management.
+After creating a test run, you can manage it by editing its details, cloning it for reuse, closing it to prevent further modifications, or deleting it permanently. Editing lets you modify test run details, clone duplicates for future use, close locks it from further changes, and delete option removes the test run permanently. This article discusses managing test runs in Test Management by Testsigma.
 
 ---
 
 > ## **Prerequisites**
-> 
+>
 > Before you begin, make sure test runs are created. For more information, see Test Runs.
 
 ---
@@ -47,7 +47,6 @@ After creating a test run, you can manage it by editing its details, cloning it 
   </div>
 </div>
 
-
 ---
 
 ## **Edit a Test Run**
@@ -60,7 +59,7 @@ After creating a test run, you can manage it by editing its details, cloning it 
 
 3. If test cases were added using filters, modify them to dynamically update test case selection.
 
-   Alternatively, click **Update Test Cases** to access this option. 
+   Alternatively, click **Update Test Cases** to access this option.
 
 ---
 
@@ -85,7 +84,7 @@ After creating a test run, you can manage it by editing its details, cloning it 
 3. The test run is moved to the **Closed Runs** list.
 
 [[info | **NOTE**:]]
-| You can still clone closed test runs. 
+| You can still clone closed test runs.
 
 ---
 
@@ -94,6 +93,5 @@ After creating a test run, you can manage it by editing its details, cloning it 
 1. From the **Dashboard**, go to **Test Runs** and click the kebab menu corresponding to the test run you want to delete.
 
 2. In the **Delete Run?** dialog, click **Delete** to confirm deletion.
-
 
 ---
