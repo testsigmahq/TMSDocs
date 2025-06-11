@@ -52,8 +52,8 @@ Atto works with you, not for you. It strengthens your expertise with smart sugge
    - [Generate Test Cases from Figma](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-figma/)
   
 ### **Executor Agent**
-   - [Download Atto](https://testsigma.com/docs/test-management/executor-agent/download/)
-   - [Execute Test Cases Using Atto](https://testsigma.com/docs/test-management/executor-agent/execute-test-runs/)
+   - [Download Atto](https://testsigma.com/docs/test-management/atto/executor-agent/download/)
+   - [Execute Tests Using Atto](https://testsigma.com/docs/test-management/atto/executor-agent/execute-test-runs/)
 
 ---
 
