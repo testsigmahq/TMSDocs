@@ -1,30 +1,30 @@
 ---
-title: "Overview: Testsigma Test Management"
-page_title: "Overview of Test Management in Testsigma"
-metadesc: "This article discusses overview of test management tool in Testsigma | Keep your test cases, test plans, test runs, and reports organized in one place"
+title: 'Overview: Test Management by Testsigma'
+page_title: 'Overview of Test Management in Testsigma'
+metadesc: 'This article discusses overview of test management tool in Testsigma | Keep your test cases, test plans, test runs, and reports organized in one place'
 noindex: false
 order: 1.1
-page_id: "Overview: Testsigma Test Management"
+page_id: 'Overview: Test Management by Testsigma'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Benefits of Using Testsigma Test Management"
-  url: "#benefits-of-using-testsigma-test-management"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Benefits of Using Test Management by Testsigma'
+    url: '#benefits-of-using-testsigma-test-management'
 ---
 
 ---
 
 Managing test cases shouldn't be a mess. If you're using traditional Test Management tools or Excel for it, you know the pain! Endless spreadsheets, scattered data, and lots of copy-pasting. As the projects grow, things only get worse.
 
-Testsigma Test Management changes that. It keeps your test cases, test plans, test runs, and reports organized and accessible in one place. No more digging through tabs or wondering who updated what. 
+Test Management by Testsigma changes that. It keeps your test cases, test plans, test runs, and reports organized and accessible in one place. No more digging through tabs or wondering who updated what.
 
 Test Management isn’t just about managing tests, it’s about making testing work for you, not against you!
 
 ---
 
-## **Benefits of Using Testsigma Test Management**
+## **Benefits of Using Test Management by Testsigma**
 
 ### ⚡ **Faster Testing, Fewer Errors**
 

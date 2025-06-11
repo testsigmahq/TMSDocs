@@ -1,33 +1,35 @@
 ---
-title: "Test Case Templates"
-page_title: "Test Case Templates in Testsigma Test Management"
-metadesc: "This article discusses Test Case Templates in Testsigma Test Management | Managing test cases involves creating, editing, moving, and deleting them in test management"
+title: 'Test Case Templates'
+page_title: 'Test Case Templates in Test Management by Testsigma'
+metadesc: 'This article discusses Test Case Templates in Test Management by Testsigma | Managing test cases involves creating, editing, moving, and deleting them in test management'
 noindex: false
 order: 3.3
-page_id: "test-cases-templates-in-testsigma-test-management"
+page_id: 'test-cases-templates-in-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Structure of Documentation Template"
-  url: "#structure-of-documentation-template"
-- type: link
-  name: "Structure of Test Steps Template"
-  url: "#structure-of-test-steps-template"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Structure of Documentation Template'
+    url: '#structure-of-documentation-template'
+  - type: link
+    name: 'Structure of Test Steps Template'
+    url: '#structure-of-test-steps-template'
 ---
 
 ---
 
-Testsigma Test Management tool allows you to create test cases using two templates: 
+Test Management by Testsigma tool allows you to create test cases using two templates:
 
 ### 1. **Documentation Template**
-You can use the **Documentation Template** to create simple tests with basic preconditions, steps, and expected results. 
+
+You can use the **Documentation Template** to create simple tests with basic preconditions, steps, and expected results.
 
 ### 2. **Steps Template**
-You can use **Steps Template** when a more granular approach is necessary, breaking down each action and expected results. 
 
-Both templates allow you to attach files up to 25 MB, which enhances test documentation with relevant files for better clarity and context. This article discusses Test Case Templates in Testsigma Test Management. 
+You can use **Steps Template** when a more granular approach is necessary, breaking down each action and expected results.
+
+Both templates allow you to attach files up to 25 MB, which enhances test documentation with relevant files for better clarity and context. This article discusses Test Case Templates in Test Management by Testsigma.
 
 ---
 
@@ -46,6 +48,7 @@ Provide a sequential, step-by-step list of actions that need to be performed dur
 Define the expected outcome of each step or the overall outcome after executing all steps.
 
 **5. Attachment Guidelines:**
+
 - Attach files with a maximum size of 25MB.
 - Files can include screenshots, logs, or relevant documents to the test scenario.
 
@@ -55,10 +58,7 @@ Define the expected outcome of each step or the overall outcome after executing 
 
 - **Preconditions**: The user must have a valid username and password.
 
-- **Test Steps**:
-       - Navigate to the login page.
-       - Enter the username and password.
-       - Click on the 'Login' button.
+- **Test Steps**: - Navigate to the login page. - Enter the username and password. - Click on the 'Login' button.
 
 - **Expected Results**: The user is redirected to the dashboard page.
 
@@ -73,6 +73,7 @@ Define the expected outcome of each step or the overall outcome after executing 
 **3. Expected Results:** Describe the result expected after each individual step is executed.<br>
 
 **4. Attachment Guidelines:**
+
 - Attach files with a maximum size of 25MB.
 - Files can include screenshots, logs, or relevant documents to the test scenario.
 
@@ -82,13 +83,10 @@ Define the expected outcome of each step or the overall outcome after executing 
 
 - **Preconditions:** User must be on the registration page and not logged in.
 
-- **Test Steps:**
-       - **Step 1**: Enter a valid email address and password in the registration form.<br>
-         **Expected Result**: The email and password fields are correctly populated.
-         
-       - **Step 2**: Click the 'Submit' button.<br>
-         **Expected Result**: User is directed to the confirmation page.
-         
+- **Test Steps:** - **Step 1**: Enter a valid email address and password in the registration form.<br>
+  **Expected Result**: The email and password fields are correctly populated. - **Step 2**: Click the 'Submit' button.<br>
+  **Expected Result**: User is directed to the confirmation page.
+
        - **Step 3**: Verify the confirmation message.<br>
        - **Expected Result**: A message confirming successful registration is displayed.
 

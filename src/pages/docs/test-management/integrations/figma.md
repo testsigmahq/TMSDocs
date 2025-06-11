@@ -1,26 +1,26 @@
 ---
-title: "Figma Integration with Testsigma Test Management"
-page_title: "Figma Integration with Testsigma"
-metadesc: "Generate test cases directly from Figma designs in Testsigma | Ensure design-to-test alignment and accelerate test creation by converting UI elements into test steps"
+title: 'Figma Integration with Test Management by Testsigma'
+page_title: 'Figma Integration with Testsigma'
+metadesc: 'Generate test cases directly from Figma designs in Testsigma | Ensure design-to-test alignment and accelerate test creation by converting UI elements into test steps'
 noindex: false
 order: 8.2
-page_id: "figma-integration-with-testsigma-test-management"
+page_id: 'figma-integration-with-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Prerequisite Details for Figma Integration"
-  url: "#prerequisite-details-for-figma-integration"
-- type: link
-  name: "Integrate Figma"
-  url: "#integrate-figma"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Prerequisite Details for Figma Integration'
+    url: '#prerequisite-details-for-figma-integration'
+  - type: link
+    name: 'Integrate Figma'
+    url: '#integrate-figma'
 ---
 
 ---
@@ -30,14 +30,12 @@ Testsigma lets you generate test cases directly from your Figma designs. This he
 ---
 
 > ## **Prerequisites**
-> 
-> Before you begin, ensure you have a project created in Testsigma Test Management and have integrated your Figma account. 
+>
+> Before you begin, ensure you have a project created in Test Management by Testsigma and have integrated your Figma account.
 
 ---
 
-
 ## **Interactive Demo**
-
 
 <div>
   <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
@@ -48,7 +46,7 @@ Testsigma lets you generate test cases directly from your Figma designs. This he
 
 ---
 
-## **Prerequisite Details for Figma Integration** 
+## **Prerequisite Details for Figma Integration**
 
 ### **Getting Team ID in Figma**
 
@@ -59,7 +57,7 @@ Testsigma lets you generate test cases directly from your Figma designs. This he
 3. In the address bar, locate the URL in the following format:
 
    > https://www.figma.com/files/team/{TEAM_ID}/your-team-name
-   > 
+   >
    > The **{TEAM_ID}** in the URL is your Figma Team ID.
 
 [[info | **NOTE**:]]
@@ -88,16 +86,16 @@ Testsigma lets you generate test cases directly from your Figma designs. This he
 
 ---
 
-## **Integrate Figma** 
+## **Integrate Figma**
 
 1. On the **Dashboard**, click **Integrations**. This opens the **Integrations** section under **Settings**.
 
 2. Click **Setup Integration** next to the **Figma** icon.
 
-3. On the **Integrate Figma** prompt, 
-      
-      - Enter the **Team ID** and **API Key**. 
-      
-      - Click **Connect** to complete the integration.
+3. On the **Integrate Figma** prompt,
+
+   - Enter the **Team ID** and **API Key**.
+
+   - Click **Connect** to complete the integration.
 
 ---

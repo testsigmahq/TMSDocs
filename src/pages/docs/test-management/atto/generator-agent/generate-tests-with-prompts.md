@@ -1,34 +1,34 @@
 ---
-title: "Generate Test Cases with Prompts"
-page_title: "Generate Test Cases with Prompt"
-metadesc: "Create detailed test cases quickly in Testsigma Test Management using simple prompts. Save time, reduce effort, & ensure accuracy with AI-powered test steps in one click"
+title: 'Generate Test Cases with Prompts'
+page_title: 'Generate Test Cases with Prompt'
+metadesc: 'Create detailed test cases quickly in Test Management by Testsigma using simple prompts. Save time, reduce effort, & ensure accuracy with AI-powered test steps in one click'
 noindex: false
 order: 11.11
-page_id: "generate-test-cases-with-prompts"
+page_id: 'generate-test-cases-with-prompts'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Generate Test Cases"
-  url: "#generate-test-cases"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Generate Test Cases'
+    url: '#generate-test-cases'
 ---
 
 ---
 
-Testsigma Test Management lets you create test cases quickly by writing simple prompts. With one click, you can generate multiple test cases with detailed steps based on real user actions. This approach saves time, reduces manual effort, and helps build complete, accurate test cases.
+Test Management by Testsigma lets you create test cases quickly by writing simple prompts. With one click, you can generate multiple test cases with detailed steps based on real user actions. This approach saves time, reduces manual effort, and helps build complete, accurate test cases.
 
 ---
 
 > ## **Prerequisites**
-> 
-> Before you begin, ensure you have a project created in Testsigma Test Management. For more information, see Projects. 
+>
+> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see Projects.
 
 ---
 
