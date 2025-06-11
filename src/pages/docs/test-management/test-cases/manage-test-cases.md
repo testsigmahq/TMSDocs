@@ -1,47 +1,47 @@
 ---
-title: "Test Cases: The Core of Testing"
-page_title: "Test Cases in Testsigma Test Management"
-metadesc: "This article discusses managing test cases in Testsigma Test Management | Managing test cases involves creating, editing, moving, and deleting them in test management"
+title: 'Test Cases: The Core of Testing'
+page_title: 'Test Cases in Test Management by Testsigma'
+metadesc: 'This article discusses managing test cases in Test Management by Testsigma | Managing test cases involves creating, editing, moving, and deleting them in test management'
 noindex: false
 order: 3.2
-page_id: "test-cases-in-testsigma-test-management"
+page_id: 'test-cases-in-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Create Test Cases"
-  url: "#create-test-cases"
-- type: link
-  name: "Test Case Properties"
-  url: "#test-case-properties"
-- type: link
-  name: "Edit Test Cases"
-  url: "#edit-test-cases"
-- type: link
-  name: "Delete Test Cases"
-  url: "#delete-test-cases"
-- type: link
-  name: "Bulk Actions on Test Case List"
-  url: "#bulk-actions-on-test-case-list"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Create Test Cases'
+    url: '#create-test-cases'
+  - type: link
+    name: 'Test Case Properties'
+    url: '#test-case-properties'
+  - type: link
+    name: 'Edit Test Cases'
+    url: '#edit-test-cases'
+  - type: link
+    name: 'Delete Test Cases'
+    url: '#delete-test-cases'
+  - type: link
+    name: 'Bulk Actions on Test Case List'
+    url: '#bulk-actions-on-test-case-list'
 ---
 
 ---
 
-A test case defines a specific scenario to be tested, including detailed steps, preconditions, expected results, and other relevant information. Test cases are stored in a repository and structured in a hierarchical tree format, with folders and subfolders for better organization. 
+A test case defines a specific scenario to be tested, including detailed steps, preconditions, expected results, and other relevant information. Test cases are stored in a repository and structured in a hierarchical tree format, with folders and subfolders for better organization.
 
-Managing test cases involves creating, editing, moving, and deleting them. This article discusses how to manage test cases in test management. 
+Managing test cases involves creating, editing, moving, and deleting them. This article discusses how to manage test cases in test management.
 
 ---
 
 > ## **Prerequisites**
-> 
+>
 > Before you begin, ensure that a Project and Folders are created in Testsigma.
 
 ---
@@ -63,16 +63,13 @@ Managing test cases involves creating, editing, moving, and deleting them. This 
 
    Alternatively, click the kebab menu (three dots) next to the **Folder/Sub Folder** and select **Create Test Case** from the dropdown menu.
 
-
 2. On the **Test Case Details** page, enter the **Title** and optional **Description**.
-
 
 3. Choose a **Template Type** from the dropdown menu in the **Test Case Properties** section.
 
-   *For selecting a template, refer to the Test Case Templates section.*
+   _For selecting a template, refer to the Test Case Templates section._
 
 4. Select any additional properties in the **Test Case Properties** section to further organize your test case.
-
 
 5. Add your test steps. Once completed, click **Create Test Case** to finalize and add the test case.
 
@@ -90,12 +87,7 @@ The following properties help you classify and organize test cases:
 
 - **Reviewer**: The team member who will review the test case.
 
-- **Automation Type**: Specifies the automation status of the test case:
-      - Automated
-      - Not Automated
-      - Automation Not Required
-      - Can’t Be Automated
-      - Obsolete
+- **Automation Type**: Specifies the automation status of the test case: - Automated - Not Automated - Automation Not Required - Can’t Be Automated - Obsolete
 
 - **Status**: The current state of the test case in the testing lifecycle (e.g., **Draft, Active, In Progress, Outdated**).
 
@@ -106,13 +98,13 @@ The following properties help you classify and organize test cases:
 
 ---
 
-## **Edit Test Cases** 
+## **Edit Test Cases**
 
 1. From the **Dashboard**, go to **Test Cases** and click any test case from the **Test Case List** section to open the **Quick View** overlay.
 
 2. In the **Quick View** overlay, click the **Edit** icon.
 
-3. Update the **Test Case Name**, **Test Steps**, **Folder**, **Properties**, and any other necessary fields. 
+3. Update the **Test Case Name**, **Test Steps**, **Folder**, **Properties**, and any other necessary fields.
 
 4. Once done, click **Update Test Case** to save the changes.
 
@@ -139,8 +131,8 @@ The following properties help you classify and organize test cases:
 2. Press **Command + K**, then select **Bulk Update Test Cases** from the **Testsigma Command Center**.
 
 3. Perform bulk actions such as:
-      - Change test case properties
-      - Move test cases to a different folder
-      - Delete multiple test cases at once
+   - Change test case properties
+   - Move test cases to a different folder
+   - Delete multiple test cases at once
 
 ---

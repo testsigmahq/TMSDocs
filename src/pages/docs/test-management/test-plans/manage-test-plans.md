@@ -1,29 +1,29 @@
 ---
-title: "Managing Test Plans"
-page_title: "Test Plans in Testsigma Test Management"
-metadesc: "Organize and manage your testing with test plans in Testsigma Test Management | Set the scope, goals, and schedules to run/track test plans clearly and efficiently."
+title: 'Managing Test Plans'
+page_title: 'Test Plans in Test Management by Testsigma'
+metadesc: 'Organize and manage your testing with test plans in Test Management by Testsigma | Set the scope, goals, and schedules to run/track test plans clearly and efficiently.'
 noindex: false
 order: 7.1
-page_id: "test-plans-in-testsigma-test-management"
+page_id: 'test-plans-in-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Create a Test Plan"
-  url: "#create-a-test-plan"
-- type: link
-  name: "Edit a Test Plan"
-  url: "#edit-a-test-plan"
-- type: link
-  name: "Delete a Test Plan"
-  url: "#delete-a-test-plan"  
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Create a Test Plan'
+    url: '#create-a-test-plan'
+  - type: link
+    name: 'Edit a Test Plan'
+    url: '#edit-a-test-plan'
+  - type: link
+    name: 'Delete a Test Plan'
+    url: '#delete-a-test-plan'
 ---
 
 ---
@@ -33,7 +33,7 @@ Test plans help you organize and manage your testing process. They're directly l
 ---
 
 > ## **Prerequisites**
-> 
+>
 > Before you begin, ensure you know how to create test runs. For more information, see Test Runs.
 
 ---
@@ -49,7 +49,7 @@ Test plans help you organize and manage your testing process. They're directly l
 
 ---
 
-## **Create a Test Plan** 
+## **Create a Test Plan**
 
 1. From the **Dashboard**, go to **Test Plans**, and then select **Create Test Plan**.
 

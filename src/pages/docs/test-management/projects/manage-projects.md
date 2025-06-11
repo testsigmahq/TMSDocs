@@ -1,43 +1,43 @@
 ---
-title: "Projects: Top-Level of Test Management"
-page_title: "Projects in Testsigma Test Management"
-metadesc: "In Testsigma Test Management, projects come at the top level of the hierarchy that contains test cases, test runs, and test plans | Learn about projects in Test Management"
+title: 'Projects: Top-Level of Test Management'
+page_title: 'Projects in Test Management by Testsigma'
+metadesc: 'In Test Management by Testsigma, projects come at the top level of the hierarchy that contains test cases, test runs, and test plans | Learn about projects in Test Management'
 noindex: false
 order: 2.1
-page_id: "projects-in-testsigma-test-management"
+page_id: 'projects-in-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Creating a Project"
-  url: "#creating-a-project"
-- type: link
-  name: "Editing a Project"
-  url: "#editing-a-project"
-- type: link
-  name: "Switching Betweeen Projects"
-  url: "#switching-betweeen-projects"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Creating a Project'
+    url: '#creating-a-project'
+  - type: link
+    name: 'Editing a Project'
+    url: '#editing-a-project'
+  - type: link
+    name: 'Switching Betweeen Projects'
+    url: '#switching-betweeen-projects'
 ---
 
 <br>
 
-**Learn how to create, edit, or delete projects in Testsigma Test Management with ease.**
+**Learn how to create, edit, or delete projects in Test Management by Testsigma with ease.**
 
 ---
 
-In Testsigma Test Management, the projects come at the top level of the hierarchy. Each project contains test cases, runs, and plans for a specific application. With everything in one place, tracking progress is more manageable, and you can focus on delivering high-quality testing confidently. This article discusses managing projects in Testsigma Test Management. 
+In Test Management by Testsigma, the projects come at the top level of the hierarchy. Each project contains test cases, runs, and plans for a specific application. With everything in one place, tracking progress is more manageable, and you can focus on delivering high-quality testing confidently. This article discusses managing projects in Test Management by Testsigma.
 
 ---
 
 > ## **Prerequisites**
-> 
+>
 > Before you begin, make sure you have an active Testsigma account. If you don’t have one, go to the [Testsigma signup page](https://testsigma.com/signup) to create an account.
 
 ---

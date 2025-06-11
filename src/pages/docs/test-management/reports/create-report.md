@@ -1,29 +1,29 @@
 ---
-title: "Creating Reports"
-page_title: "Creating Reports in Testsigma Test Management"
-metadesc: "Learn how to create reports in Testsigma Test Management | Reports help you analyze test execution, track progress, and identify defect trends in test cycles"
+title: 'Creating Reports'
+page_title: 'Creating Reports in Test Management by Testsigma'
+metadesc: 'Learn how to create reports in Test Management by Testsigma | Reports help you analyze test execution, track progress, and identify defect trends in test cycles'
 noindex: false
 order: 12.1
-page_id: "create-a-report-in-testsigma-test-management"
+page_id: 'create-a-report-in-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Creating a Report"
-  url: "#creating-a-report"
-- type: link
-  name: "Editing a Report"
-  url: "#editing-a-report"
-- type: link
-  name: "Deleting a Report"
-  url: "#deleting-a-report"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Creating a Report'
+    url: '#creating-a-report'
+  - type: link
+    name: 'Editing a Report'
+    url: '#editing-a-report'
+  - type: link
+    name: 'Deleting a Report'
+    url: '#deleting-a-report'
 ---
 
 <br>
@@ -32,13 +32,13 @@ contextual_links:
 
 ---
 
-Reports in Testsigma Test Management help you analyze test execution, track progress, and identify defect trends. This article discusses how to create reports using selected test artifacts.
+Reports in Test Management by Testsigma help you analyze test execution, track progress, and identify defect trends. This article discusses how to create reports using selected test artifacts.
 
 ---
 
 > ## **Prerequisites**
-> 
-> Before you begin, ensure your account has  one or more Test Cases, Test Runs, or Test Plans in your account.
+>
+> Before you begin, ensure your account has one or more Test Cases, Test Runs, or Test Plans in your account.
 
 ---
 
@@ -82,7 +82,7 @@ Reports in Testsigma Test Management help you analyze test execution, track prog
 
 3. Update the **Name** or **Description** as needed and click **Preview Selected Runs** to review the current artifact selection.
 
-4. Click **Update Selection** to add or remove test runs in the **Update Test Runs** page. 
+4. Click **Update Selection** to add or remove test runs in the **Update Test Runs** page.
 
 5. Click **Update Test Runs**, then select **Update Report** to save your changes.
 

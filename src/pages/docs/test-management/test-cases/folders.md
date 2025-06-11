@@ -1,31 +1,30 @@
 ---
-title: "Folders: Organizing Test Cases"
-page_title: "Getting Started with Testsigma Test Management"
-metadesc: "This article discusses overview of test management tool in Testsigma | Keep your test cases, test plans, test runs, and reports organized in one place"
+title: 'Folders: Organizing Test Cases'
+page_title: 'Getting Started with Test Management by Testsigma'
+metadesc: 'This article discusses overview of test management tool in Testsigma | Keep your test cases, test plans, test runs, and reports organized in one place'
 noindex: false
 order: 3.1
-page_id: "getting-started-testsigma-test-management"
+page_id: 'getting-started-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Create Folders"
-  url: "#create-folders"
-- type: link
-  name: "Create Subfolders"
-  url: "#create-subfolders"
-- type: link
-  name: "Options Available in the Kebab Menu"
-  url: "#options-available-in-the-kebab-menu"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Create Folders'
+    url: '#create-folders'
+  - type: link
+    name: 'Create Subfolders'
+    url: '#create-subfolders'
+  - type: link
+    name: 'Options Available in the Kebab Menu'
+    url: '#options-available-in-the-kebab-menu'
 ---
-
 
 <br>
 
@@ -33,13 +32,14 @@ contextual_links:
 
 ---
 
-Organizing test cases is easier with folders within a project. Testsigma Test Management allows you to create a hierarchical folder structure, where subfolders nest under parent folders for better organization. Each folder displays cumulative test case counts, giving you a clear view of the total test cases within a project. This article discusses creating, managing, and navigating test case folders efficiently.
+Organizing test cases is easier with folders within a project. Test Management by Testsigma allows you to create a hierarchical folder structure, where subfolders nest under parent folders for better organization. Each folder displays cumulative test case counts, giving you a clear view of the total test cases within a project. This article discusses creating, managing, and navigating test case folders efficiently.
+Test Management by Testsigma
 
 ---
 
 > ## **Prerequisites**
-> 
-> Before you begin, ensure you have a project created in Testsigma Test Management. For more information, see [Projects](http://testsigma.com/docs/test-management/projects/manage-projects/). 
+>
+> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see [Projects](http://testsigma.com/docs/test-management/projects/manage-projects/).
 
 ---
 
@@ -52,13 +52,12 @@ Organizing test cases is easier with folders within a project. Testsigma Test Ma
   </div>
 </div>
 
-
 ---
 
 ## **Create Folders**
 
 1. From the **Dashboard**, go to **Test Cases** and click **+ Create a Folder**.
-   
+
    Alternatively, click the **Add Folder** icon to create a new folder.
 
 2. In the text box that opens at the top left corner, enter a name and click the **+** icon.
@@ -67,7 +66,7 @@ Organizing test cases is easier with folders within a project. Testsigma Test Ma
 
 ---
 
-## **Create Subfolders** 
+## **Create Subfolders**
 
 1. Click the kebab menu next to the folder and select **Add Sub Folder** from the dropdown menu.
 

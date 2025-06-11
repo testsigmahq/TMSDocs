@@ -1,26 +1,26 @@
 ---
-title: "Manage Custom Fields"
-page_title: "Manage Custom Fields in Test Management"
-metadesc: "Create and manage custom fields in Testsigma test management to add specific details/additional details and filter tests efficiently in your test management workflow"
+title: 'Manage Custom Fields'
+page_title: 'Manage Custom Fields in Test Management'
+metadesc: 'Create and manage custom fields in Test Management by Testsigma to add specific details/additional details and filter tests efficiently in your test management workflow'
 noindex: false
 order: 9.2
-page_id: "custom-fields-in-testsigma-test-management"
+page_id: 'custom-fields-in-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Create a Custom Field"
-  url: "#create-a-custom-field"
-- type: link
-  name: "Add Custom Fields to a Test Case"
-  url: "#add-custom-fields-to-a-test-case"
-- type: link
-  name: "Filtering Test Cases Using Custom Fields"
-  url: "#filtering-test-cases-using-custom-fields"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Create a Custom Field'
+    url: '#create-a-custom-field'
+  - type: link
+    name: 'Add Custom Fields to a Test Case'
+    url: '#add-custom-fields-to-a-test-case'
+  - type: link
+    name: 'Filtering Test Cases Using Custom Fields'
+    url: '#filtering-test-cases-using-custom-fields'
 ---
 
 <br>
@@ -29,13 +29,13 @@ contextual_links:
 
 ---
 
-In Testsigma Test Management, you can create custom fields to add additional, project-specific information to your test cases. These fields help you track attributes beyond the default properties. After creating a custom field, you can add it to test cases and use it to filter and locate specific test cases efficiently. This article discusses how to create a custom field, add it to test cases, and filter test cases using custom field values.
+In Test Management by Testsigma, you can create custom fields to add additional, project-specific information to your test cases. These fields help you track attributes beyond the default properties. After creating a custom field, you can add it to test cases and use it to filter and locate specific test cases efficiently. This article discusses how to create a custom field, add it to test cases, and filter test cases using custom field values.
 
 ---
 
 > ## **Prerequisites**
-> 
-> Before you begin, ensure you have a project created in Testsigma Test Management. For more information, see Projects. 
+>
+> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see Projects.
 
 ---
 
@@ -46,11 +46,12 @@ In Testsigma Test Management, you can create custom fields to add additional, pr
 2. In the **Custom Fields** section, click **+ Add New**.
 
 3. In the **Add New Field** overlay:
+
    - Enter the **Field Name** and an optional **Description**.
    - Select the **Field Type** from the dropdown.
    - Enter the values for the selected **Field Type**, then click **Add**.
 
-4. The custom field will appear in the **Custom Fields** section. 
+4. The custom field will appear in the **Custom Fields** section.
 
 ---
 
@@ -66,7 +67,7 @@ In Testsigma Test Management, you can create custom fields to add additional, pr
 
 ## **Filtering Test Cases Using Custom Fields**
 
-1. From the **Dashboard**, go to **Test Cases**. 
+1. From the **Dashboard**, go to **Test Cases**.
 
 2. Press **Command + Shift + F** or click **Filter by**.
 

@@ -1,31 +1,31 @@
 ---
-title: "Manage Access: Grant/Revoke Permissions"
-page_title: "Test Management Settings"
-metadesc: "Grant temporary access to the Testsigma Support team for diagnosing and resolving support related issues | This article discusses how to authorize and revoke support access."
+title: 'Manage Access: Grant/Revoke Permissions'
+page_title: 'Test Management Settings'
+metadesc: 'Grant temporary access to the Testsigma Support team for diagnosing and resolving support related issues | This article discusses how to authorize and revoke support access.'
 noindex: false
 order: 9.5
-page_id: "manage-access-for-testsigma-test-management"
+page_id: 'manage-access-for-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Managing Access"
-  url: "#managing-access"
-- type: link
-  name: "Security and Privacy"
-  url: "#security-and-privacy"
-- type: link
-  name: "View Access Logs"
-  url: "#view-access-logs"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Managing Access'
+    url: '#managing-access'
+  - type: link
+    name: 'Security and Privacy'
+    url: '#security-and-privacy'
+  - type: link
+    name: 'View Access Logs'
+    url: '#view-access-logs'
 ---
 
 ---
 
-Admin in the Testsigma Test Management account can grant temporary access to the Testsigma Support team for diagnosing and resolving support related issues. This article discusses how to authorize and revoke support access.
+Admin in the Test Management by Testsigma account can grant temporary access to the Testsigma Support team for diagnosing and resolving support related issues. This article discusses how to authorize and revoke support access.
 
 ---
 
@@ -58,7 +58,6 @@ Admin in the Testsigma Test Management account can grant temporary access to the
 - You retain full control over access and can revoke it anytime based on your needs.
 
 ---
-
 
 ## **View Access Logs**
 

@@ -1,26 +1,25 @@
 ---
-title: "Report Bugs Directly from Atto"
-page_title: "Report Bugs Directly from Atto"
-metadesc: "Use Atto to execute test cases & report bugs directly to Jira | This simplifies the testing process by keeping execution and bug reporting in one place"
+title: 'Report Bugs Directly from Atto'
+page_title: 'Report Bugs Directly from Atto'
+metadesc: 'Use Atto to execute test cases & report bugs directly to Jira | This simplifies the testing process by keeping execution and bug reporting in one place'
 noindex: false
 order: 11.31
-page_id: "report-bugs-directly-from-atto"
+page_id: 'report-bugs-directly-from-atto'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Steps to Report Bugs to Jira Using Atto"
-  url: "#steps-to-report-bugs-to-jira-using-atto"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Steps to Report Bugs to Jira Using Atto'
+    url: '#steps-to-report-bugs-to-jira-using-atto'
 ---
-
 
 <br>
 
-**Directly execute and track test cases with Atto in Testsigma Test Management.**
+**Directly execute and track test cases with Atto in Test Management by Testsigma.**
 
 ---
 
@@ -28,13 +27,11 @@ You can use Atto to execute test cases and report bugs directly to Jira with jus
 
 ---
 
-
 > ## **Prerequisites**
-> 
+>
 > Before you begin, ensure you're signed in to Atto and know how to execute test cases in it.
 
 ---
-
 
 ## **Steps to Report Bugs to Jira Using Atto**
 
@@ -44,25 +41,25 @@ You can use Atto to execute test cases and report bugs directly to Jira with jus
 
 3. Atto reads the test run and fetches all the test cases in the test run.
 
-3. When the test cases appear in Atto, select **Start** next to the test case you want to execute.
+4. When the test cases appear in Atto, select **Start** next to the test case you want to execute.
 
-3. Atto analyzes the test case and displays the execution plan along with any necessary data.
+5. Atto analyzes the test case and displays the execution plan along with any necessary data.
 
-4. Add any missing data, and then click **Start Testing**.
+6. Add any missing data, and then click **Start Testing**.
 
-5. Atto executes the test steps by setting clear context.
+7. Atto executes the test steps by setting clear context.
 
-6. If a bug is found, Atto shows the **Test Case Execution Summary** along with the **Bug Report** option.
+8. If a bug is found, Atto shows the **Test Case Execution Summary** along with the **Bug Report** option.
 
-7. Click Bug Report.
+9. Click Bug Report.
 
-8. On the **Bug Report** overlay:
-      - Review the **Description**, **Affected Area**, and **Steps to Reproduce**.
-      - Select **Report Defect**.
+10. On the **Bug Report** overlay:
 
-9. This opens the **Add a Defect** section in Testsigma Test Management.
+    - Review the **Description**, **Affected Area**, and **Steps to Reproduce**.
+    - Select **Report Defect**.
 
-   Follow the steps in the [Link Defects to Jira](https://testsigma.com/docs/test-management/integrations/jira/#link-defects-to-jira) to log the defect. 
+11. This opens the **Add a Defect** section in Test Management by Testsigma.
 
+    Follow the steps in the [Link Defects to Jira](https://testsigma.com/docs/test-management/integrations/jira/#link-defects-to-jira) to log the defect.
 
 ---

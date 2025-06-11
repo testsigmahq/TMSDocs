@@ -1,26 +1,26 @@
 ---
-title: "Test Case Filters"
-page_title: "Test Case Filters in Testsigma Test Management"
-metadesc: "This article discusses Test Case Filters in Testsigma Test Management | Filtering test cases involves in filtering tests based on priority, type, status, and more"
+title: 'Test Case Filters'
+page_title: 'Test Case Filters in Test Management by Testsigma'
+metadesc: 'This article discusses Test Case Filters in Test Management by Testsigma | Filtering test cases involves in filtering tests based on priority, type, status, and more'
 noindex: false
 order: 3.4
-page_id: "test-cases-filters-in-testsigma-test-management"
+page_id: 'test-cases-filters-in-testsigma-test-management'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
-  name: "Filtering Test Cases"
-  url: "#filtering-test-cases"
-- type: link
-  name: "Available Filters"
-  url: "#available-filters"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Filtering Test Cases'
+    url: '#filtering-test-cases'
+  - type: link
+    name: 'Available Filters'
+    url: '#available-filters'
 ---
 
 <br>
@@ -34,8 +34,8 @@ Filtering test cases helps you find specific test cases based on properties such
 ---
 
 > ## **Prerequisites**
-> 
-> Before you begin, ensure that you have test cases available in Testsigma Test Management.
+>
+> Before you begin, ensure that you have test cases available in Test Management by Testsigma.
 
 ---
 
@@ -52,9 +52,8 @@ Filtering test cases helps you find specific test cases based on properties such
 
 ## **Filtering Test Cases**
 
-
 1. From the **Dashboard**, go to **Test Cases** and click **Filter by**.
-   
+
    Alternatively, press **Command+Shift+F** to open **Popover menu**
 
 2. On the **Popover menu**, select the filter properties to configure the filter criteria.
@@ -82,7 +81,6 @@ Filtering test cases helps you find specific test cases based on properties such
 - **Created At**: Narrow results by creation date or date range.
 
 - **Folder**: Filter test cases organized within specific folders.
-
 
 [[info | **NOTE**:]]
 | For more information on test case properties, see Manage Properties.
