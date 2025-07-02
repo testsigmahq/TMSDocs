@@ -109,5 +109,20 @@
   },
   "autonomous-testing": {
     "/docs/test-management/atto/autonomous-testing/": "Autonomous Testing"
+  },
+  "api-reference": {
+    "/docs/test-management/api-reference": "API Reference"
+  },
+  "modules": {
+    "/docs/test-management/api-reference/modules": "API Modules"
+  },
+  "jenkins": {
+    "/docs/test-management/ci-cd-integrations/jenkins/": "Jenkins"
+  },
+  "azure-devops": {
+    "/docs/test-management/ci-cd-integrations/azure-devops/": "Azure DevOps"
+  },
+  "ci-cd-integrations": {
+    "/docs/test-management/ci-cd-integrations/": "CI/CD Integrations"
   }
 }
