@@ -124,5 +124,14 @@
   },
   "ci-cd-integrations": {
     "/docs/test-management/ci-cd-integrations/": "CI/CD Integrations"
+  },
+  "github": {
+    "/docs/test-management/ci-cd-integrations/github": "GitHub"
+  },
+  "travis-ci": {
+    "/docs/test-management/ci-cd-integrations/travis-ci": "Travis CI"
+  },
+  "circleci": {
+    "/docs/test-management/ci-cd-integrations/circleci": "CircleCI"
   }
 }
