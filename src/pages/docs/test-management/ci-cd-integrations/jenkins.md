@@ -36,8 +36,9 @@ Integrate Jenkins with Test Management by Testsigma to automate test executions 
 > ## **Prerequisites**
 > 
 > Before you begin, ensure:
-> - A Project is created in Test Management by Testsigma and test runs are available.
-> - An Jenkins pipeline is configured.
+> - You have a **Project** in Test Management by Testsigma and **Test Runs** are available.
+> - You have an API token from Test Management by Testsigma.
+> - You have a [Jenkins](https://www.jenkins.io/) account.
 
 ---
 
@@ -107,7 +108,7 @@ Integrate Jenkins with Test Management by Testsigma to automate test executions 
 | - Replace `<Project_ID>` in the curl command with your Project ID, which you can retrieve using the Test Management by Testsigma APIs.
 | - Replace `<Run_ID>` in the curl command with the Run ID, which is available in the URL when viewing a test run in the format: `https://test-management.testsigma.com/ui/test_runs/<Run_ID>/`
 
-1. Click **Apply**, and then click **Save**.
+7. Click **Apply**, and then click **Save**.
 
 ---
 
