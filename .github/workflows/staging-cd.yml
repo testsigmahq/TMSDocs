@@ -29,10 +29,10 @@ jobs:
           echo BUCKET_NAME=${{ secrets.WEBSITE_STAGING_BUCKET_NAME }} >> .env
           echo HOST_NAME=${{ secrets.WEBSITE_STAGING_HOST_NAME }} >> .env
           echo ASSET_HOST=${{ secrets.WEBSITE_STAGING_ASSET_HOST }} >> .env
-          echo FRESHCHAT_TOKEN=${{ secrets.WEBSITE_STAGING_FRESHCHAT_TOKEN }} >> .env
-          echo GA_TRACKING_ID=${{ secrets.WEBSITE_STAGING_GA_TRACKING_ID }} >> .env
-          echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.WEBSITE_STAGING_GTAG_TRACKING_ID_FOR_GA4 }} >> .env
-          echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.WEBSITE_STAGING_GTAG_TRACKING_ID_FOR_GTAG }} >> .env
+          echo FRESHCHAT_TOKEN=${{ secrets.FRESHCHAT_TOKEN }} >> .env
+          echo GA_TRACKING_ID=${{ secrets.GA_TRACKING_ID }} >> .env
+          echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.GTAG_TRACKING_ID_FOR_GA4 }} >> .env
+          echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.GTAG_TRACKING_ID_FOR_GTAG }} >> .env
           echo TYPESENSE_HOST=${{ secrets.WEBSITE_STAGING_TYPESENSE_HOST }} >> .env
           echo TYPESENSE_PORT=${{ secrets.WEBSITE_STAGING_TYPESENSE_PORT }} >> .env
           echo TYPESENSE_PROTOCOL=${{ secrets.WEBSITE_STAGING_TYPESENSE_PROTOCOL }} >> .env
