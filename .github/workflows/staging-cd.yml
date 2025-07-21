@@ -45,8 +45,10 @@ jobs:
           echo "AWS_ROLE_ARN=${{secrets.AWS_GITHUB_OIDC_ROLE_ARN}}" >> $GITHUB_ENV
           echo "AWS_DEFAULT_REGION=us-east-1" >> $GITHUB_ENV
           cat .env
+
       - name: Set environment
         run: sed -i 's/localhost/website.testsigma.com/g' src/environment.ts
+
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
