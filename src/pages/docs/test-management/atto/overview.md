@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Atto: AI-powered Agent"
+title: "Introduction to Atto: Your AI Coworker"
 page_title: "Introduction to Atto"
 metadesc: "Atto, a team of AI agents to autonomously plan, design, develop, execute, maintain, and optimize tests | Atto is your AI coworker if you're into QA"
 noindex: false
@@ -54,6 +54,9 @@ Atto works with you, not for you. It strengthens your expertise with smart sugge
 ### **Executor Agent**
    - [Download Atto](https://testsigma.com/docs/test-management/atto/executor-agent/download/)
    - [Execute Tests Using Atto](https://testsigma.com/docs/test-management/atto/executor-agent/execute-test-runs/)
+
+### **Bug Reporter Agent**
+   - [Report Bugs](https://testsigma.com/docs/test-management/atto/bug-reporter-agent/report-bugs/)
 
 ---
 

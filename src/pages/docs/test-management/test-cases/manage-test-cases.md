@@ -59,19 +59,21 @@ Managing test cases involves creating, editing, moving, and deleting them. This 
 
 ## **Create Test Cases**
 
-1. From the **Dashboard**, go to **Test Cases** and click **+ Create Test Case**.
+1. From the **Dashboard**, go to **Test Cases** and click **+ Create**.
 
-   Alternatively, click the kebab menu (three dots) next to the **Folder/Sub Folder** and select **Create Test Case** from the dropdown menu.
+   Alternatively, click the kebab menu (three dots) next to the **Folder/Sub Folder** and select **Create Testcase** from the dropdown menu.
 
-2. On the **Test Case Details** page, enter the **Title** and optional **Description**.
+2. On the **Modal Dialog** that appears: 
+   - Enter a **title** and an optional **description**.
+   - Choose a **template type** from the dropdown menu.
+   - Click **Folder** and choose a location for the test case in the overlay, then click **Select Folder**.
+   - Select any additional properties to further organize your test case.
+   - Click **Create**
 
-3. Choose a **Template Type** from the dropdown menu in the **Test Case Properties** section.
+4. On the test case details page, add your test steps. The actions will auto-save.
 
-   _For selecting a template, refer to the Test Case Templates section._
-
-4. Select any additional properties in the **Test Case Properties** section to further organize your test case.
-
-5. Add your test steps. Once completed, click **Create Test Case** to finalize and add the test case.
+[[info | **NOTE**:]]
+| You can also select properties in the **Test Case Properties** section.
 
 ---
 
@@ -87,11 +89,22 @@ The following properties help you classify and organize test cases:
 
 - **Reviewer**: The team member who will review the test case.
 
-- **Automation Type**: Specifies the automation status of the test case: - Automated - Not Automated - Automation Not Required - Can’t Be Automated - Obsolete
+- **Automation Type**: Specifies the automation status of the test case: 
+     - **Automated** 
+     - **Not Automated** 
+     - **Automation Not Required** 
+     - **Can’t Be Automated** 
+     - **Obsolete**
 
 - **Status**: The current state of the test case in the testing lifecycle (e.g., **Draft, Active, In Progress, Outdated**).
 
 - **Test Case Type**: Defines the type based on the test case's purpose and testing approach (e.g., **Functional, Regression, Smoke**, etc.).
+
+- **Requirements**: Link Jira stories from here.
+
+- **Labels**: Link labels from the dropdown menu.
+
+**Attachments**: You can add files that support your test case from here. 
 
 [[info | **NOTE**:]]
 | The **Test Case Properties** are editable under **Settings > Manage Properties**.
@@ -106,11 +119,9 @@ The following properties help you classify and organize test cases:
 
 3. Update the **Test Case Name**, **Test Steps**, **Folder**, **Properties**, and any other necessary fields.
 
-4. Once done, click **Update Test Case** to save the changes.
+4. The test case will be auto saved.
 
-5. The test case will be updated.
-
-   Alternatively, you can click the Kebab menu corresponding to the test case and select **Edit** from the dropdown menu to make changes.
+   Alternatively, you can click the kebab menu corresponding to the test case and select **Edit** from the dropdown menu to make changes.
 
 ---
 
@@ -118,7 +129,7 @@ The following properties help you classify and organize test cases:
 
 1. From the **Dashboard**, go to **Test Cases**.
 
-2. Click the **Kebab menu** corresponding to the test case and select **Delete** from the dropdown menu.
+2. Click the kebab menu corresponding to the test case and select **Delete** from the dropdown menu.
 
 3. On the **Delete Test Case?** dialog, click **Delete Test Case** to confirm deletion.
 
@@ -131,8 +142,11 @@ The following properties help you classify and organize test cases:
 2. Press **Command + K**, then select **Bulk Update Test Cases** from the **Testsigma Command Center**.
 
 3. Perform bulk actions such as:
+   
    - Change test case properties
+   
    - Move test cases to a different folder
+   
    - Delete multiple test cases at once
 
 ---

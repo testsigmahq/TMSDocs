@@ -1,10 +1,10 @@
 ---
-title: 'Autonomous Test Generator'
-page_title: 'Autonomous Test Generator in Testsigma'
+title: 'Sprint Planner: Effortless Jira Sprint Management'
+page_title: 'Generate Tests from Sprint Planner'
 metadesc: 'Generate test cases automatically by integrating Jira with Test Management by Testsigma | Activate the sprint, select stories and generate multiple test cases'
 noindex: false
-order: 11.41
-page_id: 'autonomous-test-generator'
+order: 11.11
+page_id: 'sprint-planner'
 warning: false
 contextual_links:
   - type: section
@@ -35,13 +35,19 @@ contextual_links:
 
 ---
 
-You can generate test cases automatically by integrating Jira with Test Management by Testsigma. Atto detects sprints from Jira and displays them on the Atto Home. You can activate a sprint and select user stories to generate multiple test cases with just a few clicks. This article discusses using Jira sprints to generate test cases in Test Management by Testsigma automatically.
+You can generate test cases automatically by integrating Jira with Test Management by Testsigma. Atto detects sprints from Jira and displays them on the Atto Home. You can activate a sprint and select user stories to generate multiple test cases with just a few clicks.
+
+The **Sprint Planner Agent** helps you manage and organize your Jira sprints in Testsigma, while the **Generator Agent** automatically generates test cases from selected sprint stories. This article explains how to use these agents together for a seamless test creation workflow.
 
 ---
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project and are connected to a Jira project in Test Management by Testsigma.
+> Before you begin, ensure:
+>    - You have a project created in Test Management by Testsigma.
+>    - The project is connected to a Jira project.
+>    - You have **Admin Access** in Jira to authorize the initial integration with Test Management by Testsigma.
+>    - You know how to create **WebHooks in Jir**a to enable real-time sync between Jira and Test Management by Testsigma. For more information, see [Creating WebHooks in Jira](https://developer.atlassian.com/server/jira/platform/webhooks/).
 
 ---
 
@@ -110,6 +116,9 @@ You can generate test cases automatically by integrating Jira with Test Manageme
 
 1. Once you activate a sprint in Jira, Atto detects and displays sprint details in a popup in Test Management by Testsigma.
 
+   [[info | **NOTE**:]]
+   | At this stage, the **Generator Agent** takes over and starts generating test cases automatically based on the selected user stories. You can review, edit, and organize these cases before saving them.
+
 2. Click **Start Generating Tests** to start generating tests for the attached stories. 
    ![Sprint Activate Popup](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Sprint_Activate_from_Jira.png)
 
@@ -140,14 +149,6 @@ You can generate test cases automatically by integrating Jira with Test Manageme
 9.  Atto automatically sets the story status to **In Progress** once test case generation completes.
 
 10. Repeat these steps for each story in the sprint.
-
-[[info | **NOTE**:]]
-|
-| You can integrate a Jira project with a Test Management by Testsigma project using a WebHook. This integration synchronizes test activities and issue status updates between both systems.
-|
-| <br>
-|
-| For more information, see [Jira WebHooks](https://developer.atlassian.com/server/jira/platform/webhooks/).
 
 ---
 

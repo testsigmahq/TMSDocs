@@ -40,7 +40,7 @@ You can edit step groups to update test steps, descriptions, or other attributes
 
 3. Edit the name, description, attachments, or test steps as needed.
 
-4. Click **Update Step Group** to save.
+4. The step group will be auto saved.
 
 [[info | **NOTE**:]]
 | Editing a step group updates it in all linked test cases.
@@ -59,5 +59,6 @@ You can edit step groups to update test steps, descriptions, or other attributes
 
 [[info | **NOTE**:]]
 | This action unlinks the step group from all linked test cases. This action is permanent and cannot be undone.
+
 
 ---
