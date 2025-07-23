@@ -107,7 +107,37 @@
   "reports": {
     "/docs/test-management/reports/": "Reports & Analytics"
   },
-  "autonomous-testing": {
-    "/docs/test-management/atto/autonomous-testing/": "Autonomous Testing"
+  "manage-sprints": {
+    "/docs/test-management/atto/sprint-planner/manage-sprints/": "Manage Jira Sprints"
+  },
+  "api-reference": {
+    "/docs/test-management/api-reference": "API Reference"
+  },
+  "modules": {
+    "/docs/test-management/api-reference/modules": "API Modules"
+  },
+  "jenkins": {
+    "/docs/test-management/ci-cd-integrations/jenkins/": "Jenkins"
+  },
+  "azure-devops": {
+    "/docs/test-management/ci-cd-integrations/azure-devops/": "Azure DevOps"
+  },
+  "ci-cd-integrations": {
+    "/docs/test-management/ci-cd-integrations/": "CI/CD Integrations"
+  },
+  "github": {
+    "/docs/test-management/ci-cd-integrations/github": "GitHub"
+  },
+  "travis-ci": {
+    "/docs/test-management/ci-cd-integrations/travis-ci": "Travis CI"
+  },
+  "circleci": {
+    "/docs/test-management/ci-cd-integrations/circleci": "CircleCI"
+  },
+  "versions": {
+    "/docs/test-management/test-cases/versions/": "Versions"
+  },
+  "sprint-planner": {
+    "/docs/test-management/atto/sprint-planner/": "Sprint Planner Agent"
   }
 }
