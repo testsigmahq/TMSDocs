@@ -1,7 +1,7 @@
 ---
-title: 'Sprint Planner: Effortless Jira Sprint Management'
-page_title: 'Generate Tests from Sprint Planner'
-metadesc: 'Generate test cases automatically by integrating Jira with Test Management by Testsigma | Activate the sprint, select stories and generate multiple test cases'
+title: 'Sprint Planner: For Effortless Test Planning with AI'
+page_title: 'Sprint Planner for Test Management'
+metadesc: 'Use Sprint Planner and Generator Agents in Testsigma to manage Jira sprints and auto-generate test cases for a seamless test creation workflow.'
 noindex: false
 order: 11.11
 page_id: 'sprint-planner'
