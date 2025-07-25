@@ -3,7 +3,7 @@ title: 'Figma Integration with Test Management by Testsigma'
 page_title: 'Figma Integration with Testsigma'
 metadesc: 'Generate test cases directly from Figma designs in Testsigma | Ensure design-to-test alignment and accelerate test creation by converting UI elements into test steps'
 noindex: false
-order: 8.2
+order: 8.3
 page_id: 'figma-integration-with-testsigma-test-management'
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: 'Jira Integration with Test Management by Testsigma'
 page_title: 'Jira Integration with Testsigma'
 metadesc: 'Integrate Test Management by Testsigma with Jira to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
-order: 8.1
+order: 8.2
 page_id: 'jira-integration-with-testsigma-test-management'
 warning: false
 contextual_links:
