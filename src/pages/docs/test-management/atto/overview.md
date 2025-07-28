@@ -1,23 +1,23 @@
 ---
-title: "Introduction to Atto: AI-powered Agent"
-page_title: "Introduction to Atto"
+title: 'Introduction to Atto: Your AI Coworker'
+page_title: 'Introduction to Atto'
 metadesc: "Atto, a team of AI agents to autonomously plan, design, develop, execute, maintain, and optimize tests | Atto is your AI coworker if you're into QA"
 noindex: false
 order: 11
-page_id: "introduction-to-atto-agentic-ai"
+page_id: 'introduction-to-atto-agentic-ai'
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Overview of Atto Agents"
-  url: "#overview-of-atto-agents"
-- type: link
-  name: "Getting Started"
-  url: "#getting-started"
-- type: link
-  name: "Getting Help"
-  url: "#getting-help"
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Overview of Atto Agents'
+    url: '#overview-of-atto-agents'
+  - type: link
+    name: 'Getting Started'
+    url: '#getting-started'
+  - type: link
+    name: 'Getting Help'
+    url: '#getting-help'
 ---
 
 <br>
@@ -45,15 +45,21 @@ Atto works with you, not for you. It strengthens your expertise with smart sugge
 ## **Getting Started**
 
 ### **Generator Agent**
-   - [Generate Test Cases with Prompts](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-with-prompts/)
-   - [Generate Test Cases from Jira](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-jira/)
-   - [Generate Test Cases from Images](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-images/)
-   - [Generate Test Cases from Recording](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-recording/)
-   - [Generate Test Cases from Figma](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-figma/)
-  
+
+- [Generate Test Cases with Prompts](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-with-prompts/)
+- [Generate Test Cases from Jira](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-jira/)
+- [Generate Test Cases from Images](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-images/)
+- [Generate Test Cases from Recording](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-recording/)
+- [Generate Test Cases from Figma](https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-figma/)
+
 ### **Executor Agent**
-   - [Download Atto](https://testsigma.com/docs/test-management/atto/executor-agent/download/)
-   - [Execute Tests Using Atto](https://testsigma.com/docs/test-management/atto/executor-agent/execute-test-runs/)
+
+- [Download Atto](https://testsigma.com/docs/test-management/atto/executor-agent/download/)
+- [Execute Tests Using Atto](https://testsigma.com/docs/test-management/atto/executor-agent/execute-test-runs/)
+
+### **Bug Reporter Agent**
+
+- [Report Bugs](https://testsigma.com/docs/test-management/atto/bug-reporter-agent/report-bugs/)
 
 ---
 

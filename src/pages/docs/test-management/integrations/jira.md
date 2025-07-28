@@ -3,7 +3,7 @@ title: 'Jira Integration with Test Management by Testsigma'
 page_title: 'Jira Integration with Testsigma'
 metadesc: 'Integrate Test Management by Testsigma with Jira to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
-order: 8.1
+order: 8.2
 page_id: 'jira-integration-with-testsigma-test-management'
 warning: false
 contextual_links:
@@ -54,13 +54,13 @@ Test Management by Testsigma allows seamless integration with Jira, which enable
 
 ## **Integrate Jira**
 
-1. On the **Dashboard**, click **Integrations**. This opens the **Integrations** section under **Settings**.
+1. From the **Dashboard**, go to **Settings > Integrations**.
 
-2. Click **Setup Integration** next to the **Jira** icon. This opens a new tab with the **Atlassian** login page.
+2. Click **Setup Integration** next to the Jira icon. This opens a new tab with the **Atlassian Login** page.
 
 3. Log in using valid credentials.
 
-4. On the **Requesting Access** page, select the app from the Use app on dropdown.
+4. On the **Requesting Access** page, select the app from the **Use app on** dropdown.
 
 5. Click **Accept** to complete the integration.
 

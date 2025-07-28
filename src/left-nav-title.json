@@ -107,8 +107,8 @@
   "reports": {
     "/docs/test-management/reports/": "Reports & Analytics"
   },
-  "autonomous-testing": {
-    "/docs/test-management/atto/autonomous-testing/": "Autonomous Testing"
+  "manage-sprints": {
+    "/docs/test-management/atto/sprint-planner/manage-sprints/": "Manage Jira Sprints"
   },
   "api-reference": {
     "/docs/test-management/api-reference": "API Reference"
@@ -133,5 +133,14 @@
   },
   "circleci": {
     "/docs/test-management/ci-cd-integrations/circleci": "CircleCI"
+  },
+  "versions": {
+    "/docs/test-management/test-cases/versions/": "Versions"
+  },
+  "sprint-planner": {
+    "/docs/test-management/atto/sprint-planner/": "Sprint Planner Agent"
+  },
+  "jira-two-way-integration": {
+    "/docs/test-management/integrations/jira-two-way-integration/": "Jira Two-way Integration"
   }
 }
