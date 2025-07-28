@@ -1,7 +1,7 @@
 ---
 title: 'Manage Test Cases in Jira App'
 page_title: 'Manage Test Cases in Jira'
-metadesc: 'The Testsigma for Jira Cloud app simplifies your workflow by allowing you to create & manage tests directly in Jira. You can also edit, or unlink tests from the linked Jira issue.'
+metadesc: 'The Test Management by Testsigma app simplifies your workflow by allowing you to create & manage tests directly in Jira. You can also edit, or unlink tests from the linked Jira issue.'
 noindex: false
 order: 8.12
 page_id: 'manage-tests-in-jira-app'
@@ -28,7 +28,7 @@ contextual_links:
 
 ---
 
-The Testsigma for Jira Cloud app simplifies your workflow by allowing you to create and manage test cases directly in Jira. You can also edit, or unlink test cases from the associated Jira issue.
+The Test Management by Testsigma app simplifies your workflow by allowing you to create and manage test cases directly in Jira. You can also edit, or unlink test cases from the associated Jira issue.
 
 ---
 
@@ -42,10 +42,8 @@ The Testsigma for Jira Cloud app simplifies your workflow by allowing you to cre
 
 1. Open the Jira issue in a linked Jira project.
 
-2. Click **Jira App Actions** and then select **Testsigma for Jira Cloud**.
+2. Click **Jira App Actions** and then select **Test Management by Testsigma**.
    ![Testsigma App Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Connect_Testsigma_to_Issue.png)
-
-3. Refresh the page to view all test cases linked to the issue from Test Management by Testsigma.
 
 [[info | **NOTE**:]]
 | Test cases generated and accepted using AI are automatically added to this module.

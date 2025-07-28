@@ -1,7 +1,7 @@
 ---
 title: 'Manage Test Runs in Jira App'
 page_title: 'Manage Test Runs in Jira'
-metadesc: 'The Testsigma for Jira Cloud app simplifies your workflow by allowing you to manage test runs & test case results directly within Jira.'
+metadesc: 'The Test Management by Testsigma app simplifies your workflow by allowing you to manage test runs & test case results directly within Jira.'
 noindex: false
 order: 8.13
 page_id: 'manage-test-runs-in-jira-app'
@@ -28,7 +28,7 @@ contextual_links:
 
 ---
 
-The Testsigma for Jira Cloud app simplifies your workflow by allowing you to manage test runs and test case results directly within Jira. You can update test results, add or link defects, and manage linked test cases from within the Jira issue view.
+The Test Management by Testsigma app simplifies your workflow by allowing you to manage test runs and test case results directly within Jira. You can update test results, add or link defects, and manage linked test cases from within the Jira issue view.
 
 ---
 
@@ -42,10 +42,8 @@ The Testsigma for Jira Cloud app simplifies your workflow by allowing you to man
 
 1. Open the Jira issue in a linked Jira project.
 
-2. Click **Jira App Actions**, and then select **Testsigma for Jira Cloud**.
+2. Click **Jira App Actions**, and then select **Test Management by Testsigma**.
    ![Testsigma App Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Connect_Testsigma_to_Issue.png)
-
-3. Refresh the page to view all test runs linked to the issue from Test Management by Testsigma.
 
 [[info | **NOTE**:]]
 | Test runs that include test cases associated with the Jira issue are automatically displayed.

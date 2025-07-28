@@ -13,8 +13,8 @@ contextual_links:
     name: 'Prerequisites'
     url: '#prerequisites'
   - type: link
-    name: 'Install the Testsigma for Jira Cloud app'
-    url: '#install-the-testsigma-for-jira-cloud-app'
+    name: 'Install the Test Management by Testsigma app'
+    url: '#install-the-test-management-by-testsigma-app'
   - type: link
     name: 'Connect Testsigma and Jira'
     url: '#connect-testsigma-and-jira'
@@ -36,19 +36,19 @@ The Testsigma Integration for Jira app seamlessly extends Jira’s core capabili
 
 ---
 
-## **Install the Testsigma for Jira Cloud App**
+## **Install the Test Management by Testsigma App**
 
-1. Navigate to the [Atlassian Marketplace](https://marketplace.atlassian.com/) and search for **Testsigma for Jira Cloud**.
+1. Navigate to the [Atlassian Marketplace](https://marketplace.atlassian.com/) and search for **Test Management by Testsigma**.
 
-2. Install **Testsigma for Jira Cloud** in your Jira instance.
+2. Install **Test Management by Testsigma** in your Jira instance.
 
-3. In Jira, go to **Apps > Manage apps** and confirm **Testsigma for Jira Cloud** is installed.
+3. In Jira, go to **Apps > Manage apps** and confirm **Test Management by Testsigma** is installed.
    ![Testsigma App for Jira Cloud](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/testsigma_app_for_jira.png)
 ---
 
 ## **Connect Testsigma and Jira**
 
-1. In the left panel under **Apps**, click **Testsigma for Jira Cloud**. This opens the authorization page.
+1. In the left panel under **Apps**, click **Test Management by Testsigma**. This opens the authorization page.
 
 2. On the **Connect Testsigma to Jira** page, click **Authorize to Jira Marketplace App** Integration.
    ![Connect Testsigma to Jira](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Connect_Testsigma_App.png)
