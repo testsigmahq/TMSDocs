@@ -71,7 +71,6 @@ jobs:
       - name: Start Gatsby server
         run: |
           npm run clean
-          rm -rf .cache public
           npm run develop &
         env:
           GATSBY_TELEMETRY_DISABLED: 1
