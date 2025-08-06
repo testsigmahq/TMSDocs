@@ -28,7 +28,7 @@ contextual_links:
 
 <br>
 
-**You don’t need more test cases. You need the right ones. This guide shows you how.”**
+**You don’t need more test cases. You need the right ones. This guide shows you how.**
 
 ---
 
