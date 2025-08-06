@@ -79,9 +79,7 @@ jobs:
       - name: Wait for Gatsby server to start
         run: |
           sleep 20
-          until $(curl --output /dev/null --silent --head --fail http://localhost:8005); do
-          sleep 1
-          done
+          timeout 60 bash -c 'until curl --output /dev/null --silent --head --fail http://localhost:8005; do sleep 1; done'
 
       - name: Run indexing script
         run: npm run index
