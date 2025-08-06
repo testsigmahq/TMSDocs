@@ -70,7 +70,6 @@ jobs:
 
       - name: Start Gatsby server
         run: |
-          npm run clean
           npm run develop &
         env:
           GATSBY_TELEMETRY_DISABLED: 1
