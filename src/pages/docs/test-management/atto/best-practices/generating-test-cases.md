@@ -176,16 +176,20 @@ After generating test cases with Atto, you can curate and enhance the test cases
      - Test data
      - Verification steps
      - Flow & UI context
+       
+       ![Refine with AI](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Refine_Tests_with_AI.png)
      
      Refining ensures each test case is actionable, traceable, and ready for manual execution or automation.
 
 ### **2. Work Within a Single Feature Context**
 To get accurate, focused, and manageable test case generation from Atto, always create a session in Atto’s Home around a single feature or a group of closely related features.
 - Group relevant assets such as user stories, Figma designs, API endpoints, and files related to that one feature.
+  ![All Inputs for AI](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/All_Inputs_for_AI.png)
 - Avoid mixing unrelated contexts in the same session to prevent confusing or inaccurate outputs.
 - Use the prompt area effectively by clearly stating:
    - The feature under test
    - The context you’re providing (stories, designs, workflows, etc.)
    - The expected outcomes from the AI-generated test cases
+     ![Example Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Clear_Prompt_Example.png)
 
 ---
