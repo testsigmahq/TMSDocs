@@ -142,5 +142,14 @@
   },
   "jira-two-way-integration": {
     "/docs/test-management/integrations/jira-two-way-integration/": "Jira Two-way Integration"
+  },
+  "generating-test-cases": {
+    "/docs/test-management/atto/best-practices/generating-test-cases/": "Generating Test Cases"
+  },
+  "writing-best-prompts": {
+    "/docs/test-management/atto/best-practices/writing-best-prompts/": "Writing Effective Prompts"
+  },
+  "best-practices": {
+    "/docs/test-management/atto/best-practices/": "Best Practices"
   }
 }
