@@ -27,6 +27,9 @@ contextual_links:
   - type: link
     name: 'Defects Logged'
     url: '#defects-logged'
+  - type: link
+    name: 'Export Reports'
+    url: '#export-reports'
 ---
 
 <br>
@@ -145,5 +148,17 @@ You can use this chart to monitor the quality and success rate of test execution
 This section displays a **Bar Chart** showing the number of defects logged over time. The chart distinguishes defect inflow across days or weeks, allowing you to evaluate trends in defect reporting.
 
 You can use this chart to evaluate defect density and identify periods of high defect activity in test cycles.
+
+---
+
+## **Export Reports**
+
+1. On the **Dashboard**, apply the necessary filters, and click **Export**.
+
+   For more information about applying filters, see [Filters](https://testsigma.com/docs/test-management/reports/dashboard-reports/#filters).
+
+2. In the **Export Report as PDF** dialog box, enter a name, and click **Download PDF**.
+
+3. The system downloads the report as a PDF file.
 
 ---

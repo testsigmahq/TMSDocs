@@ -22,7 +22,7 @@ contextual_links:
 
 <br>
 
-**This isn’t just another AI feature but a collection of focused agents that handle the real work.**
+**This isn't just another AI feature but a collection of focused agents that handle the real work.**
 
 ---
 

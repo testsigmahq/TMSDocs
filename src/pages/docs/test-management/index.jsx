@@ -61,7 +61,7 @@ const IndexContent = () => {
                   fill='white'
                 />
               </svg>
-              <span>Chat with US</span>
+              <span>Chat with us</span>
             </div>
           </button>
           <Link to={'/community'}>
