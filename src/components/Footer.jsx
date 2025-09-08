@@ -12,21 +12,6 @@ const Footer = () => {
     <>
       <FeedbackButtons />
       {/* <SubscribeButton /> */}
-      <div className='footer-cta rounded'>
-        <div className='flex items-center justify-between flex-wrap'>
-          <h3 className='cta-heading m-0'>
-            Learn how to execute low code tests across 3000+ device / browser
-            environments.
-          </h3>
-          <a
-            href='/request-demo'
-            target={'_blank'}
-            className='cta-link border border-primary_teal_green base-teal-gradient px-4 py-1.5 text-white rounded h-10'
-          >
-            Schedule a free demo
-          </a>
-        </div>
-      </div>
       <div className='footer_greyBox'>
         <img src={tsLogo} alt='Testsigma' />
         <p>Want to contribute or report missing content?</p>
