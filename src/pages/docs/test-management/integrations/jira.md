@@ -109,8 +109,6 @@ Test Management by Testsigma allows seamless integration with Jira, which enable
 
 5. Enter a **Summary** and an optional Description.
 
-6. Click **+ Add Defect**.
-
-   The new issue will be created in Jira and the defect will be linked to it.
+6. Click **+ Add Defect**. The new issue will be created in Jira and the defect will be linked to it.
 
 ---
