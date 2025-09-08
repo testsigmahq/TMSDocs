@@ -151,5 +151,8 @@
   },
   "best-practices": {
     "/docs/test-management/atto/best-practices/": "Best Practices"
+  },
+  "manage-linear-cycles": {
+    "/docs/test-management/atto/sprint-planner/manage-linear-cycles/": "Manage Liner Cycles"
   }
 }

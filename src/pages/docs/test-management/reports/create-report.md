@@ -22,6 +22,9 @@ contextual_links:
     name: 'Editing a Report'
     url: '#editing-a-report'
   - type: link
+    name: 'Exporting a Report'
+    url: '#exporting-a-report'
+  - type: link
     name: 'Deleting a Report'
     url: '#deleting-a-report'
 ---
@@ -46,8 +49,8 @@ Reports in Test Management by Testsigma help you analyze test execution, track p
 
 <div>
   <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/pussg8mvmwnb?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(53.83% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/juqhmdaeuyaw?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
   </div>
 </div>
 
@@ -88,6 +91,22 @@ Reports in Test Management by Testsigma help you analyze test execution, track p
 
 [[info | **NOTE**:]]
 | You can follow the same steps to edit reports created with test cases or test plans.
+
+---
+
+## **Exporting a Report**
+
+1. On the **Dashboard**, go to **Reports**.
+
+2. On the **Reports List** page, select an artifact type tab (**Test Cases, Test Runs, or Test Plans**).
+
+3. Select a report from the list.
+
+4. In the top-right corner, click **Export**.
+
+5. In the **Export Report as PDF** dialog box, enter a name, and click **Download PDF**.
+
+6. The system downloads the report as a PDF file.
 
 ---
 
