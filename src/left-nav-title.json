@@ -154,5 +154,8 @@
   },
   "manage-linear-cycles": {
     "/docs/test-management/atto/sprint-planner/manage-linear-cycles/": "Manage Liner Cycles"
+  },
+  "linear": {
+    "/docs/test-management/integrations/linear/": "Linear Integration"
   }
 }
