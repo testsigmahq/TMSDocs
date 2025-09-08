@@ -595,7 +595,7 @@ code[class*="language-"] {
 }
 .homepage_footer{
   flex-basis: 100%;
-  justify-content: space-between;
+  justify-content: center;
   margin: 2rem 0 4rem;
   .pagination_buttons{
     @media (min-width: $screen_768) {
