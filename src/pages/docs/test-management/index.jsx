@@ -30,22 +30,10 @@ const IndexContent = () => {
       <div className='w-full pt-8 card_container'>
         <CardList />
       </div>
-      <div className='footer-cta rounded'>
-        <div className='flex items-center justify-evenly flex-wrap'>
-          <h3 className='cta-heading m-0'>
-            Learn how to execute low code tests across 3000+ device / browser
-            environments.
-          </h3>
-          <a
-            href='/request-demo'
-            target={'_blank'}
-            className='cta-link border border-primary_teal_green px-4 py-1.5 base-teal-gradient text-white rounded h-10'
-          >
-            Schedule a free demo
-          </a>
-        </div>
-      </div>
-      <div className='flex flex-wrap homepage_footer'>
+      <div class="w-full">
+<hr  />
+</div>
+      <div className='flex flex-wrap homepage_footer justify-center'>
         <div className='flex flex-wrap'>
           <button onClick={() => window.fcWidget.open()}>
             <div className='flex items-center chat_btn'>
