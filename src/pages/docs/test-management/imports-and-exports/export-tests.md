@@ -20,6 +20,10 @@ contextual_links:
     url: '#export-test-cases'
 ---
 
+<br>
+
+**Learn how to export test cases and step groups in Excel format from Test Management by Testsigma.**
+
 ---
 
 Testsigma allows you to export test cases and step groups in excel file format, with all the associated information. This feature helps you backup, migrate, or review your test data outside the platform. This document discusses exporting test cases and step groups from Test Management by Testsigma.

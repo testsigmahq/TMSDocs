@@ -26,6 +26,10 @@ contextual_links:
     url: '#link-defects-to-a-new-issue'
 ---
 
+<br>
+
+**Learn how to create, edit, and manage test cases directly within Jira using Test Management by Testsigma app.**
+
 ---
 
 The Test Management by Testsigma app simplifies your workflow by allowing you to create and manage test cases directly in Jira. You can also edit, or unlink test cases from the associated Jira issue.

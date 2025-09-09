@@ -20,6 +20,10 @@ contextual_links:
     url: '#generate-test-cases-from-video-recording'
 ---
 
+<br>
+
+**Generate detailed test cases quickly using video recordings in Test Management by Testsigma.**
+
 ---
 
 Testsigma allows you to generate test cases using video recordings that demonstrate user actions. The AI analyzes the recording to extract steps and automatically builds detailed test cases.

@@ -26,6 +26,10 @@ contextual_links:
     url: '#link-defects-to-existing-issues'
 ---
 
+<br>
+
+**Learn how to manage test runs and update test case status directly within Jira using Test Management by Testsigma.**
+
 ---
 
 The Test Management by Testsigma app simplifies your workflow by allowing you to manage test runs and test case results directly within Jira. You can update test results, add or link defects, and manage linked test cases from within the Jira issue view.

@@ -20,6 +20,10 @@ contextual_links:
     url: '#delete-a-step-group'
 ---
 
+<br>
+
+**Learn how to edit or delete Step Groups in Test Management by Testsigma.**
+
 ---
 
 You can edit step groups to update test steps, descriptions, or other attributes. If a step group is no longer needed, you can delete it. This article discusses how to modify and remove step groups.
