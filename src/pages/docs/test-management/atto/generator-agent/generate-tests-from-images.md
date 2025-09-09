@@ -20,6 +20,10 @@ contextual_links:
     url: '#generate-test-cases'
 ---
 
+<br>
+
+**Generate detailed test cases quickly using images in Test Management by Testsigma.**
+
 ---
 
 You can generate multiple test cases in Testsigma to generate test cases from images that illustrate workflows or user actions. Upload images with relevant context, and the AI will create test cases that reflect the steps shown in the images.

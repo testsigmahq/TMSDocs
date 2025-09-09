@@ -10,9 +10,19 @@ contextual_links:
   - type: section
     name: 'Contents'
   - type: link
-    name: 'Steps to Access Test Management by Testsigma'
-    url: '#steps-to-access-testsigma-test-management'
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Export Test Cases from Browserstack'
+    url: '#export-test-cases-from-browserstack'
+  - type: link
+    name: 'Import Test Cases'
+    url: '#import-test-cases'
 ---
+
+<br>
+
+**Learn how to export test cases from Browserstack and import them into Test Management by Testsigma.**
 
 ---
 

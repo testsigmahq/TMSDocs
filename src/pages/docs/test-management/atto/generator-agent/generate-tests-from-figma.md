@@ -20,6 +20,10 @@ contextual_links:
     url: '#generate-test-cases'
 ---
 
+<br>
+
+**Generate detailed test cases quickly using Figma designs in Test Management by Testsigma.**
+
 ---
 
 Testsigma lets you generate test cases directly from your Figma designs. This helps ensure design-to-test alignment and accelerates test case creation by converting UI elements into actionable test steps.

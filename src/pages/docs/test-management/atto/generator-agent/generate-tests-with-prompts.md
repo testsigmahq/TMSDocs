@@ -20,6 +20,10 @@ contextual_links:
     url: '#generate-test-cases'
 ---
 
+<br>
+
+**Generate detailed test cases quickly using simple prompts in Test Management by Testsigma.**
+
 ---
 
 Test Management by Testsigma lets you create test cases quickly by writing simple prompts. With one click, you can generate multiple test cases with detailed steps based on real user actions. This approach saves time, reduces manual effort, and helps build complete, accurate test cases.

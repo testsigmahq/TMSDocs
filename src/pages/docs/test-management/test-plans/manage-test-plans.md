@@ -26,6 +26,10 @@ contextual_links:
     url: '#delete-a-test-plan'
 ---
 
+<br>
+
+**Learn how to create, organize, and manage test plans in Test Management by Testsigma.**
+
 ---
 
 Test plans help you organize and manage your testing process. They're directly linked to test cases and test runs, making it easy to run tests in a clear and structured way. You can use test plans to set the scope, goals, and schedule for your testing.

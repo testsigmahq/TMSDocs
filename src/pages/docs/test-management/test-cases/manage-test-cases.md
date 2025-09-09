@@ -32,6 +32,10 @@ contextual_links:
     url: '#bulk-actions-on-test-case-list'
 ---
 
+<br>
+
+**Learn how to create, organize, and maintain test cases in Test Management by Testsigma.**
+
 ---
 
 A test case defines a specific scenario to be tested, including detailed steps, preconditions, expected results, and other relevant information. Test cases are stored in a repository and structured in a hierarchical tree format, with folders and subfolders for better organization.
