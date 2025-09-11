@@ -23,6 +23,10 @@ contextual_links:
     url: '#integrate-figma'
 ---
 
+<br>
+
+**Integrate Figma with Test Management by Testsigma to generate test cases from your designs.**
+
 ---
 
 Testsigma lets you generate test cases directly from your Figma designs. This helps ensure design-to-test alignment and accelerates test case creation by converting UI elements into actionable test steps.

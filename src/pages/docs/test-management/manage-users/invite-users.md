@@ -20,6 +20,10 @@ contextual_links:
     url: '#invite-users'
 ---
 
+<br>
+
+**Learn how to invite users & assign roles and permissions for effective collaboration in Test Management by Testsigma.**
+
 ---
 
 Invite users to your Test Management by Testsigma to collaborate and assign roles and permissions to control access based on their responsibilities. This article discusses inviting users to your Test Management by Testsigma.

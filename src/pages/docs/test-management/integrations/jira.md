@@ -29,6 +29,10 @@ contextual_links:
     url: '#link-defects-to-a-new-issue'
 ---
 
+<br>
+
+**Integrate Jira with Test Management by Testsigma to seamlessly link defects to Jira issues.**
+
 ---
 
 Test Management by Testsigma allows seamless integration with Jira, which enables you to link test defects directly to Jira issues. This integration enhances traceability, streamlines defect management, and improves collaboration between QA and development teams.

@@ -20,6 +20,10 @@ contextual_links:
     url: '#import-test-cases'
 ---
 
+<br>
+
+**Learn how to export test cases from Testrail and import them into Test Management by Testsigma.**
+
 ---
 
 You can export test cases from Testrail and import them into Test Management by Testsigma. This article discusses the steps to export test cases from Testrail and import them into Test Management by Testsigma.

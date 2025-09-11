@@ -17,6 +17,10 @@ contextual_links:
     url: '#structure-of-test-steps-template'
 ---
 
+<br>
+
+**Learn how to use Documentation and Steps templates to create and manage test cases.**
+
 ---
 
 Test Management by Testsigma tool allows you to create test cases using two templates:

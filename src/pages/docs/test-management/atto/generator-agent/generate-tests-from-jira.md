@@ -23,7 +23,7 @@ contextual_links:
 
 <br>
 
-**Learn how Generator Agent can assist you with creating test cases in Test Management by Testsigma from your Jira stories.**
+**Generate detailed test cases quickly using Jira stories in Test Management by Testsigma.**
 
 ---
 

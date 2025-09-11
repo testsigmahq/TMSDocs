@@ -26,6 +26,10 @@ contextual_links:
     url: '#mapping-properties-and-values'
 ---
 
+<br>
+
+**Learn how to quickly import test cases in bulk using CSV files in Test Management by Testsigma for easy migration.**
+
 ---
 
 Test Management by Testsigma allows you to quickly import test cases in CSV files into an existing project. This feature simplifies the migration process from other tools by enabling bulk test case imports. This article discusses how to import test cases using a CSV file.

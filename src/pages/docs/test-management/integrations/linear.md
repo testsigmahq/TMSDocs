@@ -29,6 +29,10 @@ contextual_links:
     url: '#link-defects-to-a-new-issue'
 ---
 
+<br>
+
+**Integrate Linear with Test Management by Testsigma to seamlessly link defects to Linear issues.**
+
 ---
 
 Test Management by Testsigma allows seamless integration with Linear, which enables you to link test defects directly to Linear issues. This integration enhances traceability, streamlines defect management, and improves collaboration between QA and development teams.

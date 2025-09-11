@@ -23,6 +23,10 @@ contextual_links:
     url: '#view-access-logs'
 ---
 
+<br>
+
+**Learn how admins in Test Management by Testsigma can grant and revoke temporary support access for issue diagnosis and resolution.**
+
 ---
 
 Admin in the Test Management by Testsigma account can grant temporary access to the Testsigma Support team for diagnosing and resolving support related issues. This article discusses how to authorize and revoke support access.
