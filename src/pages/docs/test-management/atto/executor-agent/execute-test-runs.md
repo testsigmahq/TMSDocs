@@ -27,7 +27,7 @@ You can use Atto to execute test cases in test runs within Test Management by Te
 
 ---
 
-> ## **Prerequisite**
+> ## **Prerequisites**
 >
 > Before you begin, ensure you're signed in to Atto and have test runs with test cases ready for execution.
 

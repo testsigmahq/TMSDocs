@@ -38,7 +38,7 @@ Test plans help you organize and manage your testing process. They're directly l
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you know how to create test runs. For more information, see Test Runs.
+> Before you begin, ensure you know how to create test runs. For more information, see [Test Runs](https://testsigma.com/docs/test-management/test-runs/create-test-runs/).
 
 ---
 

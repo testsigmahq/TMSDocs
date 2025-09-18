@@ -69,7 +69,7 @@
     "/docs/test-management/integrations/figma": "Figma Integration"
   },
   "settings": {
-    "/docs/test-management/settings/": "Account Settings"
+    "/docs/test-management/settings/": "Settings"
   },
   "global-settings": {
     "/docs/test-management/settings/global-settings/": "Test Management Settings"
@@ -157,5 +157,8 @@
   },
   "linear": {
     "/docs/test-management/integrations/linear/": "Linear Integration"
+  },
+  "audit-logs": {
+    "/docs/test-management/settings/audit-logs/": "Audit Logs"
   }
 }

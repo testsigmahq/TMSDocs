@@ -36,7 +36,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 ---
 
-> **Prerequisites**
+> ## **Prerequisites**
 > 
 > Before you begin, ensure that your Testsigma project is connected to a Jira project in Test Management by Testsigma.
 

@@ -46,7 +46,7 @@ Managing test cases involves creating, editing, moving, and deleting them. This 
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure that a Project and Folders are created in Testsigma.
+> Before you begin, ensure that a [Project](https://testsigma.com/docs/test-management/projects/manage-projects/) and [Folders](https://testsigma.com/docs/test-management/test-cases/folders/) are created in Testsigma.
 
 ---
 
