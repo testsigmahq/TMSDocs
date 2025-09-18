@@ -27,7 +27,7 @@ Atto is an AI-powered agent in Test Management by Testsigma that helps streamlin
 
 ---
 
-> ## **Prerequisite**
+> ## **Prerequisites**
 >
 > Before you begin, ensure you have test cases and test run with test cases.
 
