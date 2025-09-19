@@ -38,7 +38,7 @@ Test Management by Testsigma allows you to quickly import test cases in CSV file
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure that a Project and Folders are created in Testsigma. For more information, see Projects and Organizing Test Cases.
+> Before you begin, ensure that a Project and Folders are created in Testsigma. For more information, see [Projects](https://testsigma.com/docs/test-management/projects/manage-projects/) and [Organizing Test Cases](https://testsigma.com/docs/test-management/test-cases/folders/).
 
 ---
 
