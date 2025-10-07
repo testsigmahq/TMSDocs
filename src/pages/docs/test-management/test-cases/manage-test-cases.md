@@ -25,6 +25,9 @@ contextual_links:
     name: 'Edit Test Cases'
     url: '#edit-test-cases'
   - type: link
+    name: 'Reorder Test Cases'
+    url: '#reorder-test-cases'
+  - type: link
     name: 'Delete Test Cases'
     url: '#delete-test-cases'
   - type: link
@@ -126,6 +129,27 @@ The following properties help you classify and organize test cases:
 4. The test case will be auto saved.
 
    Alternatively, you can click the kebab menu corresponding to the test case and select **Edit** from the dropdown menu to make changes.
+
+---
+
+## **Reorder Test Cases**
+
+1. From the **Dashboard**, go to **Test Cases**.
+
+2. Click the folder containing the test cases.
+
+3. For the target test case, use **Drag Handle** to reorder.
+
+4. The new position is reflected immediately at the folder level.
+
+
+[[info | **NOTE**:]]
+|
+| - Reordering is limited to a single folder at a time.
+| - If multiple folders are selected, the reorder option is disabled.
+| - If any filters are active, reordering is disabled.
+
+5. The updated sequence is also reflected in all related test runs.
 
 ---
 
