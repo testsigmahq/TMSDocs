@@ -160,5 +160,11 @@
   },
   "audit-logs": {
     "/docs/test-management/settings/audit-logs/": "Audit Logs"
+  },
+  "generate-tests-from-clickup": {
+    "/docs/test-management/atto/generator-agent/generate-tests-from-clickup/": "Generate Test Cases from ClickUp"
+  },
+  "clickup": {
+    "/docs/test-management/integrations/clickup/": "ClickUp Integration"
   }
 }
