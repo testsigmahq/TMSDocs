@@ -76,7 +76,7 @@ Test Management by Testsigma allows seamless integration with Linear, which enab
 
 3. Click the test case to log a defect. This opens the **Quick View** overlay.
 
-4. Click **Add a Defect**.
+4. Click **Link Issue**.
 
 5. You can either link to an existing Linear issue or create a new Linear issue.
 
@@ -88,11 +88,13 @@ Test Management by Testsigma allows seamless integration with Linear, which enab
 
 2. Click **Add a Defect**.
 
-3. On the **Add a Defect** overlay, select the **Link to Existing Issue** tab.
+3. On the **Add an Issue** overlay, select **Linear** in the top right corner. 
 
-4. Choose the Linear issues you want to link with the defect.
+4. Select the **Link to Existing Issue** tab.
 
-5. Click **+ Add Defect** to complete the linking.
+5. Choose the Linear issues you want to link with the defect.
+
+6. Click **+ Add Defect** to complete the linking.
 
 [[info | **NOTE**:]]
 | You can link a defect to multiple existing issues.
@@ -105,12 +107,14 @@ Test Management by Testsigma allows seamless integration with Linear, which enab
 
 2. Click **Add a Defect**.
 
-3. On the **Add a Defect** overlay, select the **Create a New Issue** tab.
+3. On the **Add an Issue** overlay, select **Linear** in the top right corner. 
 
-4. Select the **Project**, **Issue Type**, **Status**, **Assignee**, and **Reporter** from the respective dropdowns.
+4. Select the **Create a New Issue** tab.
 
-5. Enter a **Summary** and an optional Description.
+5. Select the **Team**, **Project**, **Priority**, **State**, and **Assignee** from the respective dropdowns.
 
-6. Click **+ Add Defect**. The new issue will be created in Linear and the defect will be linked to it.
+6. Enter a **Issue Title** and an optional Description.
+
+7. Click **Create Issue**. The new issue will be created in Linear and the defect will be linked to it.
 
 ---
