@@ -46,7 +46,6 @@ const Footer = () => {
             {' '}
             Testsigma{' '}
           </a>{' '}
-          is open source.{' '}
           <a
             href='https://github.com/testsigmahq/testsigma/blob/main/LICENSE'
             className='link_underline'
