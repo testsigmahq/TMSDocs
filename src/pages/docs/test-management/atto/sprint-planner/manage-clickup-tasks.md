@@ -1,0 +1,138 @@
+---
+title: 'Sprint Planner for ClickUp Tasks'
+page_title: 'Sprint Planner for ClickUp Tasks'
+metadesc: 'You can generate test cases instantly by integrating ClickUp with Test Management by Testsigma. Atto detects tasks from ClickUp, displays them and sprint planner generate tests'
+noindex: false
+order: 11.13
+page_id: 'sprint-planner-for-clickup-tasks'
+warning: false
+contextual_links:
+  - type: section
+    name: 'Contents'
+  - type: link
+    name: 'Prerequisites'
+    url: '#prerequisites'
+  - type: link
+    name: 'Interactive Demo'
+    url: '#interactive-demo'
+  - type: link
+    name: 'Attach a ClickUp Space'
+    url: '#attach-a-clickup-space'
+  - type: link
+    name: 'View and Activate ClickUp Lists in Atto'
+    url: '#view-and-activate-clickup-lists-in-atto'
+  - type: link
+    name: 'View List Details and Generate Test Cases'
+    url: '#view-list-details-and-generate-test-cases'
+---
+
+<br>
+
+**Quickly turn ClickUp Tasks into ready-to-run test cases with minimal effort.**
+
+---
+
+You can generate test cases automatically by integrating ClickUp with Test Management by Testsigma. Atto detects Lists from ClickUp and displays them on Atto's Home. You can activate a List and select artifacts from ClickUp to generate test cases. This article discusses using ClickUp Lists to generate test cases in Test Management by Testsigma automatically.
+
+---
+
+> ## **Prerequisites**
+>
+> Before you begin, ensure:
+>    - You have a project created in Test Management by Testsigma.
+>    - The project is connected to a ClickUp Space.
+
+---
+
+## **Interactive Demo**
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(53.52% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/qfdsbxor5qz1?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
+
+---
+
+## **Attach a ClickUp Space**
+
+1. On the **Dashboard**, click the **Candy Box** icon, and then select **+ New Project**.
+
+2. In the **Create a New Projec**t dialog, enter the **Project Name**, **Description**, and **Project Key**.
+
+3. Click **Link ClickUp Space** under **Project Management Tool** and select the **ClickUp Space** you want to attach.
+
+Alternatively, you can also attach the **ClickUp Space** from the **Project Settings** overlay. 
+
+---
+
+## **View and Activate ClickUp Lists in Atto**
+
+1. From the **Dashboard**, click **Atto’s Home**.
+
+2. Atto’s Home displays two sections:
+   - **Active Lists**: Lists activated lists. Click a list to view list details and generated tests.
+   - **Other Lists**: Lists additional lists from ClickUp.
+
+3. Go to the **Other Lists** tab to view all lists from your ClickUp Space.
+
+4. In the **Other Lists** tab, you can see the following tabs:
+   ![Other ClickUp Lists](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ClickUp_Lists_TMS.png)
+   - **Inactive**: Displays lists that are imported from ClickUp but are not yet active in Testsigma. You can activate these lists for test case generation. 
+   - **Completed**: Displays lists that were previously activated and done with the test case generation.
+   - **Deleted**: Displays lists that are deleted in the ClickUp Space. 
+   
+   Use these filters to easily find the lists you need based on their current workflow status.
+
+5. Review the list of lists. Each list card shows the **List ID, Name, Number of tasks waiting for test generation**, and the **Last Updated Date**.
+
+5. Select a list to view the list of tasks associated with that list. The list view shows the following details:
+   - List **Name** 
+   - Tabs to filter stories by status: **All**, **To Do**, **In Progress**, and **Done**
+   - Search by title box to find a specific task
+   - Task list with **ID**, **Title**, and **Current Status** (e.g., **To Do**)
+
+6. Click **Activate** next to the list for which you want to generate test cases.
+
+
+---
+
+## **View List Details and Generate Test Cases**
+
+1. Once you activate a list, Atto displays the list details.
+
+2. When the list status changes to **In Progress**, you can view key metrics, including: <br>
+   a. Task **Name**<br>
+   b. Completion percentage bar<br>
+   c. Number of tasks in **To Do**, **In Progress**, **Done**, and **Modified** states<br>
+   d. Search box to find stories by title<br>
+   e. Task list showing **ID**, **Title**, and **Current Status**
+
+   ![ClickUp Tasks](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ClickUp_In_Progress_Tasks.png)
+
+3. Atto automatically updates the task status to **In Progress** for the task currently being processed for test case generation.
+
+   [[info | **NOTE**:]]
+   | You can use the **tabs** to filter tasks by their status or use the **Search** box to find a specific task.
+
+4. Click a task to open its details page. The page displays multiple scenarios and the test cases generated from the task data.
+
+5. Expand a scenario to view its associated test cases.
+
+6. Click a generated test case to view its details, including:
+   - **Preconditions**
+   - **Test steps**
+   - **Expected results**
+
+7. Review the test case and select the folder where you want to save it.
+
+8. Click **Accept** to add the test case to the selected folder.
+
+9.  Repeat steps 6–8 to review and save other generated test cases.
+
+10. When test case generation completes for the current task, Atto automatically sets the next task status to **In Progress**.
+
+11. Repeat these steps for each task in the list.
+
+---
