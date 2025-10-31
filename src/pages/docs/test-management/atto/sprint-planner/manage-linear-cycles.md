@@ -106,9 +106,9 @@ The **Sprint Planner Agent** helps you manage and organize your Linear cycles in
 
 1. Once you activate a cycle, Atto displays the cycle details.
 
-2. You can view high-level metrics, including: Number of stories in **To Do**, **In Progress**, **Done**, and **Modified** states.
-
-   A tabbed view that lets you filter stories by status.
+2. You can view high-level metrics, including: 
+   - Number of stories in **To Do**, **In Progress**, **Done**, and **Modified** states.
+   - A tabbed view that lets you filter stories by status.
 
 3. Click on any issue to start AI-powered test case generation
 
@@ -122,7 +122,7 @@ The **Sprint Planner Agent** helps you manage and organize your Linear cycles in
 
 8. Repeat steps 5–7 to review and save other generated test cases.
 
-9. Atto automatically sets the story status to **In Progress** once test case generation completes.
+9.  Atto automatically sets the story status to **In Progress** once test case generation completes.
 
 10. Repeat these steps for each issue in the cycle.
 
