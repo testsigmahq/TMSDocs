@@ -19,11 +19,11 @@ contextual_links:
     name: 'Attach a ClickUp Space'
     url: '#attach-a-clickup-space'
   - type: link
-    name: 'View and Activate ClickUp Lists in Atto'
-    url: '#view-and-activate-clickup-lists-in-atto'
+    name: 'View and Activate ClickUp Lists/Sprints in Atto'
+    url: '#view-and-activate-clickup-listssprints-in-atto'
   - type: link
-    name: 'View List Details and Generate Test Cases'
-    url: '#view-list-details-and-generate-test-cases'
+    name: 'View List/Sprint Details and Generate Test Cases'
+    url: '#view-listsprint-details-and-generate-test-cases'
 ---
 
 <br>
@@ -32,7 +32,7 @@ contextual_links:
 
 ---
 
-You can generate test cases automatically by integrating ClickUp with Test Management by Testsigma. Atto detects Lists from ClickUp and displays them on Atto's Home. You can activate a List and select artifacts from ClickUp to generate test cases. This article discusses using ClickUp Lists to generate test cases in Test Management by Testsigma automatically.
+You can generate test cases automatically by integrating ClickUp with Test Management by Testsigma. Atto detects Lists/Sprints from ClickUp and displays them on Atto's Home. You can activate a List/Sprint and select artifacts from ClickUp to generate test cases. This article discusses using ClickUp Lists/Sprints to generate test cases in Test Management by Testsigma automatically.
 
 ---
 
@@ -67,43 +67,43 @@ Alternatively, you can also attach the **ClickUp Space** from the **Project Sett
 
 ---
 
-## **View and Activate ClickUp Lists in Atto**
+## **View and Activate ClickUp Lists/Sprints in Atto**
 
 1. From the **Dashboard**, click **Atto’s Home**.
 
 2. Atto’s Home displays two sections:
-   - **Active Lists**: Lists activated lists. Click a list to view list details and generated tests.
-   - **Other Lists**: Lists additional lists from ClickUp.
+   - **Active Lists**: Displays all activated lists/sprints. Click a list/sprint to view its details and the tests generated from it.
+   - **Other Lists**: Displays additional lists/sprints.
 
-3. Go to the **Other Lists** tab to view all lists from your ClickUp Space.
+3. Go to the **Other Lists** tab to view all lists/sprints from your ClickUp Space.
 
 4. In the **Other Lists** tab, you can see the following tabs:
    ![Other ClickUp Lists](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ClickUp_Lists_TMS.png)
-   - **Inactive**: Displays lists that are imported from ClickUp but are not yet active in Testsigma. You can activate these lists for test case generation. 
-   - **Completed**: Displays lists that were previously activated and done with the test case generation.
-   - **Deleted**: Displays lists that are deleted in the ClickUp Space. 
+   - **Inactive**: Displays lists/sprints that are imported from ClickUp but are not yet active in Testsigma. You can activate these lists/sprints for test case generation. 
+   - **Completed**: Displays lists/sprints that were previously activated and done with the test case generation.
+   - **Deleted**: Displays lists/sprints that are deleted in the ClickUp Space. 
    
-   Use these filters to easily find the lists you need based on their current workflow status.
+   Use these filters to easily find the lists/sprints you need based on their current workflow status.
 
-5. Review the list of lists. Each list card shows the **List ID, Name, Number of tasks waiting for test generation**, and the **Last Updated Date**.
+5. Review the lists/sprints. Each card shows the **List ID, Name, Number of tasks waiting for test generation**, and the **Last Updated Date**.
 
-5. Select a list to view the list of tasks associated with that list. The list view shows the following details:
-   - List **Name** 
+6. Select a list/sprint to view all the tasks associated with it. The list view shows the following details:
+   - List/sprint **Name** 
    - Tabs to filter stories by status: **All**, **To Do**, **In Progress**, and **Done**
    - Search by title box to find a specific task
    - Task list with **ID**, **Title**, and **Current Status** (e.g., **To Do**)
 
-6. Click **Activate** next to the list for which you want to generate test cases.
+7. Click **Activate** next to the list for which you want to generate test cases.
 
 
 ---
 
-## **View List Details and Generate Test Cases**
+## **View List/Sprint Details and Generate Test Cases**
 
-1. Once you activate a list, Atto displays the list details.
+1. Once you activate a list/sprint, Atto displays the details.
 
-2. When the list status changes to **In Progress**, you can view key metrics, including: <br>
-   a. Task **Name**<br>
+2. When the list/sprint status changes to **In Progress**, you can view key metrics, including: <br>
+   a. **Name**<br>
    b. Completion percentage bar<br>
    c. Number of tasks in **To Do**, **In Progress**, **Done**, and **Modified** states<br>
    d. Search box to find stories by title<br>
