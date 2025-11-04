@@ -169,5 +169,8 @@
   },
   "manage-clickup-tasks": {
   "/docs/test-management/atto/sprint-planner/manage-clickup-tasks/": "Manage ClickUp Tasks"
+  },
+  "gitlab": {
+    "/docs/test-management/ci-cd-integrations/gitlab/": "GitLab"
   }
 }
