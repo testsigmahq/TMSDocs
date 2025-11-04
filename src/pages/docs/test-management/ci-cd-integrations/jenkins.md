@@ -1,5 +1,5 @@
 ---
-title: 'Jenkins Integration with Test Management'
+title: 'Jenkins Integration with Test Management by Testsigma'
 page_title: 'Jenkins Integration with Test Management by Testsigma'
 metadesc: 'Integrate Jenkins with TMS by Testsigma to automate test executions & generate test reports through CI/CD pipelines | Jenkins Integration with TMS by Testsigma'
 noindex: false
@@ -93,7 +93,7 @@ Integrate Jenkins with Test Management by Testsigma to automate test executions 
                 steps {
                     // Ensure the test result file exists at the specified path
                     sh '''
-                    curl --location 'https://test-management.testsigma.com/api/v1/projects/<Project_ID>/junit-import/test-run/<Run_ID>' \
+                    curl --location 'https://test-management.testsigma.com/api/v1/projects/{Project_ID}/junit-import/test-run/{Run_ID}' \
                     --header "Authorization: Bearer $TESTSIGMA_API_TOKEN" \
                     --form "junit_xml=@target/test-results/test-report.xml"
                     '''
@@ -106,7 +106,7 @@ Integrate Jenkins with Test Management by Testsigma to automate test executions 
 
 [[info | **NOTE**:]]
 | - Replace `<Project_ID>` in the curl command with your Project ID, which you can retrieve using the Test Management by Testsigma APIs.
-| - Replace `<Run_ID>` in the curl command with the Run ID, which is available in the URL when viewing a test run in the format: `https://test-management.testsigma.com/ui/test_runs/<Run_ID>/`
+| - Replace `<Run_ID>` in the curl command with the Run ID, which is available in the URL when viewing a test run in the format: https://test-management.testsigma.com/ui/test_runs/{Run_ID}/
 
 7. Click **Apply**, and then click **Save**.
 
