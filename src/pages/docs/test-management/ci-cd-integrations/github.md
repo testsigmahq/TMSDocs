@@ -35,7 +35,7 @@ Integrate GitHub with Test Management by Testsigma to automate test executions a
 > Before you begin, ensure:
 > - You have a **Project** in Test Management by Testsigma and **Test Runs** are available.
 > - You have an API token from Test Management by Testsigma.
-> - You have a [GitHub](https://github.com/) account.
+> - You have a **GitHub** account.
 
 
 

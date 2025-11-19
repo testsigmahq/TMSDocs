@@ -39,7 +39,8 @@ Test Management by Testsigma
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see [Projects](http://testsigma.com/docs/test-management/projects/manage-projects/).
+> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see <a href="http://testsigma.com/docs/test-management/projects/manage-projects/" rel="nofollow">Projects</a>
+
 
 ---
 

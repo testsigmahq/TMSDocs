@@ -28,7 +28,7 @@ Get started with our platform and streamline how you manage and analyze test cas
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have an active Testsigma account. If you don’t have one, go to the [Testsigma signup page](https://tms.testsigma.com/signup) to create an account.
+> Before you begin, ensure you have an active Testsigma account. If you don’t have one, go to the <a href="https://tms.testsigma.com/signup" rel="nofollow">Testsigma signup page</a> to create an account.
 
 ---
 
@@ -45,9 +45,9 @@ Get started with our platform and streamline how you manage and analyze test cas
 
 ## **Steps to Access Test Management by Testsigma**
 
-1. Navigate to Test Management by Testsigma [Login Page](https://tms.testsigma.com/login).
+1. Navigate to Test Management by Testsigma <a href="https://tms.testsigma.com/login" rel="nofollow">Login Page</a>.
 
-2. Sign in with your credentials. If you don't have an account, [sign up](https://tms.testsigma.com/signup).
+2. Sign in with your credentials. If you don't have an account, <a href="https://tms.testsigma.com/signup" rel="nofollow">sign up</a>.
 
 3. In your **User Profile Settings**, select **TMS**.
 
