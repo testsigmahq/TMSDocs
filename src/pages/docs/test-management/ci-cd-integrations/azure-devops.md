@@ -35,7 +35,7 @@ Integrate Azure DevOps with Test Management by Testsigma to automate test execut
 > Before you begin, ensure:
 > - You have a **Project** in Test Management by Testsigma and **Test Runs** are available.
 > - You have an API token from Test Management by Testsigma.
-> - You have an [Azure DevOps](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=devops) account.
+> - You have an **Azure DevOps** account.
 
 ---
 

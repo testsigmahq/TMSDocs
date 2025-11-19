@@ -47,7 +47,8 @@ The **Sprint Planner Agent** helps you manage and organize your Jira sprints in 
 >    - You have a project created in Test Management by Testsigma.
 >    - The project is connected to a Jira project.
 >    - You have **Admin Access** in Jira to authorize the initial integration with Test Management by Testsigma.
->    - You know how to create **WebHooks in Jir**a to enable real-time sync between Jira and Test Management by Testsigma. For more information, see [Creating WebHooks in Jira](https://developer.atlassian.com/server/jira/platform/webhooks/).
+>    - You know how to create **WebHooks in Jira** to enable real-time sync between Jira and Test Management by Testsigma. For more information, see <a href="https://developer.atlassian.com/server/jira/platform/webhooks/" rel="nofollow">Creating WebHooks in Jira</a>
+
 
 ---
 
