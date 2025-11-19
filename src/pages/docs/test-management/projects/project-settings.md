@@ -43,7 +43,7 @@ Project Settings lets you update project details and manage test cases and step 
 
 The **Overview** section of **Project Settings** opens by default. You can edit the project **Name**, **Description**, or **Delete** the project from this section.
 
-For more information, see [Manage Projects](http://testsigma.com/docs/test-management/projects/manage-projects/).
+For more information, see <a href="http://testsigma.com/docs/test-management/projects/manage-projects/" rel="nofollow">Manage Projects</a>.
 
 ---
 

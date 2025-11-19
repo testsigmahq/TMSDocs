@@ -38,7 +38,7 @@ The Testsigma Integration for Jira app seamlessly extends Jira’s core capabili
 
 ## **Install the Test Management by Testsigma App**
 
-1. Navigate to the [Atlassian Marketplace](https://marketplace.atlassian.com/) and search for **Test Management by Testsigma**.
+1. Navigate to the <a href="https://marketplace.atlassian.com/" rel="nofollow">Atlassian Marketplace</a> and search for **Test Management by Testsigma**.
 
 2. Install **Test Management by Testsigma** in your Jira instance.
 

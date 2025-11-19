@@ -38,7 +38,7 @@ Integrate Travis CI with Test Management by Testsigma to automate test execution
 > Before you begin, ensure:
 > - You have a **Project** in Test Management by Testsigma and **Test Runs** are available.
 > - You have an API token from Test Management by Testsigma.
-> - You have a [Travis CI](https://www.travis-ci.com/) account.
+> - You have a **Travis CI** account.
 
 
 ---

@@ -39,7 +39,7 @@ You must include your API token in the Authorization header for every request. T
 > 
 > **Authorization**: Bearer `<TEST_MANAGEMENT_API_TOKEN>`
 
-You can generate and manage your API token from [here](https://test-management.testsigma.com/ui/settings/api_keys). The token must be kept secure, like a password.
+You can generate and manage your API token from <a href="https://test-management.testsigma.com/ui/settings/api_keys" rel="nofollow">here</a>. The token must be kept secure, like a password.
 
 ---
 
