@@ -3,7 +3,7 @@ title: 'Azure DevOps Integration with Test Management by Testsigma'
 page_title: 'Azure DevOps Integration with Test Management by Testsigma'
 metadesc: 'Integrate Azure DevOps with TMS by Testsigma to automate test executions & generate test reports through CI/CD pipelines | Azure DevOps Integration with TMS by Testsigma'
 noindex: false
-order: 14.2
+order: 15.2
 page_id: 'azure-devOps-integration-with-test-management-by-testsigma'
 warning: false
 contextual_links:

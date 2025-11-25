@@ -3,7 +3,7 @@ title: 'Manage Test Properties'
 page_title: 'Manage Test Properties'
 metadesc: ''
 noindex: false
-order: 9.1
+order: 10.1
 page_id: 'settings-for-testsigma-test-management'
 warning: false
 contextual_links:

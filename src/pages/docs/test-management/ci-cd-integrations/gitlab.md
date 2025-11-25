@@ -3,7 +3,7 @@ title: 'GitLab Integration with Test Management by Testsigma'
 page_title: 'GitLab Integration with Test Management by Testsigma'
 metadesc: 'Integrate GitLab with Test Management by Testsigma to automate test executions & generate test reports through CI/CD pipelines | GitLab Integration with TMS by Testsigma'
 noindex: false
-order: 14.6
+order: 15.6
 page_id: 'Gitlab-ci-integration-with-test-management-by-testsigma'
 warning: false
 contextual_links:

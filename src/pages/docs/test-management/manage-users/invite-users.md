@@ -3,7 +3,7 @@ title: 'Invite Users'
 page_title: 'Invite Users to Test Management by Testsigma'
 metadesc: ''
 noindex: false
-order: 10.1
+order: 11.1
 page_id: 'users-in-testsigma-test-management'
 warning: false
 contextual_links:

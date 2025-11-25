@@ -172,5 +172,23 @@
   },
   "gitlab": {
     "/docs/test-management/ci-cd-integrations/gitlab/": "GitLab"
+  },
+  "testsigma-two-way-integration": {
+    "/docs/test-management/testsigma-two-way-integration/": "Testsigma Two-way Integration"
+  },
+  "connect-testsigma": {
+    "/docs/test-management/testsigma-two-way-integration/connect-testsigma/": "Connect Testsigma"
+  },
+  "link-test-cases": {
+    "/docs/test-management/testsigma-two-way-integration/link-test-cases/": "Link Test Cases"
+  },
+  "manage-user": {
+    "/docs/test-management/testsigma-two-way-integration/manage-user/": "Manage Users"
+  },
+  "link-test-plans": {
+    "/docs/test-management/testsigma-two-way-integration/link-test-plans/": "Link Test Plans"
+  },
+  "execute-test-plans": {
+    "/docs/test-management/testsigma-two-way-integration/execute-test-plans/": "Execute Test Plans"
   }
 }

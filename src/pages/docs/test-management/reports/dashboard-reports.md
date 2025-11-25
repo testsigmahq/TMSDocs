@@ -3,7 +3,7 @@ title: 'Reports in Dashboard View'
 page_title: 'Reports in Dashboard View in Test Management by Testsigma'
 metadesc: 'The Dashboard view in Test Management by Testsigma gives real-time test metrics. Learn how to track progress, monitor test health, & identify defects from Dashboard'
 noindex: false
-order: 12.3
+order: 13.3
 page_id: 'view-dashboard-reports-in-testsigma-test-management'
 warning: false
 contextual_links:

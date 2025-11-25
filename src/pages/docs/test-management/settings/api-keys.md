@@ -3,7 +3,7 @@ title: 'Manage API Keys'
 page_title: 'Test Management Settings'
 metadesc: ''
 noindex: false
-order: 9.4
+order: 10.4
 page_id: 'api-keys-in-testsigma-test-management'
 warning: false
 contextual_links:
