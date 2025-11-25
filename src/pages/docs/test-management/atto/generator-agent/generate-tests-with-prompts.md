@@ -3,7 +3,7 @@ title: 'Generate Test Cases with Prompts'
 page_title: 'Generate Test Cases with Prompt'
 metadesc: 'Create detailed test cases quickly in Test Management by Testsigma using simple prompts. Save time, reduce effort, & ensure accuracy with AI-powered test steps in one click'
 noindex: false
-order: 11.21
+order: 12.21
 page_id: 'generate-test-cases-with-prompts'
 warning: false
 contextual_links:

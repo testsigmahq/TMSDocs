@@ -3,7 +3,7 @@ title: 'Generate Test Cases from Files'
 page_title: 'Generate Test Cases from Files'
 metadesc: 'Generate test cases in Testsigma from PPT, XLS, PDF, or DOCX files | AI converts files into test steps, ensuring design-to-test alignment and speeding up test creation'
 noindex: false
-order: 11.27
+order: 12.27
 page_id: 'generate-test-cases-from-files'
 warning: false
 contextual_links:

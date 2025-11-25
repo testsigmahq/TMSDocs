@@ -3,7 +3,7 @@ title: 'CircleCI Integration with Test Management by Testsigma'
 page_title: 'CircleCI Integration with Test Management by Testsigma'
 metadesc: 'Integrate CircleCI with TMS by Testsigma to automate test executions & generate test reports through CI/CD pipelines | CircleCI Integration with TMS by Testsigma'
 noindex: false
-order: 14.5
+order: 15.5
 page_id: 'circle-ci-integration-with-test-management-by-testsigma'
 warning: false
 contextual_links:

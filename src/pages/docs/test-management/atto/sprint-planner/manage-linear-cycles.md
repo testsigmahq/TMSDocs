@@ -3,7 +3,7 @@ title: 'Sprint Planner for Linear Test Cycles'
 page_title: 'Sprint Planner for Linear Test Cycles'
 metadesc: 'You can generate test cases instantly by integrating Linear with Test Management by Testsigma. Atto detects cycles from Linear, displays them and sprint planner generate tests'
 noindex: false
-order: 11.12
+order: 12.12
 page_id: 'sprint-planner-for-linear-cycles'
 warning: false
 contextual_links:

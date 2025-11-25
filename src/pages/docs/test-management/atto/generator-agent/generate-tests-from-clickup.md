@@ -4,7 +4,7 @@ page_title: 'Generate Test Cases from ClickUp'
 metadesc: 'Generate multiple test cases in Testsigma from your ClickUp tasks using AI. Just pick the space, folder, and tasks, AI handles the rest with detailed cases'
 description: 'Learn how AI can assist you with creating test cases in Test Management by Testsigma from your ClickUp tasks.'
 noindex: false
-order: 11.23
+order: 12.23
 page_id: 'generate-test-cases-from-clickup'
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: 'Manage Custom Fields'
 page_title: 'Manage Custom Fields in Test Management'
 metadesc: 'Create and manage custom fields in Test Management by Testsigma to add specific details/additional details and filter tests efficiently in your test management workflow'
 noindex: false
-order: 9.2
+order: 10.2
 page_id: 'custom-fields-in-testsigma-test-management'
 warning: false
 contextual_links:

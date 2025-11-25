@@ -3,7 +3,7 @@ title: 'Execute Test Cases from Atto'
 page_title: 'Execute Test Cases in Atto'
 metadesc: 'Atto to execute test cases in test runs within Test Management by Testsigma. It helps speed up test execution, reduce manual effort, and maintain consistent results'
 noindex: false
-order: 11.32
+order: 12.32
 page_id: 'execute-test-cases-from-atto'
 warning: false
 contextual_links:

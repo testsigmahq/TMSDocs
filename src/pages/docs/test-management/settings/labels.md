@@ -3,7 +3,7 @@ title: 'Manage Labels'
 page_title: 'Manage Labels in Test Management by Testsigma'
 metadesc: 'Organize test cases and runs using labels in Test Management by Testsigma. Create, edit, or delete labels to filter, group, and manage tests efficiently in your test management'
 noindex: false
-order: 9.3
+order: 10.3
 page_id: 'manage-labels-testsigma-test-management'
 warning: false
 contextual_links:
