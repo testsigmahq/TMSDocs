@@ -81,7 +81,7 @@ const Header = () => {
               }`}
               href='/docs/test-management/atto/overview/'
             >
-              Atto
+              Atto (Beta)
             </a>
             <a
               className={`btn btn-ghost btn-sm rounded-btn border-b-2 hover:border-primary_teal_green ${

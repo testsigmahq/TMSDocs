@@ -62,40 +62,47 @@ const data = [
   },
   {
     id: 9,
-    title: 'Account Settings',
+    title: 'Testsigma Two-way Integration',
+    description:
+      'The integration provides a unified view of both manual and automated testing.',
+    path: '/docs/test-management/testsigma-two-way-integration/connect-testsigma/',
+  },
+  {
+    id: 10,
+    title: 'Settings',
     description:
       'Manage the foundation of your testing properties & environments.',
     path: '/docs/test-management/settings/manage-properties/',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Manage Users',
     description: "Add, remove, and manage team member's roles and permissions.",
     path: '/docs/test-management/manage-users/invite-users/',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Atto (Agentic AI ✨)',
     description:
       'Leverage intelligent automation powered by Atto to generate, optimize, and execute tests with minimal manual input.',
     path: '/docs/test-management/atto/overview/',
   },
   {
-    id: 12,
+    id: 13,
     title: 'Reports & Analytics',
     description:
       'Create reports instantly to review test coverage, execution results, and track progress.',
     path: '/docs/test-management/reports/create-report/',
   },
   {
-    id: 13,
+    id: 14,
     title: 'API Reference',
     description:
       'Get a complete view of common concepts necessary to interact with APIs successfully.',
     path: '/docs/test-management/atto/overview/',
   },
   {
-    id: 14,
+    id: 15,
     title: 'CI/CD Integrations',
     description:
       'Integrate CI/CD Tools with Test Management by Testsigma and automate your test runs and generate test reports.',
