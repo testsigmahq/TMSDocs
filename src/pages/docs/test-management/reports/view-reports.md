@@ -3,7 +3,7 @@ title: 'Viewing Reports'
 page_title: 'Viewing Reports in Test Management by Testsigma'
 metadesc: 'Learn how to view reports in Test Management by Testsigma | Interpret different sections of a report and analyze test execution, track progress, and identify defects'
 noindex: false
-order: 12.2
+order: 13.2
 page_id: 'view-reports-in-testsigma-test-management'
 warning: false
 contextual_links:

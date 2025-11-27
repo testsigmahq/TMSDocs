@@ -3,7 +3,7 @@ title: 'Generate Test Cases from Figma'
 page_title: 'Generate Test Cases from Figma'
 metadesc: 'Generate test cases in Testsigma from Figma designs | AI converts Figma UI into test steps, ensuring design-to-test alignment and speeding up test creation'
 noindex: false
-order: 11.26
+order: 12.26
 page_id: 'generate-test-cases-from-figma'
 warning: false
 contextual_links:

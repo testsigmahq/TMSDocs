@@ -16,11 +16,12 @@ const IndexContent = () => {
     <>
       <div className='w-full md:px-16 home-page_banner'>
         <h1 className='text-4xl font-bold'>
-          Test Management Documentation Support
+          Test Management Documentation & Support
         </h1>
         <br />
+        <br />
         <span className='text-base font-normal'>
-          SETUP | WRITE | GENERATE | EXECUTE | REPORT | INTEGRATE
+          SETUP | PLAN | AUTHOR | ORGANIZE | EXECUTE | REPORT
         </span>
       </div>
       <div className='w-full'>
