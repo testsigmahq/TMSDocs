@@ -1,7 +1,7 @@
 ---
 title: 'Execute Test Plans from Test Management by Testsigma'
 page_title: 'Execute Test Plans from Test Management by Testsigma'
-metadesc: ''
+metadesc: 'You can execute test plans in Testsigma directly from Test Management by Testsigma | Learn how to execute test plans of Testsigma from Test Management by Testsigma.'
 noindex: false
 order: 9.5
 page_id: 'execute-test-plans-in-testsigma'
@@ -84,5 +84,6 @@ You can execute test plans in Testsigma directly from Test Management by Testsig
 4. Click any test case in the test run to open an overlay showing test case details and activity.
 
 5. Scroll to the **Activity** section to view detailed execution information, including a link to the Testsigma results page for the automated execution.
+   ![Activity](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Activity_Details_of_Execution.png)
 
 ---
