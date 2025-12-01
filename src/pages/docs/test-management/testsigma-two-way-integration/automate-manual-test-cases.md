@@ -16,11 +16,14 @@ contextual_links:
     name: 'Interactive Demo'
     url: '#interactive-demo' 
   - type: link
-    name: 'Execute a Linked Test Plan in Test Management by Testsigma'
-    url: '#execute-a-linked-test-plan-in-test-management-by-testsigma'
+    name: 'Steps to Automate a Manual Test Case'
+    url: '#steps-to-automate-a-manual-test-case'
   - type: link
-    name: 'View Automated Reports in Test Management by Testsigma'
-    url: '#view-automated-reports-in-test-management-by-testsigma'
+    name: 'Generate Automated Steps Immediately'
+    url: '#generate-automated-steps-immediately'
+  - type: link
+    name: 'Start Learning Directly'
+    url: '#start-learningirectly'
 ---
 
 <br>
@@ -64,10 +67,25 @@ You can automate manual test cases created in Test Management by Testsigma using
 
 4. You will be redirected to **Atto’s Home** in Testsigma for the selected project, application, and version with **Test Case Details** dialog.
 
-5. Click **Generate Automated Steps** and wait for the NLP steps to generate.
 
-6. The NLP steps are displayed in the **Automated Steps** tab.
+---
 
-7. Click **Agentic Learning** to start learning the live application. For details about learning the live application in Testsigma, see [Learn the Live Application Using Live Editor](https://testsigma.com/docs/ai-agents/generator/#learn-the-live-application-using-live-editor).
+## **Generate Automated Steps Immediately**
+
+1. Click **Generate Automated Steps** and wait for the NLP steps to generate.
+
+2. The NLP steps are displayed in the **Automated Steps** tab.
+
+3. Click **Agentic Learning** to start learning the live application.
+
+---
+
+## **Start Learning Directly**
+
+1. Click the **Automated Steps** tab.
+
+2. Click the **dropdown** icon beside **Agentic Learning**, and select the **Environment**.
+
+3. Click **Agentic Learning** to start learning the live application.
 
 ---
