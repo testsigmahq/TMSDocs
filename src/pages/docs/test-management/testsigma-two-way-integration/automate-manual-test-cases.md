@@ -23,7 +23,7 @@ contextual_links:
     url: '#generate-automated-steps-immediately'
   - type: link
     name: 'Start Learning Directly'
-    url: '#start-learningirectly'
+    url: '#start-learning-directly'
 ---
 
 <br>
@@ -87,5 +87,8 @@ You can automate manual test cases created in Test Management by Testsigma using
 2. Click the **dropdown** icon beside **Agentic Learning**, and select the **Environment**.
 
 3. Click **Agentic Learning** to start learning the live application.
+
+
+For details about learning the live application in Testsigma, see [Learn the Live Application Using Live Editor](https://testsigma.com/docs/ai-agents/generator/#learn-the-live-application-using-live-editor).
 
 ---
