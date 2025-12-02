@@ -3,7 +3,7 @@ title: 'Automate Manual Test Cases in Testsigma'
 page_title: 'Automate Manual Test Cases from Test Management by Testsigma in Testsigma'
 metadesc: 'Automate manual test cases from Test Management by Testsigma in Testsigma using Atto’s AI. Learn how to generate automated steps and begin Agentic Learning.'
 noindex: false
-order: 9.6
+order: 9.4
 page_id: 'automate-manual-test-cases-in-testsigma'
 warning: false
 contextual_links:

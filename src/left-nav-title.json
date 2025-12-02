@@ -193,5 +193,8 @@
   },
   "automate-manual-test-cases": {
     "/docs/test-management/testsigma-two-way-integration/automate-manual-test-cases/": "Automate Manual Tests"
+  },
+  "create-and-sync-test-cases": {
+    "/docs/test-management/testsigma-two-way-integration/create-and-sync-test-cases/": "Create & Sync Test Cases"
   }
 }
