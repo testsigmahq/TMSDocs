@@ -190,5 +190,11 @@
   },
   "execute-test-plans": {
     "/docs/test-management/testsigma-two-way-integration/execute-test-plans/": "Execute Test Plans"
+  },
+  "automate-manual-test-cases": {
+    "/docs/test-management/testsigma-two-way-integration/automate-manual-test-cases/": "Automate Manual Tests"
+  },
+  "create-and-sync-test-cases": {
+    "/docs/test-management/testsigma-two-way-integration/create-and-sync-test-cases/": "Create & Sync Test Cases"
   }
 }
