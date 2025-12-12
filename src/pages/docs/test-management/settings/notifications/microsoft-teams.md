@@ -35,6 +35,9 @@ contextual_links:
 
 Test Management by Testsigma allows you to configure Microsoft Teams notifications for various test entities. These notifications help teams stay aligned with testing activities by delivering real-time updates within Teams channels. This article discusses setting up and customizing Microsoft Teams notifications in Test Management by Testsigma.
 
+[[info | **NOTE**:]]
+| Authorize the integration using a separate Microsoft account designated only for setup. The account used for authorization will not receive notifications due to a limitation in Microsoft Teams.
+
 ---
 
 > ## **Prerequisites**
