@@ -13,8 +13,11 @@ contextual_links:
     name: 'Interactive Demo'
     url: '#interactive-demo'
   - type: link
-    name: 'Filters'
-    url: '#filters'
+    name: 'Test Case Review Status'
+    url: '#Test Case Review Status'
+  - type: link
+    name: 'Summary Metrics'
+    url: '#summary-metrics'
   - type: link
     name: 'Active Runs'
     url: '#active-runs'
@@ -28,6 +31,9 @@ contextual_links:
     name: 'Defects Logged'
     url: '#defects-logged'
   - type: link
+    name: 'Test Case Review Status'
+    url: '#test-case-review-status'
+  - type: link
     name: 'Export Reports'
     url: '#export-reports'
 ---
@@ -38,9 +44,9 @@ contextual_links:
 
 ---
 
-The Dashboard in Test Management by Testsigma displays real-time test metrics. It allows you to track progress, monitor test health, and identify defects, all from a single screen, without navigating to detailed reports.
+The Dashboard provides a real-time view of your test management activities. It displays key metrics such as test case counts, execution status, automation coverage, test run trends, defects, and review status all from a single screen, without navigating to detailed reports.
 
-These charts dynamically update based on selected filters, such as date range and assignee. This enables you to view data filtered by specific date ranges and individual users. This article discusses the reports section in the Dashboard.
+These charts dynamically update based on selected filters, such as date range and assignee. This enables you to view data filtered by specific date ranges and individual users.  This article discusses the reports section in the Dashboard. 
 
 ---
 
@@ -48,8 +54,8 @@ These charts dynamically update based on selected filters, such as date range an
 
 <div>
   <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/2ir99fyzygsz?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(53.52% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/nbn5jx71xyly?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
   </div>
 </div>
 
@@ -59,95 +65,140 @@ These charts dynamically update based on selected filters, such as date range an
 
 ### **Date Range**
 
-The charts in the Dashboard displays data from a defined date range. Select a range from the **From** dropdown to view data for a specific period which is as follows:
-
+The charts in the Dashboard displays data from a defined date range. Select a range from the From dropdown to view data for a specific period which is as follows:
+- Last 1 day
 - Last 7 days
+- Last 1 month
+- Last 3 months
+- Last 6 months
+- Last 1 year
+- All time
 
-- Last 30 days
+### **Assigned To** 
 
-- Last 90 days
+Use the Assigned To filter to view data for a specific assignee.
 
-- Custom range
-
-[[info | **NOTE**:]]
-| The default view shows data from the past 90 days.
-
-### **Assigned To**
-
-Filter data by assignee to focus on test activities for a specific user. You can use this filter to:
-
-- Monitor individual performance
-
-- Compare execution metrics by assignee
-
-- Understand workload distribution
+You can use this filter to:
+- Track user-specific test activities
+- Review workload distribution
+- Compare execution metrics by user
 
 [[info | **NOTE**:]]
-| Combine filters to narrow down the data and gain more targeted insights. For example, Last 30 days + a specific assignee.
+| Combine filters to narrow down the data and gain more targeted insights. For example, **Last 1 month + a specific assignee**.
+
+---
+
+## **Summary Metrics**
+
+The **Dashboard Header** displays the following metrics:
+
+- **Automation Coverage**: Percentage of automated test cases.
+- **Automated Test Cases**: Number of automated test cases.
+- **Manual Test Cases**: Number of manual test cases.
+- **Total Test Cases**: Total number of test cases.
+
+These values help you understand the overall test case distribution in the project.
 
 ---
 
 ## **Active Runs**
 
-This section displays a **Donut Chart** that summarizes the status of all active test runs. The chart includes the count of test cases in each of the following states:
+This section displays a **Donut Chart** showing the status of all active test runs within the selected date range.
+- Passed
+- Failed
+- Blocked
+- In Progress
+- Retest
+- Skipped
+- Untested
 
-- **Passed**
-
-- **Skipped**
-
-- **Blocked**
-
-- **In Progress**
-
-- **Failed**
-
-- **Untested**
-
-- **Retest**
-
-This chart helps you assess ongoing test activities and identify critical issues early in the execution cycle.
+Use this chart to assess the current state of test execution.
 
 [[info | **NOTE**:]]
-| Click View All Active Runs to see the list of all active runs.
+| Click **View Active Runs** to see the full list of active runs.
 
 ---
 
 ## **Closed Test Runs**
 
-This section displays a Line Chart that shows the number of test runs closed over time. Each data point is a count of test runs closed in that time interval.
+This section displays a **Line Chart** showing the number of closed test runs over time. 
 
-You can use this chart to track the testing pace and evaluate the progress of completed cycles.
+Each point on the chart represents the count of runs closed on that date.
+
+Use this chart to understand test cycle completion patterns.
 
 [[info | **NOTE**:]]
-| Click **View All Closed Runs** to see the list of all closed test runs.
+| Click **View Closed Runs** to see all closed test runs.
 
 ---
 
 ## **Results from Closed Test Runs**
 
-This section displays a **Stacked Bar Chart** summarizing the results of test cases from closed runs. Each bar represents the aggregated result set for a given period, categorized by status such as:
+This section displays a **Horizontal Stacked Bar Chart** summarizing the test case results from closed runs.
 
-- **Passed**
+Each bar is grouped by status:
+- Passed
+- Failed
+- Blocked
+- Skipped
+- Retest
+- In Progress
 
-- **Failed**
+Use this chart to evaluate the outcome and quality of recently completed test runs.
 
-- **Blocked**
+---
 
-- **Skipped**
+## **Types of Test Cases**
 
-- **Retest**
+This section displays a **Donut Chart** showing the distribution of test cases by category.
 
-- **In Progress**
+Categories include:
+- Functional
+- Integration
+- Non-Functional
+- Unit Test
+- User Experience
 
-You can use this chart to monitor the quality and success rate of test executions over time.
+The chart also displays the total number of test cases.
+
+[[info | **NOTE**:]]
+| Click **View Test Cases** to open the **Test Case List** page.
 
 ---
 
 ## **Defects Logged**
 
-This section displays a **Bar Chart** showing the number of defects logged over time. The chart distinguishes defect inflow across days or weeks, allowing you to evaluate trends in defect reporting.
+This section displays a **Bar Chart** showing the number of defects logged during the selected time period.
 
-You can use this chart to evaluate defect density and identify periods of high defect activity in test cycles.
+Use this chart to review defect trends and identify periods of high defect activity.
+
+---
+
+## **Test Case Review Status**
+
+This section has two tables.
+
+### **Awaiting My Review**
+
+Shows the test cases assigned to you for review.
+
+Columns include:
+- **Test Case Name**
+- **Assignee**
+- **Submitted Time**
+
+Use this table to identify pending review tasks.
+
+### **Submitted for Review**
+
+Shows the test cases you have submitted for review.
+
+Columns include:
+- **Test Case Name**
+- **Reviewer**
+- **Submitted Time**
+
+Use this table to track review progress for your submissions.
 
 ---
 
@@ -155,9 +206,7 @@ You can use this chart to evaluate defect density and identify periods of high d
 
 1. On the **Dashboard**, apply the necessary filters, and click **Export**.
 
-   For more information about applying filters, see [Filters](https://testsigma.com/docs/test-management/reports/dashboard-reports/#filters).
-
-2. In the **Export Report as PDF** dialog box, enter a name, and click **Download PDF**.
+2. In the **Export Report as PDF** dialog, enter a name, and click **Download PDF**.
 
 3. The system downloads the report as a PDF file.
 
