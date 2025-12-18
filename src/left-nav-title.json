@@ -196,5 +196,29 @@
   },
   "create-and-sync-test-cases": {
     "/docs/test-management/testsigma-two-way-integration/create-and-sync-test-cases/": "Create & Sync Test Cases"
+  },
+  "notifications": {
+    "/docs/test-management/settings/notifications": "Notifications 🔔"
+  },
+  "smtp-configuration": {
+    "/docs/test-management/settings/smtp-configuration/": "SMTP Configuration"
+  },
+  "email": {
+    "/docs/test-management/settings/notifications/email": "Email"
+  },
+  "slack": {
+    "/docs/test-management/settings/notifications/slack": "Slack"
+  },
+  "microsoft-teams": {
+    "/docs/test-management/settings/notifications/microsoft-teams": "MS Teams"
+  },
+  "review-management": {
+    "/docs/test-management/test-cases/review-management": "Review Management"
+  },
+  "clone-test-cases": {
+    "/docs/test-management/test-cases/clone-test-cases": "Clone Test Cases"
+  },
+  "comment-in-test-cases": {
+    "/docs/test-management/test-cases/comment-in-test-cases": "Comment in Test Cases"
   }
 }

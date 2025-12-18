@@ -19,6 +19,9 @@ contextual_links:
     name: 'Add Custom Fields to a Test Case'
     url: '#add-custom-fields-to-a-test-case'
   - type: link
+    name: 'Bulk Edit Custom Fields in Test Cases'
+    url: '#bulk-edit-custom-fields-in-test-cases'
+  - type: link
     name: 'Filtering Test Cases Using Custom Fields'
     url: '#filtering-test-cases-using-custom-fields'
 ---
@@ -35,13 +38,13 @@ In Test Management by Testsigma, you can create custom fields to add additional,
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see Projects.
+> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see [Projects](https://testsigma.com/docs/test-management/projects/manage-projects/).
 
 ---
 
 ## **Create a Custom Field**
 
-1. From the **Dashboard**, go to **Settings > Custom Fields**.
+1. From the left navigation bar, go to **Settings > Custom Fields**.
 
 2. In the **Custom Fields** section, click **+ Add New**.
 
@@ -57,7 +60,7 @@ In Test Management by Testsigma, you can create custom fields to add additional,
 
 ## **Add Custom Fields to a Test Case**
 
-1. From the **Dashboard**, go to **Test Cases** and select an existing test case or create a new one.
+1. From the left navigation bar, go to **Test Cases** and select an existing test case or create a new one.
 
 2. In the **Test Properties** section, select the custom field values you want to add.
 
@@ -65,9 +68,23 @@ In Test Management by Testsigma, you can create custom fields to add additional,
 
 ---
 
+## **Bulk Edit Custom Fields in Test Cases**
+
+1. From the left navigation bar, go to **Test Cases** and select the test cases you want to update.
+
+2. Press **Command+K**, and choose the **Custom Field** you want to edit from the available options.
+
+3. In the **<Custom\_Field\_Name>** dialog:
+   - Select/enter the value you want to apply.
+   - Click **Update &lt;number&gt; Test Cases**.
+
+4. The selected Custom Field is updated for all selected test cases.
+
+---
+
 ## **Filtering Test Cases Using Custom Fields**
 
-1. From the **Dashboard**, go to **Test Cases**.
+1. From the left navigation bar, go to **Test Cases**.
 
 2. Press **Command + Shift + F** or click **Filter by**.
 
