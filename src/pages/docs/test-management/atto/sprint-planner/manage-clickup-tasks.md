@@ -3,7 +3,7 @@ title: 'Sprint Planner for ClickUp Tasks'
 page_title: 'Sprint Planner for ClickUp Tasks'
 metadesc: 'You can generate test cases instantly by integrating ClickUp with Test Management by Testsigma. Atto detects tasks from ClickUp, displays them and sprint planner generate tests'
 noindex: false
-order: 12.13
+order: 13.13
 page_id: 'sprint-planner-for-clickup-tasks'
 warning: false
 contextual_links:

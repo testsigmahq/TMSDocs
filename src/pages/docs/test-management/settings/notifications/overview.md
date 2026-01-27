@@ -3,7 +3,7 @@ title: 'Overview: Set Up Notifications'
 page_title: 'Overview: Set Up Notifications'
 metadesc: 'Test Management by Testsigma allows you to integrate with Slack & Microsoft Teams and configure custom notifications for various test entities.'
 noindex: false
-order: 10.81
+order: 11.81
 page_id: 'overview-of-setting-up-notifications'
 warning: false
 contextual_links:

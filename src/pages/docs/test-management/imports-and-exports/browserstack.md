@@ -3,7 +3,7 @@ title: 'Importing Test Data from Browserstack'
 page_title: 'Getting Started with Test Management by Testsigma'
 metadesc: 'This article discusses overview of test management tool in Testsigma | Keep your test cases, test plans, test runs, and reports organized in one place'
 noindex: false
-order: 4.4
+order: 5.4
 page_id: 'import-test-data-from-browserstack'
 warning: false
 contextual_links:

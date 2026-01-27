@@ -3,7 +3,7 @@ title: 'Share a Test Plan Publicly'
 page_title: 'Share a Test Plan Publicly'
 metadesc: 'Share test plans with anyone using a public link. View test plans and their associated test runs in read-only mode.'
 noindex: false
-order: 7.2
+order: 8.2
 page_id: 'share-test-plans-publicly'
 warning: false
 contextual_links:

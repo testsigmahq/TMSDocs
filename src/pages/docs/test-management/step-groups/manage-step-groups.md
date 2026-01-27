@@ -3,7 +3,7 @@ title: 'Managing Step Groups'
 page_title: 'Managing Step Groups in Test Management by Testsigma'
 metadesc: 'Step Groups in Test Management by Testsigma enhances test case management by grouping repetitive test steps | Learn how to create step groups in Test Management by Testsigma'
 noindex: false
-order: 5.1
+order: 6.2
 page_id: 'create-step-groups'
 warning: false
 contextual_links:

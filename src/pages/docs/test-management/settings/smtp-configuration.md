@@ -3,7 +3,7 @@ title: 'SMTP Configuration in Test Management by Testsigma'
 page_title: 'SMTP Configuration in Test Management by Testsigma'
 metadesc: 'Configuring SMTP allows your organization to send email notifications from your own authenticated email address | Learn configuring SMTP in Test Management by Testsigma'
 noindex: false
-order: 10.7
+order: 11.7
 page_id: 'smtp-configuration'
 warning: false
 contextual_links:

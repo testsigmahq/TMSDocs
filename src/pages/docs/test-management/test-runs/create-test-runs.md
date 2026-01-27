@@ -3,7 +3,7 @@ title: 'Creating Test Runs'
 page_title: 'Creating Test Runs in Test Management by Testsigma'
 metadesc: 'Create test runs in Test Management by Testsigma by manually adding test cases, applying filters, or selecting all and ensure thorough testing of your applications'
 noindex: false
-order: 6.1
+order: 7.1
 page_id: 'create-test-runs'
 warning: false
 contextual_links:

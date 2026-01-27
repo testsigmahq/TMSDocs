@@ -3,7 +3,7 @@ title: 'Link Test Cases Between Test Management by Testsigma & Testsigma'
 page_title: 'Link Test Cases Between Test Management by Testsigma & Testsigma'
 metadesc: 'Two-way test case sync ensures consistent traceability & seamless alignment between Test Management by Testsigma and Testsigma.'
 noindex: false
-order: 9.3
+order: 10.3
 page_id: 'link-tests-in-testsigma-and-tms'
 warning: false
 contextual_links:

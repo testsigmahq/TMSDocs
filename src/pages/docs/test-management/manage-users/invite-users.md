@@ -1,9 +1,9 @@
 ---
 title: 'Invite Users'
 page_title: 'Invite Users to Test Management by Testsigma'
-metadesc: ''
+metadesc: 'Invite users to your Test Management by Testsigma to collaborate & assign roles & permissions to control access based on their responsibilities.'
 noindex: false
-order: 11.1
+order: 12.1
 page_id: 'users-in-testsigma-test-management'
 warning: false
 contextual_links:
@@ -49,15 +49,22 @@ Invite users to your Test Management by Testsigma to collaborate and assign role
 
 ## **Invite Users**
 
-1. On the **Dashboard**, click **Invite Users**. This opens the **Users** section under **Settings**.
+1. On the left navigation bar, click **Invite Users**. This will open the **Users** section under **Settings**.
 
 2. Click **Invite Users**.
 
-3. In the **Invite Team** dialog, enter the email address and click **Send Invite**.
+3. In the **Invite Team** dialog:
+   - Enter one or more email addresses
+   - Select a role:
+      - **Admin**: Full workspace access, including create, read, update, and delete (CRUD) operations
+      - **Read Only**: View access to test entities, no CRUD permissions
+   - Click **Send Invite**
 
-4. The invited user will receive an email with a link to join the workspace.
+. The invited user will receive an email with a link to join the workspace.
 
 [[info | **NOTE**:]]
-| To invite multiple team members, enter multiple email addresses separated by commas.
+| - To invite multiple team members, enter multiple email addresses separated by commas.
+| - **Read Only** users cannot perform CRUD operations on workspace assets.
+
 
 ---

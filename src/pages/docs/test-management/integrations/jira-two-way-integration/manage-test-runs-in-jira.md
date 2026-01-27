@@ -3,7 +3,7 @@ title: 'Manage Test Runs in Jira App'
 page_title: 'Manage Test Runs in Jira'
 metadesc: 'The Test Management by Testsigma app simplifies your workflow by allowing you to manage test runs & test case results directly within Jira.'
 noindex: false
-order: 8.13
+order: 9.13
 page_id: 'manage-test-runs-in-jira-app'
 warning: false
 contextual_links:

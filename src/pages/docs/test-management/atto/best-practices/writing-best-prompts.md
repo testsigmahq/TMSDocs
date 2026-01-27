@@ -3,7 +3,7 @@ title: 'Writing Best Prompts that Generate the Best Test Cases'
 page_title: 'How to Write the Best Prompts that Generate the Best Test Cases'
 metadesc: 'Learn how to write clear prompts that guide Atto to generate accurate, relevant test cases. No rework, just the ones you need with right prompts.'
 noindex: false
-order: 12.52
+order: 13.52
 page_id: 'best-practices-for-writing-prompts'
 warning: false
 contextual_links:

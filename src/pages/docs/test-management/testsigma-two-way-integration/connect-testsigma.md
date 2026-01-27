@@ -3,7 +3,7 @@ title: 'Testsigma Integration for Test Management by Testsigma'
 page_title: 'Testsigma Integration for Test Management by Testsigma'
 metadesc: 'Testsigma Integration with Test Management by Testsigma ensures complete visibility by synchronizing test coverage, execution results, and logs across manual & automated tests.'
 noindex: false
-order: 9.1
+order: 10.1
 page_id: 'testsigma-for-tms'
 warning: false
 contextual_links:
