@@ -3,7 +3,7 @@ title: 'Execute Test Plans from Test Management by Testsigma'
 page_title: 'Execute Test Plans from Test Management by Testsigma'
 metadesc: 'You can execute test plans in Testsigma directly from Test Management by Testsigma | Learn how to execute test plans of Testsigma from Test Management by Testsigma.'
 noindex: false
-order: 9.7
+order: 10.7
 page_id: 'execute-test-plans-in-testsigma'
 warning: false
 contextual_links:

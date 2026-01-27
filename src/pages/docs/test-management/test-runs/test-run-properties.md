@@ -3,7 +3,7 @@ title: 'Test Run Properties'
 page_title: 'Test Run Properties in Test Management by Testsigma'
 metadesc: 'Learn about test run properties in Testsigma  Test Management. Structure, manage, and track test runs effectively to improve efficiency and ensure accurate reporting.'
 noindex: false
-order: 6.4
+order: 7.4
 page_id: 'test-runs-properties'
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: 'Link Test Plans Between Test Management by Testsigma & Testsigma'
 page_title: 'Link Test Plans Between Test Management by Testsigma & Testsigma'
 metadesc: 'The Test Management by Testsigma & Testsigma integration streamlines execution by connecting test plans between both systems & providing centralized access to detailed results.'
 noindex: false
-order: 9.6
+order: 10.6
 page_id: 'link-test-plans-in-testsigma-and-tms'
 warning: false
 contextual_links:

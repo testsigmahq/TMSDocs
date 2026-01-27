@@ -4,7 +4,7 @@ page_title: 'Generate Test Cases from Jira'
 metadesc: 'Generate multiple test cases in Testsigma from your Jira stories using AI. Just pick the project, issue type, and story, AI handles the rest with detailed cases'
 description: 'Learn how AI can assist you with creating test cases in Test Management by Testsigma from your Jira stories.'
 noindex: false
-order: 12.22
+order: 13.22
 page_id: 'generate-test-cases-from-jira'
 warning: false
 contextual_links:

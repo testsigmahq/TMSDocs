@@ -3,7 +3,7 @@ title: 'Import Test Data from Testrail'
 page_title: 'Import Test Data from Testrail'
 metadesc: 'Test Management by Testsigma allows you to quickly import test cases from Testrail into an existing project. This feature streamlines test case migration and bulk additions'
 noindex: false
-order: 4.3
+order: 5.3
 page_id: 'import-test-data-from-testrail'
 warning: false
 contextual_links:

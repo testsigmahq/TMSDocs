@@ -3,7 +3,7 @@ title: 'Manage Test Cases in Jira App'
 page_title: 'Manage Test Cases in Jira'
 metadesc: 'The Test Management by Testsigma app simplifies your workflow by allowing you to create & manage tests directly in Jira. You can also edit, or unlink tests from the linked Jira issue.'
 noindex: false
-order: 8.12
+order: 9.12
 page_id: 'manage-tests-in-jira-app'
 warning: false
 contextual_links:

@@ -220,5 +220,20 @@
   },
   "comment-in-test-cases": {
     "/docs/test-management/test-cases/comment-in-test-cases": "Comment in Test Cases"
+  },
+  "confluence": {
+    "/docs/test-management/integrations/confluence/": "Confluence Integration"
+  },
+  "generate-tests-from-confluence": {
+    "/docs/test-management/atto/generator-agent/generate-tests-from-confluence/": "Generate Test Cases from Confluence"
+  },
+  "run-history": {
+    "/docs/test-management/test-cases/run-history/": "View Run History"
+  },
+  "data-sets": {
+    "/docs/test-management/data-sets/": "Data Sets"
+  },
+  "manage-data-sets": {
+    "/docs/test-management/data-sets/manage-data-sets/": "Manage Data Sets"
   }
 }

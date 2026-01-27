@@ -3,7 +3,7 @@ title: 'Share a Test Run Publicly'
 page_title: 'Share a Test Run Publicly'
 metadesc: 'Share test runs with anyone using a public link. View test runs and their associated test cases in read-only mode.'
 noindex: false
-order: 6.3
+order: 7.3
 page_id: 'share-test-runs-publicly'
 warning: false
 contextual_links:

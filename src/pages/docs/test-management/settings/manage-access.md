@@ -3,7 +3,7 @@ title: 'Manage Access: Grant/Revoke Permissions'
 page_title: 'Test Management Settings'
 metadesc: 'Grant temporary access to the Testsigma Support team for diagnosing and resolving support related issues | This article discusses how to authorize and revoke support access.'
 noindex: false
-order: 10.5
+order: 11.5
 page_id: 'manage-access-for-testsigma-test-management'
 warning: false
 contextual_links:
