@@ -20,10 +20,10 @@ contextual_links:
     url: '#create-a-data-set'
   - type: link
     name: 'Create Data Set from Test Case'
-    url: '#Create-data-set-from-test-case'
+    url: '#create-data-set-from-test-case'
   - type: link
     name: 'Add Data Set to Test Case'
-    url: '#Add-data-set-to-test-case'
+    url: '#add-data-set-to-test-case'
   - type: link
     name: 'Add Multiple Data Sets to Test Case'
     url: '#add-multiple-data-sets-to-test-case'
