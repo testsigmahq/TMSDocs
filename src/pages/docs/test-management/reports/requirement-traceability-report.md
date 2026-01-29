@@ -39,6 +39,17 @@ A Requirement Traceability Report provides clear visibility into how requirement
 
 ---
 
+## **Interactive Demo**
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(53.40% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/npwa2l4koe9z?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
+
+---
+
 ## **Create a Requirement Traceability Report**
 
 1. From the left navigation bar, go to **Reports**. 
@@ -49,13 +60,15 @@ A Requirement Traceability Report provides clear visibility into how requirement
 
 4. On the **Add Test Requirements** page, 
    - Select the requirements to include in the report
-   - Click Attach Test Requirements
+   - Click **Attach Test Requirements**
 
 5. Enter a **Title** and optional **Description**.
 
 6. Click **Create a Report**.
 
 7. The **Requirement Traceability Report** is created successfully.
+
+8. Click **Share** on the top right corner of the report, enable **Anyone with the link can view**, and click **Copy** to share the report link. 
 
 ---
 
@@ -64,9 +77,9 @@ A Requirement Traceability Report provides clear visibility into how requirement
 ### **Report Overview**
 
 The report provides high-level visibility into:
-- Requirement distribution by priority (Critical, Major, Medium, Minor)
-- Test case count and automation coverage (Manual vs Automated)
-- Traceability matrix mapping Requirements → Test Cases → Test Runs
+- Requirement distribution by priority (**Critical**, **Major**, **Medium**, **Minor**)
+- Test case count and automation coverage (**Manual** vs **Automated**)
+- Traceability matrix mapping **Requirements > Test Cases > Test Runs**
 
 ### **Key Widgets**
 
