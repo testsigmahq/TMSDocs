@@ -3,7 +3,7 @@ title: 'Testsigma Integration App for Jira'
 page_title: 'Testsigma Integration App for Jira'
 metadesc: 'The Testsigma Integration for Jira app seamlessly extends Jira’s core capabilities to include native test management. You can manage tests directly from the Jira'
 noindex: false
-order: 8.11
+order: 9.11
 page_id: 'testsigma-app-for-jira'
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: 'Import Test Data from Zephyr'
 page_title: 'Import Test Data from Zephyr'
 metadesc: 'Test Management by Testsigma allows you to quickly import test cases Zephyr into an existing project. This feature streamlines test case migration and bulk additions'
 noindex: false
-order: 4.2
+order: 5.2
 page_id: 'import-test-data-from-zephyr'
 warning: false
 contextual_links:

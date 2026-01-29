@@ -3,7 +3,7 @@ title: 'Sprint Planner: For Effortless Test Planning with AI'
 page_title: 'Sprint Planner for Test Management'
 metadesc: 'Use Sprint Planner and Generator Agents in Testsigma to manage Jira sprints and auto-generate test cases for a seamless test creation workflow.'
 noindex: false
-order: 12.11
+order: 13.11
 page_id: 'sprint-planner'
 warning: false
 contextual_links:

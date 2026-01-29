@@ -3,7 +3,7 @@ title: 'Export Test Data'
 page_title: 'Export Test Data'
 metadesc: 'Test Management by Testsigma allows you to quickly export test cases/step groups in excel format. This feature streamlines quick migration of test cases/step groups'
 noindex: false
-order: 4.5
+order: 5.5
 page_id: 'export-test-data-from-testsigma'
 warning: false
 contextual_links:

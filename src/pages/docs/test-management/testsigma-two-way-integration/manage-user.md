@@ -3,7 +3,7 @@ title: 'Managing Users in Testsigma & Test Management by Testsigma'
 page_title: 'Manage Users in Testsigma & Test Management by Testsigma'
 metadesc: 'Testsigma & Test Management by Testsigma integration also provides unified user management, allowing you to control access for both products from a single interface.'
 noindex: false
-order: 9.2
+order: 10.2
 page_id: 'manage-users-in-testsigma-and-tms'
 warning: false
 contextual_links:

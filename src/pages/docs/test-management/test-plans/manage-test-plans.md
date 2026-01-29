@@ -3,7 +3,7 @@ title: 'Managing Test Plans'
 page_title: 'Test Plans in Test Management by Testsigma'
 metadesc: 'Organize and manage your testing with test plans in Test Management by Testsigma | Set the scope, goals, and schedules to run/track test plans clearly and efficiently.'
 noindex: false
-order: 7.1
+order: 8.1
 page_id: 'test-plans-in-testsigma-test-management'
 warning: false
 contextual_links:

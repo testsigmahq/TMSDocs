@@ -3,7 +3,7 @@ title: 'Set Up MS Teams Notifications'
 page_title: 'Set Up MS Teams Notifications'
 metadesc: 'Set up tailored MS Teams notifications so your team never misses key updates on assignments, status changes, or reviews | Learn how to setup MS Teams notifications'
 noindex: false
-order: 10.84
+order: 11.84
 page_id: 'setting-up-ms-teams-notifications'
 warning: false
 contextual_links:

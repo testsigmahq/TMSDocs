@@ -1,5 +1,5 @@
 ---
-title: 'Project Settings: Control Details & Test Assets'
+title: 'Project Settings: Project Details and Test Assets'
 page_title: 'Project Settings in Test Management by Testsigma'
 metadesc: 'Update project details & manage test cases and step groups through import & export options | This article explains how to perform these actions in Test Management by Testsigma'
 noindex: false
@@ -21,15 +21,20 @@ contextual_links:
   - type: link
     name: 'Export Test Cases and Step Groups'
     url: '#export-test-cases-and-step-groups'
+  - type: link
+    name: 'Review Management'
+    url: '#review-management'
+
 ---
 
 <br>
 
-**Update project name, description, and manage test assets (test cases & step groups).**
+**Use Project Settings to update project details and manage test assets such as test cases and step groups.**
 
 ---
 
-Project Settings lets you update project details and manage test cases and step groups through import and export options. This article explains how to perform these actions in Test Management by Testsigma.
+Project Settings allows you to update project details, manage test cases and step groups using import and export options, and configure Review Management for the project.
+
 
 ---
 
@@ -41,7 +46,7 @@ Project Settings lets you update project details and manage test cases and step 
 
 ## **Overview**
 
-The **Overview** section of **Project Settings** opens by default. You can edit the project **Name**, **Description**, or **Delete** the project from this section.
+The **Overview** section of **Project Settings** opens by default. You can edit the project name and description or delete the project from this section.
 
 For more information, see <a href="http://testsigma.com/docs/test-management/projects/manage-projects/" rel="nofollow">Manage Projects</a>.
 
@@ -49,7 +54,7 @@ For more information, see <a href="http://testsigma.com/docs/test-management/pro
 
 ## **Import Test Cases and Step Groups**
 
-You can import test cases by uploading a CSV file containing all relevant test case/step group details.
+Import test cases and step groups by uploading a CSV file that contains the required details.
 
 For more information, see [Imports](https://testsigma.com/docs/test-management/imports-and-exports/csv-file/).
 
@@ -57,8 +62,16 @@ For more information, see [Imports](https://testsigma.com/docs/test-management/i
 
 ## **Export Test Cases and Step Groups**
 
-You can export test cases/step groups from Test Management by Testsigma with all relevant details.
+Export test cases and step groups from Test Management by Testsigma with their associated details.
 
 For more information, see [Exports](https://testsigma.com/docs/test-management/imports-and-exports/export-tests/).
+
+---
+
+## **Review Management**
+
+Review Management provides a structured review workflow for test cases in Test Management by Testsigma. You can enable or disable Review Management from Project Settings.
+
+For more information, see [Review Management](https://testsigma.com/docs/test-management/test-cases/review-management/).
 
 ---

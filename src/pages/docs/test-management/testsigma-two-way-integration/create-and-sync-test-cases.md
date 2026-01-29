@@ -3,7 +3,7 @@ title: 'Create & Sync Test Cases from Testsigma’s Atto’s Home'
 page_title: 'Create and Sync Test Cases from Testsigma’s Atto’s Home'
 metadesc: 'Create & sync AI-generated test cases from Atto’s Home directly to Test Management by Testsigma. This article explains how to generate & sync Atto’s test cases into TMS.'
 noindex: false
-order: 9.5
+order: 10.5
 page_id: 'create-and-sync-test-cases'
 warning: false
 contextual_links:

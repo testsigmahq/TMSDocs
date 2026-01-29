@@ -3,7 +3,7 @@ title: 'Set Up Slack Notifications'
 page_title: 'Set Up Slack Notifications'
 metadesc: 'Set up tailored Slack notifications so your team never misses key updates on assignments, status changes, or reviews | Learn how to setup notifications'
 noindex: false
-order: 10.83
+order: 11.83
 page_id: 'setting-up-slack-notifications'
 warning: false
 contextual_links:

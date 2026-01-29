@@ -3,7 +3,7 @@ title: 'Managing Test Runs'
 page_title: 'Managing Test Runs in Test Management by Testsigma'
 metadesc: 'Manage test runs in Test Management by Testsigma by editing, cloning, closing, or deleting them to maintain organized and efficient test execution.'
 noindex: false
-order: 6.2
+order: 7.2
 page_id: 'create-test-runs'
 warning: false
 contextual_links:

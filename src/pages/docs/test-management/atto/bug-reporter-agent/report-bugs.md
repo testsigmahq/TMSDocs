@@ -3,7 +3,7 @@ title: 'Report Bugs Directly from Atto'
 page_title: 'Report Bugs Directly from Atto'
 metadesc: 'Use Atto to execute test cases & report bugs directly to Jira | This simplifies the testing process by keeping execution and bug reporting in one place'
 noindex: false
-order: 12.41
+order: 13.41
 page_id: 'report-bugs-directly-from-atto'
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: 'Generate Test Cases from Images'
 page_title: 'Generate Test Cases from Images'
 metadesc: 'Generate multiple test cases in Testsigma from images showing workflows or actions. Upload images with context, and AI creates detailed, step-by-step test cases'
 noindex: false
-order: 12.24
+order: 13.24
 page_id: 'generate-test-cases-from-images'
 warning: false
 contextual_links:

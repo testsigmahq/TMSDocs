@@ -3,7 +3,7 @@ title: 'Travis CI Integration with Test Management by Testsigma'
 page_title: 'Travis CI Integration with Test Management by Testsigma'
 metadesc: 'Integrate Travis CI with TMS by Testsigma to automate test executions & generate test reports through CI/CD pipelines | Travis CI Integration with TMS by Testsigma'
 noindex: false
-order: 15.4
+order: 16.4
 page_id: 'travis-integration-with-test-management-by-testsigma'
 warning: false
 contextual_links:

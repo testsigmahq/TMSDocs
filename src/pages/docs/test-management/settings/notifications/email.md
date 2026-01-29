@@ -3,7 +3,7 @@ title: 'Set Up Email Notifications'
 page_title: 'Set Up Email Notifications'
 metadesc: 'Set up tailored email alerts so your team never misses key updates on assignments, status changes, or reviews | Learn how to setup email notifications'
 noindex: false
-order: 10.82
+order: 11.82
 page_id: 'setting-up-email-notifications'
 warning: false
 contextual_links:
