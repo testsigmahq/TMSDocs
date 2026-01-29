@@ -48,6 +48,17 @@ Test Data Sets let you store reusable data for use across multiple test cases. T
 
 ---
 
+## **Interactive Demo**
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(53.40% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/af06lapdqeaa?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
+
+---
+
 ## **Create a Data Set**
 
 1. From the left navigation bar, go to **Data Sets**. 
@@ -75,12 +86,12 @@ Test Data Sets let you store reusable data for use across multiple test cases. T
 
 4. Enter a **Name**, an optional **Description** and click **Create Dataset**. This will open **Create a Data Set** dialog.
 
-4. On the **Create a Data Set** dialog, 
+5. On the **Create a Data Set** dialog, 
    - Add distinct variable names in column headers.
    - Enter values for each variable.
    - Click **Add Column** for more variables or **Add Row** for more values.
 
-5. Click **Link Dataset** to add it to the test case.
+6. Click **Link Dataset** to add it to the test case.
 
 ---
 
