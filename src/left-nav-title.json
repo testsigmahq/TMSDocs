@@ -235,5 +235,14 @@
   },
   "manage-data-sets": {
     "/docs/test-management/data-sets/manage-data-sets/": "Manage Data Sets"
+  },
+  "azure-two-way-integration": {
+    "/docs/test-management/integrations/azure-two-way-integration/": "Azure DevOps Two-way Integration"
+  },
+  "azure-devops": {
+    "/docs/test-management/integrations/azure-devops": "Azure DevOps Integration"
+  },
+  "manage-azure-devops-work-items": {
+    "/docs/test-management/atto/sprint-planner/manage-azure-devops-work-items/": "Manage Azure DevOps Work Items"
   }
 }
