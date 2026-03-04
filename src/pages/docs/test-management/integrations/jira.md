@@ -3,7 +3,7 @@ title: 'Jira Integration with Test Management by Testsigma'
 page_title: 'Jira Integration with Testsigma'
 metadesc: 'Integrate Test Management by Testsigma with Jira to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
-order: 9.2
+order: 9.3
 page_id: 'jira-integration-with-testsigma-test-management'
 warning: false
 contextual_links:
@@ -78,7 +78,7 @@ Test Management by Testsigma allows seamless integration with Jira, which enable
 
 3. Click the test case to log a defect. This opens the **Quick View** overlay.
 
-4. Click **Add a Defect**.
+4. The Atto AI agent automatically fills in the **Project**, **Issue Type**, **Status**, and **Description**. If needed, edit the required fields and click **Add**.
 
 5. You can either link to an existing Jira issue or create a new Jira issue.
 

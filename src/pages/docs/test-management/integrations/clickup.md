@@ -3,7 +3,7 @@ title: 'ClickUp Integration with Test Management by Testsigma'
 page_title: 'ClickUp Integration with Testsigma'
 metadesc: 'Integrate Test Management by Testsigma with ClickUp to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
-order: 9.4
+order: 9.6
 page_id: 'clickup-integration-with-testsigma-test-management'
 warning: false
 contextual_links:
@@ -76,7 +76,7 @@ Test Management by Testsigma allows seamless integration with ClickUp, which ena
 
 3. Click the test case to log a defect. This opens the **Quick View** overlay.
 
-4. Click **Add a Defect**.
+4. The Atto AI agent automatically fills in the **Space**, **Folder**, **List**, **Task Name**, and **Description** fields. If needed, edit the required fields and click **Add**.
 
 5. You can either link to an existing ClickUp task or create a new ClickUp task.
 

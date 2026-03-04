@@ -81,14 +81,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 3. Click the **meatballs menu (⋯)** next to the test case, and click **Add defect**.
    ![Add defect](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Add_Defect_from_Jira_TMS.png)
 
-4. In the **Add Defect** dialog:
-   - Select an **Issue Type**.
-   - Enter a **Summary**.
-   - (Optional) Enter a **Description**.
-   - Select the **Status**.
-   - Select the **Assignee**.
-   - Click **Add**.
-  
+4. In the **Add Defect** dialog, the **Issue Type**, **Summary**, **Description**, and **Status** are automatically filled in by the Atto AI agent. If needed, edit the fields and click **Add**.
    ![Add Defect](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Add_defect_Button_Jira.png)
 
 5. The defect is created and added to Jira.

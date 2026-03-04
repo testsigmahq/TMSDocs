@@ -3,7 +3,7 @@ title: 'Confluence Integration with Test Management by Testsigma'
 page_title: 'Confluence Integration with Testsigma'
 metadesc: 'The Confluence integration enables users to generate test cases directly from a Confluence page | Learn how to integrate Confluence with Test Management by Testsigma'
 noindex: false
-order: 9.5
+order: 9.7
 page_id: 'confluence-integration-with-testsigma-test-management'
 warning: false
 contextual_links:
