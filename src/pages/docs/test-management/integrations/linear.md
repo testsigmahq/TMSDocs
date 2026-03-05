@@ -3,7 +3,7 @@ title: 'Linear Integration with Test Management by Testsigma'
 page_title: 'Linear Integration with Testsigma'
 metadesc: 'Integrate Test Management by Testsigma with Linear to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
-order: 9.3
+order: 9.5
 page_id: 'linear-integration-with-testsigma-test-management'
 warning: false
 contextual_links:
@@ -76,7 +76,7 @@ Test Management by Testsigma allows seamless integration with Linear, which enab
 
 3. Click the test case to log a defect. This opens the **Quick View** overlay.
 
-4. Click **Link Issue**.
+4.  The Atto AI agent automatically fills in the **Team**, **Project**, and **Description** fields. If needed, edit the required fields and click **Add**.
 
 5. You can either link to an existing Linear issue or create a new Linear issue.
 
