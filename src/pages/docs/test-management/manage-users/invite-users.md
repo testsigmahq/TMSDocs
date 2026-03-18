@@ -3,7 +3,7 @@ title: 'Invite Users'
 page_title: 'Invite Users to Test Management by Testsigma'
 metadesc: 'Invite users to your Test Management by Testsigma to collaborate & assign roles & permissions to control access based on their responsibilities.'
 noindex: false
-order: 12.1
+order: 13.1
 page_id: 'users-in-testsigma-test-management'
 warning: false
 contextual_links:

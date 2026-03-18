@@ -3,7 +3,7 @@ title: 'Linear Integration with Test Management by Testsigma'
 page_title: 'Linear Integration with Testsigma'
 metadesc: 'Integrate Test Management by Testsigma with Linear to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
-order: 9.5
+order: 10.5
 page_id: 'linear-integration-with-testsigma-test-management'
 warning: false
 contextual_links:

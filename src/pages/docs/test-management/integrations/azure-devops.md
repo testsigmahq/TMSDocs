@@ -3,7 +3,7 @@ title: 'Azure DevOps Integration with Test Management by Testsigma'
 page_title: 'Azure DevOps Integration with Test Management by Testsigma'
 metadesc: 'Test Management by Testsigma integrates with Azure DevOps to link test defects to work items, improving traceability and collaboration.'
 noindex: false
-order: 9.8
+order: 10.8
 page_id: 'azure-devops-integration-with-test-management-by-testsigma'
 warning: false
 contextual_links:
