@@ -119,9 +119,6 @@
   "jenkins": {
     "/docs/test-management/ci-cd-integrations/jenkins/": "Jenkins"
   },
-  "azure-devops": {
-    "/docs/test-management/ci-cd-integrations/azure-devops/": "Azure DevOps"
-  },
   "ci-cd-integrations": {
     "/docs/test-management/ci-cd-integrations/": "CI/CD Integrations"
   },
@@ -240,7 +237,8 @@
     "/docs/test-management/integrations/azure-two-way-integration/": "Azure DevOps Two-way Integration"
   },
   "azure-devops": {
-    "/docs/test-management/integrations/azure-devops": "Azure DevOps Integration"
+    "/docs/test-management/integrations/azure-devops": "Azure DevOps Integration",
+    "/docs/test-management/ci-cd-integrations/azure-devops/":"Azure DevOps"
   },
   "manage-azure-devops-work-items": {
     "/docs/test-management/atto/sprint-planner/manage-azure-devops-work-items/": "Manage Azure DevOps Work Items"

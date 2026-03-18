@@ -3,7 +3,7 @@ title: 'Manage Test Runs in Azure DevOps'
 page_title: 'Manage Test Runs in Azure DevOps'
 metadesc: 'The Test Management by Testsigma app simplifies your workflow by enabling you to manage test runs and test case results directly within Azure DevOps.'
 noindex: false
-order: 9.23
+order: 10.23
 page_id: 'manage-test-runs-in-azure-devops'
 warning: false
 contextual_links:

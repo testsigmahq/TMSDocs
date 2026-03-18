@@ -3,7 +3,7 @@ title: 'Generate Test Cases from Confluence Pages'
 page_title: 'Generate Test Cases from Confluence Pages'
 metadesc: 'Learn how to generate structured test cases in Test Management by Testsigma directly from Confluence pages using Atto Generator Agent.'
 noindex: false
-order: 13.28
+order: 14.28
 page_id: 'generate-test-cases-from-confluence-pages'
 warning: false
 contextual_links:

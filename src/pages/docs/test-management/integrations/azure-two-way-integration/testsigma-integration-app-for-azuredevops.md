@@ -3,7 +3,7 @@ title: 'Testsigma Integration App for Azure DevOps'
 page_title: 'Testsigma Integration App for Azure DevOps'
 metadesc: 'Testsigma Integration for Azure DevOps enables native test management, linking test cases, runs, and results with work items for seamless traceability.'
 noindex: false
-order: 9.21
+order: 10.21
 page_id: 'testsigma-app-for-azure_devops'
 warning: false
 contextual_links:
