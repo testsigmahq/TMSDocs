@@ -40,8 +40,8 @@ Test Capture tracks the execution session while a test case is run.
 When a log is recorded, it includes both visual output and execution data.
 
 **Log can be captured:**
-- during execution
-- or after a failure occurs
+- **during execution**
+- or **after a failure occurs**
 
 No advance setup is required to capture failures.
 
