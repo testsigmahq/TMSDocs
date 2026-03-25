@@ -4,7 +4,7 @@
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import React from 'react';
 import './LeftNav.scss';
-import book from './images/book.png';
+// import book from './images/book.png';
 
 const { v4: uuidv4 } = require('uuid');
 
@@ -194,7 +194,7 @@ class ListItem extends React.Component {
         }`}
       >
         <div className='activeIndicator' />
-        <img src={book} alt='book' />
+        <img src='https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/book.png' alt='book' />
         <Link to={normalizePath(url)}>{data.leftNavTitle || title}</Link>{' '}
       </li>
     );
