@@ -3,7 +3,7 @@ title: 'ClickUp Integration with Test Management by Testsigma'
 page_title: 'ClickUp Integration with Testsigma'
 metadesc: 'Integrate Test Management by Testsigma with ClickUp to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
-order: 9.6
+order: 10.6
 page_id: 'clickup-integration-with-testsigma-test-management'
 warning: false
 contextual_links:

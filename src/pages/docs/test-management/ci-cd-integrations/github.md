@@ -3,7 +3,7 @@ title: 'GitHub Integration with Test Management by Testsigma'
 page_title: 'GitHub Integration with Test Management by Testsigma'
 metadesc: 'Integrate GitHub with TMS by Testsigma to automate test executions & generate test reports through CI/CD pipelines | GitHub Integration with TMS by Testsigma'
 noindex: false
-order: 16.3
+order: 17.3
 page_id: 'github-integration-with-test-management-by-testsigma'
 warning: false
 contextual_links:

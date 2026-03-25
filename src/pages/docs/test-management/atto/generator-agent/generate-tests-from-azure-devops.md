@@ -3,7 +3,7 @@ title: 'Generate Test Cases from Azure DevOps'
 page_title: 'Generate Test Cases from Azure DevOps'
 metadesc: 'Generate multiple AI-powered test cases in Testsigma directly from Azure DevOps user stories for faster, smarter test creation.'
 noindex: false
-order: 13.29
+order: 14.29
 page_id: 'generate-test-cases-from-azure-devops'
 warning: false
 contextual_links:

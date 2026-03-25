@@ -3,7 +3,7 @@ title: 'Manage Test Cases in Azure DevOps'
 page_title: 'Manage Test Cases in Azure DevOps'
 metadesc: 'Test Management by Testsigma lets you create and manage tests directly in Azure DevOps, and edit or unlink them from linked work items.'
 noindex: false
-order: 9.22
+order: 10.22
 page_id: 'manage-tests-in-azure-devops'
 warning: false
 contextual_links:

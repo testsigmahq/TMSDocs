@@ -3,7 +3,7 @@ title: 'Sprint Planner for Azure DevOps Work Items'
 page_title: 'Sprint Planner for Azure DevOps Work Items'
 metadesc: 'Integrate Azure DevOps with Testsigma to auto-generate test cases from sprints using Atto’s Sprint Planner and Generator Agents.'
 noindex: false
-order: 13.14
+order: 14.14
 page_id: 'sprint-planner-for-azure-devops-work-items'
 warning: false
 contextual_links:
