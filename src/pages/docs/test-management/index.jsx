@@ -1,5 +1,5 @@
 /* eslint-disable react/no-danger */
-import React, { useMemo } from 'react';
+import React, { useEffect } from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../../../components/layout';
 import SEO from '../../../components/seo';
@@ -10,23 +10,6 @@ import 'prismjs/themes/prism-tomorrow.css';
 import '../../../templates/page.scss';
 import CardList from '../../../components/navcards';
 import Header from '../../../components/header';
-
-const META_KEYS = new Set(['leftNavTitle', 'old', 'overview', 'url', 'title']);
-
-function buildSubsectionMeta(sectionData) {
-  const keys = Object.keys(sectionData).filter((k) => !META_KEYS.has(k));
-  return keys.map((key) => {
-    const item = sectionData[key];
-    const childKeys = Object.keys(item).filter((k) => !META_KEYS.has(k));
-    const isLeaf = !!item.url && childKeys.length === 0;
-    return {
-      key,
-      title: item.leftNavTitle || key.replaceAll('-', ' '),
-      overviewUrl: item?.overview?.url || (isLeaf ? item.url : null),
-      isLeaf,
-    };
-  });
-}
 
 const IndexContent = () => {
   return (
@@ -48,8 +31,8 @@ const IndexContent = () => {
       <div className='w-full pt-8 card_container'>
         <CardList />
       </div>
-      <div className="w-full">
-<hr />
+      <div class="w-full">
+<hr  />
 </div>
       <div className='flex flex-wrap homepage_footer justify-center'>
         <div className='flex flex-wrap'>
@@ -93,19 +76,7 @@ const IndexContent = () => {
   );
 };
 
-const Index = ({ data }) => {
-  const navProps = useMemo(() => {
-    if (!data?.leftNavLinks?.value) return {};
-    try {
-      const allNavData = JSON.parse(data.leftNavLinks.value);
-      const section = allNavData['test-management'];
-      if (!section) return {};
-      return { navSubsections: buildSubsectionMeta(section) };
-    } catch {
-      return {};
-    }
-  }, [data]);
-
+const Index = () => {
   return (
     <Layout>
       <SEO
@@ -122,9 +93,9 @@ const Index = ({ data }) => {
       <hr />
       <div className='w-full'>
         <div className='flex items-stretch'>
-          <MobileView {...navProps} />
+          <MobileView></MobileView>
           <nav className='isTablet w-1/4 max-w-sm bg-gray-50'>
-            <LeftNav {...navProps} />
+            <LeftNav />
           </nav>
           <div className='flex-auto w-4/5'>
             <div className='flex items-stretch flex-wrap mx-8'>
@@ -138,12 +109,3 @@ const Index = ({ data }) => {
 };
 
 export default Index;
-
-export const pageQuery = graphql`
-  query {
-    leftNavLinks {
-      value
-    }
-  }
-`;
-/* eslint-enable */
