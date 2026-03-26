@@ -188,7 +188,7 @@ class ListItem extends React.Component {
         }`}
       >
         <div className='activeIndicator' />
-        <img src='https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/book.png' alt='book' />
+        <img src='https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/book.png' alt='book' loading='eager' />
         <Link to={normalizePath(url)}>{title}</Link>{' '}
       </li>
     );
