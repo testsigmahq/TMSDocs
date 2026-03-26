@@ -1,14 +1,11 @@
 /* eslint-disable
   jsx-a11y/click-events-have-key-events,
   jsx-a11y/no-noninteractive-element-interactions */
-import { useStaticQuery, graphql, Link } from 'gatsby';
-import React from 'react';
+import { Link } from 'gatsby';
+import React, { useState, useEffect, useCallback } from 'react';
 import './LeftNav.scss';
-// import book from './images/book.png';
 
 const { v4: uuidv4 } = require('uuid');
-
-let slugs;
 
 const normalizePath = (path) => {
   if (!path) return '/';
@@ -57,7 +54,7 @@ class ListItem extends React.Component {
     }
 
     const keys = Object.keys(itemData).filter(
-      (key) => key !== 'leftNavTitle' && key !== 'old' && key !== 'overview'
+      (key) => key !== 'leftNavTitle' && key !== 'old' && key !== 'overview' && key !== 'title'
     );
 
     for (const key of keys) {
@@ -98,7 +95,7 @@ class ListItem extends React.Component {
     }
 
     const keys = Object.keys(parsedData).filter(
-      (key) => key !== 'leftNavTitle' && key !== 'old' && key !== 'overview'
+      (key) => key !== 'leftNavTitle' && key !== 'old' && key !== 'overview' && key !== 'title'
     );
     const panelsToExpand = [];
 
@@ -176,10 +173,7 @@ class ListItem extends React.Component {
   };
 
   child = (data, url) => {
-    const nameEntry = slugs.find(
-      (val) => normalizePath(url) === normalizePath(val.fields.slug)
-    );
-    const title = nameEntry ? nameEntry.frontmatter.title : 'Unnamed Page';
+    const title = data.leftNavTitle || data.title || 'Unnamed Page';
     const { currentUrl } = this.state;
 
     if (!url) return null;
@@ -188,14 +182,14 @@ class ListItem extends React.Component {
       <li
         data-parent={this.state.identifier}
         data-url={url}
-        key={`${data.leftNavTitle || title}-${uuidv4()}`}
+        key={`${title}-${uuidv4()}`}
         className={`child${
           this.inUrl(url, currentUrl) ? ' currentUrl text_green' : ''
         }`}
       >
         <div className='activeIndicator' />
         <img src='https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/book.png' alt='book' />
-        <Link to={normalizePath(url)}>{data.leftNavTitle || title}</Link>{' '}
+        <Link to={normalizePath(url)}>{title}</Link>{' '}
       </li>
     );
   };
@@ -288,7 +282,7 @@ class ListItem extends React.Component {
     }
 
     const keys = Object.keys(parsedData).filter(
-      (key) => key !== 'leftNavTitle' && key !== 'old' && key !== 'overview'
+      (key) => key !== 'leftNavTitle' && key !== 'old' && key !== 'overview' && key !== 'title'
     );
 
     return (
@@ -312,92 +306,175 @@ class ListItem extends React.Component {
   }
 }
 
-const LeftNav = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark(sort: { fields: id, order: ASC }) {
-        nodes {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-          id
-        }
-      }
-      leftNavLinks {
-        value
-      }
+const CaretSvg = ({ isExpanded }) => (
+  <svg
+    className={`inline float_left relative folder-icon parent_caret${
+      isExpanded ? ' active_parent_caret' : ''
+    }`}
+    xmlns='http://www.w3.org/2000/svg'
+    fill='none'
+    height='24'
+    viewBox='0 0 24 24'
+    width='24'
+  >
+    <path
+      clipRule='evenodd'
+      d='m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z'
+      fill='#333333'
+      fillRule='evenodd'
+    />
+  </svg>
+);
+
+const LeftNav = ({ navSubsections, activeSubSection, activeNavData }) => {
+  const [loadedSections, setLoadedSections] = useState({});
+  const [expandedSections, setExpandedSections] = useState([]);
+  const [loadingSections, setLoadingSections] = useState({});
+
+  const currentPath =
+    typeof window !== 'undefined'
+      ? normalizePath(window.location.pathname)
+      : '';
+
+  useEffect(() => {
+    if (activeSubSection && !expandedSections.includes(activeSubSection)) {
+      setExpandedSections((prev) =>
+        prev.includes(activeSubSection) ? prev : [...prev, activeSubSection]
+      );
     }
-  `);
-  slugs = data.allMarkdownRemark.nodes;
+  }, [activeSubSection]);
 
-  let navDataToShow = null;
-  let rootIdentifier = 'docs';
-  let rootParentPath = '/docs/';
-
-  let currentPath = '';
-  if (typeof window !== 'undefined') {
-    currentPath = normalizePath(window.location.pathname);
-  }
-
-  try {
-    const allNavData = JSON.parse(data.leftNavLinks.value);
-    const pathSegments = currentPath.split('/').filter(Boolean);
-
-    let sectionKey = null;
-
-    if (pathSegments.length >= 2 && allNavData[pathSegments[1]]) {
-      sectionKey = pathSegments[1]; // e.g., 'test-management'
-    } else if (pathSegments.length >= 1 && allNavData[pathSegments[0]]) {
-      sectionKey = pathSegments[0];
+  const loadSection = useCallback(async (key) => {
+    if (loadingSections[key]) return;
+    setLoadingSections((prev) => ({ ...prev, [key]: true }));
+    try {
+      const resp = await fetch(`/nav-data/${key}.json`);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const data = await resp.json();
+      setLoadedSections((prev) => ({ ...prev, [key]: JSON.stringify(data) }));
+    } catch (err) {
+      console.error(`Failed to load nav data for "${key}":`, err);
+    } finally {
+      setLoadingSections((prev) => ({ ...prev, [key]: false }));
     }
-    // else {
-    //    sectionKey = 'test-management';
-    // }
+  }, [loadingSections]);
 
-    if (sectionKey && allNavData[sectionKey]) {
-      navDataToShow = allNavData[sectionKey];
-      rootIdentifier = sectionKey;
-      rootParentPath = normalizePath(`/docs/${sectionKey}/`);
-      if (sectionKey === 'docs') {
-        rootParentPath = '/docs/';
+  const toggleSection = useCallback(
+    async (key) => {
+      if (expandedSections.includes(key)) {
+        setExpandedSections((prev) => prev.filter((k) => k !== key));
+        return;
       }
-    } else {
-      const defaultSection = 'test-management';
-      if (allNavData[defaultSection]) {
-        navDataToShow = allNavData[defaultSection];
-        rootIdentifier = defaultSection;
-        rootParentPath = normalizePath(`/docs/${defaultSection}/`);
-      } else {
-        console.warn(
-          `LeftNav: Could not determine section from URL "${currentPath}" and default "${defaultSection}" not found.`
-        );
-        navDataToShow = null;
+
+      if (key !== activeSubSection && !loadedSections[key]) {
+        await loadSection(key);
       }
-    }
-  } catch (e) {
-    console.error('LeftNav: Failed to parse leftNavLinks.value', e);
-    navDataToShow = null;
+
+      setExpandedSections((prev) => [...prev, key]);
+    },
+    [expandedSections, activeSubSection, loadedSections, loadSection]
+  );
+
+  const getSectionData = useCallback(
+    (key) => {
+      if (key === activeSubSection && activeNavData) return activeNavData;
+      return loadedSections[key] || null;
+    },
+    [activeSubSection, activeNavData, loadedSections]
+  );
+
+  if (!navSubsections || navSubsections.length === 0) {
+    return (
+      <div className='leftNav bg-gray-50 px-14 pt-5'>
+        <p>Navigation not available.</p>
+      </div>
+    );
   }
 
   return (
-    <>
-      <div className='leftNav bg-gray-50 px-14 pt-5'>
-        {navDataToShow ? (
-          <ListItem
-            data={JSON.stringify(navDataToShow)}
-            isRoot
-            identifier={rootIdentifier}
-            parentPath={rootParentPath}
-            currentUrl={currentPath}
-          />
-        ) : (
-          <p>Navigation section not available.</p>
-        )}
-      </div>
-    </>
+    <div className='leftNav bg-gray-50 px-14 pt-5'>
+      {navSubsections.map((section) => {
+        const isExpanded = expandedSections.includes(section.key);
+        const sectionData = getSectionData(section.key);
+        const basePath = normalizePath(
+          `/docs/test-management/${section.key}/`
+        );
+        const isActive = currentPath.startsWith(basePath);
+
+        if (section.isLeaf) {
+          return (
+            <li
+              key={section.key}
+              className={`child${
+                normalizePath(section.overviewUrl) === currentPath
+                  ? ' currentUrl text_green'
+                  : ''
+              }`}
+            >
+              <div className='activeIndicator' />
+              <img
+                src='https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/book.png'
+                alt='book'
+              />
+              <Link to={normalizePath(section.overviewUrl)}>
+                {section.title}
+              </Link>
+            </li>
+          );
+        }
+
+        return (
+          <ul
+            key={section.key}
+            className={`${isExpanded ? 'active' : 'inactive'} root`}
+          >
+            <li
+              className={`parent${isActive ? ' currentUrl text_green' : ''}`}
+              identifier={section.key}
+            >
+              <div
+                className='parent-title-container'
+                onClick={() => toggleSection(section.key)}
+                identifier={section.key}
+              >
+                <CaretSvg isExpanded={isExpanded} />
+                {section.overviewUrl ? (
+                  <Link
+                    to={normalizePath(section.overviewUrl)}
+                    onClick={(e) => e.stopPropagation()}
+                    className={
+                      currentPath === normalizePath(section.overviewUrl)
+                        ? 'font-semibold'
+                        : ''
+                    }
+                  >
+                    {section.title}
+                  </Link>
+                ) : (
+                  <span>{section.title}</span>
+                )}
+              </div>
+            </li>
+
+            {isExpanded && sectionData && (
+              <ListItem
+                data={sectionData}
+                identifier={section.key}
+                parentPath={basePath}
+                isRoot={false}
+                currentUrl={currentPath}
+              />
+            )}
+
+            {isExpanded && !sectionData && loadingSections[section.key] && (
+              <li className='child' style={{ paddingLeft: 25, opacity: 0.5 }}>
+                Loading…
+              </li>
+            )}
+          </ul>
+        );
+      })}
+    </div>
   );
 };
 
