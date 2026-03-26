@@ -9,6 +9,26 @@ const leftNavTitle = require('./src/left-nav-title.json');
 
 const ignorePaths = [];
 
+let builtNavTree = null;
+
+const NAV_META_KEYS = new Set(['leftNavTitle', 'old', 'overview', 'url', 'title']);
+
+function extractSubsectionMeta(sectionData) {
+  const keys = Object.keys(sectionData).filter(
+    (k) => !NAV_META_KEYS.has(k)
+  );
+  return keys.map((key) => {
+    const item = sectionData[key];
+    const isLeaf = !!item.url && Object.keys(item).filter((k) => !NAV_META_KEYS.has(k)).length === 0;
+    return {
+      key,
+      title: item.leftNavTitle || key.replaceAll('-', ' '),
+      overviewUrl: item?.overview?.url || (isLeaf ? item.url : null),
+      isLeaf,
+    };
+  });
+}
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === 'MarkdownRemark') {
@@ -56,6 +76,9 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
+  const mainSection = builtNavTree?.['test-management'] ?? null;
+  const navSubsections = mainSection ? extractSubsectionMeta(mainSection) : [];
+
   result.data.allMarkdownRemark.edges.forEach(({ node }, index) => {
     if (node.fields.slug.includes('-')) {
       const underscoreSlug = node.fields.slug.replace(/-/g, '_');
@@ -67,6 +90,14 @@ exports.createPages = async ({ graphql, actions }) => {
         toPath: node.fields.slug,
       });
     }
+
+    const slugParts = node.fields.slug.split('/').filter(Boolean);
+    const activeSubSection = slugParts.length >= 3 ? slugParts[2] : null;
+    const activeNavData =
+      activeSubSection && mainSection && mainSection[activeSubSection]
+        ? JSON.stringify(mainSection[activeSubSection])
+        : null;
+
     createPage({
       path: node.fields.slug,
       component: path.resolve('./src/templates/page.jsx'),
@@ -80,6 +111,9 @@ exports.createPages = async ({ graphql, actions }) => {
           index === result.data.allMarkdownRemark.edges.length - 1
             ? null
             : result.data.allMarkdownRemark.edges[index + 1].node,
+        navSubsections,
+        activeSubSection,
+        activeNavData,
       },
     });
   });
@@ -94,6 +128,22 @@ exports.onPostBuild = () => {
     console.log('Sitemap.xml copied to public folder!');
   } else {
     console.error('Sitemap.xml not found in src/pages/docs/');
+  }
+
+  if (builtNavTree?.['test-management']) {
+    const navDataDir = path.join(__dirname, 'public', 'nav-data');
+    if (!fs.existsSync(navDataDir)) {
+      fs.mkdirSync(navDataDir, { recursive: true });
+    }
+    const section = builtNavTree['test-management'];
+    const keys = Object.keys(section).filter(
+      (k) => !NAV_META_KEYS.has(k)
+    );
+    keys.forEach((key) => {
+      const filePath = path.join(navDataDir, `${key}.json`);
+      fs.writeFileSync(filePath, JSON.stringify(section[key]));
+    });
+    console.log(`Wrote ${keys.length} nav-data JSON files for lazy loading.`);
   }
 };
 
@@ -129,29 +179,29 @@ exports.sourceNodes = async ({
   const { createNode } = actions;
 
   const getDirectories = (src) => glob.sync(`${src}/**/*`);
-  const paths = getDirectories('./src/pages/docs')
+  const pathsWithMeta = getDirectories('./src/pages/docs')
     .filter((val) => val.slice(-3) === '.md')
     .map((val) => {
       const { data } = frontmatter(fs.readFileSync(val));
       const order = data.order || 200;
-      return [val, order];
+      const title = data.title || '';
+      return [val, order, title];
     })
     .sort((a, b) => Number(a[1]) - Number(b[1]))
     .map((val) => {
-      let newVal = '';
-      newVal = val[0].replace(/\.\/src\/pages/g, '');
+      let newVal = val[0].replace(/\.\/src\/pages/g, '');
       newVal = newVal.substring(0, newVal.length - 3);
       newVal =
         newVal.slice(-5) === 'index'
           ? newVal.substring(0, newVal.length - 5)
           : newVal;
-      return `${newVal}/`;
+      return [`${newVal}/`, val[2]];
     })
-    .filter((val) => !ignorePaths.includes(val));
+    .filter((val) => !ignorePaths.includes(val[0]));
 
   const output = {};
 
-  paths.forEach((val) => {
+  pathsWithMeta.forEach(([val, pageTitle]) => {
     let split = val.split('/');
     split = split.filter((url) => url !== '');
 
@@ -163,7 +213,6 @@ exports.sourceNodes = async ({
         if (leftNavTitle[part]) {
           Object.keys(leftNavTitle[part]).forEach((key) => {
             if (val.indexOf(key) === 0) {
-              //console.log(key);
               current[part] = { leftNavTitle: leftNavTitle[part][key] };
             }
           });
@@ -172,8 +221,12 @@ exports.sourceNodes = async ({
       current = current[part];
     });
     current.url = `/${split.join('/')}/`;
+    if (pageTitle) {
+      current.title = pageTitle;
+    }
   });
-  //console.log(output.docs)
+
+  builtNavTree = output.docs;
   createNode(prepareNode(output.docs, 'leftNavLinks'));
 };
 

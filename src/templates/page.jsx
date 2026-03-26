@@ -30,6 +30,12 @@ export default ({ data, pageContext }) => {
       }
     : null;
 
+  const navProps = {
+    navSubsections: pageContext.navSubsections,
+    activeSubSection: pageContext.activeSubSection,
+    activeNavData: pageContext.activeNavData,
+  };
+
   const post = data.markdownRemark;
   if (environment.isStaging()) {
     post.frontmatter.noindex = true;
@@ -127,9 +133,9 @@ export default ({ data, pageContext }) => {
       {/*<SubNav></SubNav>*/}
       <div className='w-full'>
         <div className='flex items-stretch'>
-          <MobileView></MobileView>
+          <MobileView {...navProps} />
           <nav className='isTablet w-1/4 max-w-sm bg-gray-50'>
-            <LeftNav />
+            <LeftNav {...navProps} />
           </nav>
           <div className='flex-auto w-4/5'>
             <div className='flex items-stretch w-full'>
