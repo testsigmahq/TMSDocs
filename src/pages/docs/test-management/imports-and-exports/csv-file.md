@@ -46,8 +46,8 @@ Test Management by Testsigma allows you to quickly import test cases in CSV file
 
 <div>
   <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/nn9ojxhjufr3?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(53.52% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/bnbndxesdokx?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
   </div>
 </div>
 
@@ -55,45 +55,61 @@ Test Management by Testsigma allows you to quickly import test cases in CSV file
 
 ## **Import Test Cases**
 
-1. On the **Dashboard**, click **Import Test Cases**. This will open the **Import** section on **Project Settings**.
+1. From the left navigation bar, go to **Import Cases**. This will open the **Import** section on **Project Settings**.
 
-   Alternatively, navigate to **Test Cases** and click **Import** on the top right corner.
+   Alternatively, click **Import** from the top-right corner of the **Dashboard**.
+   ![Import from Quick Actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_from_Quick_Actions.png)
 
-2. Click **Import via CSV**.
+2. Click **Import via CSV** and choose the template type:
+   - **Steps**: For step-based test cases
+   - **Document**: For document-style test cases
 
-3. Click **Upload File** and select file to import.
-
----
-
-## **Prepare for Import**
-
-After uploading a CSV file, follow these steps to prepare for import:
-
-1. Click **Select a Folder** and select a destination folder for the test cases on **Add Folder Location** overlay.
-
-2. Click the **Separator** dropdown and select the correct delimiter based on your CSV file format.
-
-3. Click the **First Row** dropdown and define the starting row for import.
-
-4. Click the **File Encoding** dropdown and select the appropriate encoding format to ensure correct data.
-
-5. Click **Next** to map the CSV columns to test case attributes.
+3. Click **Upload File** and select the CSV file.
 
 ---
 
-## **Mapping Properties and Values**
+## **Prepare and Import**
 
-After preparing the import, follow these steps to map CSV file columns to test case attributes:
+1. After uploading the CSV file, the **Uploaded File Preview** section opens.
 
-1. Click **Select Columns** next to mandatory fields such as **Title**, **Steps**, and **Priority** and assign CSV columns.
+2. Verify the file content and click **Next**.
 
-2. Follow the **Step 1** for additional fields like **Description**, **Preconditions**, **Expected Result**, **Folder**, **Owner**, and **Labels**.
+3. In the **Map Properties and Values** section, you will see two panels:
+   - **Map Properties** to map CSV columns
+   - **Test Case Preview** to validate mapped data
 
-[[info | **NOTE**:]]
-| If the CSV contains values that do not match built-in properties, map them to the appropriate attributes of Test Management by Testsigma.
+4. Atto automatically maps CSV columns to the corresponding fields in Test Management by Testsigma.
 
-3. Ensure the mapped data appears correctly in the **Test Case Preview** panel.
+5. Review the mapped fields. If any fields are missing or incorrectly mapped, update them manually.
 
-4. Click **Start Import** to complete the process.
+6. Verify the mapped data in the **Test Case Preview** section.
+
+7. Click **Begin Import** to start importing the test cases.
+
+8. The system creates an import log in the **Imports** section to track progress and results.
+
+---
+
+## **View Import Results**
+
+1. Once the import is complete, navigate to the **Imports** section and open the required import log.
+
+2. The **Import Results** page displays a summary of the import, including:
+   ![Import Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_Test_Cases_Results.png)
+   - **Total Test Cases**
+   - **Imported Test Cases**
+   - **Skipped Test Cases**
+   - **Failed Test Cases**
+
+3. Review the **Failed to Import** section to identify test cases that were not imported.
+   - Check the **Error Type and Reason** columns to understand the issue (for example, duplicate test case titles).
+
+4. Review the **Skipped** section to see test cases that were ignored during import.
+   - Reasons may include existing test cases in the project.
+
+5. Review the **Imported Test Cases** section to verify successfully imported test cases along with their details.
+
+6. Use this information to fix issues in your CSV file, if required, and re-import the test cases.
+
 
 ---

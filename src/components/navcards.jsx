@@ -27,82 +27,96 @@ const data = [
   },
   {
     id: 4,
+    title: 'Data Sets',
+    description:
+      "Reuse test data across test cases for broader coverage and consistency.",
+    path: '/docs/test-management/data-sets/manage-data-sets/',  
+  },
+  {
+    id: 5,
     title: 'Imports and Exports',
     description:
       'Import test assets from external tools or export data for reporting, backups, or migration.',
     path: '/docs/test-management/imports-and-exports/csv-file/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Step Groups',
     description:
       'Build reusable sets of steps to streamline test case creation and reduce redundancy.',
     path: '/docs/test-management/step-groups/create-step-groups/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Test Runs',
     description:
       'A Test Run is an execution of a group of test cases. Learn how to create and manage Test Runs.',
     path: '/docs/test-management/test-runs/create-test-runs/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Test Plans',
     description:
       'A Test Plan is a higher-level collection of multiple Test Runs. Create, edit, and manage Test Plans.',
     path: '/docs/test-management/test-plans/manage-test-plans/',
   },
   {
-    id: 8,
+    id: 9,
+    title: 'Test Capture',
+    description:
+      'Record screen activity, video, and network logs automatically for faster debugging.',
+    path: '/docs/test-management/test-capture/overview/',
+  },
+  {
+    id: 10,
     title: 'Integrations',
     description:
       'Integrate Test Management by Testsigma with your CI/CD tool for continuous testing.',
     path: '/docs/test-management/integrations/jira/',
   },
   {
-    id: 9,
+    id: 11,
     title: 'Testsigma Two-way Integration',
     description:
       'The integration provides a unified view of both manual and automated testing.',
     path: '/docs/test-management/testsigma-two-way-integration/connect-testsigma/',
   },
   {
-    id: 10,
+    id: 12,
     title: 'Settings',
     description:
       'Manage the foundation of your testing properties & environments.',
     path: '/docs/test-management/settings/manage-properties/',
   },
   {
-    id: 11,
+    id: 13,
     title: 'Manage Users',
     description: "Add, remove, and manage team member's roles and permissions.",
     path: '/docs/test-management/manage-users/invite-users/',
   },
   {
-    id: 12,
+    id: 14,
     title: 'Atto (Agentic AI ✨)',
     description:
       'Leverage intelligent automation powered by Atto to generate, optimize, and execute tests with minimal manual input.',
     path: '/docs/test-management/atto/overview/',
   },
   {
-    id: 13,
+    id: 15,
     title: 'Reports & Analytics',
     description:
       'Create reports instantly to review test coverage, execution results, and track progress.',
     path: '/docs/test-management/reports/create-report/',
   },
   {
-    id: 14,
+    id: 16,
     title: 'API Reference',
     description:
       'Get a complete view of common concepts necessary to interact with APIs successfully.',
     path: '/docs/test-management/atto/overview/',
   },
   {
-    id: 15,
+    id: 17,
     title: 'CI/CD Integrations',
     description:
       'Integrate CI/CD Tools with Test Management by Testsigma and automate your test runs and generate test reports.',

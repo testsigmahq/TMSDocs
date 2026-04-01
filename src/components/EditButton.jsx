@@ -21,7 +21,7 @@ class EditDoc extends Component {
         const { pathRoute } = this.state;
         return (
             pathRoute &&
-            <a className={classes} href={`https://github.com/testsigmahq/testsigma-docs/blob/dev/src/pages${pathRoute}.md`} target="_blank" rel="noopener noreferrer nofollow">
+            <a className={classes} href={`https://github.com/testsigmahq/TMSDocs/blob/dev/src/pages${pathRoute}.md`} target="_blank" rel="noopener noreferrer nofollow">
                 <i>
                     <svg className="button-icon--left" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
                         <title>logo-github</title>
