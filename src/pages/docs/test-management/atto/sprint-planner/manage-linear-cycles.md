@@ -82,7 +82,7 @@ The **Sprint Planner Agent** helps you manage and organize your Linear cycles in
 3. Go to the **Other Cycles** tab to view all cycles from your Linear project.
 
 3. In the **Other Cycles** tab, you can see the following tabs:
-   ![Other Cycles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Linear_Other_Cycles.png)
+   ![Other Cycles](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Linear_Other_Cycles.png)
    - **Inactive**: Displays cycles that are imported from Linear but are not yet active in Testsigma. You can activate these cycles for test case generation.
    - **Completed**: Displays cycles that were previously activated and done with the test case generation.
    - **Deleted**: Displays cycles that are deleted in the Linear project.
@@ -92,7 +92,7 @@ The **Sprint Planner Agent** helps you manage and organize your Linear cycles in
 4. Review the list of cycles. Each cycle card shows the **Cycle ID**, **Name**, **Number of stories** waiting for test generation, and the **Last Updated Date**.
 
 5. Select a cycle to view the list of stories associated with that cycle. The cycle view shows the following details:
-   ![Cycle Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Linear_Cycle_Details.png)
+   ![Cycle Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Linear_Cycle_Details.png)
    a. Cycle **Name** and **Duration**
    b. Tabs to filter stories by status: **All Stories, To Do, In Progress**, and **Done**
    c. Search by title box to find a specific story

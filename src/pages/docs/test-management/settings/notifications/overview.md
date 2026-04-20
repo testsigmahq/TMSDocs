@@ -77,6 +77,6 @@ Send daily summary notification for active test plans
 
 [[info | **NOTE**:]]
 | Test Management by Testsigma allows you to configure notifications for each entity and enable or disable them based on your preferences.
-| ![Toggles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Notification_Toggles.png)
+| ![Toggles](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Notification_Toggles.png)
 
 ---

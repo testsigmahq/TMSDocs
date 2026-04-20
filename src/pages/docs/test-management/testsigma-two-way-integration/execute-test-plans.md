@@ -84,6 +84,6 @@ You can execute test plans in Testsigma directly from Test Management by Testsig
 4. Click any test case in the test run to open an overlay showing test case details and activity.
 
 5. Scroll to the **Activity** section to view detailed execution information, including a link to the Testsigma results page for the automated execution.
-   ![Activity](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Activity_Details_of_Execution.png)
+   ![Activity](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Activity_Details_of_Execution.png)
 
 ---

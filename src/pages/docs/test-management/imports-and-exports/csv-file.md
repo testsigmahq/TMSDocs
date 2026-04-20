@@ -58,7 +58,7 @@ Test Management by Testsigma allows you to quickly import test cases in CSV file
 1. From the left navigation bar, go to **Import Cases**. This will open the **Import** section on **Project Settings**.
 
    Alternatively, click **Import** from the top-right corner of the **Dashboard**.
-   ![Import from Quick Actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_from_Quick_Actions.png)
+   ![Import from Quick Actions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_from_Quick_Actions.png)
 
 2. Click **Import via CSV** and choose the template type:
    - **Steps**: For step-based test cases
@@ -95,7 +95,7 @@ Test Management by Testsigma allows you to quickly import test cases in CSV file
 1. Once the import is complete, navigate to the **Imports** section and open the required import log.
 
 2. The **Import Results** page displays a summary of the import, including:
-   ![Import Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_Test_Cases_Results.png)
+   ![Import Results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_Test_Cases_Results.png)
    - **Total Test Cases**
    - **Imported Test Cases**
    - **Skipped Test Cases**

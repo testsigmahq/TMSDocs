@@ -44,12 +44,12 @@ Audit logs provide a complete record of all key activities in your Test Manageme
 ## **View Audit Logs**
 
 1. From the left navigation bar, go to **Settings > Audit Logs**.
-   ![Audit Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Audit_Logs_TMS.png)
+   ![Audit Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Audit_Logs_TMS.png)
 
 2. The **Audit Logs** page lists all recorded activities.
 
 3. Each log entry includes the following details:
-   ![Log Entries](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Log_Entries_TMS.png)
+   ![Log Entries](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Log_Entries_TMS.png)
    - **Time**: Date and time when the action occurred.
    - **Event Type**: The entity type in Test Management by Testsigma.
    - **Action**: The action type.
@@ -63,7 +63,7 @@ Audit logs provide a complete record of all key activities in your Test Manageme
 
 You can narrow down audit log results using the following filters:
 
-![Filters in Audit Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Filters_In_Audit_Logs_TMS.png)
+![Filters in Audit Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Filters_In_Audit_Logs_TMS.png)
 
 1. **Event Type**: Displays logs for a specific entity in Test Management by Testsigma account. 
 
