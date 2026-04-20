@@ -112,7 +112,7 @@ Send daily summary email for test plan progress
 2. Create a new test plan or open an existing one.
 
 3. In the **Notifications** section, add the email addresses where you want to send notifications.
-   ![Add Emails](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Email_Notification_Setup.png)
+   ![Add Emails](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Email_Notification_Setup.png)
 
 4. Notifications will be sent when the test plan is created or updated.
 

@@ -43,7 +43,7 @@ The Testsigma Integration for Jira app seamlessly extends Jira’s core capabili
 2. Install **Test Management by Testsigma** in your Jira instance.
 
 3. In Jira, go to **Apps > Manage apps** and confirm **Test Management by Testsigma** is installed.
-   ![Testsigma App for Jira Cloud](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/testsigma_app_for_jira.png)
+   ![Testsigma App for Jira Cloud](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/testsigma_app_for_jira.png)
 ---
 
 ## **Connect Testsigma and Jira**
@@ -51,16 +51,16 @@ The Testsigma Integration for Jira app seamlessly extends Jira’s core capabili
 1. In the left panel under **Apps**, click **Test Management by Testsigma**. This opens the authorization page.
 
 2. On the **Connect Testsigma to Jira** page, click **Authorize to Jira Marketplace App** Integration.
-   ![Connect Testsigma to Jira](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Connect_Testsigma_App.png)
+   ![Connect Testsigma to Jira](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Connect_Testsigma_App.png)
 
 3. In the dialog box, click **Continue**.
-   ![Continue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Continue_to_TMS.png)
+   ![Continue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Continue_to_TMS.png)
 
 4. You will be redirected to the Testsigma signin page. Sign in using your Testsigma credentials.
-   ![Signin to Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Testsigma_Signin_Redirection_Page.png)
+   ![Signin to Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Testsigma_Signin_Redirection_Page.png)
 
 5. After signing in, review the logged-in account and click **Authorize Jira Integration**.
-   ![Authorize Jira Integration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Authorize_Jira_Integration.png)
+   ![Authorize Jira Integration](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authorize_Jira_Integration.png)
 
 6. Testsigma is now connected to Jira.
 
