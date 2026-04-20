@@ -73,7 +73,7 @@ The **Sprint Planner Agent** helps you manage and organize your Jira sprints in 
 
    Alternatively, you can also attach the Jira project from the **Project Settings** overlay.
 
-   ![Edit Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/tms-doc-images/TMS_Edit_Project.png)
+   ![Edit Project](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TMS_Edit_Project.png)
 
 ---
 
@@ -85,7 +85,7 @@ The **Sprint Planner Agent** helps you manage and organize your Jira sprints in 
 
 3. In the **Other Sprints** tab of **Atto’s Home**, you can see the following tabs:
 
-   ![Other Sprints](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/tms-doc-images/Sprints_Atto.png)
+   ![Other Sprints](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Sprints_Atto.png)
 
    - **Inactive**: Displays sprints that are imported from Jira but are not yet active in Testsigma. You can activate these sprints for test case generation.
 
@@ -107,7 +107,7 @@ The **Sprint Planner Agent** helps you manage and organize your Jira sprints in 
 
    **d.** Story list with **ID**, **Title**, and **Current Status** (e.g., **To Do**)
 
-   ![Sprint details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/tms-doc-images/Sprint_Details_Atto_Home.png)
+   ![Sprint details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Sprint_Details_Atto_Home.png)
 
 6. Click **Activate** next to the sprint for which you want to generate test cases.
 
@@ -121,7 +121,7 @@ The **Sprint Planner Agent** helps you manage and organize your Jira sprints in 
    | At this stage, the **Generator Agent** takes over and starts generating test cases automatically based on the selected user stories. You can review, edit, and organize these cases before saving them.
 
 2. Click **Start Generating Tests** to start generating tests for the attached stories. 
-   ![Sprint Activate Popup](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Sprint_Activate_from_Jira.png)
+   ![Sprint Activate Popup](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Sprint_Activate_from_Jira.png)
 
 3. Once the **Sprint** moves to **In Progress**, you can view high-level metrics, including:
 
@@ -135,7 +135,7 @@ The **Sprint Planner Agent** helps you manage and organize your Jira sprints in 
 
    **e.** Story list with **ID**, **Title**, and **Current Status** (e.g., **To Do**)
 
-   ![Active Sprint](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/tms-doc-images/Active_Sprint_Atto.png)
+   ![Active Sprint](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Active_Sprint_Atto.png)
 
 4. Atto starts generating test cases using the data from the selected story.
 
@@ -161,32 +161,32 @@ Atto automatically updates story statuses based on sprint activity and user acti
 **1. Sprint Activation**  <br>
 
 When you activate a sprint in Jira, Atto detects and displays sprint details in a popup in Test Management by Testsigma.
-![Sprint Activate Popup](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Sprint_Activate_from_Jira.png)
+![Sprint Activate Popup](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Sprint_Activate_from_Jira.png)
 
 **2. Story Modification** <br>
 
 When a story is updated after test generation, Atto marks it as **Modified**. A "**Modified**" label appears next to the story in the sprint view.
-![Modified Story](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Story_Modified_in_Jira.png)
+![Modified Story](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Story_Modified_in_Jira.png)
 
 **3. Accepting & Refining Test Cases** <br>
 
 When a test case is generated, you can review and refine it using AI. After finalizing the test case, click **Accept** to save it.
-![Refine with AI](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Refine_With_AI.png)
+![Refine with AI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Refine_With_AI.png)
 
 **4. Sprint Completion** <br>
 When the sprint is closed in Jira, a "**Sprint Closed in Jira**" popup appears. Click **Mark as Done** to close the sprint in Test Management by Testsigma.
-![Sprint Completion](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Sprint_Closed_in_Jira.png)
+![Sprint Completion](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Sprint_Closed_in_Jira.png)
 
 **5. Sprint Deletion in Jira** <br>
 If a sprint is deleted in Jira, a "**Sprint Deleted in Jira**" popup appears in Atto. The sprint becomes read-only, you can view the content but cannot make changes.
-![Sprint Deleted in Jira](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Deleted_Jira_Sprint.png)
+![Sprint Deleted in Jira](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Deleted_Jira_Sprint.png)
 
 **6. Story Movement Between Sprints** <br>
 If a story is moved from one sprint to another, Atto displays a "**Moved**" label and shows a popup indicating the change.
-![Story Moved](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Story_Moved_Jira.png)
+![Story Moved](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Story_Moved_Jira.png)
 
 **7. Story Deletion from Sprint** <br>
 When a story is deleted from a sprint, it is only available in **View Mode**. Any test cases already generated for the story remain visible and accessible.
-![Story Deletion](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Story_Deleted_Status.png)
+![Story Deletion](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Story_Deleted_Status.png)
 
 ---

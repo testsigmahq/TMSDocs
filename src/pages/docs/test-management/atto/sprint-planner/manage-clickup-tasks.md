@@ -78,7 +78,7 @@ Alternatively, you can also attach the **ClickUp Space** from the **Project Sett
 3. Go to the **Other Lists** tab to view all lists/sprints from your ClickUp Space.
 
 4. In the **Other Lists** tab, you can see the following tabs:
-   ![Other ClickUp Lists](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ClickUp_Lists_TMS.png)
+   ![Other ClickUp Lists](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ClickUp_Lists_TMS.png)
    - **Inactive**: Displays lists/sprints that are imported from ClickUp but are not yet active in Testsigma. You can activate these lists/sprints for test case generation. 
    - **Completed**: Displays lists/sprints that were previously activated and done with the test case generation.
    - **Deleted**: Displays lists/sprints that are deleted in the ClickUp Space. 
@@ -109,7 +109,7 @@ Alternatively, you can also attach the **ClickUp Space** from the **Project Sett
    d. Search box to find stories by title<br>
    e. Task list showing **ID**, **Title**, and **Current Status**
 
-   ![ClickUp Tasks](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ClickUp_In_Progress_Tasks.png)
+   ![ClickUp Tasks](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ClickUp_In_Progress_Tasks.png)
 
 3. Atto automatically updates the task status to **In Progress** for the task currently being processed for test case generation.
 

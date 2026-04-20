@@ -78,7 +78,7 @@ In Test Management by Testsigma, the projects come at the top level of the hiera
 
 [[info | **NOTE**:]]
 | You can also delete the project from the same page. Click **Delete Project**, and confirm the action in the warning dialog. This action is permanent and can't be undone.
-| ![Delete Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/tms-doc-images/Delete_TMS_Project.png)
+| ![Delete Project](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_TMS_Project.png)
 
 ---
 

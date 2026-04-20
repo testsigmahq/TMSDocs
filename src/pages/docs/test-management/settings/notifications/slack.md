@@ -116,7 +116,7 @@ Send daily summary notification for active test plans
 2. Create a new test plan or open an existing one.
 
 3. In the **Notifications** section, select the **Slack** channel from the dropdown menu.
-   ![Slack Notifications Setup](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Slack_Notifications_Setup.png)
+   ![Slack Notifications Setup](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Slack_Notifications_Setup.png)
 
 4. Notifications will be sent when the test plan is created or updated.
 

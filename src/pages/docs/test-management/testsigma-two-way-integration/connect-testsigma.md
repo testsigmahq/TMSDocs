@@ -59,7 +59,7 @@ You can enable the integration either from Test Management by Testsigma or direc
 1. From the **Dashboard**, go to **Settings > Integrations**.
 
 2. Turn on the toggle next to Testsigma.
-   ![Testsigma Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Testsigma_Toggle_In_TMS.png)
+   ![Testsigma Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Testsigma_Toggle_In_TMS.png)
 
 3. The integration is now enabled successfully.
 
@@ -68,7 +68,7 @@ You can enable the integration either from Test Management by Testsigma or direc
 1. From the left navigation bar, go to **Settings > Integrations**.
 
 2. Turn on the toggle next to Test Management by Testsigma.
-   ![Test Management by Testsigma Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TMS_Toggle_In_Testsigma.png)
+   ![Test Management by Testsigma Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TMS_Toggle_In_Testsigma.png)
 
 3. The integration is now enabled successfully.
 
