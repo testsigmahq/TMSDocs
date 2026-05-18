@@ -201,6 +201,12 @@ function SEO({
         ) : (
           <link rel='canonical' href={`https://testsigma.com${slug}`} />
         )}
+        <link
+          rel='alternate'
+          type='text/markdown'
+          href={`https://testsigma.com${slug.replace(/\/$/, '')}.md`}
+        />
+
         {/* Algolia Instantsearch IE11 support v3 */}
         {/* <script src="https://polyfill.io/v3/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes" /> */}
         {/*  */}

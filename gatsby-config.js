@@ -86,6 +86,11 @@ module.exports = {
         protocol: 'https',
         hostname: process.env.HOST_NAME,
         generateRedirectObjectsForPermanentRedirects: true,
+        params: {
+          '**/*.md': {
+            ContentType: 'text/markdown; charset=utf-8',
+          },
+        },
       },
     },
     {

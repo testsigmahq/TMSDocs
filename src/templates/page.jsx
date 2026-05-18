@@ -8,6 +8,7 @@ import MobileView from '../components/MobileView';
 import LeftNav from '../components/LeftNav';
 import SideBar from '../components/SideBar';
 import EditDoc from '../components/EditButton';
+import CopyPageMenu from '../components/CopyPageMenu';
 import Footer from '../components/Footer';
 
 import 'prismjs/themes/prism-tomorrow.css';
@@ -135,7 +136,12 @@ export default ({ data, pageContext }) => {
             <div className='flex items-stretch w-full'>
               <main className='doc-page w-4/5'>
                 <div className='px-20 py-14'>
-                  <h1>{post.frontmatter.title}</h1>
+                  <div className='doc-page-header flex items-start justify-between gap-6'>
+                    <h1 className='flex-auto'>{post.frontmatter.title}</h1>
+                    <div className='flex-none doc-page-actions'>
+                      <CopyPageMenu slug={pageContext.slug} />
+                    </div>
+                  </div>
                   <span dangerouslySetInnerHTML={{ __html: post.html }} />
                 </div>
               </main>
