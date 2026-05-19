@@ -86,7 +86,12 @@ const CopyPageMenu = ({ slug }) => {
   const [open, setOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const mdUrl = `https://testsigma.com${slug.replace(/\/$/, '')}.md`;
+  const safeSlug = typeof slug === 'string' ? slug : '';
+  const origin =
+    typeof window !== 'undefined'
+      ? window.location.origin
+      : 'https://testsigma.com';
+  const mdUrl = `${origin}${safeSlug.replace(/\/$/, '')}.md`;
   const prompt = `Read ${mdUrl} and help me with: `;
   const close = () => setOpen(false);
 

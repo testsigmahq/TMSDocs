@@ -204,7 +204,7 @@ function SEO({
         <link
           rel='alternate'
           type='text/markdown'
-          href={`https://testsigma.com${slug.replace(/\/$/, '')}.md`}
+          href={`https://testsigma.com${(slug || '').replace(/\/$/, '')}.md`}
         />
 
         {/* Algolia Instantsearch IE11 support v3 */}
