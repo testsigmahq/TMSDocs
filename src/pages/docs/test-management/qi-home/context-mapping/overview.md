@@ -106,9 +106,3 @@ Developers who run `/arcus:map` early do not need to take any action when they r
 You can connect any combination of tools. Most teams connect GitHub and at least one CLI tool.
 
 ---
-
-> ## **Prerequisite**
-> 
-> You must have an active project in Arcus by Testsigma before connecting any tool.
-
----

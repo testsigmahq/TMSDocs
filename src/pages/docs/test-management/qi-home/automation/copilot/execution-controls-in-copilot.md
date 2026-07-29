@@ -44,12 +44,12 @@ The Copilot panel appears alongside the browser during execution. These controls
 | Control | What it does |
 | :--- | :--- |
 | **Pause** | Pauses execution at the current step. The Copilot waits until you resume. |
-| **← (Back)** | Steps back to the previous step. |
-| **→ (Forward)** | Steps forward to the next step. |
-| **⚙ (Settings)** | Opens session settings. |
+| **Back** | Steps back to the previous step. |
+| **Forward** | Steps forward to the next step. |
+| **Settings** | Opens session settings. |
 | **Rec** | Records the current session state as a step. |
 | **Restart** | Restarts execution from the first step. Shown after steps have been generated. |
-| **Stop (✕)** | Ends the execution session. |
+| **Stop** | Ends the execution session. |
 
 <!-- screenshot: Copilot panel header showing Pause, Back, Forward, Settings, and Rec controls -->
 
