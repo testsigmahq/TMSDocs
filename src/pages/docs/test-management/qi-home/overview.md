@@ -106,13 +106,13 @@ Use Sprints when:
 
 Whether you use **Ad-Hoc** or **Sprints**, the next steps are the same. You review the test cases Atto generated, accept the ones that are accurate, and save them to your library. Coverage, test plans, and quality metrics update as you go.
 
-**Review and Accept Test Cases** allows you to browse the generated test cases grouped by scenario, view step-by-step details for each case, and accept or reject them individually or in bulk. Test cases you save go into your library. Test cases you do not accept are tracked as gaps.
+[**Review and Accept Test Cases**](https://testsigma.com/docs/test-management/qi-home/review-and-accept-test-cases/) allows you to browse the generated test cases grouped by scenario, view step-by-step details for each case, and accept or reject them individually or in bulk. Test cases you save go into your library. Test cases you do not accept are tracked as gaps.
 
-**Coverage and Gaps** shows you the coverage percentage per module. Coverage is calculated as accepted test cases divided by accepted plus pending test cases, and rejected cases are excluded. Gaps are pending test cases that have not been accepted yet. They are your signal that certain areas of the application are not yet covered.
+[**Coverage and Gaps**](https://testsigma.com/docs/test-management/qi-home/coverage-and-gaps/) shows you the coverage percentage per module. Coverage is calculated as accepted test cases divided by accepted plus pending test cases, and rejected cases are excluded. Gaps are pending test cases that have not been accepted yet. They are your signal that certain areas of the application are not yet covered.
 
-**Test Plans** are generated automatically by Atto in four types: Smoke, Feature, Regression, and Deep Regression. Each type is a superset of the previous one. Smoke is always included in Feature, Feature in Regression, and Regression in Deep Regression. Plans are ready to run as soon as you have accepted test cases.
+[**Test Plans**](https://testsigma.com/docs/test-management/qi-home/test-plans/) are generated automatically by Atto in four types: Smoke, Feature, Regression, and Deep Regression. Each type is a superset of the previous one. Smoke is always included in Feature, Feature in Regression, and Regression in Deep Regression. Plans are ready to run as soon as you have accepted test cases.
 
-**Quality Intelligence Metrics** are five metrics shown in the session header that together tell you how confident you can be in the current build. The metrics are Coverage, Pass Rate, Confidence, Release Readiness, and Release Gate. They update as test cases are accepted and test runs are executed.
+[**Quality Intelligence Metrics**](https://testsigma.com/docs/test-management/qi-home/quality-intelligence-metrics/) are five metrics shown in the session header that together tell you how confident you can be in the current build. The metrics are Coverage, Pass Rate, Confidence, Release Readiness, and Release Gate. They update as test cases are accepted and test runs are executed.
 
 ---
 
@@ -140,31 +140,31 @@ See [Overview: Developer Context Mapping](https://testsigma.com/docs/test-manage
 
 **Ad-Hoc**
 
-- Attach Context Sources
-- Write Effective Prompts
-- Generate Test Cases
+- [Attach Context Sources](https://testsigma.com/docs/test-management/qi-home/ad-hoc/attach-context-sources/)
+- [Write Effective Prompts](https://testsigma.com/docs/test-management/qi-home/ad-hoc/write-effective-prompts/)
+- [Generate Test Cases](https://testsigma.com/docs/test-management/qi-home/ad-hoc/generate-test-cases/)
 
 **Sprints**
 
-- Generate Test Cases
+- [Generate Test Cases](https://testsigma.com/docs/test-management/qi-home/sprints/generate-test-cases/)
 
 **Shared Workflows**
 
-- Use Playground
-- Review and Accept Test Cases
-- Coverage and Gaps
-- Test Plans
-- Quality Intelligence Metrics
+- [Use Playground](https://testsigma.com/docs/test-management/qi-home/use-playground/)
+- [Review and Accept Test Cases](https://testsigma.com/docs/test-management/qi-home/review-and-accept-test-cases/)
+- [Coverage and Gaps](https://testsigma.com/docs/test-management/qi-home/coverage-and-gaps/)
+- [Test Plans](https://testsigma.com/docs/test-management/qi-home/test-plans/)
+- [Quality Intelligence Metrics](https://testsigma.com/docs/test-management/qi-home/quality-intelligence-metrics/)
 
 **Automation**
 
-- Learn Test Case Live (Cloud)
-- Learn Test Case Live (Local)
-- Live Learning Controls
-- Run Automated Test Case with Copilot
-- Execute Test Case in Cloud
-- Execute Test Case in Local
-- Execution Controls in Copilot
+- [Learn Test Case Live (Cloud)](https://testsigma.com/docs/test-management/qi-home/automation/agentic-learning/learn-test-case-live-cloud/)
+- [Learn Test Case Live (Local)](https://testsigma.com/docs/test-management/qi-home/automation/agentic-learning/learn-test-case-live-local/)
+- [Live Learning Controls](https://testsigma.com/docs/test-management/qi-home/automation/agentic-learning/live-learning-controls/)
+- [Run Automated Test Case with Copilot](https://testsigma.com/docs/test-management/qi-home/automation/agentic-learning/run-automated-test-case-with-copilot/)
+- [Execute Test Case in Cloud](https://testsigma.com/docs/test-management/qi-home/automation/copilot/execute-test-case-in-cloud/)
+- [Execute Test Case in Local](https://testsigma.com/docs/test-management/qi-home/automation/copilot/execute-test-case-in-local/)
+- [Execution Controls in Copilot](https://testsigma.com/docs/test-management/qi-home/automation/copilot/execution-controls-in-copilot/)
 
 **Developer Context Mapping**
 
@@ -180,7 +180,7 @@ See [Overview: Developer Context Mapping](https://testsigma.com/docs/test-manage
 **Others**
 
 - Best Practices
-- FAQs
+- [FAQs](https://testsigma.com/docs/test-management/qi-home/faqs/)
 
 [[info | **NOTE**:]]
 | QI Home requires an active project in Test Management by Testsigma. To attach context from Jira, Azure DevOps, Linear, ClickUp, Confluence, or Figma in Ad-Hoc, you need the respective integration connected to your project. Files, documents, and video recordings can be attached without any external integration. For Sprints, connect your project to a supported project management tool. For Developer Context Mapping, connect your Claude or GitHub account.
