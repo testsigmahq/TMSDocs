@@ -20,8 +20,32 @@ contextual_links:
     name: 'Automation'
     url: '#automation'
   - type: link
-    name: 'Developer Session Mapping'
-    url: '#developer-session-mapping'
+    name: 'Developer Context Mapping'
+    url: '#developer-context-mapping'
+  - type: link
+    name: 'Overview: Developer Context Mapping'
+    url: 'https://testsigma.com/docs/test-management/qi-home/context-mapping/overview/'
+  - type: link
+    name: 'Connect GitHub'
+    url: 'https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-github/'
+  - type: link
+    name: 'Connect Claude Code'
+    url: 'https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-claude-code/'
+  - type: link
+    name: 'Connect Cursor'
+    url: 'https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-cursor/'
+  - type: link
+    name: 'Connect GitHub Copilot'
+    url: 'https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-github-copilot/'
+  - type: link
+    name: 'Connect Codex'
+    url: 'https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-codex/'
+  - type: link
+    name: 'Map GitHub Context'
+    url: 'https://testsigma.com/docs/test-management/qi-home/context-mapping/map-github/'
+  - type: link
+    name: 'Map Developer Context'
+    url: 'https://testsigma.com/docs/test-management/qi-home/context-mapping/map-developer-context/'
   - type: link
     name: "What's in This Section"
     url: '#whats-in-this-section'
@@ -36,7 +60,7 @@ contextual_links:
 
 ---
 
-QI Home is where Atto, the AI feature in Test Management by Testsigma, generates test cases from your requirements, tracks coverage against your modules, builds test plans, and automates test execution. It also detects developer activity from connected Claude sessions and GitHub pull requests, so your test coverage stays current with what your team is building.
+QI Home is where Atto, the AI feature in Test Management by Testsigma, generates test cases from your requirements, tracks coverage against your modules, builds test plans, and automates test execution. It also detects developer activity from connected Claude Code, Cursor, GitHub Copilot, and Codex context and GitHub pull requests, so your test coverage stays current with what your team is building.
 
 You do not write test cases from scratch. You give Atto the context it needs, and it generates test cases for you. You review what was generated, accept the cases that are accurate, and save them to your library. Coverage, test plans, and quality metrics update as you go.
 
@@ -102,13 +126,13 @@ Once a test case exists in your library, Atto can automate it without you writin
 
 ---
 
-## **Developer Session Mapping**
+## **Developer Context Mapping**
 
-Developer Session Mapping keeps your test coverage aligned with what your team is actually building.
+Developer Context Mapping keeps your test coverage aligned with what your team is actually building.
 
-When your developers work in Claude or open pull requests in GitHub, Atto detects those sessions and surfaces them in the Unmapped Sessions view in QI Home. Each session includes a suggestion for which module and sprint it belongs to. You review the suggestion and map the session with a few clicks.
+When your developers work in Claude Code, Cursor, GitHub Copilot, or Codex, or open pull requests in GitHub, Atto detects that context and surfaces it in the **Unmapped Context** view in QI Home. Each context entry includes an AI-generated suggestion for which module and sprint it belongs to. You review the suggestion and map it with a few clicks. Once mapped, Atto generates new test cases or updates existing ones based on the code changes or development activity captured.
 
-Claude session detection is central to this flow. When a developer works in Claude, Atto captures the context from that session, including prompts and code changes. Once a session is mapped, Atto triggers test generation for that sprint. Based on the changes captured in the session (such as new code or a merged PR), Atto generates new test cases or updates existing ones. This keeps your test coverage in sync with what your developers are building without requiring anyone to create that link manually.
+See [Overview: Developer Context Mapping](https://testsigma.com/docs/test-management/qi-home/context-mapping/overview/) for how the Unmapped Context model works, when to use GitHub versus a CLI tool, and what happens when a developer raises a PR for work already captured as CLI context.
 
 ---
 
@@ -142,10 +166,16 @@ Claude session detection is central to this flow. When a developer works in Clau
 - Execute Test Case in Local
 - Execution Controls in Copilot
 
-**Developer Session Mapping**
+**Developer Context Mapping**
 
-- GitHub
-- Claude
+- [Overview](https://testsigma.com/docs/test-management/qi-home/context-mapping/overview/)
+- [Connect GitHub](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-github/)
+- [Connect Claude Code](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-claude-code/)
+- [Connect Cursor](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-cursor/)
+- [Connect GitHub Copilot](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-github-copilot/)
+- [Connect Codex](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-codex/)
+- [Map GitHub Context](https://testsigma.com/docs/test-management/qi-home/context-mapping/map-github/)
+- [Map Developer Context](https://testsigma.com/docs/test-management/qi-home/context-mapping/map-developer-context/)
 
 **Others**
 
@@ -153,7 +183,7 @@ Claude session detection is central to this flow. When a developer works in Clau
 - FAQs
 
 [[info | **NOTE**:]]
-| QI Home requires an active project in Test Management by Testsigma. To attach context from Jira, Azure DevOps, Linear, ClickUp, Confluence, or Figma in Ad-Hoc, you need the respective integration connected to your project. Files, documents, and video recordings can be attached without any external integration. For Sprints, connect your project to a supported project management tool. For Developer Session Mapping, connect your Claude or GitHub account.
+| QI Home requires an active project in Test Management by Testsigma. To attach context from Jira, Azure DevOps, Linear, ClickUp, Confluence, or Figma in Ad-Hoc, you need the respective integration connected to your project. Files, documents, and video recordings can be attached without any external integration. For Sprints, connect your project to a supported project management tool. For Developer Context Mapping, connect your Claude or GitHub account.
 
 ---
 

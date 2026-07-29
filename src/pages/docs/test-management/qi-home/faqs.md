@@ -1,7 +1,7 @@
 ---
 title: 'FAQs'
 page_title: 'QI Home FAQs'
-metadesc: 'Frequently asked questions about QI Home — Ad-Hoc vs Sprints, coverage, quality metrics, Agentic Learning, Copilot, and developer session mapping.'
+metadesc: 'Frequently asked questions about QI Home — Ad-Hoc vs Sprints, coverage, quality metrics, Agentic Learning, Copilot, and developer context mapping.'
 description: 'Answers to frequently asked questions about QI Home in Test Management by Testsigma.'
 noindex: false
 order: 13.52
@@ -13,6 +13,12 @@ contextual_links:
   - type: link
     name: 'Frequently Asked Questions'
     url: '#frequently-asked-questions'
+  - type: link
+    name: '15. What CLI tools does Developer Context Mapping support?'
+    url: '#15-what-cli-tools-does-developer-context-mapping-support'
+  - type: link
+    name: '16. What is the difference between /arcus:map and /arcus:push?'
+    url: '#16-what-is-the-difference-between-arcusmap-and-arcuspush'
 ---
 
 <br>
@@ -73,10 +79,22 @@ The cloud VM is released and any unsaved changes are lost. Use Save and End to s
 
 ### **13. Can I map a GitHub PR to an Ad-Hoc session instead of a sprint?**
 
-Yes. In the Map to Module dialog, select Adhoc under Map to, then select an existing Ad-Hoc session or create a new one. See [Map GitHub Sessions](https://testsigma.com/docs/test-management/qi-home/dev-session-mapping/github/).
+Yes. In the Map to Module dialog, select Adhoc under Map to, then select an existing Ad-Hoc session or create a new one. See [Map GitHub Context](https://testsigma.com/docs/test-management/qi-home/context-mapping/map-github/).
 
-### **14. How do I connect Jira, GitHub, or Claude to my project?**
+### **14. How do I connect Jira, GitHub, or a CLI tool to my project?**
 
-Go to **Settings > Integrations** from the left navigation. Each integration has its own connection flow. Jira, Azure DevOps, Linear, ClickUp, and Confluence are used as context sources for test generation. GitHub and Claude are used for Developer Session Mapping.
+Go to **Settings > Integrations** from the left navigation. Each integration has its own connection flow. Jira, Azure DevOps, Linear, ClickUp, and Confluence are used as context sources for test generation. GitHub, Claude Code, Cursor, GitHub Copilot, and Codex are used for Developer Context Mapping. Each has a dedicated setup guide. See [Connect GitHub](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-github/), [Connect Claude Code](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-claude-code/), [Connect Cursor](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-cursor/), [Connect GitHub Copilot](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-github-copilot/), or [Connect Codex](https://testsigma.com/docs/test-management/qi-home/context-mapping/connect-codex/).
+
+---
+
+### **15. What CLI tools does Developer Context Mapping support?**
+
+Developer Context Mapping supports Claude Code, Cursor, GitHub Copilot, and Codex. All four capture coding activity through an Arcus plugin and push it to QI Home as context using the `/arcus:push` command. The mapping flow in QI Home is identical for all four. Context appears in Unmapped Context with a tool-specific badge, and you map it to a sprint or Ad-Hoc session the same way. See [Map Developer Context](https://testsigma.com/docs/test-management/qi-home/context-mapping/map-developer-context/).
+
+---
+
+### **16. What is the difference between `/arcus:map` and `/arcus:push`?**
+
+`/arcus:map <ticket-key>` links the current context to a sprint story before it is sent to QI Home. Running it before you push means the context arrives already mapped and does not land in Unmapped Context. `/arcus:push` uploads the captured context to QI Home. You can push without mapping — the context lands in Unmapped Context and QA maps it from there. Mapping before pushing is recommended because it reduces manual work for QA and ensures the context is attributed to the correct sprint automatically.
 
 ---
