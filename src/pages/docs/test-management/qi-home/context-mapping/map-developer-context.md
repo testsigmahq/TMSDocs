@@ -126,8 +126,8 @@ If a context entry is not relevant to your test coverage, click **Dismiss**. It 
 
 If your team has GitHub connected and a developer raises a pull request for the same work they captured in CLI context, Atto handles the overlap automatically:
 
-* **Context still unmapped** — Atto converts it into a GitHub context. The CLI context and the pull request unify as a single entry. You map it as a GitHub PR, not as separate CLI context.
-* **Context already mapped** — The pull request is auto-mapped to the same sprint or Ad-Hoc session. No further action is needed.
+* **Context still unmapped**: Atto converts it into a GitHub context. The CLI context and the pull request unify as a single entry. You map it as a GitHub PR, not as separate CLI context.
+* **Context already mapped**: The pull request is auto-mapped to the same sprint or Ad-Hoc session. No further action is needed.
 
 
 ---
