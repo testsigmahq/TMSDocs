@@ -242,5 +242,26 @@
   },
   "manage-azure-devops-work-items": {
     "/docs/test-management/atto/sprint-planner/manage-azure-devops-work-items/": "Manage Azure DevOps Work Items"
+  },
+  "qi-home": {
+    "/docs/test-management/qi-home/": "QI Home"
+  },
+  "ad-hoc": {
+    "/docs/test-management/qi-home/ad-hoc/": "Ad-Hoc"
+  },
+  "sprints": {
+    "/docs/test-management/qi-home/sprints/": "Sprints"
+  },
+  "automation": {
+    "/docs/test-management/qi-home/automation/": "Automation"
+  },
+  "agentic-learning": {
+    "/docs/test-management/qi-home/automation/agentic-learning/": "Agentic Learning"
+  },
+  "copilot": {
+    "/docs/test-management/qi-home/automation/copilot/": "Copilot"
+  },
+  "dev-session-mapping": {
+    "/docs/test-management/qi-home/dev-session-mapping/": "Dev Session Mapping"
   }
 }
