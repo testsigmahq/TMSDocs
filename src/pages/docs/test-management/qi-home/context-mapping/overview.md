@@ -11,6 +11,12 @@ contextual_links:
   - type: section
     name: 'Contents'
   - type: link
+    name: 'Why Developer Context Mapping Exists'
+    url: '#why-developer-context-mapping-exists'
+  - type: link
+    name: 'Who Uses It'
+    url: '#who-uses-it'
+  - type: link
     name: 'What Developer Context Mapping Does'
     url: '#what-developer-context-mapping-does'
   - type: link
@@ -31,6 +37,22 @@ contextual_links:
 ---
 
 Developer Context Mapping connects the tools your developers already use to the Quality Intelligence loop in Arcus. When a developer opens a pull request or finishes working in a CLI tool, Atto captures that context and surfaces it in QI Home for test generation. Developers keep their existing workflow. QA reviews what arrives and maps it to the right sprint or Ad-Hoc session.
+
+---
+
+## **Why Developer Context Mapping Exists**
+
+AI coding tools let developers write and merge changes faster than tests can be authored by hand. Test coverage trails the code, and there is no direct measure of how much of a recent change has been tested.
+
+Developer Context Mapping treats the coding session as the record of what changed. Atto captures the session, generates test cases from it for you to review, identifies changed areas with no corresponding tests, and reports the result through the Quality Intelligence Metrics. Developers continue working in their existing tool, and the test suite is built from the work they have already done rather than reconstructed afterwards.
+
+---
+
+## **Who Uses It**
+
+* **Developers** work in their existing CLI tool. The plugin captures context in the background, and they push it when a task is complete.
+* **QA and test engineers** review the generated test cases, accept, edit, or reject each one, and map incoming context to the correct sprint or Ad-Hoc session.
+* **Engineering leads and release managers** read the Coverage, Release Readiness, and Release Gate values that result. See [Quality Intelligence Metrics](https://testsigma.com/docs/test-management/qi-home/quality-intelligence-metrics/).
 
 ---
 
