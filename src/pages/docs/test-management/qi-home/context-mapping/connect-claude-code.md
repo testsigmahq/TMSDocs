@@ -1,7 +1,7 @@
 ---
 title: 'Connect Claude Code'
 page_title: 'Connect Claude Code'
-metadesc: 'How to install and connect the Arcus plugin for Claude Code so your coding context is captured and sent to QI Home for test generation.'
+metadesc: 'How to install and connect the Arcus plugin for Claude Code so your coding context is captured and sent to Arcus by Testsigma for test generation.'
 description: 'How to install and connect the Arcus plugin for Claude Code so your coding context is captured and sent to QI Home for test generation.'
 noindex: false
 order: 13.42
@@ -33,7 +33,7 @@ contextual_links:
     url: '#if-you-also-use-github'
 ---
 
-**Install the Arcus plugin for Claude Code so that your coding context is captured and sent to QI Home for test generation.**
+**Install the Arcus plugin for Claude Code so that your coding context is captured and sent to Arcus by Testsigma for test generation.**
 
 The plugin hooks into each stage of a Claude Code session and captures it as structured events: your prompts, the tools Claude runs, the files it reads and writes, and subagent boundaries. When you are done, you push the captured context to QI Home with a single command. QA maps the context to the right sprint, and Atto generates test cases from your development activity.
 
