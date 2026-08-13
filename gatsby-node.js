@@ -205,9 +205,9 @@ const writeLlmsTxt = (entries, outPath) => {
   );
 
   const lines = [
-    '# Test Management by Testsigma',
+    '# Arcus by Testsigma',
     '',
-    '> Documentation for Test Management by Testsigma — test cases, test plans, test runs, reports, and AI-powered automation with Atto.',
+    '> Documentation for Arcus by Testsigma — test cases, test plans, test runs, reports, and AI-powered automation with Atto.',
     '',
   ];
   for (const name of sortedGroupNames) {
@@ -225,12 +225,12 @@ const writeLlmsTxt = (entries, outPath) => {
 };
 
 const TM_HOME_MD = `---
-title: 'Test Management by Testsigma'
+title: 'Arcus by Testsigma'
 canonical: 'https://testsigma.com/docs/test-management/'
 ---
-# Test Management by Testsigma — Documentation
+# Arcus by Testsigma — Documentation
 
-The complete documentation for Test Management by Testsigma — test cases, test plans, test runs, reports, and AI-powered automation with Atto.
+The complete documentation for Arcus by Testsigma — test cases, test plans, test runs, reports, and AI-powered automation with Atto.
 
 See [llms.txt](https://testsigma.com/docs/test-management/llms.txt) for the full document index, or browse top sections:
 
