@@ -1,267 +1,267 @@
 {
   "introduction": {
-    "/docs/test-management/introduction/": "Introduction"
+    "/docs/arcus/introduction/": "Introduction"
   },
   "projects": {
-    "/docs/test-management/projects/": "Projects"
+    "/docs/arcus/projects/": "Projects"
   },
   "manage-projects": {
-    "/docs/test-management/projects/manage-projects/": "Manage Projects"
+    "/docs/arcus/projects/manage-projects/": "Manage Projects"
   },
   "project-settings": {
-    "/docs/test-management/projects/project-settings/": "Project Settings"
+    "/docs/arcus/projects/project-settings/": "Project Settings"
   },
   "folders": {
-    "/docs/test-management/test-cases/folders/": "Organize Test Cases in Folder"
+    "/docs/arcus/test-cases/folders/": "Organize Test Cases in Folder"
   },
   "test-cases": {
-    "/docs/test-management/test-cases/": "Test Cases"
+    "/docs/arcus/test-cases/": "Test Cases"
   },
   "manage-test-cases": {
-    "/docs/test-management/test-cases/manage-test-cases": "Manage Test Cases"
+    "/docs/arcus/test-cases/manage-test-cases": "Manage Test Cases"
   },
   "imports-and-exports": {
-    "/docs/test-management/imports-and-exports/": "Imports and Exports"
+    "/docs/arcus/imports-and-exports/": "Imports and Exports"
   },
   "overview": {
-    "/docs/test-management/introduction/overview/": "Overview"
+    "/docs/arcus/introduction/overview/": "Overview"
   },
   "getting-started": {
-    "/docs/test-management/introduction/getting-started/": "Getting Started"
+    "/docs/arcus/introduction/getting-started/": "Getting Started"
   },
   "test-case-templates": {
-    "/docs/test-management/test-cases/test-case-templates/": "Test Case Templates"
+    "/docs/arcus/test-cases/test-case-templates/": "Test Case Templates"
   },
   "csv-file": {
-    "/docs/test-management/imports-and-exports/csv-file/": "Import Test Data from CSV Files"
+    "/docs/arcus/imports-and-exports/csv-file/": "Import Test Data from CSV Files"
   },
   "zephyr": {
-    "/docs/test-management/imports-and-exports/zephyr/": "Import Test Data from Zephyr"
+    "/docs/arcus/imports-and-exports/zephyr/": "Import Test Data from Zephyr"
   },
   "testrail": {
-    "/docs/test-management/imports-and-exports/testrail/": "Import Test Data from Testrail"
+    "/docs/arcus/imports-and-exports/testrail/": "Import Test Data from Testrail"
   },
   "browserstack": {
-    "/docs/test-management/imports-and-exports/browserstack/": "Import Test Data from Browserstack"
+    "/docs/arcus/imports-and-exports/browserstack/": "Import Test Data from Browserstack"
   },
   "export-tests": {
-    "/docs/test-management/imports-and-exports/export-tests/": "Export Test Data"
+    "/docs/arcus/imports-and-exports/export-tests/": "Export Test Data"
   },
   "step-groups": {
-    "/docs/test-management/step-groups/create-step-groups/": "Creating Step Groups"
+    "/docs/arcus/step-groups/create-step-groups/": "Creating Step Groups"
   },
   "step-groups": {
-    "/docs/test-management/step-groups/": "Step Groups"
+    "/docs/arcus/step-groups/": "Step Groups"
   },
   "test-runs": {
-    "/docs/test-management/test-runs/": "Test Runs"
+    "/docs/arcus/test-runs/": "Test Runs"
   },
   "test-plans": {
-    "/docs/test-management/test-plans/": "Test Plans"
+    "/docs/arcus/test-plans/": "Test Plans"
   },
   "integrations": {
-    "/docs/test-management/integrations": "Integrations"
+    "/docs/arcus/integrations": "Integrations"
   },
   "jira": {
-    "/docs/test-management/integrations/jira": "Jira Integration"
+    "/docs/arcus/integrations/jira": "Jira Integration"
   },
   "figma": {
-    "/docs/test-management/integrations/figma": "Figma Integration"
+    "/docs/arcus/integrations/figma": "Figma Integration"
   },
   "settings": {
-    "/docs/test-management/settings/": "Settings"
+    "/docs/arcus/settings/": "Settings"
   },
   "global-settings": {
-    "/docs/test-management/settings/global-settings/": "Test Management Settings"
+    "/docs/arcus/settings/global-settings/": "Arcus Settings"
   },
   "manage-users": {
-    "/docs/test-management/manage-users/": "Manage Users"
+    "/docs/arcus/manage-users/": "Manage Users"
   },
   "atto": {
-    "/docs/test-management/atto/": "Atto (Agentic AI ✨)"
+    "/docs/arcus/atto/": "Atto (Agentic AI ✨)"
   },
   "generator-agent": {
-    "/docs/test-management/atto/generator-agent/": "Generator Agent"
+    "/docs/arcus/atto/generator-agent/": "Generator Agent"
   },
   "executor-agent": {
-    "/docs/test-management/atto/executor-agent/": "Executor Agent"
+    "/docs/arcus/atto/executor-agent/": "Executor Agent"
   },
   "manage-properties": {
-    "/docs/test-management/settings/manage-properties/": "Test Properties"
+    "/docs/arcus/settings/manage-properties/": "Test Properties"
   },
   "custom-fields": {
-    "/docs/test-management/settings/custom-fields/": "Custom Fields"
+    "/docs/arcus/settings/custom-fields/": "Custom Fields"
   },
   "labels": {
-    "/docs/test-management/settings/labels/": "Labels"
+    "/docs/arcus/settings/labels/": "Labels"
   },
   "api-keys": {
-    "/docs/test-management/settings/api-keys/": "API Keys"
+    "/docs/arcus/settings/api-keys/": "API Keys"
   },
   "manage-access": {
-    "/docs/test-management/settings/manage-access/": "Manage Access"
+    "/docs/arcus/settings/manage-access/": "Manage Access"
   },
   "bug-reporter-agent": {
-    "/docs/test-management/atto/bug-reporter-agent/": "Bug Reporter Agent"
+    "/docs/arcus/atto/bug-reporter-agent/": "Bug Reporter Agent"
   },
   "reports": {
-    "/docs/test-management/reports/": "Reports & Analytics"
+    "/docs/arcus/reports/": "Reports & Analytics"
   },
   "manage-sprints": {
-    "/docs/test-management/atto/sprint-planner/manage-sprints/": "Manage Jira Sprints"
+    "/docs/arcus/atto/sprint-planner/manage-sprints/": "Manage Jira Sprints"
   },
   "api-reference": {
-    "/docs/test-management/api-reference": "API Reference"
+    "/docs/arcus/api-reference": "API Reference"
   },
   "modules": {
-    "/docs/test-management/api-reference/modules": "API Modules"
+    "/docs/arcus/api-reference/modules": "API Modules"
   },
   "jenkins": {
-    "/docs/test-management/ci-cd-integrations/jenkins/": "Jenkins"
+    "/docs/arcus/ci-cd-integrations/jenkins/": "Jenkins"
   },
   "ci-cd-integrations": {
-    "/docs/test-management/ci-cd-integrations/": "CI/CD Integrations"
+    "/docs/arcus/ci-cd-integrations/": "CI/CD Integrations"
   },
   "github": {
-    "/docs/test-management/ci-cd-integrations/github": "GitHub"
+    "/docs/arcus/ci-cd-integrations/github": "GitHub"
   },
   "travis-ci": {
-    "/docs/test-management/ci-cd-integrations/travis-ci": "Travis CI"
+    "/docs/arcus/ci-cd-integrations/travis-ci": "Travis CI"
   },
   "circleci": {
-    "/docs/test-management/ci-cd-integrations/circleci": "CircleCI"
+    "/docs/arcus/ci-cd-integrations/circleci": "CircleCI"
   },
   "versions": {
-    "/docs/test-management/test-cases/versions/": "Versions"
+    "/docs/arcus/test-cases/versions/": "Versions"
   },
   "sprint-planner": {
-    "/docs/test-management/atto/sprint-planner/": "Sprint Planner Agent"
+    "/docs/arcus/atto/sprint-planner/": "Sprint Planner Agent"
   },
   "jira-two-way-integration": {
-    "/docs/test-management/integrations/jira-two-way-integration/": "Jira Two-way Integration"
+    "/docs/arcus/integrations/jira-two-way-integration/": "Jira Two-way Integration"
   },
   "generating-test-cases": {
-    "/docs/test-management/atto/best-practices/generating-test-cases/": "Generating Test Cases"
+    "/docs/arcus/atto/best-practices/generating-test-cases/": "Generating Test Cases"
   },
   "writing-best-prompts": {
-    "/docs/test-management/atto/best-practices/writing-best-prompts/": "Writing Effective Prompts"
+    "/docs/arcus/atto/best-practices/writing-best-prompts/": "Writing Effective Prompts"
   },
   "best-practices": {
-    "/docs/test-management/atto/best-practices/": "Best Practices"
+    "/docs/arcus/atto/best-practices/": "Best Practices"
   },
   "manage-linear-cycles": {
-    "/docs/test-management/atto/sprint-planner/manage-linear-cycles/": "Manage Linear Cycles"
+    "/docs/arcus/atto/sprint-planner/manage-linear-cycles/": "Manage Linear Cycles"
   },
   "linear": {
-    "/docs/test-management/integrations/linear/": "Linear Integration"
+    "/docs/arcus/integrations/linear/": "Linear Integration"
   },
   "audit-logs": {
-    "/docs/test-management/settings/audit-logs/": "Audit Logs"
+    "/docs/arcus/settings/audit-logs/": "Audit Logs"
   },
   "generate-tests-from-clickup": {
-    "/docs/test-management/atto/generator-agent/generate-tests-from-clickup/": "Generate Test Cases from ClickUp"
+    "/docs/arcus/atto/generator-agent/generate-tests-from-clickup/": "Generate Test Cases from ClickUp"
   },
   "clickup": {
-    "/docs/test-management/integrations/clickup/": "ClickUp Integration"
+    "/docs/arcus/integrations/clickup/": "ClickUp Integration"
   },
   "manage-clickup-tasks": {
-  "/docs/test-management/atto/sprint-planner/manage-clickup-tasks/": "Manage ClickUp Tasks"
+  "/docs/arcus/atto/sprint-planner/manage-clickup-tasks/": "Manage ClickUp Tasks"
   },
   "gitlab": {
-    "/docs/test-management/ci-cd-integrations/gitlab/": "GitLab"
+    "/docs/arcus/ci-cd-integrations/gitlab/": "GitLab"
   },
   "testsigma-two-way-integration": {
-    "/docs/test-management/testsigma-two-way-integration/": "Testsigma Two-way Integration"
+    "/docs/arcus/testsigma-two-way-integration/": "Testsigma Two-way Integration"
   },
   "connect-testsigma": {
-    "/docs/test-management/testsigma-two-way-integration/connect-testsigma/": "Connect Testsigma"
+    "/docs/arcus/testsigma-two-way-integration/connect-testsigma/": "Connect Testsigma"
   },
   "link-test-cases": {
-    "/docs/test-management/testsigma-two-way-integration/link-test-cases/": "Link Test Cases"
+    "/docs/arcus/testsigma-two-way-integration/link-test-cases/": "Link Test Cases"
   },
   "manage-user": {
-    "/docs/test-management/testsigma-two-way-integration/manage-user/": "Manage Users"
+    "/docs/arcus/testsigma-two-way-integration/manage-user/": "Manage Users"
   },
   "link-test-plans": {
-    "/docs/test-management/testsigma-two-way-integration/link-test-plans/": "Link Test Plans"
+    "/docs/arcus/testsigma-two-way-integration/link-test-plans/": "Link Test Plans"
   },
   "execute-test-plans": {
-    "/docs/test-management/testsigma-two-way-integration/execute-test-plans/": "Execute Test Plans"
+    "/docs/arcus/testsigma-two-way-integration/execute-test-plans/": "Execute Test Plans"
   },
   "automate-manual-test-cases": {
-    "/docs/test-management/testsigma-two-way-integration/automate-manual-test-cases/": "Automate Manual Tests"
+    "/docs/arcus/testsigma-two-way-integration/automate-manual-test-cases/": "Automate Manual Tests"
   },
   "create-and-sync-test-cases": {
-    "/docs/test-management/testsigma-two-way-integration/create-and-sync-test-cases/": "Create & Sync Test Cases"
+    "/docs/arcus/testsigma-two-way-integration/create-and-sync-test-cases/": "Create & Sync Test Cases"
   },
   "notifications": {
-    "/docs/test-management/settings/notifications": "Notifications 🔔"
+    "/docs/arcus/settings/notifications": "Notifications 🔔"
   },
   "smtp-configuration": {
-    "/docs/test-management/settings/smtp-configuration/": "SMTP Configuration"
+    "/docs/arcus/settings/smtp-configuration/": "SMTP Configuration"
   },
   "email": {
-    "/docs/test-management/settings/notifications/email": "Email"
+    "/docs/arcus/settings/notifications/email": "Email"
   },
   "slack": {
-    "/docs/test-management/settings/notifications/slack": "Slack"
+    "/docs/arcus/settings/notifications/slack": "Slack"
   },
   "microsoft-teams": {
-    "/docs/test-management/settings/notifications/microsoft-teams": "MS Teams"
+    "/docs/arcus/settings/notifications/microsoft-teams": "MS Teams"
   },
   "review-management": {
-    "/docs/test-management/test-cases/review-management": "Review Management"
+    "/docs/arcus/test-cases/review-management": "Review Management"
   },
   "clone-test-cases": {
-    "/docs/test-management/test-cases/clone-test-cases": "Clone Test Cases"
+    "/docs/arcus/test-cases/clone-test-cases": "Clone Test Cases"
   },
   "comment-in-test-cases": {
-    "/docs/test-management/test-cases/comment-in-test-cases": "Comment in Test Cases"
+    "/docs/arcus/test-cases/comment-in-test-cases": "Comment in Test Cases"
   },
   "confluence": {
-    "/docs/test-management/integrations/confluence/": "Confluence Integration"
+    "/docs/arcus/integrations/confluence/": "Confluence Integration"
   },
   "generate-tests-from-confluence": {
-    "/docs/test-management/atto/generator-agent/generate-tests-from-confluence/": "Generate Test Cases from Confluence"
+    "/docs/arcus/atto/generator-agent/generate-tests-from-confluence/": "Generate Test Cases from Confluence"
   },
   "run-history": {
-    "/docs/test-management/test-cases/run-history/": "View Run History"
+    "/docs/arcus/test-cases/run-history/": "View Run History"
   },
   "data-sets": {
-    "/docs/test-management/data-sets/": "Data Sets"
+    "/docs/arcus/data-sets/": "Data Sets"
   },
   "manage-data-sets": {
-    "/docs/test-management/data-sets/manage-data-sets/": "Manage Data Sets"
+    "/docs/arcus/data-sets/manage-data-sets/": "Manage Data Sets"
   },
   "azure-two-way-integration": {
-    "/docs/test-management/integrations/azure-two-way-integration/": "Azure DevOps Two-way Integration"
+    "/docs/arcus/integrations/azure-two-way-integration/": "Azure DevOps Two-way Integration"
   },
   "azure-devops": {
-    "/docs/test-management/integrations/azure-devops": "Azure DevOps Integration",
-    "/docs/test-management/ci-cd-integrations/azure-devops/":"Azure DevOps"
+    "/docs/arcus/integrations/azure-devops": "Azure DevOps Integration",
+    "/docs/arcus/ci-cd-integrations/azure-devops/":"Azure DevOps"
   },
   "manage-azure-devops-work-items": {
-    "/docs/test-management/atto/sprint-planner/manage-azure-devops-work-items/": "Manage Azure DevOps Work Items"
+    "/docs/arcus/atto/sprint-planner/manage-azure-devops-work-items/": "Manage Azure DevOps Work Items"
   },
   "qi-home": {
-    "/docs/test-management/qi-home/": "QI Home"
+    "/docs/arcus/qi-home/": "QI Home"
   },
   "ad-hoc": {
-    "/docs/test-management/qi-home/ad-hoc/": "Ad-Hoc"
+    "/docs/arcus/qi-home/ad-hoc/": "Ad-Hoc"
   },
   "sprints": {
-    "/docs/test-management/qi-home/sprints/": "Sprints"
+    "/docs/arcus/qi-home/sprints/": "Sprints"
   },
   "automation": {
-    "/docs/test-management/qi-home/automation/": "Automation"
+    "/docs/arcus/qi-home/automation/": "Automation"
   },
   "agentic-learning": {
-    "/docs/test-management/qi-home/automation/agentic-learning/": "Agentic Learning"
+    "/docs/arcus/qi-home/automation/agentic-learning/": "Agentic Learning"
   },
   "copilot": {
-    "/docs/test-management/qi-home/automation/copilot/": "Copilot"
+    "/docs/arcus/qi-home/automation/copilot/": "Copilot"
   },
   "dev-session-mapping": {
-    "/docs/test-management/qi-home/dev-session-mapping/": "Dev Session Mapping"
+    "/docs/arcus/qi-home/dev-session-mapping/": "Dev Session Mapping"
   }
 }
