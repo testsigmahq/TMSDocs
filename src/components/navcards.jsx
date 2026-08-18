@@ -71,7 +71,7 @@ const data = [
     id: 10,
     title: 'Integrations',
     description:
-      'Integrate Test Management by Testsigma with your CI/CD tool for continuous testing.',
+      'Integrate Arcus by Testsigma with your CI/CD tool for continuous testing.',
     path: '/docs/test-management/integrations/jira/',
   },
   {
@@ -119,7 +119,7 @@ const data = [
     id: 17,
     title: 'CI/CD Integrations',
     description:
-      'Integrate CI/CD Tools with Test Management by Testsigma and automate your test runs and generate test reports.',
+      'Integrate CI/CD Tools with Arcus by Testsigma and automate your test runs and generate test reports.',
     path: '/docs/test-management/ci-cd-integrations/jenkins/',
   },
 ];
