@@ -21,7 +21,7 @@ const IndexContent = () => {
         <br />
         <br />
         <span className='text-base font-normal'>
-          SETUP | PLAN | AUTHOR | ORGANIZE | EXECUTE | REPORT
+          The complete test management platform for modern QA teams.
         </span>
       </div>
       <div className='w-full'>
