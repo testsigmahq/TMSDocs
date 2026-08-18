@@ -1,7 +1,7 @@
 ---
-title: 'Clone Test Case in Test Management by Testsigma'
-page_title: 'Clone Test Case in Test Management by Testsigma'
-metadesc: 'Clone test cases to quickly create reusable copies without impacting the original version | Learn how to clone test cases in Test Management by Testsigma'
+title: 'Clone Test Case in Arcus by Testsigma'
+page_title: 'Clone Test Case in Arcus by Testsigma'
+metadesc: 'Clone test cases to quickly create reusable copies without impacting the original version | Learn how to clone test cases in Arcus by Testsigma'
 noindex: false
 order: 3.8
 page_id: 'clone-tests-in-test-management'
@@ -28,7 +28,7 @@ contextual_links:
 
 ---
 
-Cloning test cases allows you to create an exact copy of an existing test case for reuse within the same project or across different projects. All field values are copied at the time of cloning, and any updates made to the original test case do not affect the cloned version. This article discusses cloning test cases in Test Management by Testsigma.
+Cloning test cases allows you to create an exact copy of an existing test case for reuse within the same project or across different projects. All field values are copied at the time of cloning, and any updates made to the original test case do not affect the cloned version. This article discusses cloning test cases in Arcus by Testsigma.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: 'GitLab Integration with Test Management by Testsigma'
-page_title: 'GitLab Integration with Test Management by Testsigma'
-metadesc: 'Integrate GitLab with Test Management by Testsigma to automate test executions & generate test reports through CI/CD pipelines | GitLab Integration with TMS by Testsigma'
+title: 'GitLab Integration with Arcus by Testsigma'
+page_title: 'GitLab Integration with Arcus by Testsigma'
+metadesc: 'Integrate GitLab with Arcus by Testsigma to automate test executions & generate test reports through CI/CD pipelines | GitLab Integration with TMS by Testsigma'
 noindex: false
 order: 17.6
 page_id: 'Gitlab-ci-integration-with-test-management-by-testsigma'
@@ -25,19 +25,19 @@ contextual_links:
 
 <br>
 
-**Integrate GitLab with Test Management by Testsigma and automate your test runs and generate test reports.**
+**Integrate GitLab with Arcus by Testsigma and automate your test runs and generate test reports.**
 
 ---
 
-Integrate GitLab with Test Management by Testsigma to automate test executions and generate test reports through CI/CD pipelines. This article discusses integrating GitLab with Test Management by Testsigma.
+Integrate GitLab with Arcus by Testsigma to automate test executions and generate test reports through CI/CD pipelines. This article discusses integrating GitLab with Arcus by Testsigma.
 
 ---
 
 > ## **Prerequisites**
 > Before you begin, ensure the following:
 > - You have a **GitLab** account and a connected project repository.
-> - A project and at least one test run exist in Test Management by Testsigma.
-> - You have an API token from Test Management by Testsigma.
+> - A project and at least one test run exist in Arcus by Testsigma.
+> - You have an API token from Arcus by Testsigma.
 > - Your test results are generated in JUnit XML format (for example, reports/junit.xml)
 
 ---
@@ -103,6 +103,6 @@ This configuration performs the following actions:
 
 2. GitLab will run the workflow.
 
-3. After completion, the corresponding test run in Test Management by Testsigma will be automatically updated with the test execution results.
+3. After completion, the corresponding test run in Arcus by Testsigma will be automatically updated with the test execution results.
 
 ---

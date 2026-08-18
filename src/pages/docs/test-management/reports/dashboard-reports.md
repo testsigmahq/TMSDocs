@@ -1,7 +1,7 @@
 ---
 title: 'Reports in Dashboard View'
-page_title: 'Reports in Dashboard View in Test Management by Testsigma'
-metadesc: 'The Dashboard view in Test Management by Testsigma gives real-time test metrics. Learn how to track progress, monitor test health, & identify defects from Dashboard'
+page_title: 'Reports in Dashboard View in Arcus by Testsigma'
+metadesc: 'The Dashboard view in Arcus by Testsigma gives real-time test metrics. Learn how to track progress, monitor test health, & identify defects from Dashboard'
 noindex: false
 order: 15.3
 page_id: 'view-dashboard-reports-in-testsigma-test-management'

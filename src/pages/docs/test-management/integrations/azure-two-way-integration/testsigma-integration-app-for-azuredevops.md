@@ -29,11 +29,11 @@ contextual_links:
 
 <br>
 
-**You can create, run, and manage your tests inside Azure DevOps. Just like you do in Test Management by Testsigma.**
+**You can create, run, and manage your tests inside Azure DevOps. Just like you do in Arcus by Testsigma.**
 
 ---
 
-The Testsigma Integration for Azure DevOps seamlessly extends Azure DevOps capabilities to include native test management. This enables teams to create, manage, and track test cases and test runs directly within the Azure DevOps environment, without switching to Test Management by Testsigma. You can associate test results with work items, streamline pipelines, and maintain end-to-end traceability within Azure Boards and Repos. The integration accelerates testing cycles and enhances collaboration between QA and development teams from a unified workspace.
+The Testsigma Integration for Azure DevOps seamlessly extends Azure DevOps capabilities to include native test management. This enables teams to create, manage, and track test cases and test runs directly within the Azure DevOps environment, without switching to Arcus by Testsigma. You can associate test results with work items, streamline pipelines, and maintain end-to-end traceability within Azure Boards and Repos. The integration accelerates testing cycles and enhances collaboration between QA and development teams from a unified workspace.
 
 ---
 
@@ -45,7 +45,7 @@ The Testsigma Integration for Azure DevOps seamlessly extends Azure DevOps capab
 
 ## **Connect TMS to Azure DevOps**
 
-1. Log in to your Test Management by Testsigma account.
+1. Log in to your Arcus by Testsigma account.
 
 2. From the left navigation bar, navigate to **Settings > Integrations**.
 ![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_azure_1.png)
@@ -53,7 +53,7 @@ The Testsigma Integration for Azure DevOps seamlessly extends Azure DevOps capab
 3. In the Integrations screen, click **Setup Integration** against **Azure DevOps**. 
 ![Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_azure_2.png)
 
-4. Follow the OAuth-based authorization steps to connect Azure DevOps with Test Management by Testsigma.
+4. Follow the OAuth-based authorization steps to connect Azure DevOps with Arcus by Testsigma.
 
 ---
 
@@ -61,7 +61,7 @@ The Testsigma Integration for Azure DevOps seamlessly extends Azure DevOps capab
 
 1. Open the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=testsigma.testsigma-azure-devops).
 
-2. Search for **Test Management by Testsigma**.
+2. Search for **Arcus by Testsigma**.
 
 3. Install the extension in your Azure DevOps organization.
 ![Install TMS by Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_azure_3.png)
@@ -79,7 +79,7 @@ The Testsigma Integration for Azure DevOps seamlessly extends Azure DevOps capab
 3. Click **Testsigma for Azure DevOps**.
 ![Testsigma for Azure Devops](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_azure_6.png)
 
-4. Click **Authorize Azure DevOps Extension** and complete the authorization with Test Management by Testsigma.
+4. Click **Authorize Azure DevOps Extension** and complete the authorization with Arcus by Testsigma.
 ![Authorize Azure DevOps Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_azure_7.png)
 
 ---

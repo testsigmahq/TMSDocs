@@ -1,5 +1,5 @@
 ---
-title: 'Figma Integration with Test Management by Testsigma'
+title: 'Figma Integration with Arcus by Testsigma'
 page_title: 'Figma Integration with Testsigma'
 metadesc: 'Generate test cases directly from Figma designs in Testsigma | Ensure design-to-test alignment and accelerate test creation by converting UI elements into test steps'
 noindex: false
@@ -25,7 +25,7 @@ contextual_links:
 
 <br>
 
-**Integrate Figma with Test Management by Testsigma to generate test cases from your designs.**
+**Integrate Figma with Arcus by Testsigma to generate test cases from your designs.**
 
 ---
 
@@ -35,7 +35,7 @@ Testsigma lets you generate test cases directly from your Figma designs. This he
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project created in Test Management by Testsigma and have integrated your Figma account.
+> Before you begin, ensure you have a project created in Arcus by Testsigma and have integrated your Figma account.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Test Case Filters'
-page_title: 'Test Case Filters in Test Management by Testsigma'
-metadesc: 'This article discusses Test Case Filters in Test Management by Testsigma | Filtering test cases involves in filtering tests based on priority, type, status, and more'
+page_title: 'Test Case Filters in Arcus by Testsigma'
+metadesc: 'This article discusses Test Case Filters in Arcus by Testsigma | Filtering test cases involves in filtering tests based on priority, type, status, and more'
 noindex: false
 order: 3.4
 page_id: 'test-cases-filters-in-testsigma-test-management'
@@ -35,7 +35,7 @@ Filtering test cases helps you find specific test cases based on properties such
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure that you have test cases available in Test Management by Testsigma.
+> Before you begin, ensure that you have test cases available in Arcus by Testsigma.
 
 ---
 

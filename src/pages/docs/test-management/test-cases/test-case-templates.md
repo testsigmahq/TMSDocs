@@ -1,7 +1,7 @@
 ---
 title: 'Test Case Templates'
-page_title: 'Test Case Templates in Test Management by Testsigma'
-metadesc: 'This article discusses Test Case Templates in Test Management by Testsigma | Managing test cases involves creating, editing, moving, and deleting them in test management'
+page_title: 'Test Case Templates in Arcus by Testsigma'
+metadesc: 'This article discusses Test Case Templates in Arcus by Testsigma | Managing test cases involves creating, editing, moving, and deleting them in test management'
 noindex: false
 order: 3.3
 page_id: 'test-cases-templates-in-testsigma-test-management'
@@ -23,7 +23,7 @@ contextual_links:
 
 ---
 
-Test Management by Testsigma tool allows you to create test cases using two templates:
+Arcus by Testsigma tool allows you to create test cases using two templates:
 
 ### 1. **Documentation Template**
 
@@ -33,7 +33,7 @@ You can use the **Documentation Template** to create simple tests with basic pre
 
 You can use **Steps Template** when a more granular approach is necessary, breaking down each action and expected results.
 
-Both templates allow you to attach files up to 25 MB, which enhances test documentation with relevant files for better clarity and context. This article discusses Test Case Templates in Test Management by Testsigma.
+Both templates allow you to attach files up to 25 MB, which enhances test documentation with relevant files for better clarity and context. This article discusses Test Case Templates in Arcus by Testsigma.
 
 ---
 

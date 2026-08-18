@@ -1,7 +1,7 @@
 ---
-title: 'Execute Test Plans from Test Management by Testsigma'
-page_title: 'Execute Test Plans from Test Management by Testsigma'
-metadesc: 'You can execute test plans in Testsigma directly from Test Management by Testsigma | Learn how to execute test plans of Testsigma from Test Management by Testsigma.'
+title: 'Execute Test Plans from Arcus by Testsigma'
+page_title: 'Execute Test Plans from Arcus by Testsigma'
+metadesc: 'You can execute test plans in Testsigma directly from Arcus by Testsigma | Learn how to execute test plans of Testsigma from Arcus by Testsigma.'
 noindex: false
 order: 11.7
 page_id: 'execute-test-plans-in-testsigma'
@@ -16,26 +16,26 @@ contextual_links:
     name: 'Interactive Demo'
     url: '#interactive-demo' 
   - type: link
-    name: 'Execute a Linked Test Plan in Test Management by Testsigma'
+    name: 'Execute a Linked Test Plan in Arcus by Testsigma'
     url: '#execute-a-linked-test-plan-in-test-management-by-testsigma'
   - type: link
-    name: 'View Automated Reports in Test Management by Testsigma'
+    name: 'View Automated Reports in Arcus by Testsigma'
     url: '#view-automated-reports-in-test-management-by-testsigma'
 ---
 
 <br>
 
-**This integration lets you execute test plans in Testsigma from Test Management by Testsigma & automatically retrieves machine-level reports for each run.**
+**This integration lets you execute test plans in Testsigma from Arcus by Testsigma & automatically retrieves machine-level reports for each run.**
 
 ---
 
-You can execute test plans in Testsigma directly from Test Management by Testsigma. When you trigger an execution, Test Management by Testsigma creates a separate test run for each machine and imports machine-level reports, including the link to the result page. This article discusses executing Test Plans from Test Management by Testsigma.
+You can execute test plans in Testsigma directly from Arcus by Testsigma. When you trigger an execution, Arcus by Testsigma creates a separate test run for each machine and imports machine-level reports, including the link to the result page. This article discusses executing Test Plans from Arcus by Testsigma.
 
 ---
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure that the test plans are linked between Test Management by Testsigma and Testsigma.
+> Before you begin, ensure that the test plans are linked between Arcus by Testsigma and Testsigma.
 
 ---
 
@@ -51,9 +51,9 @@ You can execute test plans in Testsigma directly from Test Management by Testsig
 
 ---
 
-## **Execute a Linked Test Plan in Test Management by Testsigma**
+## **Execute a Linked Test Plan in Arcus by Testsigma**
 
-1. Create or open the test plan you want to execute in Test Management by Testsigma.
+1. Create or open the test plan you want to execute in Arcus by Testsigma.
 
 2. In the test plan details page, under **Testsigma Automated Test Plan**, click **Link a Test Plan** if the plan is not yet linked.
 
@@ -64,7 +64,7 @@ You can execute test plans in Testsigma directly from Test Management by Testsig
 
 4. After linking, click the **Play icon** next to the linked **Testsigma Automated Test Plan** to trigger execution.
 
-2. After execution completes in Testsigma, Test Management by Testsigma automatically creates a test run for each machine with the associated test cases.
+2. After execution completes in Testsigma, Arcus by Testsigma automatically creates a test run for each machine with the associated test cases.
 
 3. Open the test run in the test plan to view execution details. The run includes links to the individual test case results pages for each executed test case.
 
@@ -73,7 +73,7 @@ You can execute test plans in Testsigma directly from Test Management by Testsig
 
 ---
 
-## **View Automated Reports in Test Management by Testsigma**
+## **View Automated Reports in Arcus by Testsigma**
 
 1. From the left navigation bar, go to **Test Plans**.
 

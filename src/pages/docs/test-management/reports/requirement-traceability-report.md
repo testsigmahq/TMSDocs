@@ -1,7 +1,7 @@
 ---
 title: 'Requirement Traceability Report'
-page_title: 'Requirement Traceability Report in Test Management by Testsigma'
-metadesc: 'View requirement coverage across test cases, test runs, and defects with the Requirement Traceability Report in Test Management by Testsigma.'
+page_title: 'Requirement Traceability Report in Arcus by Testsigma'
+metadesc: 'View requirement coverage across test cases, test runs, and defects with the Requirement Traceability Report in Arcus by Testsigma.'
 noindex: false
 order: 15.4
 page_id: 'requirement-traceability-report-in-testsigma-test-management'

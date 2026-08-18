@@ -1,7 +1,7 @@
 ---
 title: 'Creating Step Groups'
-page_title: 'Creating Step Groups in Test Management by Testsigma'
-metadesc: 'Step Groups in Test Management by Testsigma enhances test case management by grouping repetitive test steps | Learn how to create step groups in Test Management by Testsigma'
+page_title: 'Creating Step Groups in Arcus by Testsigma'
+metadesc: 'Step Groups in Arcus by Testsigma enhances test case management by grouping repetitive test steps | Learn how to create step groups in Arcus by Testsigma'
 noindex: false
 order: 6.1
 page_id: 'create-step-groups'
@@ -28,11 +28,11 @@ contextual_links:
 
 <br>
 
-**Learn how to create to reuse common steps across multiple test cases in Test Management by Testsigma.**
+**Learn how to create to reuse common steps across multiple test cases in Arcus by Testsigma.**
 
 ---
 
-Step Groups feature in Test Management by Testsigma enhances test case management by grouping repetitive test steps. Instead of manually adding steps across multiple test cases, you can link a Step Group to various test cases with common steps. This article discusses managing Step Groups in Test Management by Testsigma.
+Step Groups feature in Arcus by Testsigma enhances test case management by grouping repetitive test steps. Instead of manually adding steps across multiple test cases, you can link a Step Group to various test cases with common steps. This article discusses managing Step Groups in Arcus by Testsigma.
 
 ---
 

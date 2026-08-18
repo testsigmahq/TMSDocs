@@ -1,7 +1,7 @@
 ---
 title: 'Test Cases: The Core of Testing'
-page_title: 'Test Cases in Test Management by Testsigma'
-metadesc: 'This article discusses managing test cases in Test Management by Testsigma | Managing test cases involves creating, editing, moving, and deleting them in test management'
+page_title: 'Test Cases in Arcus by Testsigma'
+metadesc: 'This article discusses managing test cases in Arcus by Testsigma | Managing test cases involves creating, editing, moving, and deleting them in test management'
 noindex: false
 order: 3.2
 page_id: 'test-cases-in-testsigma-test-management'
@@ -37,7 +37,7 @@ contextual_links:
 
 <br>
 
-**Learn how to create, organize, and maintain test cases in Test Management by Testsigma.**
+**Learn how to create, organize, and maintain test cases in Arcus by Testsigma.**
 
 ---
 

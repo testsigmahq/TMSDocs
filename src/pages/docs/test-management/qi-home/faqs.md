@@ -2,7 +2,7 @@
 title: 'FAQs'
 page_title: 'QI Home FAQs'
 metadesc: 'Frequently asked questions about QI Home — Ad-Hoc vs Sprints, coverage, quality metrics, Agentic Learning, Copilot, and developer context mapping.'
-description: 'Answers to frequently asked questions about QI Home in Test Management by Testsigma.'
+description: 'Answers to frequently asked questions about QI Home in Arcus by Testsigma.'
 noindex: false
 order: 13.52
 page_id: 'qi-home-faqs'

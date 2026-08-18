@@ -1,7 +1,7 @@
 ---
-title: 'API Modules for Test Management by Testsigma'
-page_title: 'API Modules for Test Management by Testsigma'
-metadesc: 'Use API Reference for Test Management by Testsigma to manage all modules like projects, test cases, test runs, test plans, folders, step groups, & settings'
+title: 'API Modules for Arcus by Testsigma'
+page_title: 'API Modules for Arcus by Testsigma'
+metadesc: 'Use API Reference for Arcus by Testsigma to manage all modules like projects, test cases, test runs, test plans, folders, step groups, & settings'
 noindex: false
 order: 16.2
 page_id: 'api-modules-for-test-management-by-testsigma'
@@ -23,7 +23,7 @@ contextual_links:
 
 ---
 
-You can now use API Reference for Test Management by Testsigma to manage all modules of test management like projects, test cases, test runs, test plans, folders, step groups, and custom fields. These APIs support automation workflows and integration with CI/CD pipelines.
+You can now use API Reference for Arcus by Testsigma to manage all modules of test management like projects, test cases, test runs, test plans, folders, step groups, and custom fields. These APIs support automation workflows and integration with CI/CD pipelines.
 
 Each module includes a set of RESTful endpoints that support standard CRUD operations, status updates, and data retrieval. Authentication is managed via Bearer tokens, which must be included in each request.
 
@@ -31,7 +31,7 @@ Each module includes a set of RESTful endpoints that support standard CRUD opera
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure you have API Token from Test Management by Testsigma.
+> Before you begin, ensure you have API Token from Arcus by Testsigma.
 
 ---
 

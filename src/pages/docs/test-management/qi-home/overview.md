@@ -1,7 +1,7 @@
 ---
 title: "Overview: QI Home"
 page_title: "Overview of QI Home"
-metadesc: 'QI Home is where Atto generates test cases from your requirements, tracks coverage, builds test plans, and automates test execution in Test Management by Testsigma.'
+metadesc: 'QI Home is where Atto generates test cases from your requirements, tracks coverage, builds test plans, and automates test execution in Arcus by Testsigma.'
 description: 'An overview of QI Home, where Atto generates test cases, tracks coverage, builds test plans, and automates test execution.'
 noindex: false
 order: 13.20
@@ -60,7 +60,7 @@ contextual_links:
 
 ---
 
-QI Home is where Atto, the AI feature in Test Management by Testsigma, generates test cases from your requirements, tracks coverage against your modules, builds test plans, and automates test execution. It also detects developer activity from connected Claude Code, Cursor, GitHub Copilot, and Codex context and GitHub pull requests, so your test coverage stays current with what your team is building.
+QI Home is where Atto, the AI feature in Arcus by Testsigma, generates test cases from your requirements, tracks coverage against your modules, builds test plans, and automates test execution. It also detects developer activity from connected Claude Code, Cursor, GitHub Copilot, and Codex context and GitHub pull requests, so your test coverage stays current with what your team is building.
 
 You do not write test cases from scratch. You give Atto the context it needs, and it generates test cases for you. You review what was generated, accept the cases that are accurate, and save them to your library. Coverage, test plans, and quality metrics update as you go.
 
@@ -183,7 +183,7 @@ See [Overview: Developer Context Mapping](https://testsigma.com/docs/test-manage
 - [FAQs](https://testsigma.com/docs/test-management/qi-home/faqs/)
 
 [[info | **NOTE**:]]
-| QI Home requires an active project in Test Management by Testsigma. To attach context from Jira, Azure DevOps, Linear, ClickUp, Confluence, or Figma in Ad-Hoc, you need the respective integration connected to your project. Files, documents, and video recordings can be attached without any external integration. For Sprints, connect your project to a supported project management tool. For Developer Context Mapping, connect your Claude or GitHub account.
+| QI Home requires an active project in Arcus by Testsigma. To attach context from Jira, Azure DevOps, Linear, ClickUp, Confluence, or Figma in Ad-Hoc, you need the respective integration connected to your project. Files, documents, and video recordings can be attached without any external integration. For Sprints, connect your project to a supported project management tool. For Developer Context Mapping, connect your Claude or GitHub account.
 
 ---
 

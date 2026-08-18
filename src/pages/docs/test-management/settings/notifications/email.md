@@ -33,13 +33,13 @@ contextual_links:
 ---
 
 
-Test Management by Testsigma allows you to configure custom email notifications for various test entities. Email notifications help teams stay informed about key events such as assignments, status changes, and review updates. This article discusses customizing email notifications in Test Management by Testsigma. 
+Arcus by Testsigma allows you to configure custom email notifications for various test entities. Email notifications help teams stay informed about key events such as assignments, status changes, and review updates. This article discusses customizing email notifications in Arcus by Testsigma. 
 
 ---
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure that you are added as a user in Test Management by Testsigma.
+> Before you begin, ensure that you are added as a user in Arcus by Testsigma.
 
 ---
 
@@ -101,7 +101,7 @@ Send daily summary email for test plan progress
 5. Click **Save** to apply the changes.
 
 [[info | **NOTE**:]]
-| To send notifications from your own email address, ensure SMTP is configured. For more information, see [SMTP Configuration in Test Management by Testsigma](https://testsigma.com/docs/test-management/settings/smtp-configuration/).
+| To send notifications from your own email address, ensure SMTP is configured. For more information, see [SMTP Configuration in Arcus by Testsigma](https://testsigma.com/docs/test-management/settings/smtp-configuration/).
 
 ---
 

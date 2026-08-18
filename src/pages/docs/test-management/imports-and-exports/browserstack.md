@@ -1,6 +1,6 @@
 ---
 title: 'Importing Test Data from Browserstack'
-page_title: 'Getting Started with Test Management by Testsigma'
+page_title: 'Getting Started with Arcus by Testsigma'
 metadesc: 'This article discusses overview of test management tool in Testsigma | Keep your test cases, test plans, test runs, and reports organized in one place'
 noindex: false
 order: 5.4
@@ -22,13 +22,13 @@ contextual_links:
 
 <br>
 
-**Learn how to export test cases from Browserstack and import them into Test Management by Testsigma.**
+**Learn how to export test cases from Browserstack and import them into Arcus by Testsigma.**
 
 ---
 
-You can export test cases from Testrail and import them into Test Management by Testsigma. This article discusses the steps to export test cases from Testrail and import them into Test Management by Testsigma.
+You can export test cases from Testrail and import them into Arcus by Testsigma. This article discusses the steps to export test cases from Testrail and import them into Arcus by Testsigma.
 
-Note: Currently, only test cases created using the Plain Text template can be imported into Test Management by Testsigma.
+Note: Currently, only test cases created using the Plain Text template can be imported into Arcus by Testsigma.
 
 ---
 
@@ -59,6 +59,6 @@ Note: Currently, only test cases created using the Plain Text template can be im
 3. Click **Upload File** and select file to import.
 
 [[info | **NOTE**:]]
-| Follow the steps in the [Import Test Cases](https://testsigma.com/docs/test-management/imports-and-exports/csv-file/) document to prepare the file and map values or properties to align with the test case structure in Test Management by Testsigma.
+| Follow the steps in the [Import Test Cases](https://testsigma.com/docs/test-management/imports-and-exports/csv-file/) document to prepare the file and map values or properties to align with the test case structure in Arcus by Testsigma.
 
 ---

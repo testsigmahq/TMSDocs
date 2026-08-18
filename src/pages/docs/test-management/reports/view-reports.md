@@ -1,7 +1,7 @@
 ---
 title: 'Viewing Reports'
-page_title: 'Viewing Reports in Test Management by Testsigma'
-metadesc: 'Learn how to view reports in Test Management by Testsigma | Interpret different sections of a report and analyze test execution, track progress, and identify defects'
+page_title: 'Viewing Reports in Arcus by Testsigma'
+metadesc: 'Learn how to view reports in Arcus by Testsigma | Interpret different sections of a report and analyze test execution, track progress, and identify defects'
 noindex: false
 order: 15.2
 page_id: 'view-reports-in-testsigma-test-management'
@@ -29,7 +29,7 @@ contextual_links:
 
 ---
 
-Reports in Test Management by Testsigma provide dynamic, visual insights into test execution status, progress, and defect tracking. This article discusses how to view and interpret different sections of a report.
+Reports in Arcus by Testsigma provide dynamic, visual insights into test execution status, progress, and defect tracking. This article discusses how to view and interpret different sections of a report.
 
 ---
 

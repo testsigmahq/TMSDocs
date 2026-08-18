@@ -1,6 +1,6 @@
 ---
 title: 'Versions: See What is Changed in a Test Case'
-page_title: 'Versions in Test Management by Testsigma'
+page_title: 'Versions in Arcus by Testsigma'
 metadesc: 'View the changes made to a test case using Versions. It also lets you compare the current version of a test case with any previous version to clearly see the differences'
 noindex: false
 order: 3.6
@@ -31,7 +31,7 @@ contextual_links:
 
 ---
 
-You can view the changes made to a test case from Versions. Versions let you compare the current version of a test case with any previous version to clearly identify the differences. This article discusses how to view and compare versions in Test Management by Testsigma. 
+You can view the changes made to a test case from Versions. Versions let you compare the current version of a test case with any previous version to clearly identify the differences. This article discusses how to view and compare versions in Arcus by Testsigma. 
 
 ---
 

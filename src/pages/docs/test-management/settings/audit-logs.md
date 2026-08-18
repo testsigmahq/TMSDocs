@@ -1,7 +1,7 @@
 ---
 title: 'Audit Logs: Complete Record of Activities'
-page_title: 'Audit Logs in Test Management by Testsigma'
-metadesc: 'Track and export all user actions in Test Management by Testsigma with Audit Logs. Monitor activity, ensure accountability, and support security and compliance reviews.'
+page_title: 'Audit Logs in Arcus by Testsigma'
+metadesc: 'Track and export all user actions in Arcus by Testsigma with Audit Logs. Monitor activity, ensure accountability, and support security and compliance reviews.'
 noindex: false
 order: 12.6
 page_id: 'audit-logs-in-testsigma-test-management'
@@ -26,7 +26,7 @@ contextual_links:
 
 ---
 
-Audit logs provide a complete record of all key activities in your Test Management by Testsigma account. They capture every user action, including changes to test assets and account access events, and store them as immutable entries. Administrators can use audit logs to monitor account usage, investigate security incidents, and ensure accountability across the organization. This article discusses Audit Logs in Test Management by Testsigma. 
+Audit logs provide a complete record of all key activities in your Arcus by Testsigma account. They capture every user action, including changes to test assets and account access events, and store them as immutable entries. Administrators can use audit logs to monitor account usage, investigate security incidents, and ensure accountability across the organization. This article discusses Audit Logs in Arcus by Testsigma. 
 
 ---
 
@@ -51,7 +51,7 @@ Audit logs provide a complete record of all key activities in your Test Manageme
 3. Each log entry includes the following details:
    ![Log Entries](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Log_Entries_TMS.png)
    - **Time**: Date and time when the action occurred.
-   - **Event Type**: The entity type in Test Management by Testsigma.
+   - **Event Type**: The entity type in Arcus by Testsigma.
    - **Action**: The action type.
    - **Project**: The project where the change was made.
    - **User**: The user who performed the action.
@@ -65,7 +65,7 @@ You can narrow down audit log results using the following filters:
 
 ![Filters in Audit Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Filters_In_Audit_Logs_TMS.png)
 
-1. **Event Type**: Displays logs for a specific entity in Test Management by Testsigma account. 
+1. **Event Type**: Displays logs for a specific entity in Arcus by Testsigma account. 
 
 2. **Action**: Filters logs by the type of activity performed.
 

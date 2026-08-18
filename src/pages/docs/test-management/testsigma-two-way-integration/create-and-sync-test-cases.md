@@ -1,7 +1,7 @@
 ---
 title: 'Create & Sync Test Cases from Testsigma’s Atto’s Home'
 page_title: 'Create and Sync Test Cases from Testsigma’s Atto’s Home'
-metadesc: 'Create & sync AI-generated test cases from Atto’s Home directly to Test Management by Testsigma. This article explains how to generate & sync Atto’s test cases into TMS.'
+metadesc: 'Create & sync AI-generated test cases from Atto’s Home directly to Arcus by Testsigma. This article explains how to generate & sync Atto’s test cases into TMS.'
 noindex: false
 order: 11.5
 page_id: 'create-and-sync-test-cases'
@@ -22,18 +22,18 @@ contextual_links:
 
 <br>
 
-**Create and sync AI-generated test cases from Atto’s Home directly to Test Management by Testsigma.**
+**Create and sync AI-generated test cases from Atto’s Home directly to Arcus by Testsigma.**
 
 ---
 
-You can sync newly generated test cases from Testsigma’s Atto’s Home to Test Management by Testsigma. Once the NLP steps are generated for AI-generated test cases in Atto’s Home, the system provides an option to create a new test case and sync with Test Management by Testsigma. This article discusses the two-way sync of AI-generated test cases between both systems.
+You can sync newly generated test cases from Testsigma’s Atto’s Home to Arcus by Testsigma. Once the NLP steps are generated for AI-generated test cases in Atto’s Home, the system provides an option to create a new test case and sync with Arcus by Testsigma. This article discusses the two-way sync of AI-generated test cases between both systems.
 
 ---
 
 > ## **Prerequisites**
 > 
 > Before you begin, ensure that:
-> - The Test Management by Testsigma integration with Testsigma is enabled.
+> - The Arcus by Testsigma integration with Testsigma is enabled.
 > - You have AI-generated test cases in Atto’s Home.
 
 ---
@@ -69,10 +69,10 @@ You can sync newly generated test cases from Testsigma’s Atto’s Home to Test
 
 8. Click the dropdown arrow next to **Accept**, and select **Accept & Sync with Testsigma TMS**.
 
-9. In the **Sync with Test Management by Testsigma** dialog:
+9. In the **Sync with Arcus by Testsigma** dialog:
    - Select a **Test Management** project and folder.
    - Click **Continue**.
 
-10. The system creates a new test case in Test Management by Testsigma and links it to the Testsigma test case.
+10. The system creates a new test case in Arcus by Testsigma and links it to the Testsigma test case.
 
 ---

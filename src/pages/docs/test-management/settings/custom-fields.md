@@ -1,7 +1,7 @@
 ---
 title: 'Manage Custom Fields'
 page_title: 'Manage Custom Fields in Test Management'
-metadesc: 'Create and manage custom fields in Test Management by Testsigma to add specific details/additional details and filter tests efficiently in your test management workflow'
+metadesc: 'Create and manage custom fields in Arcus by Testsigma to add specific details/additional details and filter tests efficiently in your test management workflow'
 noindex: false
 order: 12.2
 page_id: 'custom-fields-in-testsigma-test-management'
@@ -32,13 +32,13 @@ contextual_links:
 
 ---
 
-In Test Management by Testsigma, you can create custom fields to add additional, project-specific information to your test cases. These fields help you track attributes beyond the default properties. After creating a custom field, you can add it to test cases and use it to filter and locate specific test cases efficiently. This article discusses how to create a custom field, add it to test cases, and filter test cases using custom field values.
+In Arcus by Testsigma, you can create custom fields to add additional, project-specific information to your test cases. These fields help you track attributes beyond the default properties. After creating a custom field, you can add it to test cases and use it to filter and locate specific test cases efficiently. This article discusses how to create a custom field, add it to test cases, and filter test cases using custom field values.
 
 ---
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see [Projects](https://testsigma.com/docs/test-management/projects/manage-projects/).
+> Before you begin, ensure you have a project created in Arcus by Testsigma. For more information, see [Projects](https://testsigma.com/docs/test-management/projects/manage-projects/).
 
 ---
 

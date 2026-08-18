@@ -1,6 +1,6 @@
 ---
-title: 'Azure DevOps Integration with Test Management by Testsigma'
-page_title: 'Azure DevOps Integration with Test Management by Testsigma'
+title: 'Azure DevOps Integration with Arcus by Testsigma'
+page_title: 'Azure DevOps Integration with Arcus by Testsigma'
 metadesc: 'Integrate Azure DevOps with TMS by Testsigma to automate test executions & generate test reports through CI/CD pipelines | Azure DevOps Integration with TMS by Testsigma'
 noindex: false
 order: 17.2
@@ -22,19 +22,19 @@ contextual_links:
 
 <br>
 
-**Integrate Azure DevOps with Test Management by Testsigma and automate your test runs and generate test reports.**
+**Integrate Azure DevOps with Arcus by Testsigma and automate your test runs and generate test reports.**
 
 ---
 
-Integrate Azure DevOps with Test Management by Testsigma to automate test executions and generate test reports through CI/CD pipelines. This article discusses integrating Azure DevOps with Test Management by Testsigma.
+Integrate Azure DevOps with Arcus by Testsigma to automate test executions and generate test reports through CI/CD pipelines. This article discusses integrating Azure DevOps with Arcus by Testsigma.
 
 ---
 
 > ## **Prerequisites**
 > 
 > Before you begin, ensure:
-> - You have a **Project** in Test Management by Testsigma and **Test Runs** are available.
-> - You have an API token from Test Management by Testsigma.
+> - You have a **Project** in Arcus by Testsigma and **Test Runs** are available.
+> - You have an API token from Arcus by Testsigma.
 > - You have an **Azure DevOps** account.
 
 ---
@@ -85,7 +85,7 @@ Integrate Azure DevOps with Test Management by Testsigma to automate test execut
 
 [[info | **NOTE**:]]
 | Before triggering this build, make the following updates:
-|    - Replace `<Project_ID>` in the curl command with your Project ID, which you can retrieve using the Test Management by Testsigma APIs.
+|    - Replace `<Project_ID>` in the curl command with your Project ID, which you can retrieve using the Arcus by Testsigma APIs.
 |    - Replace `<Run_ID>` in the curl command with the Run ID, which is available in the URL when viewing a test run in the format: https://test-management.testsigma.com/ui/test_runs/{Run_ID}/
 |    - Replace `<JUnit_Report_File>` with the actual path to your JUnit XML report file. You can find this in your surefire-reports directory.
 
@@ -95,6 +95,6 @@ Integrate Azure DevOps with Test Management by Testsigma to automate test execut
 
 1. In your **Azure DevOps** pipeline, click **Run pipeline**.
 
-2. After the build completes, the test run in Test Management by Testsigma is automatically updated with the test execution results.
+2. After the build completes, the test run in Arcus by Testsigma is automatically updated with the test execution results.
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Creating Reports'
-page_title: 'Creating Reports in Test Management by Testsigma'
-metadesc: 'Learn how to create reports in Test Management by Testsigma | Reports help you analyze test execution, track progress, and identify defect trends in test cycles'
+page_title: 'Creating Reports in Arcus by Testsigma'
+metadesc: 'Learn how to create reports in Arcus by Testsigma | Reports help you analyze test execution, track progress, and identify defect trends in test cycles'
 noindex: false
 order: 15.1
 page_id: 'create-a-report-in-testsigma-test-management'
@@ -35,7 +35,7 @@ contextual_links:
 
 ---
 
-Reports in Test Management by Testsigma help you analyze test execution, track progress, and identify defect trends. This article discusses how to create reports using selected test artifacts.
+Reports in Arcus by Testsigma help you analyze test execution, track progress, and identify defect trends. This article discusses how to create reports using selected test artifacts.
 
 ---
 

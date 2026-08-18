@@ -13,7 +13,7 @@ contextual_links:
     name: 'Prerequisites'
     url: '#prerequisites'
   - type: link
-    name: 'Install the Test Management by Testsigma app'
+    name: 'Install the Arcus by Testsigma app'
     url: '#install-the-test-management-by-testsigma-app'
   - type: link
     name: 'Connect Testsigma and Jira'
@@ -22,11 +22,11 @@ contextual_links:
 
 <br>
 
-**You can create, run, and manage your tests inside Jira. Just like you do in Test Management by Testsigma.**
+**You can create, run, and manage your tests inside Jira. Just like you do in Arcus by Testsigma.**
 
 ---
 
-The Testsigma Integration for Jira app seamlessly extends Jira’s core capabilities to include native test management. This allows teams to create, manage, and track test cases and test runs directly from the Jira environment, without switching to Test Management by Testsigma. You can add test results to stories, streamline workflows, and maintain testing continuity within Jira. The integration enhances issue tracking, accelerates testing cycles, and improves collaboration between QA and development teams from a unified workspace.
+The Testsigma Integration for Jira app seamlessly extends Jira’s core capabilities to include native test management. This allows teams to create, manage, and track test cases and test runs directly from the Jira environment, without switching to Arcus by Testsigma. You can add test results to stories, streamline workflows, and maintain testing continuity within Jira. The integration enhances issue tracking, accelerates testing cycles, and improves collaboration between QA and development teams from a unified workspace.
 
 ---
 
@@ -36,19 +36,19 @@ The Testsigma Integration for Jira app seamlessly extends Jira’s core capabili
 
 ---
 
-## **Install the Test Management by Testsigma App**
+## **Install the Arcus by Testsigma App**
 
-1. Navigate to the <a href="https://marketplace.atlassian.com/" rel="nofollow">Atlassian Marketplace</a> and search for **Test Management by Testsigma**.
+1. Navigate to the <a href="https://marketplace.atlassian.com/" rel="nofollow">Atlassian Marketplace</a> and search for **Arcus by Testsigma**.
 
-2. Install **Test Management by Testsigma** in your Jira instance.
+2. Install **Arcus by Testsigma** in your Jira instance.
 
-3. In Jira, go to **Apps > Manage apps** and confirm **Test Management by Testsigma** is installed.
+3. In Jira, go to **Apps > Manage apps** and confirm **Arcus by Testsigma** is installed.
    ![Testsigma App for Jira Cloud](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/testsigma_app_for_jira.png)
 ---
 
 ## **Connect Testsigma and Jira**
 
-1. In the left panel under **Apps**, click **Test Management by Testsigma**. This opens the authorization page.
+1. In the left panel under **Apps**, click **Arcus by Testsigma**. This opens the authorization page.
 
 2. On the **Connect Testsigma to Jira** page, click **Authorize to Jira Marketplace App** Integration.
    ![Connect Testsigma to Jira](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Connect_Testsigma_App.png)

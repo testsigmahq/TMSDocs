@@ -33,7 +33,7 @@ contextual_links:
 ---
 
 
-Test Management by Testsigma allows you to configure Slack notifications for various test entities. Slack notifications help teams stay informed about assignments, reviews, and status updates directly within their Slack workspace. This article discusses setting up and customizing Slack notifications in Test Management by Testsigma.
+Arcus by Testsigma allows you to configure Slack notifications for various test entities. Slack notifications help teams stay informed about assignments, reviews, and status updates directly within their Slack workspace. This article discusses setting up and customizing Slack notifications in Arcus by Testsigma.
 
 ---
 

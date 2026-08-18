@@ -1,7 +1,7 @@
 ---
 title: 'Creating Test Runs'
-page_title: 'Creating Test Runs in Test Management by Testsigma'
-metadesc: 'Create test runs in Test Management by Testsigma by manually adding test cases, applying filters, or selecting all and ensure thorough testing of your applications'
+page_title: 'Creating Test Runs in Arcus by Testsigma'
+metadesc: 'Create test runs in Arcus by Testsigma by manually adding test cases, applying filters, or selecting all and ensure thorough testing of your applications'
 noindex: false
 order: 7.1
 page_id: 'create-test-runs'
@@ -31,11 +31,11 @@ contextual_links:
 
 <br>
 
-**Learn how to create, organize & add status to the test runs in Test Management by Testsigma.**
+**Learn how to create, organize & add status to the test runs in Arcus by Testsigma.**
 
 ---
 
-Test runs ensure thorough testing of your applications. You can create test runs by adding test cases manually, using filters to dynamically include relevant test cases, or selecting all available test cases. Additionally, you can schedule, organize, and add status to the test runs. Effective test run management provides insights, drives continuous improvement, and enhances testing efficiency. This article discusses creating test runs in Test Management by Testsigma.
+Test runs ensure thorough testing of your applications. You can create test runs by adding test cases manually, using filters to dynamically include relevant test cases, or selecting all available test cases. Additionally, you can schedule, organize, and add status to the test runs. Effective test run management provides insights, drives continuous improvement, and enhances testing efficiency. This article discusses creating test runs in Arcus by Testsigma.
 
 ---
 

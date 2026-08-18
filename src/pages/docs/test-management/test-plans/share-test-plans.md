@@ -22,11 +22,11 @@ contextual_links:
 
 <br>
 
-**Learn how to generate public links to share test plans with external stakeholders in Test Management by Testsigma.**
+**Learn how to generate public links to share test plans with external stakeholders in Arcus by Testsigma.**
 
 ---
 
-You can share a test plan with anyone on the internet by generating a public link in Test Management by Testsigma. This allows external stakeholders without account access to view testing progress.
+You can share a test plan with anyone on the internet by generating a public link in Arcus by Testsigma. This allows external stakeholders without account access to view testing progress.
 
 ---
 

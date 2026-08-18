@@ -1,7 +1,7 @@
 ---
 title: 'Export Test Data'
 page_title: 'Export Test Data'
-metadesc: 'Test Management by Testsigma allows you to quickly export test cases/step groups in excel format. This feature streamlines quick migration of test cases/step groups'
+metadesc: 'Arcus by Testsigma allows you to quickly export test cases/step groups in excel format. This feature streamlines quick migration of test cases/step groups'
 noindex: false
 order: 5.5
 page_id: 'export-test-data-from-testsigma'
@@ -22,11 +22,11 @@ contextual_links:
 
 <br>
 
-**Learn how to export test cases and step groups in Excel format from Test Management by Testsigma.**
+**Learn how to export test cases and step groups in Excel format from Arcus by Testsigma.**
 
 ---
 
-Testsigma allows you to export test cases and step groups in excel file format, with all the associated information. This feature helps you backup, migrate, or review your test data outside the platform. This document discusses exporting test cases and step groups from Test Management by Testsigma.
+Testsigma allows you to export test cases and step groups in excel file format, with all the associated information. This feature helps you backup, migrate, or review your test data outside the platform. This document discusses exporting test cases and step groups from Arcus by Testsigma.
 
 ---
 

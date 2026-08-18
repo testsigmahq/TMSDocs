@@ -1,6 +1,6 @@
 ---
 title: 'Test Run Properties'
-page_title: 'Test Run Properties in Test Management by Testsigma'
+page_title: 'Test Run Properties in Arcus by Testsigma'
 metadesc: 'Learn about test run properties in Testsigma  Test Management. Structure, manage, and track test runs effectively to improve efficiency and ensure accurate reporting.'
 noindex: false
 order: 7.4
@@ -23,13 +23,13 @@ contextual_links:
 
 ---
 
-Test run properties define the attributes that help teams structure, manage, and track test statuses. A well-organized test run improves efficiency and ensures accurate reporting, enabling teams to maintain quality. This article discusses test run properties in Test Management by Testsigma.
+Test run properties define the attributes that help teams structure, manage, and track test statuses. A well-organized test run improves efficiency and ensures accurate reporting, enabling teams to maintain quality. This article discusses test run properties in Arcus by Testsigma.
 
 ---
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure that a project is created in Test Management by Testsigma and test cases are available for creating test runs. For more information, see [Projects](https://testsigma.com/docs/test-management/projects/manage-projects/), [Test Cases](https://testsigma.com/docs/test-management/test-cases/manage-test-cases/) and [Test Runs](https://testsigma.com/docs/test-management/test-runs/create-test-runs/).
+> Before you begin, ensure that a project is created in Arcus by Testsigma and test cases are available for creating test runs. For more information, see [Projects](https://testsigma.com/docs/test-management/projects/manage-projects/), [Test Cases](https://testsigma.com/docs/test-management/test-cases/manage-test-cases/) and [Test Runs](https://testsigma.com/docs/test-management/test-runs/create-test-runs/).
 
 ---
 

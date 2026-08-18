@@ -1,7 +1,7 @@
 ---
 title: 'Import Test Data from CSV Files'
 page_title: 'Import Test Data from CSV Files'
-metadesc: 'Test Management by Testsigma allows you to quickly import test cases in CSV files into an existing project. This feature streamlines test case migration and bulk additions'
+metadesc: 'Arcus by Testsigma allows you to quickly import test cases in CSV files into an existing project. This feature streamlines test case migration and bulk additions'
 noindex: false
 order: 5.1
 page_id: 'import-test-data-from-csv-files'
@@ -28,11 +28,11 @@ contextual_links:
 
 <br>
 
-**Learn how to quickly import test cases in bulk using CSV files in Test Management by Testsigma for easy migration.**
+**Learn how to quickly import test cases in bulk using CSV files in Arcus by Testsigma for easy migration.**
 
 ---
 
-Test Management by Testsigma allows you to quickly import test cases in CSV files into an existing project. This feature simplifies the migration process from other tools by enabling bulk test case imports. This article discusses how to import test cases using a CSV file.
+Arcus by Testsigma allows you to quickly import test cases in CSV files into an existing project. This feature simplifies the migration process from other tools by enabling bulk test case imports. This article discusses how to import test cases using a CSV file.
 
 ---
 
@@ -78,7 +78,7 @@ Test Management by Testsigma allows you to quickly import test cases in CSV file
    - **Map Properties** to map CSV columns
    - **Test Case Preview** to validate mapped data
 
-4. Atto automatically maps CSV columns to the corresponding fields in Test Management by Testsigma.
+4. Atto automatically maps CSV columns to the corresponding fields in Arcus by Testsigma.
 
 5. Review the mapped fields. If any fields are missing or incorrectly mapped, update them manually.
 

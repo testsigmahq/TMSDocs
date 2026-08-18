@@ -1,7 +1,7 @@
 ---
 title: 'Comment in Test Cases'
-page_title: 'Comment in Test Cases in Test Management by Testsigma'
-metadesc: 'Use comments to collaborate instantly on test cases by sharing feedback, raising issues, & tracking discussions in one place | Comment in Test Cases in Test Management by Testsigma'
+page_title: 'Comment in Test Cases in Arcus by Testsigma'
+metadesc: 'Use comments to collaborate instantly on test cases by sharing feedback, raising issues, & tracking discussions in one place | Comment in Test Cases in Arcus by Testsigma'
 noindex: false
 order: 3.9
 page_id: 'comment-in-test-cases-in-test-management'
