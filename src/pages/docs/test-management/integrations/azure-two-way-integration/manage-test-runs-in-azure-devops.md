@@ -1,7 +1,7 @@
 ---
 title: 'Manage Test Runs in Azure DevOps'
 page_title: 'Manage Test Runs in Azure DevOps'
-metadesc: 'The Test Management by Testsigma app simplifies your workflow by enabling you to manage test runs and test case results directly within Azure DevOps.'
+metadesc: 'The Arcus by Testsigma app simplifies your workflow by enabling you to manage test runs and test case results directly within Azure DevOps.'
 noindex: false
 order: 10.23
 page_id: 'manage-test-runs-in-azure-devops'
@@ -29,17 +29,17 @@ contextual_links:
 
 <br>
 
-**Learn how to manage test runs and update test case status directly within DevOps using Test Management by Testsigma.**
+**Learn how to manage test runs and update test case status directly within DevOps using Arcus by Testsigma.**
 
 ---
 
-The Test Management by Testsigma app simplifies your workflow by allowing you to manage test runs and test case results directly within Azure DevOps. You can update test results, add or link defects, and manage linked test cases from within the Azure DevOps issue view.
+The Arcus by Testsigma app simplifies your workflow by allowing you to manage test runs and test case results directly within Azure DevOps. You can update test results, add or link defects, and manage linked test cases from within the Azure DevOps issue view.
 
 ---
 
 > ## **Prerequisites**
 > 
->  Before you begin, ensure that your Testsigma project is connected to an Azure DevOps project in Test Management by Testsigma.
+>  Before you begin, ensure that your Testsigma project is connected to an Azure DevOps project in Arcus by Testsigma.
 
 ---
 
@@ -53,7 +53,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 3. Open the required work item.
 ![required work item](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_link_test_case_2.png)
 
-4. In the work item details page, click the **Test Management by Testsigma** tab.
+4. In the work item details page, click the **Arcus by Testsigma** tab.
 ![TMS tab](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_link_test_case_3.png)
 
 5. View the linked test runs associated with the work item.
@@ -66,7 +66,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 ## **Update Test Case Results from Azure DevOps**
 
-1. In the **Azure DevOps** issue, go to **Test Management by Testsigma > Linked Test Runs**.
+1. In the **Azure DevOps** issue, go to **Arcus by Testsigma > Linked Test Runs**.
 ![Work Item](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_test_runs_1.png)
 
 2. Expand the test run.
@@ -77,13 +77,13 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 4. Refresh the page to view the updated status in **Linked Test Cases**.
 
 [[info | **NOTE**:]]
-| - The test case status will also be updated in Test Management by Testsigma.
+| - The test case status will also be updated in Arcus by Testsigma.
 
 ---
 
 ## **Add Defects from Azure DevOps**
 
-1. In the **Azure DevOps** issue, go to **Test Management by Testsigma > Linked Test Runs**.
+1. In the **Azure DevOps** issue, go to **Arcus by Testsigma > Linked Test Runs**.
 ![Work Item](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_test_runs_1.png)
 
 2. Expand the test run.
@@ -100,7 +100,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 ## **Link Defects to Existing Issues**
 
-1. In the Azure DevOps issue, go to **Test Management by Testsigma > Linked Test Runs**.
+1. In the Azure DevOps issue, go to **Arcus by Testsigma > Linked Test Runs**.
 ![Work Item](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_test_runs_1.png)
 
 2. Expand the test run.

@@ -1,7 +1,7 @@
 ---
 title: 'Install & Configure Test Capture'
 page_title: 'Install & Configure Test Capture Extension'
-metadesc: 'Learn how to install, author, and configure the Test Capture Chrome extension to execute tests and capture logs during manual execution in Test Management by Testsigma'
+metadesc: 'Learn how to install, author, and configure the Test Capture Chrome extension to execute tests and capture logs during manual execution in Arcus by Testsigma'
 noindex: false
 order: 9.2
 page_id: 'install-test-capture-extension'
@@ -13,7 +13,7 @@ contextual_links:
     name: 'Install Test Capture Extension'
     url: '#install-test-capture-extension'
   - type: link
-    name: 'Install from Test Management by Testsigma'
+    name: 'Install from Arcus by Testsigma'
     url: '#install-from-test-management-by-testsigma'
   - type: link
     name: 'Install from Chrome Web Store'
@@ -34,17 +34,17 @@ contextual_links:
 
 ---
 
-Installing, authorizing, and configuring the Test Capture Chrome extension is required before you can execute tests and capture logs during manual execution. This article discusses setting up the extension so it works correctly with Test Management by Testsigma.
+Installing, authorizing, and configuring the Test Capture Chrome extension is required before you can execute tests and capture logs during manual execution. This article discusses setting up the extension so it works correctly with Arcus by Testsigma.
 
 ---
 
 ## **Install Test Capture Extension**
 
-You can install the extension directly from **Test Management by Testsigma** or from the **Chrome Web Store**.
+You can install the extension directly from **Arcus by Testsigma** or from the **Chrome Web Store**.
 
 <br>
 
-## **Install from Test Management by Testsigma**
+## **Install from Arcus by Testsigma**
 
 1. From the left navigation bar, go to **Test Runs**.
    ![Test Runs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Runs_for_Capture.png)
@@ -83,7 +83,7 @@ You can install the extension directly from **Test Management by Testsigma** or 
 
 ## **Authorize the Extension**
 
-After installation, the extension must be authorized to connect with Test Management by Testsigma.
+After installation, the extension must be authorized to connect with Arcus by Testsigma.
 
 1. Open a test run.
 
@@ -92,7 +92,7 @@ After installation, the extension must be authorized to connect with Test Manage
 3. In the **Test Capture** dialog, click **Login to Test Capture**.
    ![Login to Test Capture](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Login_to_Test_Capture.png)
 
-4. You are redirected to the **Test Management by Testsigma** authorization page.
+4. You are redirected to the **Arcus by Testsigma** authorization page.
 
 5. Click **Authorize Extension**.
    ![Authorize Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authorize_Capture_Extension.png)

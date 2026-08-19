@@ -26,13 +26,13 @@ contextual_links:
 
 ---
 
-In the Manage Properties section, you can edit the default values for Test Case Priority, Automation Type, Test Case Status, and Test Case Type. The system uses these values when you create new test cases. This article discusses managing test case properties in Test Management by Testsigma.
+In the Manage Properties section, you can edit the default values for Test Case Priority, Automation Type, Test Case Status, and Test Case Type. The system uses these values when you create new test cases. This article discusses managing test case properties in Arcus by Testsigma.
 
 ---
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see Projects.
+> Before you begin, ensure you have a project created in Arcus by Testsigma. For more information, see Projects.
 
 ---
 

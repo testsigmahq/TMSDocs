@@ -16,11 +16,11 @@ contextual_links:
 
 <br>
 
-**Securely connect and automate with API Keys in Test Management by Testsigma.**
+**Securely connect and automate with API Keys in Arcus by Testsigma.**
 
 ---
 
-You can generate API Keys in Test Management by Testsigma to automate tasks such as creating projects, test cases, test runs, and test plans, as well as executing them. This article discusses how to generate API keys in Test Management by Testsigma.
+You can generate API Keys in Arcus by Testsigma to automate tasks such as creating projects, test cases, test runs, and test plans, as well as executing them. This article discusses how to generate API keys in Arcus by Testsigma.
 
 ---
 

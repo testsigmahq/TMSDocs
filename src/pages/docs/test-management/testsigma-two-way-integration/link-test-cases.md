@@ -1,7 +1,7 @@
 ---
-title: 'Link Test Cases Between Test Management by Testsigma & Testsigma'
-page_title: 'Link Test Cases Between Test Management by Testsigma & Testsigma'
-metadesc: 'Two-way test case sync ensures consistent traceability & seamless alignment between Test Management by Testsigma and Testsigma.'
+title: 'Link Test Cases Between Arcus by Testsigma & Testsigma'
+page_title: 'Link Test Cases Between Arcus by Testsigma & Testsigma'
+metadesc: 'Two-way test case sync ensures consistent traceability & seamless alignment between Arcus by Testsigma and Testsigma.'
 noindex: false
 order: 11.3
 page_id: 'link-tests-in-testsigma-and-tms'
@@ -16,7 +16,7 @@ contextual_links:
     name: 'Interactive Demo'
     url: '#interactive-demo' 
   - type: link
-    name: 'Link Test Cases in Test Management by Testsigma'
+    name: 'Link Test Cases in Arcus by Testsigma'
     url: '#link-test-cases-in-test-management-by-testsigma'
   - type: link
     name: 'Link Test Cases in Testsigma'
@@ -29,9 +29,9 @@ contextual_links:
 
 ---
 
-You can link test cases between Test Management by Testsigma  and Testsigma to maintain a single, synchronized source of truth for all your tests.
+You can link test cases between Arcus by Testsigma  and Testsigma to maintain a single, synchronized source of truth for all your tests.
 
-Manual test cases created in Test Management by Testsigma can be directly pushed to Testsigma as automated test cases. Similarly, automated test cases in Testsigma can be pushed to Test Management by Testsigma as manual test cases with detailed steps.
+Manual test cases created in Arcus by Testsigma can be directly pushed to Testsigma as automated test cases. Similarly, automated test cases in Testsigma can be pushed to Arcus by Testsigma as manual test cases with detailed steps.
 
 This two-way linkage eliminates redundancy, improves traceability, and ensures alignment between manual and automated testing efforts across both systems.
 
@@ -39,7 +39,7 @@ This two-way linkage eliminates redundancy, improves traceability, and ensures a
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure that the integration between Testsigma and Test Management by Testsigma is enabled and that test cases are available in both systems.
+> Before you begin, ensure that the integration between Testsigma and Arcus by Testsigma is enabled and that test cases are available in both systems.
 
 ---
 
@@ -54,7 +54,7 @@ This two-way linkage eliminates redundancy, improves traceability, and ensures a
 
 ---
 
-## **Link Test Cases in Test Management by Testsigma**
+## **Link Test Cases in Arcus by Testsigma**
 
 1. From the **Dashboard**, go to **Test Cases**.
 

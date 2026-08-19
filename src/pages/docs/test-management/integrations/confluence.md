@@ -1,7 +1,7 @@
 ---
-title: 'Confluence Integration with Test Management by Testsigma'
+title: 'Confluence Integration with Arcus by Testsigma'
 page_title: 'Confluence Integration with Testsigma'
-metadesc: 'The Confluence integration enables users to generate test cases directly from a Confluence page | Learn how to integrate Confluence with Test Management by Testsigma'
+metadesc: 'The Confluence integration enables users to generate test cases directly from a Confluence page | Learn how to integrate Confluence with Arcus by Testsigma'
 noindex: false
 order: 10.7
 page_id: 'confluence-integration-with-testsigma-test-management'
@@ -22,11 +22,11 @@ contextual_links:
 
 <br>
 
-**Configure the Confluence integration in Test Management by Testsigma.**
+**Configure the Confluence integration in Arcus by Testsigma.**
 
 ---
 
-Confluence is a team collaboration and knowledge management platform used to create, organize, and share documentation. The Confluence integration enables users to generate structured test cases directly from a Confluence page in Test Management by Testsigma.
+Confluence is a team collaboration and knowledge management platform used to create, organize, and share documentation. The Confluence integration enables users to generate structured test cases directly from a Confluence page in Arcus by Testsigma.
 
 ---
 

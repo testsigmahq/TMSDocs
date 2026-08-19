@@ -1,6 +1,6 @@
 ---
-title: 'Getting Started: Test Management by Testsigma'
-page_title: 'Getting Started with Test Management by Testsigma'
+title: 'Getting Started: Arcus by Testsigma'
+page_title: 'Getting Started with Arcus by Testsigma'
 metadesc: 'This article discusses overview of test management tool in Testsigma | Keep your test cases, test plans, test runs, and reports organized in one place'
 noindex: false
 order: 1.2
@@ -13,7 +13,7 @@ contextual_links:
     name: 'Interactive Demo'
     url: '#interactive-demo'
   - type: link
-    name: 'Steps to Access Test Management by Testsigma'
+    name: 'Steps to Access Arcus by Testsigma'
     url: '#steps-to-access-testsigma-test-management'
 ---
 
@@ -22,7 +22,7 @@ contextual_links:
 Get started with our platform and streamline how you manage and analyze test cases, plans, and runs. This article discusses steps to set up your Test Management with Testsigma.
 
 [[info | **NOTE**:]]
-| If you're an existing Testsigma user, contact **support@testsigma.com** to connect your account with the Test Management by Testsigma tool.
+| If you're an existing Testsigma user, contact **support@testsigma.com** to connect your account with the Arcus by Testsigma tool.
 
 ---
 
@@ -43,15 +43,15 @@ Get started with our platform and streamline how you manage and analyze test cas
 
 ---
 
-## **Steps to Access Test Management by Testsigma**
+## **Steps to Access Arcus by Testsigma**
 
-1. Navigate to Test Management by Testsigma <a href="https://tms.testsigma.com/login" rel="nofollow">Login Page</a>.
+1. Navigate to Arcus by Testsigma <a href="https://tms.testsigma.com/login" rel="nofollow">Login Page</a>.
 
 2. Sign in with your credentials. If you don't have an account, <a href="https://tms.testsigma.com/signup" rel="nofollow">sign up</a>.
 
 3. In your **User Profile Settings**, select **TMS**.
 
-4. You'll be redirected to **Test Management by Testsigma** application.
+4. You'll be redirected to **Arcus by Testsigma** application.
 
 5. On the **Dashboard**, click the **Candy Box** icon and select **+ New Project** to get started.
 

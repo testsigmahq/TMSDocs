@@ -16,12 +16,12 @@ const IndexContent = () => {
     <>
       <div className='w-full md:px-16 home-page_banner'>
         <h1 className='text-4xl font-bold'>
-          Test Management Documentation & Support
+          Arcus Documentation & Support
         </h1>
         <br />
         <br />
         <span className='text-base font-normal'>
-          SETUP | PLAN | AUTHOR | ORGANIZE | EXECUTE | REPORT
+          The complete test management platform for modern QA teams.
         </span>
       </div>
       <div className='w-full'>

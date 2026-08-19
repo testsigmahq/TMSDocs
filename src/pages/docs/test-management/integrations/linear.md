@@ -1,7 +1,7 @@
 ---
-title: 'Linear Integration with Test Management by Testsigma'
+title: 'Linear Integration with Arcus by Testsigma'
 page_title: 'Linear Integration with Testsigma'
-metadesc: 'Integrate Test Management by Testsigma with Linear to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
+metadesc: 'Integrate Arcus by Testsigma with Linear to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
 order: 10.5
 page_id: 'linear-integration-with-testsigma-test-management'
@@ -31,11 +31,11 @@ contextual_links:
 
 <br>
 
-**Integrate Linear with Test Management by Testsigma to seamlessly link defects to Linear issues.**
+**Integrate Linear with Arcus by Testsigma to seamlessly link defects to Linear issues.**
 
 ---
 
-Test Management by Testsigma allows seamless integration with Linear, which enables you to link test defects directly to Linear issues. This integration enhances traceability, streamlines defect management, and improves collaboration between QA and development teams.
+Arcus by Testsigma allows seamless integration with Linear, which enables you to link test defects directly to Linear issues. This integration enhances traceability, streamlines defect management, and improves collaboration between QA and development teams.
 
 ---
 

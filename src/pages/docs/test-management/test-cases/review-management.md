@@ -1,7 +1,7 @@
 ---
-title: 'Review Management in Test Management by Testsigma'
-page_title: 'Review Management in Test Management by Testsigma'
-metadesc: 'Review Management adds a structured approval workflow that helps teams maintain high-quality, reliable test cases | Learn Review Management in Test Management by Testsigma'
+title: 'Review Management in Arcus by Testsigma'
+page_title: 'Review Management in Arcus by Testsigma'
+metadesc: 'Review Management adds a structured approval workflow that helps teams maintain high-quality, reliable test cases | Learn Review Management in Arcus by Testsigma'
 noindex: false
 order: 3.7
 page_id: 'review-management-in-test-management'
@@ -34,13 +34,13 @@ contextual_links:
 
 ---
 
-Review Management helps teams maintain high-quality test cases by adding a structured review workflow to Test Management by Testsigma. QA members can submit their test cases for review, and designated reviewers can approve them or return them for rework with comments. This ensures that test cases are accurate, consistent, and aligned with project standards. This article discusses Review Management in Test Management by Testsigma.
+Review Management helps teams maintain high-quality test cases by adding a structured review workflow to Arcus by Testsigma. QA members can submit their test cases for review, and designated reviewers can approve them or return them for rework with comments. This ensures that test cases are accurate, consistent, and aligned with project standards. This article discusses Review Management in Arcus by Testsigma.
 
 ---
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure required team members are invited & added to Test Management by Testsigma.
+> Before you begin, ensure required team members are invited & added to Arcus by Testsigma.
 
 ---
 

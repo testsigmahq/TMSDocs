@@ -1,7 +1,7 @@
 ---
 title: 'Import Test Data from Zephyr'
 page_title: 'Import Test Data from Zephyr'
-metadesc: 'Test Management by Testsigma allows you to quickly import test cases Zephyr into an existing project. This feature streamlines test case migration and bulk additions'
+metadesc: 'Arcus by Testsigma allows you to quickly import test cases Zephyr into an existing project. This feature streamlines test case migration and bulk additions'
 noindex: false
 order: 5.2
 page_id: 'import-test-data-from-zephyr'
@@ -22,14 +22,14 @@ contextual_links:
 
 <br>
 
-**Learn how to export test cases from Zephyr and import them into Test Management by Testsigma.**
+**Learn how to export test cases from Zephyr and import them into Arcus by Testsigma.**
 
 ---
 
-You can export test cases from Zephyr and import them into Test Management by Testsigma. This article discusses the steps to export test cases from Zephyr and import them into Test Management by Testsigma.
+You can export test cases from Zephyr and import them into Arcus by Testsigma. This article discusses the steps to export test cases from Zephyr and import them into Arcus by Testsigma.
 
 [[info | **NOTE**:]]
-| Currently, only test cases created using the Plain Text template can be imported into Test Management by Testsigma.
+| Currently, only test cases created using the Plain Text template can be imported into Arcus by Testsigma.
 
 ---
 
@@ -65,6 +65,6 @@ You can export test cases from Zephyr and import them into Test Management by Te
 3. Click **Upload File** and select file to import.
 
 [[info | **NOTE**:]]
-| Follow the steps in the [Import Test Cases](https://testsigma.com/docs/test-management/imports-and-exports/csv-file/) document to prepare the file and map values or properties to align with the test case structure in Test Management by Testsigma.
+| Follow the steps in the [Import Test Cases](https://testsigma.com/docs/test-management/imports-and-exports/csv-file/) document to prepare the file and map values or properties to align with the test case structure in Arcus by Testsigma.
 
 ---

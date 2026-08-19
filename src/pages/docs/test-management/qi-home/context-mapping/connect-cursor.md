@@ -95,14 +95,14 @@ The context appears in QI Home under **Unmapped Context** (if you did not run **
 
 | Command | What it does |
 |---------|-------------|
-| /arcus:help | Lists all available Arcus commands |
-| /arcus:login | Authenticates your Arcus account |
-| /arcus:logout | Logs out of your Arcus account |
-| /arcus:project <project-id> | Connects the plugin to an Arcus project |
-| /arcus:map <ticket-key> | Links the current context to a sprint story |
-| /arcus:test | Runs tests from QI Home in the current context |
-| /arcus:testsigma-tests | Lists existing Testsigma tests for the current project |
-| /arcus:push | Uploads the current context to QI Home |
+| /arcus:help | Lists every Arcus command with a short explanation of what it does and how to use it |
+| /arcus:login | Signs you in to Arcus so it can capture your sessions and use them for test generation |
+| /arcus:logout | Signs you out and deletes the Arcus credentials stored locally on your machine |
+| /arcus:project <project-id> | Shows your Arcus projects and sets one as the active project |
+| /arcus:map <ticket-key> | Links a ticket key to the current context so it routes to the right sprint |
+| /arcus:test | Generates end-to-end tests for the current repository, validates them, and offers to run them |
+| /arcus:testsigma-tests | Authors new end-to-end tests, saves them under tests/, validates them offline, and offers to run them |
+| /arcus:push | Uploads the test cases captured in this session to Arcus, assigned to a sprint or left unmapped |
 
 ---
 

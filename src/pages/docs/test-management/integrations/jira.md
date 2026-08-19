@@ -1,7 +1,7 @@
 ---
-title: 'Jira Integration with Test Management by Testsigma'
+title: 'Jira Integration with Arcus by Testsigma'
 page_title: 'Jira Integration with Testsigma'
-metadesc: 'Integrate Test Management by Testsigma with Jira to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
+metadesc: 'Integrate Arcus by Testsigma with Jira to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
 order: 10.3
 page_id: 'jira-integration-with-testsigma-test-management'
@@ -31,11 +31,11 @@ contextual_links:
 
 <br>
 
-**Integrate Jira with Test Management by Testsigma to seamlessly link defects to Jira issues.**
+**Integrate Jira with Arcus by Testsigma to seamlessly link defects to Jira issues.**
 
 ---
 
-Test Management by Testsigma allows seamless integration with Jira, which enables you to link test defects directly to Jira issues. This integration enhances traceability, streamlines defect management, and improves collaboration between QA and development teams.
+Arcus by Testsigma allows seamless integration with Jira, which enables you to link test defects directly to Jira issues. This integration enhances traceability, streamlines defect management, and improves collaboration between QA and development teams.
 
 ---
 

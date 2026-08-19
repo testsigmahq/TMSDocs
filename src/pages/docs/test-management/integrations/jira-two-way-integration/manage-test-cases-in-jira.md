@@ -1,7 +1,7 @@
 ---
 title: 'Manage Test Cases in Jira App'
 page_title: 'Manage Test Cases in Jira'
-metadesc: 'The Test Management by Testsigma app simplifies your workflow by allowing you to create & manage tests directly in Jira. You can also edit, or unlink tests from the linked Jira issue.'
+metadesc: 'The Arcus by Testsigma app simplifies your workflow by allowing you to create & manage tests directly in Jira. You can also edit, or unlink tests from the linked Jira issue.'
 noindex: false
 order: 10.12
 page_id: 'manage-tests-in-jira-app'
@@ -28,17 +28,17 @@ contextual_links:
 
 <br>
 
-**Learn how to create, edit, and manage test cases directly within Jira using Test Management by Testsigma app.**
+**Learn how to create, edit, and manage test cases directly within Jira using Arcus by Testsigma app.**
 
 ---
 
-The Test Management by Testsigma app simplifies your workflow by allowing you to create and manage test cases directly in Jira. You can also edit, or unlink test cases from the associated Jira issue.
+The Arcus by Testsigma app simplifies your workflow by allowing you to create and manage test cases directly in Jira. You can also edit, or unlink test cases from the associated Jira issue.
 
 ---
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure you have a project and that it's connected to a Jira project in Test Management by Testsigma.
+> Before you begin, ensure you have a project and that it's connected to a Jira project in Arcus by Testsigma.
 
 ---
 
@@ -46,7 +46,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 1. Open the Jira issue in a linked Jira project.
 
-2. Click **Jira App Actions** and then select **Test Management by Testsigma**.
+2. Click **Jira App Actions** and then select **Arcus by Testsigma**.
    ![Testsigma App Connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Connect_Testsigma_to_Issue.png)
 
 [[info | **NOTE**:]]
@@ -56,7 +56,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 ## **Create a New Test Case from Jira** 
 
-1. In the Jira issue, go to the **Test Management by Testsigma > Linked Test Cases**.
+1. In the Jira issue, go to the **Arcus by Testsigma > Linked Test Cases**.
    ![Linked Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Linked_Cases_in_Jira.png)
 
 2. Click **Create**. This opens the **Create Test Case** dialog.
@@ -83,7 +83,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 ## **Link Test Cases from Jira** 
 
-1. In the Jira issue, go to the **Test Management by Testsigma > Linked Test Runs**.
+1. In the Jira issue, go to the **Arcus by Testsigma > Linked Test Runs**.
 
 2. Click **Link**. This will open the **Add Test Cases** dialog.
    ![Link](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Link_Test_From_Jira.png)
@@ -98,7 +98,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 **Edit a Test Case from Jira App**
 
-1. In the Jira issue, go to the **Test Management by Testsigma > Linked Test Cases**.
+1. In the Jira issue, go to the **Arcus by Testsigma > Linked Test Cases**.
 
 2. Click the **meatballs menu (⋯)** next to the test case, and select **Edit** from dropdown.
    ![Edit Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Edit_Test_from_Jira.png)

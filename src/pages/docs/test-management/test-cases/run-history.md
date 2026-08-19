@@ -1,7 +1,7 @@
 ---
 title: 'View Run History for a Test Case'
-page_title: 'View Run History for a Test Case in Test Management by Testsigma'
-metadesc: 'View the execution history of a test case across all test runs to track stability, ownership, and trends in Test Management by Testsigma.'
+page_title: 'View Run History for a Test Case in Arcus by Testsigma'
+metadesc: 'View the execution history of a test case across all test runs to track stability, ownership, and trends in Arcus by Testsigma.'
 noindex: false
 order: 3.91
 page_id: 'run-history-in-test-cases-in-test-management'
@@ -26,7 +26,7 @@ contextual_links:
 
 ---
 
-Run History at the test case level provides a list of all executions of that test case across associated test runs. It helps teams analyze stability, audit execution ownership, and quickly trace trends without navigating into individual test runs. This article discusses Run History for a Test Case in Test Management by Testsigma.
+Run History at the test case level provides a list of all executions of that test case across associated test runs. It helps teams analyze stability, audit execution ownership, and quickly trace trends without navigating into individual test runs. This article discusses Run History for a Test Case in Arcus by Testsigma.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Manage Labels'
-page_title: 'Manage Labels in Test Management by Testsigma'
-metadesc: 'Organize test cases and runs using labels in Test Management by Testsigma. Create, edit, or delete labels to filter, group, and manage tests efficiently in your test management'
+page_title: 'Manage Labels in Arcus by Testsigma'
+metadesc: 'Organize test cases and runs using labels in Arcus by Testsigma. Create, edit, or delete labels to filter, group, and manage tests efficiently in your test management'
 noindex: false
 order: 12.3
 page_id: 'manage-labels-testsigma-test-management'
@@ -35,13 +35,13 @@ Labels help you organize your test cases and test runs, making it easier to filt
 - Edit existing labels to refine test organization as requirements develop.
 - Delete labels you no longer need to keep your test suite clean.
 
-This article discusses managing labels in Test Management by Testsigma.
+This article discusses managing labels in Arcus by Testsigma.
 
 ---
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see Projects.
+> Before you begin, ensure you have a project created in Arcus by Testsigma. For more information, see Projects.
 
 ---
 

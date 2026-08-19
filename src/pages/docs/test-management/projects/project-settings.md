@@ -1,7 +1,7 @@
 ---
 title: 'Project Settings: Project Details and Test Assets'
-page_title: 'Project Settings in Test Management by Testsigma'
-metadesc: 'Update project details & manage test cases and step groups through import & export options | This article explains how to perform these actions in Test Management by Testsigma'
+page_title: 'Project Settings in Arcus by Testsigma'
+metadesc: 'Update project details & manage test cases and step groups through import & export options | This article explains how to perform these actions in Arcus by Testsigma'
 noindex: false
 order: 2.2
 page_id: 'project-settings-in-testsigma-test-management'
@@ -40,7 +40,7 @@ Project Settings allows you to update project details, manage test cases and ste
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see [Projects](http://testsigma.com/docs/test-management/projects/manage-projects/).
+> Before you begin, ensure you have a project created in Arcus by Testsigma. For more information, see [Projects](http://testsigma.com/docs/test-management/projects/manage-projects/).
 
 ---
 
@@ -62,7 +62,7 @@ For more information, see [Imports](https://testsigma.com/docs/test-management/i
 
 ## **Export Test Cases and Step Groups**
 
-Export test cases and step groups from Test Management by Testsigma with their associated details.
+Export test cases and step groups from Arcus by Testsigma with their associated details.
 
 For more information, see [Exports](https://testsigma.com/docs/test-management/imports-and-exports/export-tests/).
 
@@ -70,7 +70,7 @@ For more information, see [Exports](https://testsigma.com/docs/test-management/i
 
 ## **Review Management**
 
-Review Management provides a structured review workflow for test cases in Test Management by Testsigma. You can enable or disable Review Management from Project Settings.
+Review Management provides a structured review workflow for test cases in Arcus by Testsigma. You can enable or disable Review Management from Project Settings.
 
 For more information, see [Review Management](https://testsigma.com/docs/test-management/test-cases/review-management/).
 

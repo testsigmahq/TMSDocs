@@ -1,7 +1,7 @@
 ---
-title: 'Azure DevOps Integration with Test Management by Testsigma'
-page_title: 'Azure DevOps Integration with Test Management by Testsigma'
-metadesc: 'Test Management by Testsigma integrates with Azure DevOps to link test defects to work items, improving traceability and collaboration.'
+title: 'Azure DevOps Integration with Arcus by Testsigma'
+page_title: 'Azure DevOps Integration with Arcus by Testsigma'
+metadesc: 'Arcus by Testsigma integrates with Azure DevOps to link test defects to work items, improving traceability and collaboration.'
 noindex: false
 order: 10.8
 page_id: 'azure-devops-integration-with-test-management-by-testsigma'
@@ -29,11 +29,11 @@ contextual_links:
 
 <br>
 
-**Integrate Azure DevOps with Test Management by Testsigma to seamlessly link defects to Azure DevOps work items.**
+**Integrate Azure DevOps with Arcus by Testsigma to seamlessly link defects to Azure DevOps work items.**
 
 ---
 
-Test Management by Testsigma allows seamless integration with Azure DevOps, enabling you to link test defects directly to Azure DevOps work items. This improves traceability, streamlines defect management, and enhances collaboration between QA and development teams.
+Arcus by Testsigma allows seamless integration with Azure DevOps, enabling you to link test defects directly to Azure DevOps work items. This improves traceability, streamlines defect management, and enhances collaboration between QA and development teams.
 
 ---
 

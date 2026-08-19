@@ -1,7 +1,7 @@
 ---
 title: 'Projects: Top-Level of Test Management'
-page_title: 'Projects in Test Management by Testsigma'
-metadesc: 'In Test Management by Testsigma, projects come at the top level of the hierarchy that contains test cases, test runs, and test plans | Learn about projects in Test Management'
+page_title: 'Projects in Arcus by Testsigma'
+metadesc: 'In Arcus by Testsigma, projects come at the top level of the hierarchy that contains test cases, test runs, and test plans | Learn about projects in Test Management'
 noindex: false
 order: 2.1
 page_id: 'projects-in-testsigma-test-management'
@@ -28,11 +28,11 @@ contextual_links:
 
 <br>
 
-**Learn how to create, edit, or delete projects in Test Management by Testsigma with ease.**
+**Learn how to create, edit, or delete projects in Arcus by Testsigma with ease.**
 
 ---
 
-In Test Management by Testsigma, the projects come at the top level of the hierarchy. Each project contains test cases, runs, and plans for a specific application. With everything in one place, tracking progress is more manageable, and you can focus on delivering high-quality testing confidently. This article discusses managing projects in Test Management by Testsigma.
+In Arcus by Testsigma, the projects come at the top level of the hierarchy. Each project contains test cases, runs, and plans for a specific application. With everything in one place, tracking progress is more manageable, and you can focus on delivering high-quality testing confidently. This article discusses managing projects in Arcus by Testsigma.
 
 ---
 

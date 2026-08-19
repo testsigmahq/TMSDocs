@@ -1,7 +1,7 @@
 ---
 title: 'Overview: Test Capture'
-page_title: 'Overview of Test Capture in Test Management by Testsigma'
-metadesc: 'Test Capture runs alongside manual test execution. This article provides an overview of Test Capture in Test Management by Testsigma.'
+page_title: 'Overview of Test Capture in Arcus by Testsigma'
+metadesc: 'Test Capture runs alongside manual test execution. This article provides an overview of Test Capture in Arcus by Testsigma.'
 noindex: false
 order: 9.1
 page_id: 'test-capture-in-testsigma-test-management'
@@ -31,7 +31,7 @@ contextual_links:
 
 ---
 
-Test Capture feature in Test Management by Testsigma that runs alongside manual test execution. It automatically captures screen recordings, video logs, and network logs during testing, removing the need to manually record or attach logs after execution. All captured logs are automatically linked to the original test run, giving developers the visual and diagnostic context needed to investigate and resolve issues. This article provides an overview of Test Capture in Test Management.
+Test Capture feature in Arcus by Testsigma that runs alongside manual test execution. It automatically captures screen recordings, video logs, and network logs during testing, removing the need to manually record or attach logs after execution. All captured logs are automatically linked to the original test run, giving developers the visual and diagnostic context needed to investigate and resolve issues. This article provides an overview of Test Capture in Test Management.
 
 ---
 

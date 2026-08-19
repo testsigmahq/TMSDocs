@@ -1,6 +1,6 @@
 ---
 title: 'Folders: Organizing Test Cases'
-page_title: 'Getting Started with Test Management by Testsigma'
+page_title: 'Getting Started with Arcus by Testsigma'
 metadesc: 'This article discusses overview of test management tool in Testsigma | Keep your test cases, test plans, test runs, and reports organized in one place'
 noindex: false
 order: 3.1
@@ -32,14 +32,14 @@ contextual_links:
 
 ---
 
-Organizing test cases is easier with folders within a project. Test Management by Testsigma allows you to create a hierarchical folder structure, where subfolders nest under parent folders for better organization. Each folder displays cumulative test case counts, giving you a clear view of the total test cases within a project. This article discusses creating, managing, and navigating test case folders efficiently.
-Test Management by Testsigma
+Organizing test cases is easier with folders within a project. Arcus by Testsigma allows you to create a hierarchical folder structure, where subfolders nest under parent folders for better organization. Each folder displays cumulative test case counts, giving you a clear view of the total test cases within a project. This article discusses creating, managing, and navigating test case folders efficiently.
+Arcus by Testsigma
 
 ---
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project created in Test Management by Testsigma. For more information, see <a href="http://testsigma.com/docs/test-management/projects/manage-projects/" rel="nofollow">Projects</a>
+> Before you begin, ensure you have a project created in Arcus by Testsigma. For more information, see <a href="http://testsigma.com/docs/test-management/projects/manage-projects/" rel="nofollow">Projects</a>
 
 
 ---

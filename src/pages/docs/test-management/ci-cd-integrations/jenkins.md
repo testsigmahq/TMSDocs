@@ -1,6 +1,6 @@
 ---
-title: 'Jenkins Integration with Test Management by Testsigma'
-page_title: 'Jenkins Integration with Test Management by Testsigma'
+title: 'Jenkins Integration with Arcus by Testsigma'
+page_title: 'Jenkins Integration with Arcus by Testsigma'
 metadesc: 'Integrate Jenkins with TMS by Testsigma to automate test executions & generate test reports through CI/CD pipelines | Jenkins Integration with TMS by Testsigma'
 noindex: false
 order: 17.1
@@ -25,19 +25,19 @@ contextual_links:
 
 <br>
 
-**Integrate Jenkins with Test Management by Testsigma and automate your test runs and generate test reports.**
+**Integrate Jenkins with Arcus by Testsigma and automate your test runs and generate test reports.**
 
 ---
 
-Integrate Jenkins with Test Management by Testsigma to automate test executions and generate test reports through CI/CD pipelines. This article discusses integrating Jenkins with Test Management by Testsigma.
+Integrate Jenkins with Arcus by Testsigma to automate test executions and generate test reports through CI/CD pipelines. This article discusses integrating Jenkins with Arcus by Testsigma.
 
 ---
 
 > ## **Prerequisites**
 > 
 > Before you begin, ensure:
-> - You have a **Project** in Test Management by Testsigma and **Test Runs** are available.
-> - You have an API token from Test Management by Testsigma.
+> - You have a **Project** in Arcus by Testsigma and **Test Runs** are available.
+> - You have an API token from Arcus by Testsigma.
 > - You have a **Jenkins** account.
 
 ---
@@ -54,7 +54,7 @@ Integrate Jenkins with Test Management by Testsigma to automate test executions 
 
 5. In the **Kind** dropdown menu, select **Secret text**.
 
-6. In the **Secret** box, enter your API Token from Test Management by Testsigma.
+6. In the **Secret** box, enter your API Token from Arcus by Testsigma.
 
 7. In the **ID** box, enter `TESTSIGMA_API_TOKEN`.
 
@@ -105,7 +105,7 @@ Integrate Jenkins with Test Management by Testsigma to automate test executions 
 
 
 [[info | **NOTE**:]]
-| - Replace `<Project_ID>` in the curl command with your Project ID, which you can retrieve using the Test Management by Testsigma APIs.
+| - Replace `<Project_ID>` in the curl command with your Project ID, which you can retrieve using the Arcus by Testsigma APIs.
 | - Replace `<Run_ID>` in the curl command with the Run ID, which is available in the URL when viewing a test run in the format: https://test-management.testsigma.com/ui/test_runs/{Run_ID}/
 
 7. Click **Apply**, and then click **Save**.
@@ -118,6 +118,6 @@ Integrate Jenkins with Test Management by Testsigma to automate test executions 
 
 2. In the left navigation bar, click **Build Now**.
 
-3. Once the build completes successfully, the test case statuses in the associated test run are updated automatically in Test Management by Testsigma.
+3. Once the build completes successfully, the test case statuses in the associated test run are updated automatically in Arcus by Testsigma.
 
 ---

@@ -51,7 +51,7 @@ You attach context sources inside the Playground, before writing a prompt and tr
 > ## **Prerequisites**
 >
 > Before you begin, ensure that:
-> - You have an active project in Test Management by Testsigma.
+> - You have an active project in Arcus by Testsigma.
 > - The integrations for the tools you want to attach context from are connected to your project.
 > - The files or documents you want to attach are available on your device.
 

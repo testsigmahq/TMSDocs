@@ -1,7 +1,7 @@
 ---
 title: 'Managing Test Runs'
-page_title: 'Managing Test Runs in Test Management by Testsigma'
-metadesc: 'Manage test runs in Test Management by Testsigma by editing, cloning, closing, or deleting them to maintain organized and efficient test execution.'
+page_title: 'Managing Test Runs in Arcus by Testsigma'
+metadesc: 'Manage test runs in Arcus by Testsigma by editing, cloning, closing, or deleting them to maintain organized and efficient test execution.'
 noindex: false
 order: 7.2
 page_id: 'create-test-runs'
@@ -28,11 +28,11 @@ contextual_links:
 
 <br>
 
-**Learn how to edit, clone, close, and delete test runs in Test Management by Testsigma.**
+**Learn how to edit, clone, close, and delete test runs in Arcus by Testsigma.**
 
 ---
 
-After creating a test run, you can manage it by editing its details, cloning it for reuse, closing it to prevent further modifications, or deleting it permanently. Editing lets you modify test run details, clone duplicates for future use, close locks it from further changes, and delete option removes the test run permanently. This article discusses managing test runs in Test Management by Testsigma.
+After creating a test run, you can manage it by editing its details, cloning it for reuse, closing it to prevent further modifications, or deleting it permanently. Editing lets you modify test run details, clone duplicates for future use, close locks it from further changes, and delete option removes the test run permanently. This article discusses managing test runs in Arcus by Testsigma.
 
 ---
 

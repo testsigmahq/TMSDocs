@@ -1,7 +1,7 @@
 ---
 title: 'Manage Test Runs in Jira App'
 page_title: 'Manage Test Runs in Jira'
-metadesc: 'The Test Management by Testsigma app simplifies your workflow by allowing you to manage test runs & test case results directly within Jira.'
+metadesc: 'The Arcus by Testsigma app simplifies your workflow by allowing you to manage test runs & test case results directly within Jira.'
 noindex: false
 order: 10.13
 page_id: 'manage-test-runs-in-jira-app'
@@ -28,17 +28,17 @@ contextual_links:
 
 <br>
 
-**Learn how to manage test runs and update test case status directly within Jira using Test Management by Testsigma.**
+**Learn how to manage test runs and update test case status directly within Jira using Arcus by Testsigma.**
 
 ---
 
-The Test Management by Testsigma app simplifies your workflow by allowing you to manage test runs and test case results directly within Jira. You can update test results, add or link defects, and manage linked test cases from within the Jira issue view.
+The Arcus by Testsigma app simplifies your workflow by allowing you to manage test runs and test case results directly within Jira. You can update test results, add or link defects, and manage linked test cases from within the Jira issue view.
 
 ---
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure that your Testsigma project is connected to a Jira project in Test Management by Testsigma.
+> Before you begin, ensure that your Testsigma project is connected to a Jira project in Arcus by Testsigma.
 
 ---
 
@@ -46,7 +46,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 1. Open the Jira issue in a linked Jira project.
 
-2. Click **Jira App Actions**, and then select **Test Management by Testsigma**.
+2. Click **Jira App Actions**, and then select **Arcus by Testsigma**.
    ![Testsigma App Connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Connect_Testsigma_to_Issue.png)
 
 [[info | **NOTE**:]]
@@ -56,7 +56,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 ## **Update Test Case Results from Jira**
 
-1. In the Jira issue, go to **Test Management by Testsigma > Linked Test Runs**.
+1. In the Jira issue, go to **Arcus by Testsigma > Linked Test Runs**.
    ![Test Runs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Linked_Test_Runs_In_Jira.png)
 
 2. Expand the test run.
@@ -67,13 +67,13 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 4. Refresh the page to view the updated status in **Linked Test Cases**.
 
 [[info | **NOTE**:]]
-| The test case status will also update in Test Management by Testsigma.
+| The test case status will also update in Arcus by Testsigma.
 
 ---
 
 ## **Add Defects from the Jira App**
 
-1. In the Jira issue, go to **Test Management by Testsigma > Linked Test Runs**.
+1. In the Jira issue, go to **Arcus by Testsigma > Linked Test Runs**.
    ![Test Runs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Linked_Test_Runs_In_Jira.png)
 
 2. Expand the test run.
@@ -90,7 +90,7 @@ The Test Management by Testsigma app simplifies your workflow by allowing you to
 
 ## **Link Defects to Existing Issues**
 
-1. In the Jira issue, go to **Test Management by Testsigma > Linked Test Runs**.
+1. In the Jira issue, go to **Arcus by Testsigma > Linked Test Runs**.
    ![Test Runs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Linked_Test_Runs_In_Jira.png)
 
 2. Expand the test run.

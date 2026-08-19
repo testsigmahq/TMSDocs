@@ -22,11 +22,11 @@ contextual_links:
 
 <br>
 
-**Learn how to generate and share public links for test runs in Test Management by Testsigma.**
+**Learn how to generate and share public links for test runs in Arcus by Testsigma.**
 
 ---
 
-You can share a test run with anyone on the internet by generating a public link in Test Management by Testsigma. This is useful when you want external stakeholders without account access to view testing progress.
+You can share a test run with anyone on the internet by generating a public link in Arcus by Testsigma. This is useful when you want external stakeholders without account access to view testing progress.
 
 ---
 

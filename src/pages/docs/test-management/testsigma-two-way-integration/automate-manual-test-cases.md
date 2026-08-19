@@ -1,7 +1,7 @@
 ---
 title: 'Automate Manual Test Cases in Testsigma'
-page_title: 'Automate Manual Test Cases from Test Management by Testsigma in Testsigma'
-metadesc: 'Automate manual test cases from Test Management by Testsigma in Testsigma using Atto’s AI. Learn how to generate automated steps and begin Agentic Learning.'
+page_title: 'Automate Manual Test Cases from Arcus by Testsigma in Testsigma'
+metadesc: 'Automate manual test cases from Arcus by Testsigma in Testsigma using Atto’s AI. Learn how to generate automated steps and begin Agentic Learning.'
 noindex: false
 order: 11.4
 page_id: 'automate-manual-test-cases-in-testsigma'
@@ -28,17 +28,17 @@ contextual_links:
 
 <br>
 
-**Automate manual test cases from Test Management by Testsigma in Testsigma using Atto’s AI.**
+**Automate manual test cases from Arcus by Testsigma in Testsigma using Atto’s AI.**
 
 ---
 
-You can automate manual test cases created in Test Management by Testsigma using Testsigma. Once you create a manual test case, click Automate with Atto’s AI in Test Management by Testsigma. Then select the Testsigma project, application, and version in which you want to automate the test case. The system creates a session in Atto’s Home for the selected project, where you can automate the test case using Atto. This article discusses the steps to automate manual test cases from Test Management by Testsigma in Testsigma.
+You can automate manual test cases created in Arcus by Testsigma using Testsigma. Once you create a manual test case, click Automate with Atto’s AI in Arcus by Testsigma. Then select the Testsigma project, application, and version in which you want to automate the test case. The system creates a session in Atto’s Home for the selected project, where you can automate the test case using Atto. This article discusses the steps to automate manual test cases from Arcus by Testsigma in Testsigma.
 
 ---
 
 > ## **Prerequisites**
 > Before you begin, ensure that:
->    - The Test Management by Testsigma integration with Testsigma is enabled.
+>    - The Arcus by Testsigma integration with Testsigma is enabled.
 >    - Testsigma’s Live Editor is ready.
 
 ---

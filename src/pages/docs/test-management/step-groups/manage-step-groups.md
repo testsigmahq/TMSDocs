@@ -1,7 +1,7 @@
 ---
 title: 'Managing Step Groups'
-page_title: 'Managing Step Groups in Test Management by Testsigma'
-metadesc: 'Step Groups in Test Management by Testsigma enhances test case management by grouping repetitive test steps | Learn how to create step groups in Test Management by Testsigma'
+page_title: 'Managing Step Groups in Arcus by Testsigma'
+metadesc: 'Step Groups in Arcus by Testsigma enhances test case management by grouping repetitive test steps | Learn how to create step groups in Arcus by Testsigma'
 noindex: false
 order: 6.2
 page_id: 'create-step-groups'
@@ -22,7 +22,7 @@ contextual_links:
 
 <br>
 
-**Learn how to edit or delete Step Groups in Test Management by Testsigma.**
+**Learn how to edit or delete Step Groups in Arcus by Testsigma.**
 
 ---
 

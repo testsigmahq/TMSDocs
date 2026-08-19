@@ -1,7 +1,7 @@
 ---
-title: 'Link Test Plans Between Test Management by Testsigma & Testsigma'
-page_title: 'Link Test Plans Between Test Management by Testsigma & Testsigma'
-metadesc: 'The Test Management by Testsigma & Testsigma integration streamlines execution by connecting test plans between both systems & providing centralized access to detailed results.'
+title: 'Link Test Plans Between Arcus by Testsigma & Testsigma'
+page_title: 'Link Test Plans Between Arcus by Testsigma & Testsigma'
+metadesc: 'The Arcus by Testsigma & Testsigma integration streamlines execution by connecting test plans between both systems & providing centralized access to detailed results.'
 noindex: false
 order: 11.6
 page_id: 'link-test-plans-in-testsigma-and-tms'
@@ -16,7 +16,7 @@ contextual_links:
     name: 'Interactive Demo'
     url: '#interactive-demo'
   - type: link
-    name: 'Link Test Plans in Test Management by Testsigma'
+    name: 'Link Test Plans in Arcus by Testsigma'
     url: '#link-test-plans-in-test-management-by-testsigma'
   - type: link
     name: 'Link Test Plans in Testsigma'
@@ -29,13 +29,13 @@ contextual_links:
 
 ---
 
-You can link test plans between Test Management by Testsigma and Testsigma to execute test plans in Testsigma directly from Test Management by Testsigma. Once the execution is complete, you can view machine-level reports with logs and screenshots. This article discusses linking test plans between Test Management by Testsigma and Testsigma.
+You can link test plans between Arcus by Testsigma and Testsigma to execute test plans in Testsigma directly from Arcus by Testsigma. Once the execution is complete, you can view machine-level reports with logs and screenshots. This article discusses linking test plans between Arcus by Testsigma and Testsigma.
 
 ---
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure that the integration between Testsigma and Test Management by Testsigma is enabled and that test plans are available in both systems.
+> Before you begin, ensure that the integration between Testsigma and Arcus by Testsigma is enabled and that test plans are available in both systems.
 
 ---
 
@@ -50,7 +50,7 @@ You can link test plans between Test Management by Testsigma and Testsigma to ex
 
 ---
 
-## **Link Test Plans in Test Management by Testsigma**
+## **Link Test Plans in Arcus by Testsigma**
 
 1. From the **Dashboard**, go to **Test Plans**.
 
@@ -71,7 +71,7 @@ You can link test plans between Test Management by Testsigma and Testsigma to ex
 
 1. From the left navigation bar, go to **Test Plans**.
 
-2. Open the test plan you want to link with Test Management by Testsigma, and click **Test Plan Details** from the **Utility Panel**.
+2. Open the test plan you want to link with Arcus by Testsigma, and click **Test Plan Details** from the **Utility Panel**.
 
 3. Click **+ Link New Plans** and select **Testsigma Test Management**. The **Link Test Plan** dialog opens.
 

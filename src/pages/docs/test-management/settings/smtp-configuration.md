@@ -1,7 +1,7 @@
 ---
-title: 'SMTP Configuration in Test Management by Testsigma'
-page_title: 'SMTP Configuration in Test Management by Testsigma'
-metadesc: 'Configuring SMTP allows your organization to send email notifications from your own authenticated email address | Learn configuring SMTP in Test Management by Testsigma'
+title: 'SMTP Configuration in Arcus by Testsigma'
+page_title: 'SMTP Configuration in Arcus by Testsigma'
+metadesc: 'Configuring SMTP allows your organization to send email notifications from your own authenticated email address | Learn configuring SMTP in Arcus by Testsigma'
 noindex: false
 order: 12.7
 page_id: 'smtp-configuration'
@@ -26,7 +26,7 @@ contextual_links:
 
 ---
 
-Configuring Simple Mail Transfer Protocol (SMTP) allows your organization to send email notifications from your own authenticated email address instead of Testsigma’s default sender. This ensures improved branding, deliverability, and security for automated notifications. This article discusses configuring SMTP in Test Management by Testsigma.
+Configuring Simple Mail Transfer Protocol (SMTP) allows your organization to send email notifications from your own authenticated email address instead of Testsigma’s default sender. This ensures improved branding, deliverability, and security for automated notifications. This article discusses configuring SMTP in Arcus by Testsigma.
 
 ---
 

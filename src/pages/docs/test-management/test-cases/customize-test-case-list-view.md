@@ -1,7 +1,7 @@
 ---
 title: 'Customize Test Case List View'
-page_title: 'Customize Test Case List View in Test Management by Testsigma'
-metadesc: 'This article discusses customizing Test Case List View in Test Management by Testsigma | Customizing test case list view helps show only the columns that are relevant'
+page_title: 'Customize Test Case List View in Arcus by Testsigma'
+metadesc: 'This article discusses customizing Test Case List View in Arcus by Testsigma | Customizing test case list view helps show only the columns that are relevant'
 noindex: false
 order: 3.5
 page_id: 'customize-test-cases-list-view-in-test-management'
@@ -25,13 +25,13 @@ contextual_links:
 
 ---
 
-The customize test case list view feature in Test Management by Testsigma lets you select the columns that matter most to you. This helps you focus on the specific data you need, beyond the default view. This article discusses steps to customize the test case list view.
+The customize test case list view feature in Arcus by Testsigma lets you select the columns that matter most to you. This helps you focus on the specific data you need, beyond the default view. This article discusses steps to customize the test case list view.
 
 ---
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure that you have test cases available in Test Management by Testsigma.
+> Before you begin, ensure that you have test cases available in Arcus by Testsigma.
 
 ---
 

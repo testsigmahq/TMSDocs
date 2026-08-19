@@ -1,7 +1,7 @@
 ---
 title: 'Invite Users'
-page_title: 'Invite Users to Test Management by Testsigma'
-metadesc: 'Invite users to your Test Management by Testsigma to collaborate & assign roles & permissions to control access based on their responsibilities.'
+page_title: 'Invite Users to Arcus by Testsigma'
+metadesc: 'Invite users to your Arcus by Testsigma to collaborate & assign roles & permissions to control access based on their responsibilities.'
 noindex: false
 order: 13.1
 page_id: 'users-in-testsigma-test-management'
@@ -22,17 +22,17 @@ contextual_links:
 
 <br>
 
-**Learn how to invite users & assign roles and permissions for effective collaboration in Test Management by Testsigma.**
+**Learn how to invite users & assign roles and permissions for effective collaboration in Arcus by Testsigma.**
 
 ---
 
-Invite users to your Test Management by Testsigma to collaborate and assign roles and permissions to control access based on their responsibilities. This article discusses inviting users to your Test Management by Testsigma.
+Invite users to your Arcus by Testsigma to collaborate and assign roles and permissions to control access based on their responsibilities. This article discusses inviting users to your Arcus by Testsigma.
 
 ---
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you have a project in Test Management by Testsigma and the necessary permissions to invite team members.
+> Before you begin, ensure you have a project in Arcus by Testsigma and the necessary permissions to invite team members.
 
 ---
 

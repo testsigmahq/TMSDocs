@@ -1,7 +1,7 @@
 ---
-title: 'Testsigma Integration for Test Management by Testsigma'
-page_title: 'Testsigma Integration for Test Management by Testsigma'
-metadesc: 'Testsigma Integration with Test Management by Testsigma ensures complete visibility by synchronizing test coverage, execution results, and logs across manual & automated tests.'
+title: 'Testsigma Integration for Arcus by Testsigma'
+page_title: 'Testsigma Integration for Arcus by Testsigma'
+metadesc: 'Testsigma Integration with Arcus by Testsigma ensures complete visibility by synchronizing test coverage, execution results, and logs across manual & automated tests.'
 noindex: false
 order: 11.1
 page_id: 'testsigma-for-tms'
@@ -16,7 +16,7 @@ contextual_links:
     name: 'Interactive Demo'
     url: '#interactive-demo'
   - type: link
-    name: 'Integrate Test Management by Testsigma with Testsigma'
+    name: 'Integrate Arcus by Testsigma with Testsigma'
     url: '#integrate-test-management-by-testsigma-with-testsigma'
 ---
 
@@ -26,7 +26,7 @@ contextual_links:
 
 ---
 
-The integration between Testsigma and Test Management by Testsigma provides a unified view of both manual and automated testing. It links automated tests in Testsigma with their corresponding manual test cases in Test Management by Testsigma.
+The integration between Testsigma and Arcus by Testsigma provides a unified view of both manual and automated testing. It links automated tests in Testsigma with their corresponding manual test cases in Arcus by Testsigma.
 
 This two-way synchronization ensures that execution results, logs, and screenshots are automatically updated in real time. The integration improves traceability, eliminates duplicate efforts, and provides complete visibility into test coverage and overall quality.
 
@@ -35,7 +35,7 @@ This two-way synchronization ensures that execution results, logs, and screensho
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure you have an Enterprise plan for both Testsigma and Test Management by Testsigma.
+> Before you begin, ensure you have an Enterprise plan for both Testsigma and Arcus by Testsigma.
 
 ---
 
@@ -50,11 +50,11 @@ This two-way synchronization ensures that execution results, logs, and screensho
 
 ---
 
-## **Integrate Test Management by Testsigma with Testsigma**
+## **Integrate Arcus by Testsigma with Testsigma**
 
-You can enable the integration either from Test Management by Testsigma or directly from Testsigma.
+You can enable the integration either from Arcus by Testsigma or directly from Testsigma.
 
-**a. Enable from Test Management by Testsigma**
+**a. Enable from Arcus by Testsigma**
 
 1. From the **Dashboard**, go to **Settings > Integrations**.
 
@@ -67,8 +67,8 @@ You can enable the integration either from Test Management by Testsigma or direc
 
 1. From the left navigation bar, go to **Settings > Integrations**.
 
-2. Turn on the toggle next to Test Management by Testsigma.
-   ![Test Management by Testsigma Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TMS_Toggle_In_Testsigma.png)
+2. Turn on the toggle next to Arcus by Testsigma.
+   ![Arcus by Testsigma Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TMS_Toggle_In_Testsigma.png)
 
 3. The integration is now enabled successfully.
 

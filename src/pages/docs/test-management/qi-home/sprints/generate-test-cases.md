@@ -45,7 +45,7 @@ This article covers how sprint detection works, how to confirm or defer generati
 > ## **Prerequisites**
 >
 > Before you begin, ensure that:
-> - You have an active project in Test Management by Testsigma.
+> - You have an active project in Arcus by Testsigma.
 > - Your project management tool (Jira, Azure DevOps, Linear, or ClickUp) is connected to your project.
 > - The context sources linked in your sprint stories (Confluence pages, Figma designs, PRDs) are either publicly accessible or connected as integrations.
 

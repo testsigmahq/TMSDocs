@@ -1,7 +1,7 @@
 ---
 title: 'Overview: Set Up Notifications'
 page_title: 'Overview: Set Up Notifications'
-metadesc: 'Test Management by Testsigma allows you to integrate with Slack & Microsoft Teams and configure custom notifications for various test entities.'
+metadesc: 'Arcus by Testsigma allows you to integrate with Slack & Microsoft Teams and configure custom notifications for various test entities.'
 noindex: false
 order: 12.81
 page_id: 'overview-of-setting-up-notifications'
@@ -26,7 +26,7 @@ contextual_links:
 
 ---
 
-Test Management by Testsigma allows you to integrate with Slack and Microsoft Teams and configure custom notifications for various test entities. Notifications help teams stay aligned with ongoing testing activities by alerting users about key events such as assignments, status changes, and review updates. This article discusses setting up notifications in Test Management by Testsigma.
+Arcus by Testsigma allows you to integrate with Slack and Microsoft Teams and configure custom notifications for various test entities. Notifications help teams stay aligned with ongoing testing activities by alerting users about key events such as assignments, status changes, and review updates. This article discusses setting up notifications in Arcus by Testsigma.
 
 ---
 
@@ -76,7 +76,7 @@ Send notification when a test plan is completed
 Send daily summary notification for active test plans
 
 [[info | **NOTE**:]]
-| Test Management by Testsigma allows you to configure notifications for each entity and enable or disable them based on your preferences.
+| Arcus by Testsigma allows you to configure notifications for each entity and enable or disable them based on your preferences.
 | ![Toggles](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Notification_Toggles.png)
 
 ---

@@ -1,7 +1,7 @@
 ---
-title: 'ClickUp Integration with Test Management by Testsigma'
+title: 'ClickUp Integration with Arcus by Testsigma'
 page_title: 'ClickUp Integration with Testsigma'
-metadesc: 'Integrate Test Management by Testsigma with ClickUp to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
+metadesc: 'Integrate Arcus by Testsigma with ClickUp to link defects to issues, enhance traceability, streamline defect management, and boost team collaboration'
 noindex: false
 order: 10.6
 page_id: 'clickup-integration-with-testsigma-test-management'
@@ -31,11 +31,11 @@ contextual_links:
 
 <br>
 
-**Integrate ClickUp with Test Management by Testsigma to seamlessly link defects to ClickUp tasks.**
+**Integrate ClickUp with Arcus by Testsigma to seamlessly link defects to ClickUp tasks.**
 
 ---
 
-Test Management by Testsigma allows seamless integration with ClickUp, which enables you to link test defects directly to ClickUp tasks. This integration enhances traceability, streamlines defect management, and improves collaboration between QA and development teams.
+Arcus by Testsigma allows seamless integration with ClickUp, which enables you to link test defects directly to ClickUp tasks. This integration enhances traceability, streamlines defect management, and improves collaboration between QA and development teams.
 
 ---
 

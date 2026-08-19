@@ -1,6 +1,6 @@
 ---
-title: 'Manage Data Sets in Test Management by Testsigma'
-page_title: 'Manage Data Sets in Test Management by Testsigma'
+title: 'Manage Data Sets in Arcus by Testsigma'
+page_title: 'Manage Data Sets in Arcus by Testsigma'
 metadesc: ''
 noindex: false
 order: 4.1
@@ -38,13 +38,13 @@ contextual_links:
 
 ---
 
-Test Data Sets let you store reusable data for use across multiple test cases. They reduce manual entry, minimize errors, and help generate diverse test scenarios for better coverage. This article discusses managing Data Sets in Test Management by Testsigma. 
+Test Data Sets let you store reusable data for use across multiple test cases. They reduce manual entry, minimize errors, and help generate diverse test scenarios for better coverage. This article discusses managing Data Sets in Arcus by Testsigma. 
 
 ---
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure that you have an active account in Test Management by Testsigma.
+> Before you begin, ensure that you have an active account in Arcus by Testsigma.
 
 ---
 
@@ -113,7 +113,7 @@ Test Data Sets let you store reusable data for use across multiple test cases. T
 ---
 
 ## **Add Multiple Data Sets to Test Case**
-Follow the “**Add Data Set to Test Case**” steps to add the first data set. Repeat to add more. Test Management by Testsigma generates unique test scenarios via Cartesian product (all row combinations across data sets).
+Follow the “**Add Data Set to Test Case**” steps to add the first data set. Repeat to add more. Arcus by Testsigma generates unique test scenarios via Cartesian product (all row combinations across data sets).
 
 For Example, let’s say you have two data sets, Dataset A & Dataset B.
 

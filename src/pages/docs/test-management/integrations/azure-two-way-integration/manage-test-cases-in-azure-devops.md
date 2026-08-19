@@ -1,7 +1,7 @@
 ---
 title: 'Manage Test Cases in Azure DevOps'
 page_title: 'Manage Test Cases in Azure DevOps'
-metadesc: 'Test Management by Testsigma lets you create and manage tests directly in Azure DevOps, and edit or unlink them from linked work items.'
+metadesc: 'Arcus by Testsigma lets you create and manage tests directly in Azure DevOps, and edit or unlink them from linked work items.'
 noindex: false
 order: 10.22
 page_id: 'manage-tests-in-azure-devops'
@@ -29,11 +29,11 @@ contextual_links:
 
 <br>
 
-**Learn how to create, edit, and manage test cases directly within Azure DevOps using Test Management by Testsigma app.**
+**Learn how to create, edit, and manage test cases directly within Azure DevOps using Arcus by Testsigma app.**
 
 ---
 
-The Test Management by Testsigma simplifies your workflow by allowing you to create and manage test cases directly in Azure DevOps. You can also edit or unlink test cases from the associated work item.
+The Arcus by Testsigma simplifies your workflow by allowing you to create and manage test cases directly in Azure DevOps. You can also edit or unlink test cases from the associated work item.
 
 ---
 
@@ -41,7 +41,7 @@ The Test Management by Testsigma simplifies your workflow by allowing you to cre
 > 
 > Before you begin, ensure that:
 >
-> - Your **Azure DevOps** project is linked to a Test Management by Testsigma project.
+> - Your **Azure DevOps** project is linked to a Arcus by Testsigma project.
 >
 > - The **Testsigma for Azure DevOps** extension is installed and authorized.
 
@@ -57,7 +57,7 @@ The Test Management by Testsigma simplifies your workflow by allowing you to cre
 3. Open the required work item.
 ![required work item](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_link_test_case_2.png)
 
-4. In the work item details page, click the **Test Management by Testsigma** tab.
+4. In the work item details page, click the **Arcus by Testsigma** tab.
 ![TMS tab](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_link_test_case_3.png)
 
 5. View the linked test cases associated with the work item.
@@ -70,7 +70,7 @@ The Test Management by Testsigma simplifies your workflow by allowing you to cre
 
 ## **Create a New Test Case from Azure DevOps**
 
-1. In the **Azure DevOps** issue, go to the **Test Management by Testsigma > Linked Test Cases**.
+1. In the **Azure DevOps** issue, go to the **Arcus by Testsigma > Linked Test Cases**.
 ![work items](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_link_test_case_4.png)
 
 2. Click **Create**. This opens the **Create Test Case** dialog.
@@ -97,7 +97,7 @@ The Test Management by Testsigma simplifies your workflow by allowing you to cre
 
 ## **Link Test Cases from Azure DevOps**
 
-1. In the **Azure DevOps** issue, go to the **Test Management by Testsigma > Linked Test Runs**.
+1. In the **Azure DevOps** issue, go to the **Arcus by Testsigma > Linked Test Runs**.
 ![work items](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_link_test_case_4.png)
 
 2. Click **Link**. This will open the **Add Test Cases** dialog.
@@ -113,7 +113,7 @@ The Test Management by Testsigma simplifies your workflow by allowing you to cre
 
 ## **Edit a Test Case from Azure DevOps**
 
-1. In the **Azure DevOps** issue, go to the **Test Management by Testsigma > Linked Test Cases**.
+1. In the **Azure DevOps** issue, go to the **Arcus by Testsigma > Linked Test Cases**.
 ![work items](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tms_link_test_case_4.png)
 
 2. Click the **meatballs menu (⋯)** next to the test case, and select **Edit** from the dropdown.

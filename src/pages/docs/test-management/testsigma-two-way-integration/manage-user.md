@@ -1,7 +1,7 @@
 ---
-title: 'Managing Users in Testsigma & Test Management by Testsigma'
-page_title: 'Manage Users in Testsigma & Test Management by Testsigma'
-metadesc: 'Testsigma & Test Management by Testsigma integration also provides unified user management, allowing you to control access for both products from a single interface.'
+title: 'Managing Users in Testsigma & Arcus by Testsigma'
+page_title: 'Manage Users in Testsigma & Arcus by Testsigma'
+metadesc: 'Testsigma & Arcus by Testsigma integration also provides unified user management, allowing you to control access for both products from a single interface.'
 noindex: false
 order: 11.2
 page_id: 'manage-users-in-testsigma-and-tms'
@@ -16,7 +16,7 @@ contextual_links:
     name: 'Interactive Demo'
     url: '#interactive-demo'
   - type: link
-    name: 'Add Users in Test Management by Testsigma'
+    name: 'Add Users in Arcus by Testsigma'
     url: '#add-users-in-test-management-by-testsigma'
   - type: link
     name: 'Add Users in Testsigma'
@@ -29,21 +29,21 @@ contextual_links:
 
 ---
 
-You can manage user access across both Testsigma and Test Management by Testsigma from a single interface. When inviting users, you can choose to add them to either one or both products by selecting the relevant checkbox in the invite dialog.
+You can manage user access across both Testsigma and Arcus by Testsigma from a single interface. When inviting users, you can choose to add them to either one or both products by selecting the relevant checkbox in the invite dialog.
 
-In Testsigma, you can add new users, assign project-level roles, and optionally add them to Test Management by Testsigma. Similarly, in Test Management by Testsigma, you can invite users and choose to add them to Testsigma.
+In Testsigma, you can add new users, assign project-level roles, and optionally add them to Arcus by Testsigma. Similarly, in Arcus by Testsigma, you can invite users and choose to add them to Testsigma.
 
 This unified user management approach helps maintain consistent access, simplifies onboarding, and ensures seamless collaboration across both platforms.
 
 
 [[info | **NOTE**:]]
-| You must enable the Test Management by Testsigma & Testsigma integration to manage users from both systems.
+| You must enable the Arcus by Testsigma & Testsigma integration to manage users from both systems.
 
 ---
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure that the Test Management by Testsigma integration with Testsigma is enabled.
+> Before you begin, ensure that the Arcus by Testsigma integration with Testsigma is enabled.
 
 ---
 
@@ -58,7 +58,7 @@ This unified user management approach helps maintain consistent access, simplifi
 
 ---
 
-## **Add Users in Test Management by Testsigma**
+## **Add Users in Arcus by Testsigma**
 
 1. From the **Dashboard**, click **Invite Users**. This opens the **Users** section under **Settings**.
 
@@ -82,7 +82,7 @@ This unified user management approach helps maintain consistent access, simplifi
 
 3. In the **Add New User** dialog:
    - Enter the email address.
-   - Select **Add User in Test Management by Testsigma** if you also want to add the user in Test Management by Testsigma.
+   - Select **Add User in Arcus by Testsigma** if you also want to add the user in Arcus by Testsigma.
    - Select the projects and assign the appropriate roles.
    - Click **Send Invite**.
 
