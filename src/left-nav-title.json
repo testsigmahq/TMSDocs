@@ -263,5 +263,11 @@
   },
   "dev-session-mapping": {
     "/docs/test-management/qi-home/dev-session-mapping/": "Dev Session Mapping"
+  },
+  "context-mapping": {
+    "/docs/test-management/qi-home/context-mapping/": "Plugins"
+  },
+  "arcus-cli": {
+    "/docs/test-management/qi-home/arcus-cli/": "Arcus CLI"
   }
 }
