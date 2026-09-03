@@ -58,10 +58,10 @@ For how mapped context becomes test cases, coverage, and a release signal, see [
 
 1. In your terminal, run the following commands to add and install the Arcus plugin:
 
-```
-claude plugin marketplace add testsigmahq/arcus-claude-plugin
-claude plugin install arcus@testsigma
-```
+   ```
+   claude plugin marketplace add testsigmahq/arcus-claude-plugin
+   claude plugin install arcus@testsigma
+   ```
 
 ---
 
@@ -95,11 +95,24 @@ Running **/arcus:map** before pushing means your context arrives in QI Home alre
 
 ---
 
-## **Push Your Context**
+## **Push your context**
 
-1. When you are done, run **/arcus:push** to upload the captured context to QI Home.
+Test cases stay on your machine until you push them. Push is a guided flow, and Claude Code prompts you for each decision in order.
 
-The context appears in QI Home under **Unmapped Context** (if you did not run **/arcus:map**) or under the mapped sprint (if you did).
+1. Run **/arcus:push**, or ask Claude Code to push the test cases.
+
+2. Select the sprint to push into, or keep the test cases unmapped.
+
+3. Select the story the test cases map to. This step appears only if you selected a sprint.
+
+4. Select the module the test cases belong to. Arcus suggests a module based on the test case content.
+
+5. Set the priority for the test cases.
+
+6. Confirm the push. Arcus creates the test cases with the values you selected, and they appear in the sprint with both manual and automated steps.
+
+[[info | **NOTE**:]]
+| Select unmapped when you do not yet know where the work belongs. The test cases wait in **Unmapped Context** until you resolve them. See [Map developer context](https://testsigma.com/docs/test-management/qi-home/context-mapping/map-developer-context/).
 
 ---
 
