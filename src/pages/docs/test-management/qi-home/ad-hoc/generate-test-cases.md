@@ -63,8 +63,6 @@ Atto begins generating test cases. The generation log appears in the left panel,
 
 After you click **Generate with AI**, Atto begins building your test cases. You can watch the progress in the left panel as each step completes. Generation typically takes 5–10 minutes depending on the amount of context attached.
 
-<!-- screenshot: Left panel showing generation progress with steps marked complete -->
-
 [[info | **NOTE**:]]
 | Atto searches your existing test library during generation to avoid duplicating coverage you already have. If you want faster generation without this check, you can disable it in the Playground.
 
@@ -73,8 +71,6 @@ After you click **Generate with AI**, Atto begins building your test cases. You 
 ## **Review the Generation Summary**
 
 When generation completes, the left panel shows a summary of what Atto produced.
-
-<!-- screenshot: Generation summary showing test type breakdown and scenario-to-story table -->
 
 The summary includes:
 

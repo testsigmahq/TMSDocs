@@ -49,7 +49,7 @@ When the plugin is installed and connected to a project, Atto captures your prom
 
 ## **Install the Plugin**
 
-The install Arcus plugin from Cursor marketplace.
+Install the Arcus plugin from the Cursor marketplace.
 
 ---
 

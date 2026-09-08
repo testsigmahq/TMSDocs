@@ -52,8 +52,7 @@ When the plugin is installed and connected to a project, Atto captures your prom
 
 ## **Install the Plugin**
 
-[[info | **NOTE**:]]
-| The install command for the GitHub Copilot Arcus plugin is pending confirmation from the dev team. This step will be updated before publication.
+Install the Arcus plugin from the GitHub Copilot marketplace.
 
 ---
 

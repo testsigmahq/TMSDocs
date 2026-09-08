@@ -46,8 +46,6 @@ The Agentic Learning panel appears alongside the browser during a live learning 
 | **Resume** | Resumes execution after a pause. |
 | **Stop** | Ends the learning session without generating automated steps. |
 
-<!-- screenshot: Agentic Learning panel during learning showing Start Learning Live App button and Record Step option -->
-
 ---
 
 ## **Session States**
@@ -69,8 +67,6 @@ When Atto needs your input, a banner appears on the test case view in Atto.
 
 1. On the test case view, click **Go to Session** in the banner. The browser tab with the learning session opens.
 
-   <!-- screenshot: Test case view showing the "Atto is waiting on your input to continue learning" banner with Go to Session button -->
-
 2. In the browser, complete the action Atto could not perform. For example, if Atto stopped at a CAPTCHA or a multi-factor authentication step, complete it manually.
 
 3. After completing the action, Atto resumes walking through the remaining steps automatically.
@@ -85,8 +81,6 @@ When Atto needs your input, a banner appears on the test case view in Atto.
 If a test case has already been automated and the application has changed, use **Re-learn and Automate** to update the automated steps.
 
 1. On the test case view, click **Re-learn and Automate** in the top action bar. This button replaces **Learn and Automate** after a test case has been automated.
-
-   <!-- screenshot: Test case view showing the Re-learn and Automate button in the action bar -->
 
 2. The **Learn and Automate** dialog opens with the same configuration options as the initial learning session. Select your Application type, Test Lab, and Environment, then click **Launch**.
 

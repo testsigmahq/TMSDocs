@@ -53,8 +53,6 @@ This article covers how to write prompts that get you the right test cases the f
 
 The prompt input area is the large text field in the center of the Playground, below the heading **What would you like to test?**
 
-<!-- screenshot: Playground showing the prompt input area with placeholder text -->
-
 Type your prompt directly into this field. Attached context sources appear as badges above the input. Once your prompt is ready, click **Generate with AI** to start test case generation.
 
 ---

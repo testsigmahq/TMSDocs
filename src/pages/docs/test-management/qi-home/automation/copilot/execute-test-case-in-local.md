@@ -61,8 +61,6 @@ Local execution requires Testsigma Terminal to be running on your desktop.
    - **Environment**: Select the test environment.
    - **Run till failed step**: Toggle on if needed.
 
-   <!-- screenshot: Run with Copilot dialog for Local Web showing Test Lab set to Local Devices -->
-
 4. Click **Launch**.
 
    If Testsigma Terminal is not running, a prompt appears. Start Terminal and return to launch the session.
@@ -87,8 +85,6 @@ The Copilot panel opens in a browser on your machine. The execution flow is the 
      - **Add Manually**: Enter app details by hand.
    - **Environment**: Select the test environment.
 
-   <!-- screenshot: Run with Copilot dialog for Android Local showing Test Machines, Device, and App Source fields -->
-
 3. Click **Launch**.
 
 ---
@@ -107,8 +103,6 @@ The iOS flow uses the same Run with Copilot dialog as Android Local.
    - **Initial Debug Point**: Select a step to pause at, or leave as None.
    - **App Source**: Select how to specify the app (External link, Uploaded apps, or Add Manually). iOS apps use .ipa format.
    - **Environment**: Select the test environment.
-
-   <!-- screenshot: Run with Copilot dialog for iOS Local showing Device and App Source fields -->
 
 3. Click **Launch**.
 

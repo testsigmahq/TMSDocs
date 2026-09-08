@@ -62,13 +62,9 @@ Local execution requires Testsigma Terminal to be running on your desktop.
 
 6. Select the **Browser** you want to use.
 
-   <!-- screenshot: Learn and Automate dialog with Local Devices selected and Browser field visible -->
-
 7. Click **Launch**.
 
    If Testsigma Terminal is not running, a prompt appears with a **Launch Terminal** button and a download link for your operating system.
-
-   <!-- screenshot: Testsigma Terminal required prompt with Launch Terminal button and download link -->
 
 Once Terminal is running and connected, the learning session opens in a browser on your machine. The Agentic Learning panel behavior is the same as Cloud. See [Learn Test Case Live (Cloud)](https://testsigma.com/docs/test-management/qi-home/automation/agentic-learning/learn-test-case-live-cloud/) for the learning session flow, generating automated steps, and saving to your library.
 
@@ -91,8 +87,6 @@ Once Terminal is running and connected, the learning session opens in a browser 
    - **External link**: Paste a URL to the app package.
    - **Uploaded apps**: Select an app you have already uploaded to Testsigma.
    - **Add Manually**: Enter the app details by hand.
-
-   <!-- screenshot: Learn and Automate dialog for Android Local showing Test Machines, Device, and App Details fields -->
 
 7. Select the **Environment** from the dropdown.
 
@@ -119,8 +113,6 @@ The iOS flow uses the same dialog as Android Local. Select **iOS** as the Applic
    - **External link**: Paste the URL to the iOS app package (.ipa).
    - **Uploaded apps**: Select a previously uploaded .ipa.
    - **Add Manually**: Enter app details by hand.
-
-   <!-- screenshot: Learn and Automate dialog for iOS Local showing Device and App Details fields -->
 
 7. Select the **Environment** and click **Launch**.
 
