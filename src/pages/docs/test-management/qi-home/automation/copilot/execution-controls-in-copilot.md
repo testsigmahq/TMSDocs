@@ -51,8 +51,6 @@ The Copilot panel appears alongside the browser during execution. These controls
 | **Restart** | Restarts execution from the first step. Shown after steps have been generated. |
 | **Stop** | Ends the execution session. |
 
-<!-- screenshot: Copilot panel header showing Pause, Back, Forward, Settings, and Rec controls -->
-
 ---
 
 ## **Step Tabs**
@@ -63,8 +61,6 @@ The Copilot panel shows two tabs:
 | :--- | :--- |
 | **Manual Steps** | The original manual test case steps. Use this to follow along or to compare with what Copilot is executing. |
 | **Automated Steps** | The automated steps Copilot is executing. Each step shows its current status. |
-
-<!-- screenshot: Copilot panel showing Manual Steps and Automated Steps tabs -->
 
 [[info | **NOTE**:]]
 | Switching to the Automated Steps tab while execution is running does not pause execution.
@@ -93,8 +89,6 @@ The bottom of the Copilot browser shows two debug indicators.
 | **Execution Point** | Marks the step where execution is currently paused or running. |
 | **Debug Point** | A step you configured before launch where execution automatically pauses. Useful for investigating a specific step. |
 
-<!-- screenshot: Bottom of Copilot browser showing Execution Point and Debug Point indicators -->
-
 ---
 
 ## **Switching Between Manual and Automated Steps**
@@ -105,8 +99,6 @@ The Copilot panel shows two view tabs that you can switch between at any time du
 - **Automated Steps**: The automated steps Copilot is currently executing. Each step shows its real-time status.
 
 Switching between tabs only changes what you see in the panel. It does not pause or stop execution.
-
-<!-- screenshot: Copilot panel showing Manual Steps and Automated Steps tabs during execution -->
 
 ---
 
@@ -119,7 +111,5 @@ You can add a step during execution from the Automated Steps panel.
 2. Enter the step details.
 
 3. The new step is added to the current session.
-
-<!-- screenshot: Copilot panel showing Add new step option at the bottom of the steps list -->
 
 ---

@@ -63,11 +63,7 @@ You attach context sources inside the Playground, before writing a prompt and tr
 
 2. The **Adhoc** tab opens by default.
 
-   <!-- screenshot: QI Home Ad-Hoc empty state showing the "Generate with Atto" button -->
-
 3. Click **Generate with Atto**. The Playground opens.
-
-   <!-- screenshot: Playground empty state, "What would you like to test?" with Add Context bar at bottom -->
 
 The Playground shows a prompt input area with an **Add Context** bar at the bottom. The bar shows quick-access buttons for connected sources — **Jira**, **Azure DevOps**, **Linear**, **ClickUp**, **Confluence** — and a **+** button that reveals all available sources including Figma, Files and Documents, and Video Recording.
 
@@ -76,8 +72,6 @@ The Playground shows a prompt input area with an **Add Context** bar at the bott
 ## **Attach Jira Requirements**
 
 1. In the **Add Context** bar, click **Jira**. The **Add Context** dialog opens with the Jira panel active.
-
-   <!-- screenshot: Add Context dialog showing the Jira panel with Project and Issue Type fields -->
 
 2. The **Project** field shows your connected Jira project. If you have multiple projects connected, select the one you want.
 
@@ -125,8 +119,6 @@ The flow for Azure DevOps, Linear, and ClickUp follows the same pattern as Jira.
 
 1. In the **Add Context** bar, click **+** and select **Figma**.
 
-   <!-- screenshot: Add Context dialog showing the Figma panel -->
-
 2. Select the **Team** from the dropdown.
 
 3. Select the **Project**.
@@ -139,8 +131,6 @@ The flow for Azure DevOps, Linear, and ClickUp follows the same pattern as Jira.
 
 [[info | **NOTE**:]]
 | You can select a maximum of 20 frames per session. If the page has no sections defined, only the first 20 frames are shown for selection.
-
-   <!-- screenshot: Figma frame selection showing available frames with Select Frames button -->
 
 7. Select the frames you want and click **Save**.
 

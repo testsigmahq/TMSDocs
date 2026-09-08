@@ -83,13 +83,9 @@ Atto begins walking through each step on your live application. As each step is 
 
 3. In the **Save to Library** dialog, select the folder where this test case belongs.
 
-   <!-- screenshot: Save to Library folder selection dialog -->
-
 4. Click **Save**.
 
 A success screen confirms the test case is now automated, showing the number of steps automated, the time Agentic Learning took, and an estimate of time saved compared to manual execution.
-
-<!-- screenshot: "Your first test is automated" success screen with stats -->
 
 5. Click **Go to Test Case** to return to the test case detail view.
 
