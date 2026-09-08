@@ -54,8 +54,6 @@ Copilot opens a cloud browser on Testsigma Lab and executes your test case steps
 
 3. Click **Run with Copilot**.
 
-   <!-- screenshot: Test case page showing Run button hover dropdown with three options -->
-
 4. In the **Run with Copilot** dialog, confirm the settings:
 
    - **Test Lab**: Testsigma Lab (pre-selected for Cloud)
@@ -63,8 +61,6 @@ Copilot opens a cloud browser on Testsigma Lab and executes your test case steps
    - **Environment**: Select the test environment.
    - **Run till failed step**: Toggle on if you want execution to stop at the first failed step.
    - **Additional Settings** and **Desired Capabilities**: Expand if needed.
-
-   <!-- screenshot: Run with Copilot dialog for Cloud showing Test Lab, Debug Point, Environment, and toggles -->
 
 5. Click **Launch**.
 
@@ -74,11 +70,7 @@ Copilot opens a cloud browser on Testsigma Lab and executes your test case steps
 
 The cloud VM takes 10 to 20 seconds to provision.
 
-<!-- screenshot: "Spinning up your cloud browser" loading screen -->
-
 When the browser is ready, the Copilot panel opens alongside it. Steps execute in sequence. Each completed step is marked with a green checkmark.
-
-<!-- screenshot: Copilot panel showing steps executing with checkmarks and the browser in the background -->
 
 For the full list of controls available during execution, see [Execution Controls in Copilot](https://testsigma.com/docs/test-management/qi-home/automation/copilot/execution-controls-in-copilot/).
 
@@ -90,8 +82,6 @@ When all steps have been executed, a dialog confirms the result.
 
 1. Click **Save Test Case** to save the execution results.
 
-   <!-- screenshot: "Test Case Executed Successfully" dialog with Save Test Case and Reject buttons -->
-
 2. In the **Save to Library** dialog, select the folder and click **Save**.
 
 3. To end the session and release the cloud VM:
@@ -99,8 +89,6 @@ When all steps have been executed, a dialog confirms the result.
    - Click **Save and End** to save all changes and close the browser.
    - Click **Reject and End** to close the browser without saving.
    - Click **Dismiss** to keep the browser open.
-
-   <!-- screenshot: End session dialog showing Save and End, Reject and End, and Dismiss options -->
 
 [[info | **NOTE**:]]
 | The cloud VM is released when you end the session. Dismissing the dialog keeps the VM running and continues to consume resources.

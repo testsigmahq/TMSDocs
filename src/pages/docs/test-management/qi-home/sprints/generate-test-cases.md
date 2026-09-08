@@ -101,8 +101,6 @@ If you clicked **Not Now** on a sprint or if Atto missed a sprint notification, 
 
 Atto uses the same generation process as Ad-Hoc. You can watch the progress in the left panel as each step completes. Generation typically takes one to two minutes.
 
-<!-- screenshot: Generation progress log in left panel showing steps completing -->
-
 See [Generate Test Cases](https://testsigma.com/docs/test-management/qi-home/ad-hoc/generate-test-cases/) in the Ad-Hoc section for details on what Atto does during generation and how to read the generation summary.
 
 ---

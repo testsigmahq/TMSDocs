@@ -47,8 +47,6 @@ QI Home displays five metrics in the session header that together give you a rea
 
 The metrics are displayed left to right in the session header in evaluation order. Each metric builds on the previous one: Coverage answers whether enough has been tested, Pass Rate answers whether what was tested is working, Confidence answers whether those results can be trusted, Release Readiness combines all three into a single score, and Release Gate converts that score into a decision.
 
-<!-- screenshot: Session header showing all five QI metrics with their current values and band labels -->
-
 ---
 
 ## **Coverage**

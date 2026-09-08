@@ -35,7 +35,7 @@ Reports in Arcus by Testsigma provide dynamic, visual insights into test executi
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure that you have one or more created reports. For steps to create a report, see [Creating a Report]().
+> Before you begin, ensure that you have one or more created reports. For steps to create a report, see [Creating Reports](https://testsigma.com/docs/test-management/reports/create-report/).
 
 ---
 

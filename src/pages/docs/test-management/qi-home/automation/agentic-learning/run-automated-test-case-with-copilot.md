@@ -44,17 +44,11 @@ This is the final step in the Agentic Learning workflow. The test case moves fro
 
 1. After Agentic Learning generates automated steps, click **Run with Copilot** in the panel.
 
-   <!-- screenshot: Agentic Learning panel showing Run with Copilot, Save to Library, and Reject buttons after steps are generated -->
-
    A confirmation dialog appears: "This ends your Agentic Learning session and opens Copilot in a fresh machine."
 
 2. Click **Continue** to proceed. The Agentic Learning session closes.
 
-   <!-- screenshot: Confirmation dialog with Continue and Dismiss buttons -->
-
 3. A new browser tab opens with the Copilot panel. The Copilot begins executing the automated steps.
-
-   <!-- screenshot: Copilot execution showing steps running with checkmarks -->
 
 For the full Copilot execution experience — including controls, step switching, and saving results — see [Execute Test Case in Cloud](https://testsigma.com/docs/test-management/qi-home/automation/copilot/execute-test-case-in-cloud/).
 
@@ -69,8 +63,6 @@ When Copilot finishes executing all steps, a confirmation dialog appears: "Test 
 2. In the **Save to Library** dialog, select the folder and click **Save**.
 
 3. To end the session, click **Save and End** or **Reject and End**.
-
-   <!-- screenshot: "Test Case Executed Successfully" dialog with Save Test Case button -->
 
 [[info | **NOTE**:]]
 | The cloud VM is released when you end the session. Any unsaved changes are lost.
